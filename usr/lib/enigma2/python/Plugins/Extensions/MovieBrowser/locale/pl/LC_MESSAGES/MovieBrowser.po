@@ -18,391 +18,391 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******Licznik aktualizacji bazy danych przeglądarki filmów**********\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******Aktualizacja bazy danych przeglądarki filmów******\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Przycisk: Przejdź do pierwszej litery"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Lista folderów filmów>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Wybór aktora"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Aktorzy:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Wszystkie /tmp/posters wyczyszczone"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatyczny"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Kopia zapasowa bazy danych:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Plik filmowy na czarnej liście"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Przycisk 0: Idź na koniec listy"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Przycisk 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Przycisk 2: Odśwież informacje na TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Przycisk 3: Odśwież informacje na TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Przycisk 4: Ukryj/pokaż obejrzane filmy"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Przycisk 5: Przełącz widok filmów/seriali"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Przycisk 6: Wybór folderu z filmem"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Przycisk 7: Wybór reżysera filmu"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Przycisk 8: Wybór aktora filmowego"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Przycisk 9: Wybór gatunku filmu"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Folder pamięci podręcznej:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Anulować"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Wybierz Katalog"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Wybierz katalog:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Czyszczenie dziennika folderów pamięci podręcznej"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Folder pamięci podręcznej czyszczenia:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Kraj:"
 
 msgid "Database"
-msgstr ""
+msgstr "Baza danych"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Edytor bazy danych:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Dziennik licznika czasu bazy danych"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Dziennik aktualizacji bazy danych"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Zatrzymano licznik czasu aktualizacji bazy danych: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Usuń plik filmowy"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Wybór dyrektora"
 
 msgid "Director:"
-msgstr ""
+msgstr "Dyrektor:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Pobierz nowe tła:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "ODCINKI"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Błąd podczas przenoszenia folderu pamięci podręcznej: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Nie znaleziono pliku %s!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Nie znaleziono pliku %s!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Wybór folderu"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Wolna przestrzeń"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Wolne miejsce:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Wybór gatunku"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Gatunki:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Przejdź do ostatniego filmu na początku:"
 
 msgid "Help"
-msgstr ""
+msgstr "Pomoc"
 
 msgid "Hide"
-msgstr ""
+msgstr "Ukrywać"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Ukryj wtyczkę podczas aktualizacji:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Przycisk informacyjny"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Przycisk informacji: przełączanie pokazywania/ukrywania informacji"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Załaduj Apikey TMDB z /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Załaduj TheTVDb Apikey z /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Załaduj ostatni wybór/filtr na początku:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "KINO"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Zarządzaj swoimi filmami i serialami V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Kolor wyboru listy metryk:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Przypisanie klucza przeglądarki filmów"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Data utworzenia filmu rosnąca"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Data utworzenia filmu malejąco"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Rozpoczęto aktualizację bazy danych filmów: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Informacje o pliku filmowym"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Folder filmu"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Folder filmu rosnąco"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Folder filmu malejąco"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Wybór folderu filmu"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Folder filmu:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Ocena filmu 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Ocena filmu 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Data premiery filmu rosnąca"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Data premiery filmu malejąco"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Czas trwania filmu rosnąco"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Czas trwania filmu malejąco"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Kolejność sortowania filmów:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Tytuł filmu A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Tytuł filmu Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Kino"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Filmy i seriale"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Styl filmów:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Wybór filmów lub seriali na początku:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Filmy lub seriale:"
 
 msgid "No"
-msgstr ""
+msgstr "NIE"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Podczas aktualizacji bazy danych"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Przy pierwszym dostępie"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Przejrzystość wtyczki:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Wtyczka w Menu Enigmy:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Posterwall/tło Pokaż działkę:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Przycisk opcji: Usuń film/czarną listę"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Ocena:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Naprawdę zamknąć bez zapisywania ustawień?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Zresetuj bazę danych:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Przywróć bazę danych:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "Czas działania:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "SZEREG"
 
 msgid "Save"
-msgstr ""
+msgstr "Ratować"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Wybierz skórkę *Wymagane ponowne uruchomienie GUI:"
 
 msgid "Series"
-msgstr ""
+msgstr "Szereg"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Odcinki serialu"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Folder serii: brak informacji"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Styl serii:"
 
 msgid "Show"
-msgstr ""
+msgstr "Pokazywać"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Pokaż tła:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Pokaż listę folderów z filmami:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Pokaż telewizję w tle (bez m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Zarejestruj się w TMDB i wprowadź darmowy osobisty klucz ApiKey"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Zarejestruj się na TheTVDb i wprowadź darmowy osobisty klucz ApiKey"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Uruchom wtyczkę za pomocą przycisku wideo:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Przycisk zatrzymania: Oznacz film jako widziany"
 
 msgid "Style"
-msgstr ""
+msgstr "Styl"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "Klucz API TMDB został pomyślnie zaimportowany!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "Wyniki TMDb"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "Język TMDb/TheTVDb:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Przycisk tekstowy: Edytuj bazę danych"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "Klucz API TVDb został pomyślnie zaimportowany!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "Wyniki TVDb"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Aktualizacja bazy danych timerów:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Przełącz styl wtyczki"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Przełącz ukryj/pokaż wtyczkę"
 
 msgid "Update"
-msgstr ""
+msgstr "Aktualizacja"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Zaktualizuj bazę danych za pomocą timera:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Aktualizuj serię"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Użyj tła m1v:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Przycisk wideo: Aktualizuj bazę danych"
 
 msgid "Years:"
-msgstr ""
+msgstr "Lata:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 msgid "backdrop"
-msgstr ""
+msgstr "zasłona"
 
 msgid "banner"
-msgstr ""
+msgstr "transparent"
 
 msgid "movie"
-msgstr ""
+msgstr "film"
 
 msgid "poster"
-msgstr ""
+msgstr "plakat"
 
 msgid "series"
-msgstr ""
+msgstr "szereg"

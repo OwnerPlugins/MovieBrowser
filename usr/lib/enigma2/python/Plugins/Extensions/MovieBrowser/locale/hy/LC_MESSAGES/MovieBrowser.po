@@ -17,217 +17,217 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******Ֆիլմերի դիտարկիչի տվյալների բազայի թարմացման ժմչփ********\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "******* Ֆիլմերի դիտարկիչի տվյալների բազայի թարմացում********\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Կոճակ. Անցնել առաջին տառին"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Ֆիլմի թղթապանակի ցանկ>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Դերասանի ընտրություն"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Դերասաններ."
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Բոլոր /tmp/պաստառները մաքրված են"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Ավտոմատ"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Պահուստային տվյալների բազա."
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Սև ցուցակի ֆիլմի ֆայլը"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Կոճակ 0: Գնացեք ցուցակի վերջ"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Կոճակ 1. CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Կոճակ 2. Թարմացրեք տեղեկությունները TMDb-ում"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Կոճակ 3. թարմացնել տեղեկությունները TheTVDb-ում"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Կոճակ 4. Թաքցնել/ցուցադրել տեսած ֆիլմերը"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Կոճակ 5. Փոխարկել Ֆիլմերի/Սերիաների դիտումը"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Կոճակ 6. Ֆիլմի թղթապանակի ընտրություն"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Կոճակ 7. Ֆիլմի ռեժիսորի ընտրություն"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Կոճակ 8. Ֆիլմի դերասանների ընտրություն"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Կոճակ 9. Ֆիլմի ժանրի ընտրություն"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Քեշի թղթապանակ."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Չեղարկել"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Ընտրեք տեղեկատու"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Ընտրեք տեղեկատու."
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Մաքրել քեշի թղթապանակի մատյանը"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Մաքրել քեշի թղթապանակը."
 
 msgid "Country:"
-msgstr ""
+msgstr "Երկիր:"
 
 msgid "Database"
-msgstr ""
+msgstr "Տվյալների բազա"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Տվյալների բազայի խմբագիր."
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Տվյալների բազայի ժմչփի մատյան"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Տվյալների բազայի թարմացման մատյան"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Տվյալների բազայի թարմացման ժամանակաչափը դադարեցվել է՝ %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Ջնջել ֆիլմի ֆայլը"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Տնօրենի ընտրություն"
 
 msgid "Director:"
-msgstr ""
+msgstr "Ռեժիսոր:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Ներբեռնեք նոր հետնապատկերներ."
 
 msgid "EPISODES"
-msgstr ""
+msgstr "ԴՐՎԱԾՆԵՐ"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Քեշի թղթապանակը տեղափոխելու սխալ՝ %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "%s ֆայլը չի ​​գտնվել:"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "%s ֆայլը չի ​​գտնվել:"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Թղթապանակի ընտրություն"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Ազատ տարածք"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Ազատ տարածք."
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Ժանրի ընտրություն"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Ժանրեր:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Անցնել վերջին ֆիլմը սկզբում."
 
 msgid "Help"
-msgstr ""
+msgstr "Օգնություն"
 
 msgid "Hide"
-msgstr ""
+msgstr "Թաքցնել"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Թաքցնել պլագինը թարմացման ժամանակ."
 
 msgid "Info Button"
-msgstr ""
+msgstr "Տեղեկատվության կոճակ"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Տեղեկատվության կոճակ. միացնել ցուցադրել/թաքցնել տեղեկությունները"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Բեռնել TMDB Apikey-ը /tmp/tmdb_api.txt-ից"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Ներբեռնեք TheTVDb Apikey-ը /tmp/thetvdb_api.txt-ից"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Բեռնել վերջին ընտրությունը/զտիչը սկզբից."
 
 msgid "MOVIES"
-msgstr ""
+msgstr "ՖԻԼՄԵՐ"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Կառավարեք ձեր ֆիլմերն ու սերիալները V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Metrix ցուցակի ընտրության գույնը."
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Ֆիլմերի զննարկիչի հիմնական հանձնարարություն"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Ֆիլմի ստեղծման ամսաթիվը աճող"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Ֆիլմի ստեղծման ամսաթիվը նվազում է"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Ֆիլմերի շտեմարանի թարմացումը սկսվեց՝ %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Ֆիլմի ֆայլի մասին տեղեկություններ"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Ֆիլմի թղթապանակ"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Ֆիլմի թղթապանակ Աճող"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Ֆիլմի Պանակ Նվազող"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Ֆիլմի թղթապանակի ընտրություն"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Ֆիլմի թղթապանակ."
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Ֆիլմի վարկանիշ 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Ֆիլմի վարկանիշ 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Ֆիլմի թողարկման ամսաթիվ Աճող"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Ֆիլմի թողարկման ամսաթիվը նվազում է"
 
 msgid "Movie Runtime Ascending"
 msgstr ""
@@ -236,172 +236,172 @@ msgid "Movie Runtime Descending"
 msgstr ""
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Ֆիլմերի տեսակավորման կարգը."
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Ֆիլմի անվանումը A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Ֆիլմի անվանումը Զ-Ա"
 
 msgid "Movies"
-msgstr ""
+msgstr "Ֆիլմեր"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Ֆիլմեր և Սերիալներ"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Ֆիլմերի ոճ."
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Ֆիլմերի կամ սերիալների ընտրություն սկզբում."
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Ֆիլմեր կամ սերիալներ."
 
 msgid "No"
-msgstr ""
+msgstr "Ոչ"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Տվյալների բազայի թարմացման մասին"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Առաջին մուտքի վրա"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Փլագինների թափանցիկություն."
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Փլագին Enigma ընտրացանկում."
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Պաստառապատի/հետին պլանի ցուցադրման սյուժեն."
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Ռադիո կոճակ. Ջնջել/Սև ցուցակ ֆիլմ"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Վարկանիշ:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Իսկապե՞ս փակել առանց կարգավորումները պահելու:"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Վերականգնել տվյալների բազան."
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Վերականգնել տվյալների բազան."
 
 msgid "Runtime:"
 msgstr ""
 
 msgid "SERIES"
-msgstr ""
+msgstr "ՍԵՐԻԱԼ"
 
 msgid "Save"
-msgstr ""
+msgstr "Պահպանել"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Ընտրեք մաշկը *Վերագործարկեք GUI-ը Պահանջվում է."
 
 msgid "Series"
-msgstr ""
+msgstr "Սերիա"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Սերիաների դրվագներ"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Սերիաների թղթապանակ. Տեղեկություն հնարավոր չէ"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Սերիա Style:"
 
 msgid "Show"
-msgstr ""
+msgstr "Ցույց տալ"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Ցույց տալ հետնաշերտերը՝"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Ցույց տալ ֆիլմերի թղթապանակների ցանկը."
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Ցույց տալ հեռուստացույցը հետին պլանում (առանց m1v)."
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Գրանցվեք TMDB-ում և մուտքագրեք անվճար անձնական ApiKey"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Գրանցվեք TheTVDb-ում և մուտքագրեք անվճար անձնական ApiKey"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Սկսել հավելվածը Video կոճակով."
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Stop կոճակ. Նշել ֆիլմը որպես տեսած"
 
 msgid "Style"
-msgstr ""
+msgstr "Ոճ"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "TMDB API բանալին հաջողությամբ ներմուծվեց:"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "TMDb արդյունքներ"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "TMDb/TheTVDb Լեզուն."
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Տեքստային կոճակ. Խմբագրել տվյալների բազան"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "TheTVDb API բանալին հաջողությամբ ներմուծվեց:"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "TheTVDb արդյունքները"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Ժամաչափի տվյալների բազայի թարմացում."
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Միացնել Plugin Style-ը"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Միացնել թաքցնել/ցուցադրել հավելվածը"
 
 msgid "Update"
-msgstr ""
+msgstr "Թարմացնել"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Թարմացրեք տվյալների բազան ժմչփով."
 
 msgid "Update Series"
-msgstr ""
+msgstr "Թարմացնել շարքը"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Օգտագործեք m1v հետնապատկերներ."
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Տեսանյութի կոճակ. Թարմացրեք տվյալների բազան"
 
 msgid "Years:"
-msgstr ""
+msgstr "Տարիներ:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Այո՛"
 
 msgid "backdrop"
-msgstr ""
+msgstr "ֆոն"
 
 msgid "banner"
-msgstr ""
+msgstr "դրոշակ"
 
 msgid "movie"
-msgstr ""
+msgstr "ֆիլմ"
 
 msgid "poster"
-msgstr ""
+msgstr "պաստառ"
 
 msgid "series"
-msgstr ""
+msgstr "շարքը"

@@ -18,391 +18,391 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******Oppdateringstidtaker for filmnettleserdatabase*******\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******Databaseoppdatering for filmnettleser*******\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Knapp: Gå til første bokstav"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Liste over filmmapper>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Utvalg av skuespillere"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Skuespillere:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Alle /tmp/posters renset"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatisk"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Sikkerhetskopier database:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Svarteliste filmfil"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Knapp 0: Gå til slutten av listen"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Knapp 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Knapp 2: Forny informasjon på TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Knapp 3: Forny informasjon på TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Knapp 4: Skjul/vis sett filmer"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Knapp 5: Veksle film/serievisning"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Knapp 6: Filmmappevalg"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Knapp 7: Valg av filmregissør"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Knapp 8: Valg av filmskuespiller"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Knapp 9: Valg av filmsjanger"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Cache-mappe:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Kansellere"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Velg Katalog"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Velg katalog:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Opprydding av cache-mappelogg"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Oppryddingsbuffermappe:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Land:"
 
 msgid "Database"
 msgstr ""
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Databaseredigering:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Database timerlogg"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Databaseoppdateringslogg"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Databaseoppdateringstimer stoppet: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Slett filmfil"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Regissørvalg"
 
 msgid "Director:"
-msgstr ""
+msgstr "Direktør:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Last ned nye bakgrunner:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "EPISODER"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Feil ved flytting av cache-mappen: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Filen %s ble ikke funnet!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Filen %s ble ikke funnet!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Mappevalg"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Ledig plass"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Ledig plass:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Sjangervalg"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Sjangere:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Gå til siste film ved start:"
 
 msgid "Help"
-msgstr ""
+msgstr "Hjelp"
 
 msgid "Hide"
-msgstr ""
+msgstr "Gjemme"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Skjul plugin under oppdatering:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Infoknapp"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Infoknapp: Veksle vis/skjul informasjon"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Last inn TMDB Apikey fra /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Last inn TheTVDb Apikey fra /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Last inn siste utvalg/filter ved start:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "FILM"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Administrer filmer og serier V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Farge for valg av metriseliste:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Filmnettlesernøkkeltilordning"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Filmopprettingsdato stigende"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Filmopprettingsdato synkende"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Oppdatering av filmdatabase startet: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Informasjon om filmfiler"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Filmmappe"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Filmmappe stigende"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Filmmappe synkende"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Filmmappevalg"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Filmmappe:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Filmvurdering 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Filmvurdering 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Filmutgivelsesdatoen stiger"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Filmens utgivelsesdato synker"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Film Runtime Ascending"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Film Runtime Synkende"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Sorteringsrekkefølge for filmer:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Filmtittel A-Å"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Filmtittel Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Filmer"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Filmer og serier"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Filmstil:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Filmer eller serievalg ved start:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Filmer eller serier:"
 
 msgid "No"
-msgstr ""
+msgstr "Ingen"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "På databaseoppdatering"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Ved første tilgang"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Plugin-gjennomsiktighet:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Plugin i Enigma Menu:"
 
 msgid "Posterwall/Backdrop Show Plot:"
 msgstr ""
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Radioknapp: Slett/svarteliste film"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Vurdering:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Virkelig lukke uten å lagre innstillinger?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Tilbakestill database:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Gjenopprett database:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "Kjøretid:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "SERIE"
 
 msgid "Save"
-msgstr ""
+msgstr "Spare"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Velg hud *Restart GUI kreves:"
 
 msgid "Series"
-msgstr ""
+msgstr "Serie"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Serie episoder"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Seriemappe: Ingen info mulig"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Seriestil:"
 
 msgid "Show"
-msgstr ""
+msgstr "Vise"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Vis bakgrunner:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Vis liste over filmmappe:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Vis TV i bakgrunnen (ingen m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Registrer deg på TMDB og skriv inn gratis personlig ApiKey"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Registrer deg på TheTVDb og skriv inn gratis personlig ApiKey"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Start plugin med videoknapp:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Stoppknapp: Merk filmen som sett"
 
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "TMDB API-nøkkel ble importert!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "TMDb-resultater"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "TMDb/TheTVDb Språk:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Tekstknapp: Rediger database"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "TVDb API-nøkkelen ble importert!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "TVDb-resultatene"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Tidtakerdatabaseoppdatering:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Slå på plugin-stil"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Veksle skjul/vis plugin"
 
 msgid "Update"
-msgstr ""
+msgstr "Oppdater"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Oppdater database med timer:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Oppdater serien"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Bruk m1v bakgrunner:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Videoknapp: Oppdater database"
 
 msgid "Years:"
-msgstr ""
+msgstr "År:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 msgid "backdrop"
-msgstr ""
+msgstr "bakteppe"
 
 msgid "banner"
 msgstr ""
 
 msgid "movie"
-msgstr ""
+msgstr "film"
 
 msgid "poster"
-msgstr ""
+msgstr "plakat"
 
 msgid "series"
-msgstr ""
+msgstr "serie"

@@ -20,73 +20,73 @@ msgid "*******Movie Browser Database Update Timer*******\n"
 msgstr ""
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******Pag-update ng Database ng Movie Browser******\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Button: Pumunta sa unang titik"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Listahan ng Folder ng Pelikula>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Pagpili ng Aktor"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Mga aktor:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Nalinis ang lahat ng /tmp/poster"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Awtomatiko"
 
 msgid "Backup Database:"
 msgstr ""
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Blacklist na File ng Pelikula"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Button 0: Pumunta sa dulo ng listahan"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
 msgstr ""
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Button 2: I-renew ang mga impormasyon sa TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Button 3: I-renew ang mga impormasyon sa TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Button 4: Itago/ipakita ang mga napapanood na pelikula"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Button 5: I-toggle ang view ng Mga Pelikula/Serye"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Pindutan 6: Pagpili ng Folder ng Pelikula"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Pindutan 7: Pagpili ng Direktor ng Pelikula"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Pindutan 8: Pagpili ng Aktor ng Pelikula"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Button 9: Pagpili ng Genre ng Pelikula"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Folder ng Cache:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Kanselahin"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Piliin ang Direktoryo"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Pumili ng Direktoryo:"
 
 msgid "Cleanup Cache Folder Log"
 msgstr ""
@@ -95,301 +95,301 @@ msgid "Cleanup Cache Folder:"
 msgstr ""
 
 msgid "Country:"
-msgstr ""
+msgstr "Bansa:"
 
 msgid "Database"
 msgstr ""
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Editor ng Database:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Log ng Timer ng Database"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Log ng Pag-update ng Database"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Huminto ang Timer ng Pag-update ng Database: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Tanggalin ang File ng Pelikula"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Pagpili ng Direktor"
 
 msgid "Director:"
-msgstr ""
+msgstr "Direktor:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Mag-download ng mga bagong Backdrop:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "MGA EPISOD"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Error sa paglipat ng folder ng cache: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Hindi nahanap ang file na %s!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Hindi nahanap ang file na %s!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Pagpili ng Folder"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Libreng Space"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Libreng Space:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Pagpili ng Genre"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Mga Genre:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Pumunta sa huling Pelikula sa Start:"
 
 msgid "Help"
-msgstr ""
+msgstr "Tulong"
 
 msgid "Hide"
-msgstr ""
+msgstr "Magtago"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Itago ang Plugin sa panahon ng Update:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Button ng Impormasyon"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Button ng Impormasyon: I-toggle ang ipakita/itago ang mga impormasyon"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "I-load ang TMDB Apikey mula sa /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "I-load ang TheTVDb Apikey mula sa /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "I-load ang huling Pinili/Filter sa Start:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "MGA PELIKULA"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Pamahalaan ang iyong Mga Pelikula at Serye V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Kulay ng Pinili ng Listahan ng Metrix:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Pagtatalaga ng Key Browser ng Pelikula"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Pataas na Petsa ng Paggawa ng Pelikula"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Pababang Petsa ng Paggawa ng Pelikula"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Nagsimula ang Pag-update sa Database ng Pelikula: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Mga Impormasyon sa File ng Pelikula"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Folder ng Pelikula"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Pataas na Folder ng Pelikula"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Pababang Folder ng Pelikula"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Pagpili ng Folder ng Pelikula"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Folder ng Pelikula:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Rating ng Pelikula 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Rating ng Pelikula 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Pataas na Petsa ng Pagpapalabas ng Pelikula"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Pababang Petsa ng Pagpapalabas ng Pelikula"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Pataas na Runtime ng Pelikula"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Pababang Runtime ng Pelikula"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Pag-uuri-uri ng Pelikula:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Pamagat ng Pelikula A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Pamagat ng Pelikula Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Mga pelikula"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Mga Pelikula at Serye"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Estilo ng Pelikula:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Pagpili ng Mga Pelikula o Serye sa Simula:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Mga Pelikula o Serye:"
 
 msgid "No"
-msgstr ""
+msgstr "Hindi"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Sa Pag-update ng Database"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Sa Unang Pag-access"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Transparency ng Plugin:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Plugin sa Enigma Menu:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Plot ng Palabas na Posterwall/Backdrop:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Radio Button: Tanggalin/I-blacklist ang pelikula"
 
 msgid "Rating:"
 msgstr ""
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Talagang malapit nang hindi nagse-save ng mga setting?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "I-reset ang Database:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Ibalik ang Database:"
 
 msgid "Runtime:"
 msgstr ""
 
 msgid "SERIES"
-msgstr ""
+msgstr "SERYE"
 
 msgid "Save"
-msgstr ""
+msgstr "I-save"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Piliin ang balat *I-restart ang GUI Kinakailangan:"
 
 msgid "Series"
-msgstr ""
+msgstr "Serye"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Mga Series Episode"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Folder ng Serye: Walang Posibleng Impormasyon"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Estilo ng Serye:"
 
 msgid "Show"
-msgstr ""
+msgstr "Ipakita"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Ipakita ang mga Backdrop:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Ipakita ang Listahan ng Folder ng Pelikula:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Ipakita ang TV sa Background (walang m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Mag-signup sa TMDB at mag-input ng libreng personal na ApiKey"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Mag-signup sa TheTVDb at mag-input ng libreng personal na ApiKey"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Simulan ang Plugin gamit ang Video Button:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Stop Button: Markahan ang pelikula bilang nakita"
 
 msgid "Style"
-msgstr ""
+msgstr "Estilo"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "Matagumpay na na-import ang TMDB API key!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "Mga Resulta ng TMDb"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "TMDb/TheTVDb na Wika:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Button ng Teksto: I-edit ang Database"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "Matagumpay na na-import ang TVDb API key!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "Mga Resulta ng TheTVDb"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Update sa Database ng Timer:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "I-toggle ang Estilo ng Plugin"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "I-toggle ang itago/ipakita ang plugin"
 
 msgid "Update"
 msgstr ""
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "I-update ang Database gamit ang Timer:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "I-update ang Serye"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Gumamit ng m1v Backdrops:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Button ng Video: I-update ang Database"
 
 msgid "Years:"
-msgstr ""
+msgstr "taon:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Oo"
 
 msgid "backdrop"
 msgstr ""
@@ -398,10 +398,10 @@ msgid "banner"
 msgstr ""
 
 msgid "movie"
-msgstr ""
+msgstr "pelikula"
 
 msgid "poster"
 msgstr ""
 
 msgid "series"
-msgstr ""
+msgstr "serye"

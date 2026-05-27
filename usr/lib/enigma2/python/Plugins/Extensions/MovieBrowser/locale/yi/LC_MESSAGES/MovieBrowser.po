@@ -17,391 +17,391 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "******* פֿילם בראַוזער דאַטאַבאַסע אַפּדייט טיימער*******\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "******* פֿילם בראַוזער דאַטאַבאַסע אַפּדייט*******\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> קנעפּל: גיין צו ערשטער בריוו"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<ליסטע פון ​​פֿילם פאָלדער>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "אַקטיאָר סעלעקציע"
 
 msgid "Actors:"
-msgstr ""
+msgstr "אַקטיאָרן:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "אַלע /טמפּ/פּאָסטערס קלינד"
 
 msgid "Automatic"
-msgstr ""
+msgstr "אָטאַמאַטיק"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "באַקקופּ דאַטאַבאַסע:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "בלאַקליסט פֿילם טעקע"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "קנעפּל 0: גיין צו סוף פון רשימה"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "קנעפּל 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "קנעפּל 2: באַנייַען אינפֿאָרמאַציע אויף TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "קנעפּל 3: באַנייַען אינפֿאָרמאַציע אויף TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "קנעפּל 4: באַהאַלטן / ווייַזן געזען קינאָ"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "קנעפּל 5: טאַגאַל פֿילם / סעריע מיינונג"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "קנעפּל 6: פֿילם פאָלדער סעלעקציע"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "קנעפּל 7: סעלעקציע פון ​​פֿילם דירעקטאָר"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "קנעפּל 8: סעלעקציע פון ​​פֿילם אַקטיאָר"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "קנעפּל 9: פֿילם זשאַנראַ סעלעקציע"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "קאַש טעקע:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "באָטל מאַכן"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "קלייַבן Directory"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "קלייַבן Directory:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "קלינאַפּ קאַש פאָלדער קלאָץ"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "קלינאַפּ קאַש טעקע:"
 
 msgid "Country:"
-msgstr ""
+msgstr "לאַנד:"
 
 msgid "Database"
-msgstr ""
+msgstr "דאַטאַבאַסע"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "דאַטאַבאַסע עדיטאָר:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "דאַטאַבאַסע טימער קלאָץ"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "דאַטאַבאַסע דערהייַנטיקן קלאָץ"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "דאַטאַבאַסע אַפּדייט טיימער סטאַפּט: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "ויסמעקן פֿילם טעקע"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "דירעקטאָר סעלעקציע"
 
 msgid "Director:"
-msgstr ""
+msgstr "דירעקטאָר:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "אראפקאפיע נייַ באַקדראַפּס:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "עפּיסאָדעס"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "טעות ווען די קאַש טעקע איז אריבערגעפארן: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "טעקע %s ניט געפונען!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "טעקע %s ניט געפונען!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "טעקע סעלעקציע"
 
 msgid "Free Space"
-msgstr ""
+msgstr "פֿרייַ ספעיס"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "פריי פּלאַץ:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "זשאַנראַ סעלעקציע"
 
 msgid "Genres:"
-msgstr ""
+msgstr "זשאַנראַז:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "גיין צו לעצט פֿילם אויף אָנהייב:"
 
 msgid "Help"
-msgstr ""
+msgstr "הילף"
 
 msgid "Hide"
-msgstr ""
+msgstr "באַהאַלטן"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "באַהאַלטן פּלוגין בעשאַס דערהייַנטיקן:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "אינפֿאָרמאַציע קנעפּל"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "אינפֿאָרמאַציע קנעפּל: טאַגאַל ווייַזן / באַהאַלטן אינפֿאָרמאַציע"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "לאָדן TMDB Apikey פֿון /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "לאָדן TheTVDb Apikey פֿון /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "לאָדן לעצטע סעלעקציע / פילטער אויף אָנהייב:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "קינאָ"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "פירן אייער קינאָ & סעריע V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "מעטריץ רשימה סעלעקציע קאָליר:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "פֿילם בראַוזער שליסל אַסיינמאַנט"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "פֿילם קרעאַטיאָן טאָג אַסענדינג"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "פֿילם קרעאַטיאָן טאָג דעססענדינג"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "פֿילם דאַטאַבאַסע דערהייַנטיקן סטאַרטעד: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "פֿילם טעקע אינפֿאָרמאַציע"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "פֿילם פאָלדער"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "פֿילם פאָלדער אַסענדינג"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "פֿילם פאָלדער דעססענדינג"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "פֿילם פאָלדער סעלעקציע"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "פֿילם טעקע:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "פֿילם שאַץ 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "פֿילם שאַץ 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "פֿילם מעלדונג טאָג אַסענדינג"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "פֿילם מעלדונג טאָג אראפנידערן"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "פֿילם רונטימע אַסענדינג"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "פֿילם רונטימע דעססענדינג"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "פֿילם סאָרט סדר:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "פֿילם טיטל א-ז"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "פֿילם טיטל ז-א"
 
 msgid "Movies"
-msgstr ""
+msgstr "קינאָ"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "קינאָ & סעריע"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "קינאָ סטייל:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "קינאָ אָדער סעריע סעלעקציע אין אָנהייב:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "קינאָ אָדער סעריע:"
 
 msgid "No"
-msgstr ""
+msgstr "ניין"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "אויף דאַטאַבאַסע דערהייַנטיקן"
 
 msgid "On First Access"
-msgstr ""
+msgstr "אויף דער ערשטער אַקסעס"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "פּלוגין דורכזעיקייַט:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "פּלוגין אין Enigma מעניו:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "פּאָסטערוואַלל / באַקדראַפּ ווייַזן פּלאַנעווען:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "ראַדיאָ קנעפּל: ויסמעקן / בלאַקליסט פֿילם"
 
 msgid "Rating:"
-msgstr ""
+msgstr "שאַץ:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "טאַקע נאָענט אָן שפּאָרן סעטטינגס?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "באַשטעטיק דאַטאַבאַסע:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "צוריקקריגן דאַטאַבאַסע:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "לויפן צייט:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "סעריע"
 
 msgid "Save"
-msgstr ""
+msgstr "היט"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "אויסקלייַבן הויט * ריסטאַרט GUI פארלאנגט:"
 
 msgid "Series"
-msgstr ""
+msgstr "סעריע"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "סעריע עפּיזאָדס"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "סעריע פאָלדער: קיין אינפֿאָרמאַציע מעגלעך"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "סעריע סטייל:"
 
 msgid "Show"
-msgstr ""
+msgstr "ווייַזן"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "ווייַזן באַקדראַפּס:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "ווייַזן רשימה פון פֿילם טעקע:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "ווייַזן טעלעוויזיע אין הינטערגרונט (קיין m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "סיגנופּ אויף TMDB און אַרייַנשרייַב פריי פערזענלעכע ApiKey"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "סיגנופּ אויף TheTVDb און אַרייַנשרייַב פריי פערזענלעכע ApiKey"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "אָנהייב פּלוגין מיט ווידעא קנעפּל:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "האַלטן קנעפּל: מארק פֿילם ווי געזען"
 
 msgid "Style"
-msgstr ""
+msgstr "סטייל"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "TMDB API שליסל הצלחה ימפּאָרטיד!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "TMDb רעזולטאַטן"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "TMDb/TheTVDb שפּראַך:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "טעקסט קנעפּל: רעדאַגירן דאַטאַבאַסע"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "טהעטווודב אַפּי שליסל הצלחה ימפּאָרטיד!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "TheTVDb רעזולטאַטן"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "טיימער דאַטאַבאַסע דערהייַנטיקן:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "טאַגאַל פּלוגין סטייל"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "באַשטימען באַהאַלטן / ווייַזן פּלוגין"
 
 msgid "Update"
-msgstr ""
+msgstr "דערהייַנטיקן"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "דערהייַנטיקן דאַטאַבאַסע מיט טיימער:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "דערהייַנטיקן סעריע"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "ניצן m1v באַקדראַפּס:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "ווידעא קנעפּל: דערהייַנטיקן דאַטאַבאַסע"
 
 msgid "Years:"
-msgstr ""
+msgstr "יאָרן:"
 
 msgid "Yes"
-msgstr ""
+msgstr "יא"
 
 msgid "backdrop"
-msgstr ""
+msgstr "באַקדראַפּ"
 
 msgid "banner"
-msgstr ""
+msgstr "פאָן"
 
 msgid "movie"
-msgstr ""
+msgstr "פֿילם"
 
 msgid "poster"
-msgstr ""
+msgstr "אַפיש"
 
 msgid "series"
-msgstr ""
+msgstr "סעריע"

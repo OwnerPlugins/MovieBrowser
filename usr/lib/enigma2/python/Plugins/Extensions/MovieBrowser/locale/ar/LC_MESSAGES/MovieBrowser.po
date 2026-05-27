@@ -17,391 +17,391 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******مؤقت تحديث قاعدة بيانات متصفح الأفلام*******\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******تحديث قاعدة بيانات متصفح الأفلام*******\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> الزر: الانتقال إلى الحرف الأول"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<قائمة مجلدات الفيلم>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "اختيار الممثل"
 
 msgid "Actors:"
-msgstr ""
+msgstr "الجهات الفاعلة:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "تم تنظيف كافة /tmp/الملصقات"
 
 msgid "Automatic"
-msgstr ""
+msgstr "تلقائي"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "قاعدة بيانات النسخ الاحتياطي:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "ملف فيلم القائمة السوداء"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "الزر 0: انتقل إلى نهاية القائمة"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "الزر 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "الزر 2: تجديد المعلومات على TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "الزر 3: تجديد المعلومات على TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "الزر 4: إخفاء/إظهار الأفلام التي تمت مشاهدتها"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "الزر 5: تبديل عرض الأفلام/المسلسلات"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "الزر 6: تحديد مجلد الفيلم"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "الزر 7: اختيار مخرج الفيلم"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "الزر 8: اختيار ممثل الفيلم"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "الزر 9: اختيار نوع الفيلم"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "مجلد ذاكرة التخزين المؤقت:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "يلغي"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "اختر الدليل"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "اختر الدليل:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "تنظيف سجل مجلد ذاكرة التخزين المؤقت"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "تنظيف مجلد ذاكرة التخزين المؤقت:"
 
 msgid "Country:"
-msgstr ""
+msgstr "دولة:"
 
 msgid "Database"
-msgstr ""
+msgstr "قاعدة البيانات"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "محرر قاعدة البيانات:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "سجل مؤقت قاعدة البيانات"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "سجل تحديث قاعدة البيانات"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "توقف مؤقت تحديث قاعدة البيانات: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "حذف ملف الفيلم"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "اختيار المدير"
 
 msgid "Director:"
-msgstr ""
+msgstr "مخرج:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "تنزيل الخلفيات الجديدة:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "الحلقات"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "خطأ في نقل مجلد ذاكرة التخزين المؤقت: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "لم يتم العثور على الملف %s!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "لم يتم العثور على الملف %s!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "اختيار المجلد"
 
 msgid "Free Space"
-msgstr ""
+msgstr "مساحة حرة"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "المساحة الحرة:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "اختيار النوع"
 
 msgid "Genres:"
-msgstr ""
+msgstr "الأنواع:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "انتقل إلى الفيلم الأخير في البداية:"
 
 msgid "Help"
-msgstr ""
+msgstr "يساعد"
 
 msgid "Hide"
-msgstr ""
+msgstr "يخفي"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "إخفاء البرنامج المساعد أثناء التحديث:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "زر المعلومات"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "زر المعلومات: تبديل إظهار/إخفاء المعلومات"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "قم بتحميل TMDB Apikey من /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "قم بتحميل TheTVDb Apikey من /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "تحميل التحديد/التصفية الأخيرة عند البدء:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "أفلام"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "إدارة الأفلام والمسلسلات V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "لون تحديد قائمة Metrix:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "تعيين مفتاح متصفح الفيلم"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "تاريخ إنشاء الفيلم تصاعدي"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "تاريخ إنشاء الفيلم تنازلي"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "بدأ تحديث قاعدة بيانات الفيلم: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "معلومات ملف الفيلم"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "مجلد الفيلم"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "مجلد الفيلم تصاعدي"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "مجلد الفيلم تنازلي"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "اختيار مجلد الفيلم"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "مجلد الفيلم:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "تقييم الفيلم 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "تقييم الفيلم 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "تاريخ إصدار الفيلم تصاعدي"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "تاريخ إصدار الفيلم تنازلي"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "وقت تشغيل الفيلم تصاعدي"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "وقت تشغيل الفيلم تنازلي"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "ترتيب فرز الفيلم:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "عنوان الفيلم من الألف إلى الياء"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "عنوان الفيلم Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "أفلام"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "أفلام ومسلسلات"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "نمط الأفلام:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "اختيار الأفلام أو المسلسلات في البداية:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "الأفلام أو المسلسلات:"
 
 msgid "No"
-msgstr ""
+msgstr "لا"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "على تحديث قاعدة البيانات"
 
 msgid "On First Access"
-msgstr ""
+msgstr "عند الوصول الأول"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "شفافية البرنامج المساعد:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "البرنامج المساعد في قائمة اللغز:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "مؤامرة عرض الجدار الملصق/الخلفية:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "زر الاختيار: حذف/فيلم القائمة السوداء"
 
 msgid "Rating:"
-msgstr ""
+msgstr "تصنيف:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "إغلاق حقا دون حفظ الإعدادات؟"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "إعادة تعيين قاعدة البيانات:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "استعادة قاعدة البيانات:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "وقت التشغيل:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "مسلسل"
 
 msgid "Save"
-msgstr ""
+msgstr "يحفظ"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "حدد الجلد * مطلوب إعادة تشغيل واجهة المستخدم الرسومية:"
 
 msgid "Series"
-msgstr ""
+msgstr "مسلسل"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "حلقات المسلسل"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "مجلد السلسلة: لا توجد معلومات ممكنة"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "نمط السلسلة:"
 
 msgid "Show"
-msgstr ""
+msgstr "يعرض"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "عرض الخلفيات:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "عرض قائمة مجلدات الفيلم:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "عرض التلفزيون في الخلفية (بدون m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "قم بالتسجيل على TMDB وإدخال ApiKey الشخصي مجانًا"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "قم بالتسجيل على TheTVDb وإدخال ApiKey الشخصي مجانًا"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "بدء البرنامج المساعد مع زر الفيديو:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "زر الإيقاف: وضع علامة على الفيلم كما شوهد"
 
 msgid "Style"
-msgstr ""
+msgstr "أسلوب"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "تم استيراد مفتاح TMDB API بنجاح!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "نتائج TMDB"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "لغة TMDb/TheTVDb:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "زر النص: تحرير قاعدة البيانات"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "تم استيراد مفتاح واجهة برمجة تطبيقات TVDb بنجاح!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "نتائج TVDb"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "تحديث قاعدة بيانات المؤقت:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "تبديل نمط البرنامج المساعد"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "تبديل إخفاء/إظهار البرنامج المساعد"
 
 msgid "Update"
-msgstr ""
+msgstr "تحديث"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "تحديث قاعدة البيانات باستخدام المؤقت:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "تحديث السلسلة"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "استخدم خلفيات m1v:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "زر الفيديو: تحديث قاعدة البيانات"
 
 msgid "Years:"
-msgstr ""
+msgstr "سنين:"
 
 msgid "Yes"
-msgstr ""
+msgstr "نعم"
 
 msgid "backdrop"
-msgstr ""
+msgstr "خلفية"
 
 msgid "banner"
-msgstr ""
+msgstr "راية"
 
 msgid "movie"
-msgstr ""
+msgstr "فيلم"
 
 msgid "poster"
-msgstr ""
+msgstr "ملصق"
 
 msgid "series"
-msgstr ""
+msgstr "مسلسل"

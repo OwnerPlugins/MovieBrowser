@@ -17,391 +17,391 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******Amserydd Diweddaru Cronfa Ddata Porwr Ffilm ***********\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******Diweddariad Cronfa Ddata Porwr Ffilm ***********\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Botwm: Ewch i'r llythyren gyntaf"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Rhestr o Ffolder Ffilm>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Dewis Actor"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Actorion:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Pob /tmp/poster wedi'u glanhau"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Awtomatig"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Cronfa Ddata Wrth Gefn:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Ffeil Ffilm Rhestr Ddu"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Botwm 0: Ewch i ddiwedd y rhestr"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Botwm 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Botwm 2: Adnewyddu gwybodaeth ar TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Botwm 3: Adnewyddu gwybodaeth ar TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Botwm 4: Cuddio/dangos ffilmiau a welwyd"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Botwm 5: Toglo Ffilmiau/Golygfa Gyfres"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Botwm 6: Dewis Ffolder Ffilm"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Botwm 7: Dewis Cyfarwyddwr Ffilm"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Botwm 8: Dewis Actor Ffilm"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Botwm 9: Dewis Genre Ffilm"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Ffolder Cache:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Canslo"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Dewiswch Cyfeiriadur"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Dewiswch Cyfeiriadur:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Log Ffolder Glanhau Cache"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Ffolder Cache Glanhau:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Gwlad:"
 
 msgid "Database"
-msgstr ""
+msgstr "Cronfa Ddata"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Golygydd Cronfa Ddata:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Log Amserydd Cronfa Ddata"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Log Diweddaru Cronfa Ddata"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Stopiwyd Amserydd Diweddaru Cronfa Ddata: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Dileu Ffeil Ffilm"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Dewis Cyfarwyddwr"
 
 msgid "Director:"
-msgstr ""
+msgstr "Cyfarwyddwr:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Lawrlwythwch Gefnlenni newydd:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "PENODAU"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Gwall wrth symud ffolder celc: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Heb ganfod ffeil %s!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Heb ganfod ffeil %s!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Dewis Ffolder"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Gofod Rhydd"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Gofod Rhydd:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Detholiad Genre"
 
 msgid "Genres:"
 msgstr ""
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Mynd i'r ffilm olaf ar y dechrau:"
 
 msgid "Help"
 msgstr ""
 
 msgid "Hide"
-msgstr ""
+msgstr "Cuddio"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Cuddio Ategyn yn ystod Diweddariad:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Botwm Gwybodaeth"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Botwm Gwybodaeth: Toglo sioe/cuddio gwybodaeth"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Llwythwch TMDB Apikey o /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Llwythwch TheTVDb Apikey o /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Llwythwch y Detholiad / Hidl olaf ar y Cychwyn:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "FFIOEDD"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Rheoli eich Ffilmiau a Chyfres V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Lliw Dewis Rhestr Metrix:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Aseiniad Allwedd Porwr Ffilm"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Dyddiad Creu Ffilm Esgynnol"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Dyddiad Creu Ffilm yn Disgyn"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Dechreuwyd Diweddariad Cronfa Ddata Ffilm: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Gwybodaeth Ffeil Ffilm"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Ffolder Ffilm"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Ffolder Ffilm Esgynnol"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Ffolder Ffilm yn Disgyn"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Dewis Ffolder Ffilm"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Ffolder Ffilm:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Sgôr Ffilm 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Sgôr Ffilm 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Dyddiad Rhyddhau Ffilm Esgynnol"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Dyddiad Rhyddhau Ffilm yn Disgyn"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Movie Runtime Esgynnol"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Amser Rhedeg Ffilm yn Disgyn"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Trefnu Ffilm:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Teitl y Ffilm A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Teitl y Ffilm Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Ffilmiau"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Ffilmiau a Chyfres"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Arddull Ffilmiau:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Ffilmiau neu Ddetholiad Cyfres ar y Cychwyn:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Ffilmiau neu Gyfres:"
 
 msgid "No"
-msgstr ""
+msgstr "Nac ydw"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Ar Ddiweddariad Cronfa Ddata"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Ar Fynediad Cyntaf"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Tryloywder Ategyn:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Ategyn yn y Ddewislen Enigma:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Plot Sioe Wal/Cefndir:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Botwm Radio: Dileu/Ffilm Rhestr Ddu"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Sgôr:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Cau iawn heb gadw gosodiadau?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Ailosod Cronfa Ddata:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Adfer Cronfa Ddata:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "Amser rhedeg:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "CYFRES"
 
 msgid "Save"
-msgstr ""
+msgstr "Arbed"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Dewiswch groen *Ailgychwyn GUI Angenrheidiol:"
 
 msgid "Series"
-msgstr ""
+msgstr "Cyfres"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Pennodau Cyfres"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Ffolder y Gyfres: Dim Gwybodaeth yn bosibl"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Arddull y Gyfres:"
 
 msgid "Show"
-msgstr ""
+msgstr "Sioe"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Dangos Cefnlenni:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Dangos Rhestr o Ffolder Ffilm:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Dangos teledu yn y Cefndir (dim m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Cofrestrwch ar TMDB a mewnbynnu ApiKey personol am ddim"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Cofrestrwch ar TheTVDb a mewnbynnu ApiKey personol am ddim"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Cychwyn Ategyn gyda Botwm Fideo:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Botwm Stopio: Marciwch y ffilm fel y'i gwelir"
 
 msgid "Style"
-msgstr ""
+msgstr "Arddull"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "Allwedd API TMDB wedi'i mewnforio yn llwyddiannus!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "Canlyniadau TMDb"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "Iaith TMDB/TheTVDb:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Botwm Testun: Golygu Cronfa Ddata"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "Allwedd API TheTVDb wedi'i mewnforio yn llwyddiannus!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "Canlyniadau TheTVDb"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Diweddariad Cronfa Ddata Amserydd:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Toglo Arddull Ategyn"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Toglo ategyn cuddio/dangos"
 
 msgid "Update"
-msgstr ""
+msgstr "Diweddariad"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Diweddaru'r Gronfa Ddata gydag Amserydd:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Cyfres Diweddaru"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Defnyddiwch Gefnlenni m1v:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Botwm Fideo: Diweddaru Cronfa Ddata"
 
 msgid "Years:"
-msgstr ""
+msgstr "Blynyddoedd:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Oes"
 
 msgid "backdrop"
-msgstr ""
+msgstr "cefndir"
 
 msgid "banner"
-msgstr ""
+msgstr "baner"
 
 msgid "movie"
-msgstr ""
+msgstr "ffilm"
 
 msgid "poster"
 msgstr ""
 
 msgid "series"
-msgstr ""
+msgstr "cyfres"

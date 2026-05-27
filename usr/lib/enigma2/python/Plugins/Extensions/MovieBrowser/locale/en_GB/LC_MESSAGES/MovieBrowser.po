@@ -131,7 +131,7 @@ msgid "Error moving cache folder: %s"
 msgstr ""
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "File %s not found!"
 
 msgid "File %s not found!"
 msgstr ""
