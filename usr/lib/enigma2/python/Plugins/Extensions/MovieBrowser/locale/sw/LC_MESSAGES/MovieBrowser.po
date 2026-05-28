@@ -95,7 +95,7 @@ msgid "Cleanup Cache Folder:"
 msgstr "Kusafisha Folda ya Akiba:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Nchi:"
 
 msgid "Database"
 msgstr "Hifadhidata"
@@ -164,7 +164,7 @@ msgid "Hide Plugin during Update:"
 msgstr "Ficha programu-jalizi wakati wa Usasishaji:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Kitufe cha Taarifa"
 
 msgid "Info Button: Toggle show/hide infos"
 msgstr "Kitufe cha Taarifa: Geuza onyesho/ficha maelezo"

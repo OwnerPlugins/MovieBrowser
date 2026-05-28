@@ -20,7 +20,7 @@ msgid "*******Movie Browser Database Update Timer*******\n"
 msgstr "*******Таймери навсозии махзани браузери филм********\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "******* Навсозии пойгоҳи додаҳои браузери филм********\n"
 
 msgid "<- -> Button: Go to first letter"
 msgstr "<- -> Тугма: Ба ҳарфи аввал гузаред"
@@ -230,7 +230,7 @@ msgid "Movie Release Date Descending"
 msgstr "Санаи барориши филм"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Филм дар вақти болоравӣ"
 
 msgid "Movie Runtime Descending"
 msgstr "Вақти пастшавии филм"

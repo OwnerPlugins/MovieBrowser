@@ -20,7 +20,7 @@ msgid "*******Movie Browser Database Update Timer*******\n"
 msgstr "******* ਮੂਵੀ ਬ੍ਰਾਊਜ਼ਰ ਡਾਟਾਬੇਸ ਅੱਪਡੇਟ ਟਾਈਮਰ *******\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "******* ਮੂਵੀ ਬ੍ਰਾਊਜ਼ਰ ਡਾਟਾਬੇਸ ਅੱਪਡੇਟ *******\n"
 
 msgid "<- -> Button: Go to first letter"
 msgstr "<- -> ਬਟਨ: ਪਹਿਲੇ ਅੱਖਰ 'ਤੇ ਜਾਓ"
@@ -179,7 +179,7 @@ msgid "Load last Selection/Filter on Start:"
 msgstr "ਸ਼ੁਰੂਆਤ 'ਤੇ ਆਖਰੀ ਚੋਣ/ਫਿਲਟਰ ਲੋਡ ਕਰੋ:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "ਫਿਲਮਾਂ"
 
 msgid "Manage your Movies & Series V.%s"
 msgstr "ਆਪਣੀਆਂ ਫਿਲਮਾਂ ਅਤੇ ਸੀਰੀਜ਼ V.%s ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ"

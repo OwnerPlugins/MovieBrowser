@@ -83,7 +83,7 @@ msgid "Cancel"
 msgstr "لغوه کړئ"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "لارښود غوره کړئ"
 
 msgid "Choose Directory:"
 msgstr "لارښود غوره کړئ:"

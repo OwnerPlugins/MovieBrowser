@@ -107,7 +107,7 @@ msgid "Database Timer Log"
 msgstr "Tímamælaskrá gagnagrunns"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Uppfærsluskrá gagnagrunns"
 
 msgid "Database Update Timer stopped: %s\n"
 msgstr "Uppfærslutímamælir gagnagrunns stöðvaður: %s\n"
