@@ -287,7 +287,7 @@ msgid "Really close without saving settings?"
 msgstr "Echt slute sûnder ynstellings te bewarjen?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Reset databank:"
 
 msgid "Restore Database:"
 msgstr "Databank weromsette:"

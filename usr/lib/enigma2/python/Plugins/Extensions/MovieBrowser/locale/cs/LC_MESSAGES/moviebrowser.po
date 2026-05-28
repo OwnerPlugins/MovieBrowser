@@ -252,7 +252,7 @@ msgid "Movies & Series"
 msgstr "Filmy a seriály"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Filmový styl:"
 
 msgid "Movies or Series Selection at Start:"
 msgstr "Výběr filmů nebo seriálů na začátku:"

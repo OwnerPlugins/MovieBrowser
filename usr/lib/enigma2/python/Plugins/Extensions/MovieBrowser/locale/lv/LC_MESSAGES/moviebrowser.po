@@ -78,7 +78,7 @@ msgid "Button 9: Movie Genre Selection"
 msgstr "9. poga: filmas žanra izvēle"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Kešatmiņas mape:"
 
 msgid "Cancel"
 msgstr "Atcelt"
