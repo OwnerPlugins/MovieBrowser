@@ -17,391 +17,391 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "******* Tajmer ažuriranja baze podataka pretraživača filmova*******\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******Ažuriranje baze podataka pretraživača filmova*******\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Dugme: Idi na prvo slovo"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Lista fascikle filmova>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Odabir glumaca"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Glumci:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Svi /tmp/posteri očišćeni"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatski"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Sigurnosna kopija baze podataka:"
 
 msgid "Blacklist Movie File"
 msgstr ""
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Dugme 0: Idi na kraj liste"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Dugme 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Dugme 2: Obnovi informacije na TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Dugme 3: Obnovite informacije na TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Dugme 4: Sakrij/prikaži gledane filmove"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Dugme 5: Uključite prikaz filmova/serije"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Dugme 6: Izbor fascikle filma"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Dugme 7: Izbor filmskog režisera"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Dugme 8: Izbor filmskog glumca"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Dugme 9: Izbor žanra filma"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Predmemorija:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Otkaži"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Odaberite Imenik"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Odaberite imenik:"
 
 msgid "Cleanup Cache Folder Log"
 msgstr ""
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Očistite keš folder:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Država:"
 
 msgid "Database"
-msgstr ""
+msgstr "Baza podataka"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Urednik baze podataka:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Dnevnik tajmera baze podataka"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Dnevnik ažuriranja baze podataka"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Tajmer ažuriranja baze podataka zaustavljen: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Izbriši filmsku datoteku"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Odabir direktora"
 
 msgid "Director:"
-msgstr ""
+msgstr "Direktor:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Preuzmite nove pozadine:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "EPIZODE"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Greška pri premještanju keš foldera: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Fajl %s nije pronađen!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Fajl %s nije pronađen!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Odabir foldera"
 
 msgid "Free Space"
 msgstr ""
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Slobodan prostor:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Odabir žanra"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Žanrovi:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Idi na posljednji film na početku:"
 
 msgid "Help"
-msgstr ""
+msgstr "Upomoć"
 
 msgid "Hide"
-msgstr ""
+msgstr "Sakrij se"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Sakrij dodatak tokom ažuriranja:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Info dugme"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Info dugme: Uključuje prikaz/sakrij informacije"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Učitajte TMDB Apikey iz /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Učitajte TheTVDb Apikey iz /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Učitaj zadnji odabir/filter na početku:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "FILMOVI"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Upravljajte svojim filmovima i serijama V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Boja odabira metričke liste:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Dodjela tipki filmskog pretraživača"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Datum kreiranja filma raste"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Datum kreiranja filma pada"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Započelo je ažuriranje baze podataka filmova: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Informacije o filmskoj datoteci"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Filmska fascikla"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Filmska fascikla uzlazno"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Fascikla filma silazna"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Odabir fascikle filma"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Fascikla filma:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Ocjena filma 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Ocjena filma 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Datum izdanja filma raste"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Datum izlaska filma pada"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Vrijeme trajanja filma uzlazno"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Vrijeme trajanja filma opadajuće"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Redoslijed sortiranja filmova:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Naziv filma A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Naziv filma Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Filmovi"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Filmovi i serije"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Stil filmova:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Odabir filmova ili serija na početku:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Filmovi ili serije:"
 
 msgid "No"
-msgstr ""
+msgstr "br"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Prilikom ažuriranja baze podataka"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Pri prvom pristupu"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Transparentnost dodataka:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Dodatak u Enigma meniju:"
 
 msgid "Posterwall/Backdrop Show Plot:"
 msgstr ""
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Radio dugme: Obriši film/film na crnoj listi"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Ocjena:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Stvarno zatvoriti bez spremanja postavki?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Poništi bazu podataka:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Vrati bazu podataka:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "vrijeme izvođenja:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "SERIJA"
 
 msgid "Save"
-msgstr ""
+msgstr "Sačuvaj"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Odaberite skin *Potrebno je ponovno pokretanje GUI-a:"
 
 msgid "Series"
-msgstr ""
+msgstr "Serije"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Serije Epizode"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Fascikla serije: Informacije nisu moguće"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Stil serije:"
 
 msgid "Show"
-msgstr ""
+msgstr "Pokaži"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Prikaži pozadine:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Prikaži listu fascikle filmova:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Prikaži TV u pozadini (bez m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Prijavite se na TMDB i unesite besplatni lični ApiKey"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Prijavite se na TheTVDb i unesite besplatni lični ApiKey"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Pokreni dodatak sa Video dugmetom:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Dugme Stop: Označi film kao viđen"
 
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "TMDB API ključ je uspješno uvezen!"
 
 msgid "TMDb Results"
 msgstr ""
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "TMDb/TheTVDb Jezik:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Dugme za tekst: Uredi bazu podataka"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "TVDb API ključ je uspješno uvezen!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "Rezultati TVDb"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Ažuriranje baze podataka tajmera:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Uključite stil dodatka"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Uključi/isključi sakrivanje/prikaži dodatak"
 
 msgid "Update"
-msgstr ""
+msgstr "Ažuriraj"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Ažurirajte bazu podataka pomoću tajmera:"
 
 msgid "Update Series"
 msgstr ""
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Koristite m1v pozadine:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Video dugme: Ažuriraj bazu podataka"
 
 msgid "Years:"
-msgstr ""
+msgstr "godine:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
 msgid "backdrop"
-msgstr ""
+msgstr "pozadina"
 
 msgid "banner"
 msgstr ""
 
 msgid "movie"
-msgstr ""
+msgstr "film"
 
 msgid "poster"
 msgstr ""
 
 msgid "series"
-msgstr ""
+msgstr "serije"

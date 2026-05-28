@@ -18,391 +18,391 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******Таймер абнаўлення базы дадзеных браўзера фільмаў********\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******Абнаўленне базы дадзеных браўзера фільмаў********\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Кнопка: перайсці да першай літары"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Спіс тэчак з фільмамі>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Выбар акцёра"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Акцёры:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Усе /tmp/плакаты ачышчаны"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Аўтаматычны"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Рэзервовая база даных:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Фільм чорны спіс"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Кнопка 0: перайсці ў канец спісу"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Кнопка 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Кнопка 2: абнавіць інфармацыю на TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Кнопка 3: абнавіць інфармацыю на TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Кнопка 4: Схаваць/паказаць прагледжаныя фільмы"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Кнопка 5: пераключыць прагляд фільмаў/серыялаў"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Кнопка 6: Выбар папкі з фільмамі"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Кнопка 7: Выбар рэжысёра"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Кнопка 8: Выбар кінаакцёра"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Кнопка 9: Выбар жанру фільма"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Тэчка кэша:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Адмяніць"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Выберыце Каталог"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Выберыце каталог:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Журнал тэчак ачысткі кэша"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Ачыстка тэчкі кэша:"
 
 msgid "Country:"
-msgstr ""
+msgstr "краіна:"
 
 msgid "Database"
-msgstr ""
+msgstr "База дадзеных"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Рэдактар ​​базы дадзеных:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Часопіс таймера базы даных"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Журнал абнаўлення базы даных"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Таймер абнаўлення базы даных спынены: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Выдаліць файл фільма"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Выбар рэжысёра"
 
 msgid "Director:"
-msgstr ""
+msgstr "дырэктар:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Спампаваць новыя фоны:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "ЭПІЗОДЫ"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Памылка перамяшчэння тэчкі кэша: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Файл %s не знойдзены!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Файл %s не знойдзены!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Выбар тэчкі"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Вольная прастора"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Вольная прастора:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Выбар жанру"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Жанры:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Перайсці да апошняга фільма пры запуску:"
 
 msgid "Help"
-msgstr ""
+msgstr "Даведка"
 
 msgid "Hide"
-msgstr ""
+msgstr "Схаваць"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Схаваць убудову падчас абнаўлення:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Інфармацыйная кнопка"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Інфармацыйная кнопка: пераключае паказ/схаванне інфармацыі"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Загрузіце TMDB Apikey з /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Загрузіце TheTVDb Apikey з /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Загрузіць апошні выбар/фільтр пры запуску:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "ФІЛЬМЫ"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Кіруйце сваімі фільмамі і серыяламі V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Колер выбару спісу Metrix:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Прызначэнне клавіш браўзера фільмаў"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Дата стварэння фільма па ўзрастанні"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Дата стварэння фільма па змяншэнні"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Пачата абнаўленне базы даных фільмаў: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Інфармацыя пра файл фільма"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Тэчка з фільмамі"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Тэчка з фільмамі па ўзрастанні"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Папка з фільмамі па спаданні"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Выбар тэчкі фільма"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Папка з фільмамі:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Рэйтынг фільма 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Рэйтынг фільма 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Дата выхаду фільма па ўзрастанні"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Дата выхаду фільма па змяншэнні"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Працягласць фільма ўзрастае"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Працягласць фільма змяншаецца"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Парадак сартавання фільма:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Назва фільма ад А да Я"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Назва фільма Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Фільмы"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Фільмы і серыялы"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Стыль фільмаў:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Выбар фільмаў або серыялаў у пачатку:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Фільмы або серыялы:"
 
 msgid "No"
-msgstr ""
+msgstr "няма"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Аб абнаўленні базы дадзеных"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Пры першым доступе"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Празрыстасць плагіна:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Убудова ў меню Enigma:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Сюжэт шоу Posterwall/Backdrop:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Радыёкнопка: Выдаліць/Чорны спіс фільма"
 
 msgid "Rating:"
-msgstr ""
+msgstr "рэйтынг:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Сапраўды закрыць без захавання налад?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Скінуць базу даных:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Аднавіць базу дадзеных:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "час выканання:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "СЕРЫЯ"
 
 msgid "Save"
-msgstr ""
+msgstr "Захаваць"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Выберыце скін *Патрабуецца перазапуск GUI:"
 
 msgid "Series"
-msgstr ""
+msgstr "серыял"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Эпізоды серыяла"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Папка серыі: інфармацыя адсутнічае"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Стыль серыі:"
 
 msgid "Show"
-msgstr ""
+msgstr "Паказаць"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Паказаць застаўкі:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Паказаць спіс папкі з фільмамі:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Паказваць ТБ у фонавым рэжыме (без m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Зарэгіструйцеся на TMDB і ўвядзіце бясплатны асабісты ApiKey"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Зарэгіструйцеся на TheTVDb і ўвядзіце бясплатны асабісты ApiKey"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Запусціць плагін з кнопкай відэа:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Кнопка "Стоп": пазначыць фільм як прагледжаны"
 
 msgid "Style"
-msgstr ""
+msgstr "стыль"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "Ключ API TMDB паспяхова імпартаваны!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "Вынікі TMDb"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "Мова TMDb/TheTVDb:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Тэкставая кнопка: Рэдагаваць базу даных"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "Ключ API TVDb паспяхова імпартаваны!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "Вынікі TheTVDb"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Абнаўленне базы дадзеных таймера:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Пераключыць стыль плагіна"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Пераключыць убудову "схаваць/паказаць"."
 
 msgid "Update"
-msgstr ""
+msgstr "Абнаўленне"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Абнавіць базу даных з таймерам:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Абнаўленне серыі"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Выкарыстоўвайце застаўкі m1v:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Кнопка відэа: абнавіць базу даных"
 
 msgid "Years:"
-msgstr ""
+msgstr "гады:"
 
 msgid "Yes"
-msgstr ""
+msgstr "так"
 
 msgid "backdrop"
-msgstr ""
+msgstr "заднік"
 
 msgid "banner"
-msgstr ""
+msgstr "банэр"
 
 msgid "movie"
-msgstr ""
+msgstr "фільм"
 
 msgid "poster"
-msgstr ""
+msgstr "плакат"
 
 msgid "series"
-msgstr ""
+msgstr "серыял"

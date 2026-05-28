@@ -18,391 +18,391 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******Χρονόμετρο ενημέρωσης βάσης δεδομένων προγράμματος περιήγησης ταινιών********\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******Ενημέρωση βάσης δεδομένων προγράμματος περιήγησης ταινιών********\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Κουμπί: Μετάβαση στο πρώτο γράμμα"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Λίστα φακέλου ταινιών>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Επιλογή ηθοποιών"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Ηθοποιοί:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Όλα τα /tmp/αφίσες καθαρίστηκαν"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Αυτόματο"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Εφεδρική βάση δεδομένων:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Αρχείο ταινίας μαύρης λίστας"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Κουμπί 0: Μετάβαση στο τέλος της λίστας"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Κουμπί 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Κουμπί 2: Ανανεώστε τις πληροφορίες στο TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Κουμπί 3: Ανανεώστε τις πληροφορίες στο TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Κουμπί 4: Απόκρυψη/εμφάνιση ταινιών που έχετε δει"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Κουμπί 5: Εναλλαγή προβολής Ταινιών/Σειρών"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Κουμπί 6: Επιλογή φακέλου ταινίας"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Κουμπί 7: Επιλογή σκηνοθέτη ταινίας"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Κουμπί 8: Επιλογή ηθοποιών ταινιών"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Κουμπί 9: Επιλογή είδους ταινίας"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Φάκελος προσωρινής μνήμης:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Ματαίωση"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Επιλέξτε Κατάλογος"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Επιλέξτε Κατάλογο:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Εκκαθάριση αρχείου καταγραφής φακέλων προσωρινής μνήμης"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Εκκαθάριση φακέλου προσωρινής μνήμης:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Χώρα:"
 
 msgid "Database"
-msgstr ""
+msgstr "Βάση δεδομένων"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Επεξεργαστής βάσης δεδομένων:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Αρχείο καταγραφής χρονοδιακόπτη βάσης δεδομένων"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Αρχείο καταγραφής ενημέρωσης βάσης δεδομένων"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Το χρονόμετρο ενημέρωσης βάσης δεδομένων διακόπηκε: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Διαγραφή αρχείου ταινίας"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Επιλογή Διευθυντή"
 
 msgid "Director:"
-msgstr ""
+msgstr "Διευθυντής:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Λήψη νέων Backdrops:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "ΕΠΕΙΣΟΔΙΑ"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Σφάλμα κατά τη μετακίνηση του φακέλου της προσωρινής μνήμης: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Το αρχείο %s δεν βρέθηκε!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Το αρχείο %s δεν βρέθηκε!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Επιλογή φακέλου"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Ελεύθερος Χώρος"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Ελεύθερος χώρος:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Επιλογή Είδους"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Είδη:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Μετάβαση στην τελευταία ταινία κατά την έναρξη:"
 
 msgid "Help"
-msgstr ""
+msgstr "Βοήθεια"
 
 msgid "Hide"
-msgstr ""
+msgstr "Κρύβω"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Απόκρυψη προσθήκης κατά την ενημέρωση:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Κουμπί πληροφοριών"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Κουμπί πληροφοριών: Εναλλαγή εμφάνισης/απόκρυψης πληροφοριών"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Φόρτωση TMDB Apikey από /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Φορτώστε το TheTVDb Apikey από το /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Φόρτωση τελευταίας επιλογής/φίλτρου κατά την έναρξη:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "ΚΙΝΗΜΑΤΟΓΡΑΦΟΣ"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Διαχειριστείτε τις ταινίες και τις σειρές σας V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Χρώμα επιλογής λίστας Metrix:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Αντιστοίχιση κλειδιού προγράμματος περιήγησης ταινιών"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Ημερομηνία δημιουργίας ταινίας Αύξουσα"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Ημερομηνία δημιουργίας ταινίας Φθίνουσα"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Η ενημέρωση της βάσης δεδομένων ταινιών ξεκίνησε: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Πληροφορίες αρχείου ταινίας"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Φάκελος ταινίας"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Φάκελος ταινίας Αύξουσα"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Φάκελος ταινίας Φθίνουσα"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Επιλογή φακέλου ταινίας"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Φάκελος ταινίας:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Βαθμολογία ταινίας 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Βαθμολογία ταινίας 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Ημερομηνία κυκλοφορίας ταινίας Αύξουσα"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Ημερομηνία κυκλοφορίας ταινίας Φθίνουσα"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Αύξουσα διάρκεια της ταινίας"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Ταινία Runtime Descending"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Σειρά ταξινόμησης ταινιών:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Τίτλος ταινίας A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Τίτλος ταινίας Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Κινηματογράφος"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Ταινίες & Σειρές"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Στυλ ταινιών:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Επιλογή ταινιών ή σειρών κατά την έναρξη:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Ταινίες ή σειρές:"
 
 msgid "No"
-msgstr ""
+msgstr "Οχι"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Στην ενημέρωση της βάσης δεδομένων"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Στην Πρώτη Πρόσβαση"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Διαφάνεια προσθήκης:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Πρόσθετο στο μενού Enigma:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Οικόπεδο του Posterwall/Backdrop Show:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Κουμπί ραδιοφώνου: Διαγραφή/Μαύρη λίστα ταινίας"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Εκτίμηση:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Κλείσιμο πραγματικά χωρίς αποθήκευση ρυθμίσεων;"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Επαναφορά βάσης δεδομένων:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Επαναφορά βάσης δεδομένων:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "Χρόνος εκτέλεσης:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "ΣΕΙΡΑ"
 
 msgid "Save"
-msgstr ""
+msgstr "Εκτός"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Επιλογή δέρματος *Απαιτείται επανεκκίνηση GUI:"
 
 msgid "Series"
-msgstr ""
+msgstr "Σειρά"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Επεισόδια σειράς"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Φάκελος σειράς: Δεν υπάρχουν πληροφορίες"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Στυλ σειράς:"
 
 msgid "Show"
-msgstr ""
+msgstr "Επίδειξη"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Εμφάνιση φόντου:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Εμφάνιση λίστας φακέλου ταινιών:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Εμφάνιση τηλεόρασης στο παρασκήνιο (χωρίς m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Εγγραφείτε στο TMDB και εισάγετε δωρεάν προσωπικό ApiKey"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Εγγραφείτε στο TheTVDb και εισάγετε δωρεάν προσωπικό ApiKey"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Έναρξη προσθήκης με το κουμπί βίντεο:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Κουμπί Stop: Επισήμανση της ταινίας όπως φαίνεται"
 
 msgid "Style"
-msgstr ""
+msgstr "Στυλ"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "Το κλειδί API TMDB εισήχθη με επιτυχία!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "Αποτελέσματα TMDb"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "Γλώσσα TMDb/TheTVDb:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Κουμπί κειμένου: Επεξεργασία βάσης δεδομένων"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "Το κλειδί API TVDb εισήχθη με επιτυχία!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "Τα αποτελέσματα του TVDb"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Ενημέρωση βάσης δεδομένων χρονοδιακόπτη:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Εναλλαγή στυλ προσθήκης"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Εναλλαγή απόκρυψης/εμφάνισης προσθήκης"
 
 msgid "Update"
-msgstr ""
+msgstr "Εκσυγχρονίζω"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Ενημέρωση βάσης δεδομένων με χρονόμετρο:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Ενημέρωση σειράς"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Χρήση σκηνικών m1v:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Κουμπί βίντεο: Ενημέρωση βάσης δεδομένων"
 
 msgid "Years:"
-msgstr ""
+msgstr "Χρόνια:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Ναί"
 
 msgid "backdrop"
-msgstr ""
+msgstr "φόντο"
 
 msgid "banner"
-msgstr ""
+msgstr "σημαία"
 
 msgid "movie"
-msgstr ""
+msgstr "ταινία"
 
 msgid "poster"
-msgstr ""
+msgstr "αφίσα"
 
 msgid "series"
-msgstr ""
+msgstr "σειρά"

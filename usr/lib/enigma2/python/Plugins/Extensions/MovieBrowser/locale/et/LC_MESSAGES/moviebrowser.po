@@ -18,391 +18,391 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******Filmibrauseri andmebaasi värskenduse taimer*******\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******Filmibrauseri andmebaasi värskendus********\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Nupp: minge esimese tähe juurde"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Filmikaustade loend>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Näitleja valik"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Näitlejad:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Kõik /tmp/plakatid puhastatud"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automaatne"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Varundusandmebaas:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Musta nimekirja filmifail"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Nupp 0: liikuge loendi lõppu"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Nupp 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Nupp 2: uuendage teavet TMDb-s"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Nupp 3: uuendage teavet TheTVDb-s"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Nupp 4: Peida/näita nähtud filme"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Nupp 5: lülitage filmide/sarjade vaade sisse"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Nupp 6: Filmi kausta valik"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Nupp 7: Filmirežissööri valik"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Nupp 8: filminäitleja valik"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Nupp 9: Filmižanri valik"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Vahemälu kaust:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Tühista"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Valige Kataloog"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Valige kataloog:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Puhastage vahemälu kausta logi"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Puhastage vahemälu kaust:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Riik:"
 
 msgid "Database"
-msgstr ""
+msgstr "Andmebaas"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Andmebaasi redaktor:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Andmebaasi taimeri logi"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Andmebaasi värskenduste logi"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Andmebaasi värskenduse taimer peatatud: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Kustuta filmifail"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Direktori valik"
 
 msgid "Director:"
-msgstr ""
+msgstr "Direktor:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Laadige alla uued taustadekoratsioonid:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "EPISOODID"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Viga vahemälu kausta teisaldamisel: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Faili %s ei leitud!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Faili %s ei leitud!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Kausta valik"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Vaba ruum"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Vaba ruum:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Žanri valik"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Žanrid:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Mine algusesse viimase filmi juurde:"
 
 msgid "Help"
-msgstr ""
+msgstr "Abi"
 
 msgid "Hide"
-msgstr ""
+msgstr "Peida"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Peida pistikprogramm värskendamise ajal:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Teabe nupp"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Teabe nupp: teabe kuvamine/peitmine"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Laadige TMDB Apikey failist /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Laadige TheTVDb Apikey failist /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Laadi viimane valik/filter alguses:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "FILMID"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Hallake oma filme ja sarju V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Metrixi loendi valiku värv:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Filmibrauseri klahvi määramine"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Filmi loomise kuupäev kasvavalt"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Filmi loomise kuupäev kahanevalt"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Filmide andmebaasi värskendamine algas: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Teave filmifailide kohta"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Filmi kaust"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Filmi kaust kasvav"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Filmi kaust kahanevalt"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Filmi kausta valik"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Filmi kaust:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Filmi hinnang 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Filmi hinnang 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Filmi ilmumiskuupäev Kasnevas järjekorras"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Filmi ilmumiskuupäev kahanevalt"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Filmi kestus kasvav"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Filmi kestus kahanevalt"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Filmide sortimise järjekord:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Filmi pealkiri A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Filmi pealkiri Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Filmid"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Filmid ja sarjad"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Filmi stiil:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Filmide või sarjade valik alguses:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Filmid või sarjad:"
 
 msgid "No"
-msgstr ""
+msgstr "Ei"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Andmebaasi värskenduse kohta"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Esimesel juurdepääsul"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Plugina läbipaistvus:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Enigma menüü pistikprogramm:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Posterwall/Backdrop Show süžee:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Raadionupp: filmi kustutamine/musta nimekirja"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Hinnang:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Kas tõesti sulgeda seadeid salvestamata?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Lähtesta andmebaas:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Taastage andmebaas:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "Kestus:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "SARI"
 
 msgid "Save"
-msgstr ""
+msgstr "Salvesta"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Valige nahk *Nõutav on taaskäivitada GUI:"
 
 msgid "Series"
-msgstr ""
+msgstr "seeria"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Sarja episoodid"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Seeriakaust: teave pole võimalik"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Sarja stiil:"
 
 msgid "Show"
-msgstr ""
+msgstr "Näita"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Kuva taustadekoratsioonid:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Näita filmi kaustade loendit:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Kuva TV taustal (ei m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Registreeruge TMDB-s ja sisestage tasuta isiklik ApiKey"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Registreeruge TheTVDb-s ja sisestage tasuta isiklik ApiKey"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Käivitage pistikprogramm videonupuga:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Stoppnupp: märgi film nähtuks"
 
 msgid "Style"
-msgstr ""
+msgstr "Stiil"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "TMDB API võti edukalt imporditud!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "TMDb tulemused"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "TMDb/TheTVDb keel:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Tekstinupp: Redigeeri andmebaasi"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "TVDb API võti imporditi edukalt!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "TheTVDb tulemused"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Taimeri andmebaasi värskendus:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Lülitage plugina stiil"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Lülitab plugina peitmise/kuvamise sisse/välja"
 
 msgid "Update"
-msgstr ""
+msgstr "Värskenda"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Andmebaasi värskendamine taimeriga:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Värskenda seeriat"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Kasutage m1v taustadekoratsioone:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Videonupp: värskendage andmebaasi"
 
 msgid "Years:"
-msgstr ""
+msgstr "Aastad:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Jah"
 
 msgid "backdrop"
-msgstr ""
+msgstr "taustaks"
 
 msgid "banner"
-msgstr ""
+msgstr "bänner"
 
 msgid "movie"
-msgstr ""
+msgstr "filmi"
 
 msgid "poster"
-msgstr ""
+msgstr "plakat"
 
 msgid "series"
-msgstr ""
+msgstr "seeria"

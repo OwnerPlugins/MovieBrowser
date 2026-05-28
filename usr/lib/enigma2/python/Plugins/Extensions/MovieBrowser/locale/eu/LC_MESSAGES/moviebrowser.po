@@ -17,391 +17,391 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "******Movie Browser Database Eguneratze tenporizadorea*******\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "******Movie Browser datu-basearen eguneratzea*******\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Botoia: Joan lehen letrara"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Filmaren karpetaren zerrenda>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Aktoreen hautaketa"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Aktoreak:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "/tmp/posters guztiak garbituta"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatikoa"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Babeskopia datu-basea:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Zerrenda beltzaren film fitxategia"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "0 botoia: Joan zerrendaren amaierara"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "1. botoia: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "2. botoia: Berritu TMDb-ko informazioa"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "3. botoia: Berritu informazioa TheTVDb-n"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "4. botoia: ikusitako filmak ezkutatu/erakutsi"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "5. botoia: Aldatu filmak/serieak ikuspegia"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "6. botoia: Filmaren karpeta hautatzea"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "7. botoia: zinema zuzendariaren hautaketa"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "8. botoia: aktoreen hautaketa"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "9. botoia: zinema-generoa hautatzea"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Cache karpeta:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Utzi"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Aukeratu Direktorioa"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Aukeratu direktorioa:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Garbitu cache karpetaren erregistroa"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Garbitu cache karpeta:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Herrialdea:"
 
 msgid "Database"
-msgstr ""
+msgstr "Datu-basea"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Datu-baseen editorea:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Datu-basearen tenporizadorearen erregistroa"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Datu-basearen eguneratze-erregistroa"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Datu-basea eguneratzeko tenporizadorea gelditu da: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Ezabatu filmaren fitxategia"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Zuzendariaren hautaketa"
 
 msgid "Director:"
-msgstr ""
+msgstr "Zuzendaria:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Deskargatu Backdrops berriak:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "ATALAK"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Errore bat gertatu da cache karpeta mugitzean: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Ez da %s fitxategia aurkitu!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Ez da %s fitxategia aurkitu!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Karpeta hautatzea"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Espazio librea"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Espazio librea:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Generoaren hautaketa"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Generoak:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Hasierako azken filmera joan:"
 
 msgid "Help"
-msgstr ""
+msgstr "Laguntza"
 
 msgid "Hide"
-msgstr ""
+msgstr "Ezkutatu"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Ezkutatu plugina eguneratzean:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Informazio botoia"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Informazio botoia: Informazioa erakutsi/ezkutatu"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Kargatu TMDB Apikey /tmp/tmdb_api.txt-etik"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Kargatu TheTVDb Apikey /tmp/thetvdb_api.txt-etik"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Kargatu azken hautapena/iragazkia hasieran:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "FILMAK"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Kudeatu zure Filmak eta V. seriea.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Metrix zerrendaren hautapen kolorea:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Movie Arakatzailearen gako-esleipena"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Filmaren sortze data goranzkoa"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Filmaren Sorkuntza Data Beheranzkoa"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Movie Database eguneratzea hasi da: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Filmaren fitxategien informazioa"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Filmaren karpeta"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Filmaren Karpeta Goranzkoa"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Filmaren Karpeta Beheranzkoa"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Filmaren karpeta hautatzea"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Filmaren karpeta:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Filmaren balorazioa 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Filmaren balorazioa 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Filmaren estreinaldi data goranzkoa"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Filmaren estreinaldi data Beheranzkoa"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Filmaren exekuzio-denbora goranzkoa"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Filmaren exekuzioa beherantz"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Filma ordenatzeko ordena:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Filmaren izenburua A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Filmaren izenburua Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Filmak"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Filmak eta serieak"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Filmaren estiloa:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Filmak edo serieen hautaketa hasieran:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Filmak edo serieak:"
 
 msgid "No"
-msgstr ""
+msgstr "Ez"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Datu-basearen eguneratzean"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Lehen sarbidean"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Pluginaren gardentasuna:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Plugin Enigma menuan:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Posterwall/Backdrop ikuskizunaren trama:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Irrati-botoia: Ezabatu/Zerrenda beltza filma"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Balorazioa:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Benetan itxi ezarpenak gorde gabe?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Berrezarri datu-basea:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Leheneratu datu-basea:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "Exekuzioa:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "SERIA"
 
 msgid "Save"
-msgstr ""
+msgstr "Gorde"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Hautatu azala *Berrabiarazi GUI Beharrezkoa:"
 
 msgid "Series"
-msgstr ""
+msgstr "Seriea"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Serieko Atalak"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Serieen karpeta: Ezin da informaziorik"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Seriearen estiloa:"
 
 msgid "Show"
-msgstr ""
+msgstr "Erakutsi"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Erakutsi atzealdeak:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Erakutsi filmaren karpetaren zerrenda:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Erakutsi telebista atzeko planoan (m1v ez):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Eman izena TMDB-n eta sartu doako ApiKey pertsonala"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Eman izena TheTVDb-en eta sartu doako ApiKey pertsonala"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Hasi plugina bideo-botoiarekin:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Gelditu botoia: Markatu filma ikusi bezala"
 
 msgid "Style"
-msgstr ""
+msgstr "Estiloa"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "TMDB API gakoa behar bezala inportatu da!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "TMDb emaitzak"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "TMDb/TheTVDb hizkuntza:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Testu-botoia: Editatu datu-basea"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "TVDb API gakoa behar bezala inportatu da!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "TheTVDb emaitzak"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Tenporizadorearen datu-basearen eguneratzea:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Aldatu plugin-estiloa"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Aldatu ezkutatu/erakutsi plugina"
 
 msgid "Update"
-msgstr ""
+msgstr "Eguneratu"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Eguneratu datu-basea tenporizadorearekin:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Eguneratu seriea"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Erabili m1v Backdrops:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Bideo-botoia: Eguneratu datu-basea"
 
 msgid "Years:"
-msgstr ""
+msgstr "Urteak:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Bai"
 
 msgid "backdrop"
-msgstr ""
+msgstr "atzealdea"
 
 msgid "banner"
-msgstr ""
+msgstr "pankarta"
 
 msgid "movie"
-msgstr ""
+msgstr "pelikula"
 
 msgid "poster"
-msgstr ""
+msgstr "kartela"
 
 msgid "series"
-msgstr ""
+msgstr "seriea"

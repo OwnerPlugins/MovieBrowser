@@ -17,391 +17,391 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "******* Fliekblaaier-databasisopdateringteller******\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "******* Fliekblaaier-databasisopdatering*******\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Knoppie: Gaan na eerste letter"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Lys van fliekgids>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Akteur Keuse"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Akteurs:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Alle /tmp/posters Skoongemaak"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Outomatiese"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Rugsteun databasis:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Swartlys flieklêer"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Knoppie 0: Gaan na die einde van die lys"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Knoppie 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Knoppie 2: Hernu inligting oor TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Knoppie 3: Hernu inligting op TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Knoppie 4: Versteek/wys gesiene flieks"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Knoppie 5: Wissel flieks/reeksaansig"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Knoppie 6: Fliekvouerkeuse"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Knoppie 7: Keuse van fliekregisseur"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Knoppie 8: Keuse van rolprentakteur"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Knoppie 9: Fliek Genre Keuse"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Kasgids:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Kanselleer"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Kies Gids"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Kies gids:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Maak kas-lêergids opruim"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Skoonmaakkaslêergids:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Land:"
 
 msgid "Database"
-msgstr ""
+msgstr "Databasis"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Databasisredakteur:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Databasis Timer Log"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Databasisopdateringslogboek"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Databasisopdatering-afteller gestop: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Vee flieklêer uit"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Direkteur Keuse"
 
 msgid "Director:"
-msgstr ""
+msgstr "Direkteur:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Laai nuwe agtergronde af:"
 
 msgid "EPISODES"
 msgstr ""
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Kon nie kasvouer skuif nie: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Lêer %s nie gevind nie!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Lêer %s nie gevind nie!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Gidseuse"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Vrye spasie"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Vrye spasie:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Genre Keuse"
 
 msgid "Genres:"
 msgstr ""
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Gaan na laaste fliek by begin:"
 
 msgid "Help"
 msgstr ""
 
 msgid "Hide"
-msgstr ""
+msgstr "Versteek"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Versteek inprop tydens opdatering:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Info-knoppie"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Info-knoppie: Wissel wys/versteek inligting"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Laai TMDB Apikey vanaf /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Laai TheTVDb Apikey vanaf /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Laai laaste seleksie/filter by begin:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "FLIEKS"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Bestuur jou flieks en reekse V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Metrix Lys Keuse Kleur:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Filmblaaiersleutelopdrag"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Fliekskeppingsdatum stygende"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Fliekskeppingsdatum daal"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Fliekdatabasisopdatering het begin: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Filmlêerinligting"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Filmgids"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Fliekgids styg"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Fliekgids daal"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Filmgidskeuse"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Fliekgids:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Fliekgradering 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Fliekgradering 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Fliekvrystellingsdatum styg"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Fliekvrystellingsdatum daal"
 
 msgid "Movie Runtime Ascending"
 msgstr ""
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Film Runtime Descending"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Fliek sorteer volgorde:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Fliektitel A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Fliektitel Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Flieks"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Flieks en reekse"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Flieksstyl:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Flieks of reekskeuse aan die begin:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Flieks of reekse:"
 
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Op databasisopdatering"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Op Eerste Toegang"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Inprop-deursigtigheid:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Inprop in Enigma Menu:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Plakkaatmuur/agtergrond wys plot:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Radioknoppie: Vee uit/swartlys fliek"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Gradering:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Regtig toemaak sonder om instellings te stoor?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Stel databasis terug:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Herstel databasis:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "Looptyd:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "REEKS"
 
 msgid "Save"
-msgstr ""
+msgstr "Stoor"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Kies vel * Herbegin GUI vereis:"
 
 msgid "Series"
-msgstr ""
+msgstr "Reeks"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Reeks episodes"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Reeksgids: Geen inligting moontlik nie"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Reeks Styl:"
 
 msgid "Show"
-msgstr ""
+msgstr "Wys"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Wys agtergronde:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Wys lys van fliekgids:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Wys TV in agtergrond (geen m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Registreer op TMDB en voer gratis persoonlike ApiKey in"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Registreer op TheTVDb en voer gratis persoonlike ApiKey in"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Begin inprop met video-knoppie:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Stop-knoppie: Merk fliek soos gesien"
 
 msgid "Style"
-msgstr ""
+msgstr "Styl"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "TMDB API-sleutel suksesvol ingevoer!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "TMDb resultate"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "TMDb/TheTVDb Taal:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Teksknoppie: Wysig databasis"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "DieTVDb API-sleutel suksesvol ingevoer!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "DieTVDb-resultate"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Timer-databasisopdatering:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Wissel inpropstyl"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Wissel versteek/wys inprop"
 
 msgid "Update"
-msgstr ""
+msgstr "Dateer op"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Dateer databasis op met timer:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Dateer reeks op"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Gebruik m1v agtergronde:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Video-knoppie: Dateer databasis op"
 
 msgid "Years:"
-msgstr ""
+msgstr "Jare:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 msgid "backdrop"
-msgstr ""
+msgstr "agtergrond"
 
 msgid "banner"
-msgstr ""
+msgstr "banier"
 
 msgid "movie"
-msgstr ""
+msgstr "fliek"
 
 msgid "poster"
-msgstr ""
+msgstr "plakkaat"
 
 msgid "series"
-msgstr ""
+msgstr "reeks"

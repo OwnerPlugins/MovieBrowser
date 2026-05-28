@@ -17,217 +17,217 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******Beroka Fîlmê Demjimêra Nûvekirina Danegeha Fîlmê********\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******Nûvekirina Databasa Geroka Fîlmê********\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Bişkok: Biçe tîpa yekem"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Lîsteya Peldanka Fîlmê>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Hilbijartina Lîstikvan"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Lîstikvan:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Hemî /tmp/poster paqij kirin"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Otomatîkî"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Database Backup:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Pelê Fîlim Lîsteya Reş"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Bişkojk 0: Biçe dawiya navnîşê"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Bişkojk 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Bişkojk 2: Agahiyên li ser TMDb nûve bikin"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Bişkojk 3: Agahiyên li ser TheTVDb nûve bikin"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Bişkojk 4: Fîlimên hatine dîtin veşêrin/nîşan bidin"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Bişkojk 5: Dîtina Fîlim/Rêzeyê biguherîne"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Bişkojk 6: Hilbijartina Peldanka Fîlm"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Bişkojk 7: Hilbijartina Derhênerê Fîlmê"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Bişkojk 8: Hilbijartina Lîstikvanê Fîlmê"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Bişkojk 9: Hilbijartina Genre Fîlm"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Peldanka Cache:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Bişûndekirin"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Peldanka hilbijêrin"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Peldanka hilbijêrin:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Têketin Peldanka Cache Paqij bike"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Peldanka Cache Paqij bike:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Welat:"
 
 msgid "Database"
 msgstr ""
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Edîtorê Databasê:"
 
 msgid "Database Timer Log"
 msgstr ""
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Têketinê Nûvekirina Database"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Demjimêra Nûvekirina Databasê rawestiya: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Pelê Fîlmê jêbirin"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Hilbijartina Derhêner"
 
 msgid "Director:"
-msgstr ""
+msgstr "Serek:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Backdropsên nû dakêşin:"
 
 msgid "EPISODES"
 msgstr ""
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Di veguheztina peldanka cache de çewtî: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Pela %s nehat dîtin!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Pela %s nehat dîtin!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Hilbijartina Peldanka"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Cihê Azad"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Cihê Azad:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Hilbijartina Genre"
 
 msgid "Genres:"
 msgstr ""
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Di Destpêkê de Fîlma dawîn Bigerin:"
 
 msgid "Help"
-msgstr ""
+msgstr "Alîkarî"
 
 msgid "Hide"
-msgstr ""
+msgstr "Veşartin"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Di dema Nûvekirinê de Pêvekê veşêre:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Bişkojka Agahdariyê"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Bişkojka Agahdariyê: Agahdariyê nîşan bide/veşêre"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "TMDB Apikey ji /tmp/tmdb_api.txt bar bike"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "TheTVDb Apikey ji /tmp/thetvdb_api.txt bar bike"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Hilbijartina paşîn / Parzûna di Destpêkê de bar bike:"
 
 msgid "MOVIES"
 msgstr ""
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Fîlm û Rêzefîlmên xwe V.%s bi rêve bibin"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Rengê Hilbijartina Lîsteya Metrix:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Peywira Key Browser Movie"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Dîroka Çêkirina Fîlmê Çêbûn"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Dîroka Afirandina Fîlmê Dakeve"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Nûvekirina Daneya Fîlmê dest pê kir: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Agahiyên Pelê Fîlmê"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Peldanka Fîlm"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Fîlm Peldanka Hilkişîn"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Fîlm Peldanka Dakeve"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Hilbijartina Peldanka Fîlm"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Peldanka Fîlmê:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Rêjeya Fîlm 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Rêjeya Fîlm 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Dîroka Weşana Fîlmê Hilkişîn"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Dîroka Weşana Fîlmê Dakeve"
 
 msgid "Movie Runtime Ascending"
 msgstr ""
@@ -236,172 +236,172 @@ msgid "Movie Runtime Descending"
 msgstr ""
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Rêzkirina Cûreya Fîlmê:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Sernavê Fîlmê A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Sernavê Fîlmê Z-A"
 
 msgid "Movies"
 msgstr ""
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Fîlm & Rêzefîlm"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Şêweya Fîlman:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Hilbijartina Fîlim an Rêzefîlmê Di Destpêkê de:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Fîlm an Rêzefîlm:"
 
 msgid "No"
-msgstr ""
+msgstr "Na"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Li ser Nûvekirina Database"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Li ser Yekem Têketinê"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Zelalbûna Plugin:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Pêvek di menuya Enigma de:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Pîvana Nîşandana Posterwallê/Backdrop:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Bişkojka Radyo: Fîlim jêbirin/Lîsteya Reş"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Nirxandin:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Bi rastî bêyî tomarkirina mîhengan bigire?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Database vegerîne:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Database vegerîne:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "Dema xebitandinê:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "DORANÎ"
 
 msgid "Save"
-msgstr ""
+msgstr "Rizgarkirin"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Çermê hilbijêre * GUI-ya ji nû ve bidin destpêkirin:"
 
 msgid "Series"
-msgstr ""
+msgstr "Doranî"
 
 msgid "Series Episodes"
 msgstr ""
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Peldanka Rêzeyê: Agahî tune"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Şêweya Rêzefîlmê:"
 
 msgid "Show"
-msgstr ""
+msgstr "Rêdan"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Paşnavan nîşan bide:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Lîsteya Peldanka Fîlmê nîşan bide:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "TV-yê li paşnavê nîşan bide (bê m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Li ser TMDB qeyd bikin û ApiKey kesane ya belaş têkevin"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Li ser TheTVDb qeyd bikin û ApiKey kesane ya belaş têkevin"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Pêveka bi Bişkojka Vîdyoyê Destpêkirin:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Bişkojka Rawestandinê: Fîlm wekî ku tê dîtin nîşan bikin"
 
 msgid "Style"
-msgstr ""
+msgstr "Awayî"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "Mifteya API-ya TMDB bi serfirazî hate import kirin!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "Encamên TMDb"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "TMDb/TheTVDb Ziman:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Bişkojka Nivîsar: Biguherîne Database"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "Mifteya API-ê TVDb bi serfirazî hate import kirin!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "Encamên TheTVDb"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Nûvekirina Daneya Demjimêr:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Şêweya Pêvekê Bike"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Pêveka veşêre/nîşandan biguherîne"
 
 msgid "Update"
-msgstr ""
+msgstr "Nûvekirin"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Database bi Timer re nûve bikin:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Series nûve bikin"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Paşnavên m1v bikar bînin:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Bişkojka Vîdyoyê: Database Nûve bikin"
 
 msgid "Years:"
-msgstr ""
+msgstr "Sal:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Erê"
 
 msgid "backdrop"
-msgstr ""
+msgstr "paşperdeya"
 
 msgid "banner"
-msgstr ""
+msgstr "pankart"
 
 msgid "movie"
-msgstr ""
+msgstr "fîlm"
 
 msgid "poster"
-msgstr ""
+msgstr "afîş"
 
 msgid "series"
-msgstr ""
+msgstr "doranî"

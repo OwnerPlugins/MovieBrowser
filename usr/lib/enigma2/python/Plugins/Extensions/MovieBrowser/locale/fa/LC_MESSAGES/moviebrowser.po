@@ -17,391 +17,391 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******تایمر به روز رسانی پایگاه داده مرورگر فیلم********\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******به روز رسانی پایگاه داده مرورگر فیلم********\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "دکمه <- ->: به حرف اول بروید"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<لیست پوشه فیلم>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "انتخاب بازیگر"
 
 msgid "Actors:"
-msgstr ""
+msgstr "بازیگران:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "همه /tmp/پوسترها پاک شدند"
 
 msgid "Automatic"
-msgstr ""
+msgstr "خودکار"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "پایگاه داده پشتیبان:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "فایل فیلم لیست سیاه"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "دکمه 0: به انتهای لیست بروید"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "دکمه 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "دکمه 2: تمدید اطلاعات در TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "دکمه 3: تمدید اطلاعات در TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "دکمه 4: پنهان کردن/نمایش فیلم های دیده شده"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "دکمه 5: نمایش فیلم/سریال را تغییر دهید"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "دکمه 6: انتخاب پوشه فیلم"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "دکمه 7: انتخاب کارگردان فیلم"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "دکمه 8: انتخاب بازیگر فیلم"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "دکمه 9: انتخاب ژانر فیلم"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "پوشه کش:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "لغو کنید"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "دایرکتوری را انتخاب کنید"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "دایرکتوری را انتخاب کنید:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "پاک کردن گزارش پوشه کش"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "پاک کردن پوشه کش:"
 
 msgid "Country:"
-msgstr ""
+msgstr "کشور:"
 
 msgid "Database"
-msgstr ""
+msgstr "پایگاه داده"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "ویرایشگر پایگاه داده:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "گزارش تایمر پایگاه داده"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "گزارش به روز رسانی پایگاه داده"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "تایمر به‌روزرسانی پایگاه داده متوقف شد: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "حذف فایل فیلم"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "انتخاب کارگردان"
 
 msgid "Director:"
-msgstr ""
+msgstr "کارگردان:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "دانلود Backdrops جدید:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "اپیزودها"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "خطا در انتقال پوشه حافظه پنهان: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "فایل %s یافت نشد!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "فایل %s یافت نشد!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "انتخاب پوشه"
 
 msgid "Free Space"
-msgstr ""
+msgstr "فضای آزاد"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "فضای آزاد:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "انتخاب ژانر"
 
 msgid "Genres:"
-msgstr ""
+msgstr "ژانرها:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "رفتن به آخرین فیلم در شروع:"
 
 msgid "Help"
-msgstr ""
+msgstr "کمک کنید"
 
 msgid "Hide"
-msgstr ""
+msgstr "پنهان کردن"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "پنهان کردن افزونه در حین به روز رسانی:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "دکمه اطلاعات"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "دکمه اطلاعات: نمایش/پنهان کردن اطلاعات را تغییر دهید"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Apikey TMDB را از /tmp/tmdb_api.txt بارگیری کنید"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "TheTVDb Apikey را از /tmp/thetvdb_api.txt بارگیری کنید"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "بارگیری آخرین انتخاب/فیلتر در شروع:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "فیلم ها"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "فیلم‌ها و سریال‌های V.%s خود را مدیریت کنید"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "رنگ انتخاب فهرست متریکس:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "تخصیص کلید مرورگر فیلم"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "تاریخ ساخت فیلم صعودی"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "تاریخ ساخت فیلم نزولی است"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "به‌روزرسانی پایگاه داده فیلم شروع شد: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "اطلاعات فایل فیلم"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "پوشه فیلم"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "پوشه فیلم صعودی"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "پوشه فیلم نزولی"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "انتخاب پوشه فیلم"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "پوشه فیلم:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "امتیاز فیلم 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "امتیاز فیلم 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "تاریخ انتشار فیلم صعودی"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "تاریخ انتشار فیلم در حال کاهش است"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "فیلم Runtime Ascending"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "فیلم Runtime Descending"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "ترتیب مرتب سازی فیلم:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "عنوان فیلم A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "عنوان فیلم Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "فیلم ها"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "فیلم و سریال"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "سبک فیلم:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "انتخاب فیلم یا سریال در شروع:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "فیلم یا سریال:"
 
 msgid "No"
-msgstr ""
+msgstr "خیر"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "در به روز رسانی پایگاه داده"
 
 msgid "On First Access"
-msgstr ""
+msgstr "در اولین دسترسی"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "شفافیت افزونه:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "افزونه در منوی Enigma:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "طرح نمایش دیوار پوستر/پس زمینه:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "دکمه رادیو: حذف/فیلم لیست سیاه"
 
 msgid "Rating:"
-msgstr ""
+msgstr "رتبه بندی:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "واقعاً بدون ذخیره تنظیمات بسته می شود؟"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "بازنشانی پایگاه داده:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "بازیابی پایگاه داده:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "زمان اجرا:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "سری"
 
 msgid "Save"
-msgstr ""
+msgstr "ذخیره کنید"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "انتخاب پوست *راه‌اندازی مجدد رابط کاربری گرافیکی الزامی است:"
 
 msgid "Series"
-msgstr ""
+msgstr "سری"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "قسمت های سریال"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "پوشه سری: هیچ اطلاعاتی امکان پذیر نیست"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "سبک سریال:"
 
 msgid "Show"
-msgstr ""
+msgstr "نمایش دهید"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "نمایش پس زمینه:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "نمایش لیست پوشه فیلم:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "نمایش تلویزیون در پس‌زمینه (بدون m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "در TMDB ثبت نام کنید و ApiKey شخصی رایگان را وارد کنید"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "در TheTVDb ثبت نام کنید و ApiKey شخصی رایگان را وارد کنید"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "شروع پلاگین با دکمه ویدیو:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "دکمه توقف: علامت گذاری فیلم به عنوان دیده شده"
 
 msgid "Style"
-msgstr ""
+msgstr "سبک"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "کلید TMDB API با موفقیت وارد شد!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "نتایج TMDb"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "زبان TMDb/TheTVDb:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "دکمه متن: ویرایش پایگاه داده"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "کلید API TheTVDb با موفقیت وارد شد!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "نتایج TheTVDb"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "به روز رسانی پایگاه داده تایمر:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "تغییر سبک پلاگین"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "پلاگین پنهان/نمایش را تغییر دهید"
 
 msgid "Update"
-msgstr ""
+msgstr "به روز رسانی"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "به روز رسانی پایگاه داده با تایمر:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "به روز رسانی سری"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "استفاده از پس زمینه m1v:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "دکمه ویدیو: به روز رسانی پایگاه داده"
 
 msgid "Years:"
-msgstr ""
+msgstr "سالها:"
 
 msgid "Yes"
-msgstr ""
+msgstr "بله"
 
 msgid "backdrop"
-msgstr ""
+msgstr "پس زمینه"
 
 msgid "banner"
-msgstr ""
+msgstr "بنر"
 
 msgid "movie"
-msgstr ""
+msgstr "فیلم"
 
 msgid "poster"
-msgstr ""
+msgstr "پوستر"
 
 msgid "series"
-msgstr ""
+msgstr "سری"

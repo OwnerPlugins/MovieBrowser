@@ -18,391 +18,391 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******Film Tarayıcı Veritabanı Güncelleme Zamanlayıcısı*******\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*****Film Tarayıcı Veritabanı Güncellemesi********\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Düğme: İlk harfe git"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Film Klasörü Listesi>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Oyuncu Seçimi"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Aktörler:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Tüm /tmp/posterler Temizlendi"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Otomatik"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Veritabanını Yedekle:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Kara Liste Film Dosyası"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Düğme 0: Listenin sonuna git"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Düğme 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Düğme 2: TMDb'deki bilgileri yenileyin"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "3. Düğme: TheTVDb'deki bilgileri yenileyin"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Düğme 4: Görülen filmleri gizle/göster"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Düğme 5: Filmler/Dizi görünümünü değiştir"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Düğme 6: Film Klasörü Seçimi"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Düğme 7: Film Yönetmeni Seçimi"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Düğme 8: Film Aktörü Seçimi"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Düğme 9: Film Türü Seçimi"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Önbellek Klasörü:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "İptal etmek"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Dizin Seçin"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Dizin Seçin:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Önbellek Klasör Günlüğünü Temizleme"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Temizleme Önbellek Klasörü:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Ülke:"
 
 msgid "Database"
-msgstr ""
+msgstr "Veritabanı"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Veritabanı Düzenleyicisi:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Veritabanı Zamanlayıcı Günlüğü"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Veritabanı Güncelleme Günlüğü"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Veritabanı Güncelleme Zamanlayıcısı durduruldu: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Film Dosyasını Sil"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Yönetmen Seçimi"
 
 msgid "Director:"
-msgstr ""
+msgstr "Müdür:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Yeni Arka Planları İndirin:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "BÖLÜMLER"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Önbellek klasörü taşınırken hata oluştu: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "%s dosyası bulunamadı!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "%s dosyası bulunamadı!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Klasör Seçimi"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Boş Alan"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Boş Alan:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Tür Seçimi"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Türler:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Başlangıçtaki son Filme git:"
 
 msgid "Help"
-msgstr ""
+msgstr "Yardım"
 
 msgid "Hide"
-msgstr ""
+msgstr "Saklamak"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Güncelleme Sırasında Eklentiyi Gizle:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Bilgi Düğmesi"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Bilgi Düğmesi: Bilgileri gösterme/gizleme arasında geçiş yapın"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "TMDB Apikey'i /tmp/tmdb_api.txt adresinden yükleyin"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "TheTVDb Apikey'i /tmp/thetvdb_api.txt adresinden yükleyin"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Başlangıçta Son Seçimi/Filtreyi Yükle:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "FİLMLER"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Filmlerinizi ve Dizilerinizi Yönetin V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Metrik Listesi Seçim Rengi:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Film Tarayıcı Tuş Ataması"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Film Oluşturma Tarihi Artan"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Film Oluşturma Tarihi Azalan"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Film Veritabanı Güncellemesi başladı: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Film Dosya Bilgileri"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Film Klasörü"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Film Klasörü Artan"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Film Klasörü Azalan"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Film Klasörü Seçimi"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Film Klasörü:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Film Derecelendirmesi 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Film Derecelendirmesi 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Filmin Çıkış Tarihi Artan"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Filmin Çıkış Tarihi Azalan"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Film Çalışma Zamanı Artan"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Film Çalışma Zamanı Azalan"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Film Sıralama Düzeni:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Film Adı A'dan Z'ye"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Film Adı Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Filmler"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Filmler ve Diziler"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Film Tarzı:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Başlangıçta Film veya Dizi Seçimi:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Filmler veya Diziler:"
 
 msgid "No"
-msgstr ""
+msgstr "HAYIR"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Veritabanı Güncellemesinde"
 
 msgid "On First Access"
-msgstr ""
+msgstr "İlk Erişimde"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Eklenti Şeffaflığı:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Enigma Menüsünde Eklenti:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Poster Duvarı/Arka Plan Gösterisi Konusu:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Radyo Düğmesi: Filmi Sil/Kara Listeye Al"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Değerlendirme:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Ayarları kaydetmeden gerçekten kapatılsın mı?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Veritabanını Sıfırla:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Veritabanını Geri Yükle:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "Çalışma zamanı:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "SERİ"
 
 msgid "Save"
-msgstr ""
+msgstr "Kaydetmek"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Görünümü seçin *GUI'yi yeniden başlatın Gerekli:"
 
 msgid "Series"
-msgstr ""
+msgstr "Seri"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Dizi Bölümleri"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Seri Klasörü: Bilgi Yok mümkün"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Seri Stili:"
 
 msgid "Show"
-msgstr ""
+msgstr "Göstermek"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Arka Planları Göster:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Film Klasörü Listesini Göster:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "TV'yi Arka Planda Göster (m1v yok):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "TMDB'ye kaydolun ve ücretsiz kişisel ApiKey'i girin"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "TheTVDb'ye kaydolun ve ücretsiz kişisel ApiKey'i girin"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Eklentiyi Video Düğmesiyle Başlatın:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Durdurma Düğmesi: Filmi görüldüğü gibi işaretle"
 
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "TMDB API anahtarı başarıyla içe aktarıldı!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "TMDb Sonuçları"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "TMDb/TheTVDb Dili:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Metin Düğmesi: Veritabanını Düzenle"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "TheTVDb API anahtarı başarıyla içe aktarıldı!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "TheTVDb Sonuçları"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Zamanlayıcı Veritabanı Güncellemesi:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Eklenti Stilini Değiştir"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Eklentiyi gizle/göster arasında geçiş yap"
 
 msgid "Update"
-msgstr ""
+msgstr "Güncelleme"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Veritabanını Zamanlayıcıyla Güncelleyin:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Seriyi Güncelle"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "m1v Arka Planlarını kullanın:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Video Düğmesi: Veritabanını Güncelle"
 
 msgid "Years:"
-msgstr ""
+msgstr "Yıllar:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Evet"
 
 msgid "backdrop"
-msgstr ""
+msgstr "zemin"
 
 msgid "banner"
-msgstr ""
+msgstr "afiş"
 
 msgid "movie"
-msgstr ""
+msgstr "film"
 
 msgid "poster"
 msgstr ""
 
 msgid "series"
-msgstr ""
+msgstr "seri"

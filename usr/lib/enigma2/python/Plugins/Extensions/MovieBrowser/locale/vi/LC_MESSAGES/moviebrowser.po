@@ -18,391 +18,391 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "*******Bộ hẹn giờ cập nhật cơ sở dữ liệu trình duyệt phim*********\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "*******Cập nhật cơ sở dữ liệu trình duyệt phim*********\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> Nút: Đi tới chữ cái đầu tiên"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Danh sách thư mục phim>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Lựa chọn diễn viên"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Diễn viên:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Tất cả /tmp/posters đã được làm sạch"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Tự động"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Cơ sở dữ liệu sao lưu:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Tệp phim danh sách đen"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Nút 0: Về cuối danh sách"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Nút 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Nút 2: Gia hạn thông tin trên TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Nút 3: Cập nhật thông tin trên TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Nút 4: Ẩn/hiện phim đã xem"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Nút 5: Chuyển đổi chế độ xem Phim/Phim bộ"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Nút 6: Chọn thư mục phim"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Nút 7: Lựa chọn đạo diễn phim"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Nút 8: Lựa chọn diễn viên điện ảnh"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Nút 9: Lựa chọn thể loại phim"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Thư mục bộ đệm:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Hủy bỏ"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Chọn thư mục"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Chọn thư mục:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Nhật ký thư mục bộ đệm dọn dẹp"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Dọn dẹp thư mục bộ đệm:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Quốc gia:"
 
 msgid "Database"
-msgstr ""
+msgstr "Cơ sở dữ liệu"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Trình soạn thảo cơ sở dữ liệu:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Nhật ký hẹn giờ cơ sở dữ liệu"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Nhật ký cập nhật cơ sở dữ liệu"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Bộ hẹn giờ cập nhật cơ sở dữ liệu đã dừng: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Xóa tập tin phim"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Tuyển chọn giám đốc"
 
 msgid "Director:"
-msgstr ""
+msgstr "Giám đốc:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Tải xuống Phông nền mới:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "TẬP"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Lỗi di chuyển thư mục bộ đệm: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Không tìm thấy tập tin %s!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Không tìm thấy tập tin %s!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Lựa chọn thư mục"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Không gian trống"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Không gian trống:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Lựa chọn thể loại"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Thể loại:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Xem phim cuối cùng khi bắt đầu:"
 
 msgid "Help"
-msgstr ""
+msgstr "Giúp đỡ"
 
 msgid "Hide"
-msgstr ""
+msgstr "Trốn"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Ẩn Plugin trong khi cập nhật:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Nút thông tin"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Nút thông tin: Chuyển đổi hiển thị/ẩn thông tin"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Tải Apikey TMDB từ /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Tải TheTVDb Apikey từ /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Tải Lựa chọn/Bộ lọc cuối cùng khi bắt đầu:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "PHIM"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Quản lý Phim & Bộ phim V.%s của bạn"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Màu lựa chọn danh sách Metrix:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Gán phím trình duyệt phim"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Ngày tạo phim tăng dần"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Ngày tạo phim giảm dần"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Đã bắt đầu cập nhật cơ sở dữ liệu phim: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Thông tin tập tin phim"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Thư mục phim"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Thư mục phim tăng dần"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Thư mục phim giảm dần"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Lựa chọn thư mục phim"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Thư mục phim:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Xếp hạng phim 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Xếp hạng phim 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Ngày phát hành phim tăng dần"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Ngày phát hành phim giảm dần"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Thời gian chạy phim tăng dần"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Thời lượng phim giảm dần"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Thứ tự sắp xếp phim:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Tiêu Đề Phim A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Tên Phim Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Phim"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Phim & Series"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Phong cách phim:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Lựa chọn phim hoặc sê-ri khi bắt đầu:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Phim hoặc Series:"
 
 msgid "No"
-msgstr ""
+msgstr "KHÔNG"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Về cập nhật cơ sở dữ liệu"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Khi truy cập lần đầu"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Tính minh bạch của plugin:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Plugin trong Menu Enigma:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "Cốt truyện hiển thị Posterwall/Backdrop:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Nút Radio: Xóa/danh sách đen phim"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Đánh giá:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Thực sự đóng mà không lưu cài đặt?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Đặt lại cơ sở dữ liệu:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Khôi phục cơ sở dữ liệu:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "Thời gian chạy:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "LOẠT"
 
 msgid "Save"
-msgstr ""
+msgstr "Cứu"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Chọn giao diện *Yêu cầu khởi động lại GUI:"
 
 msgid "Series"
-msgstr ""
+msgstr "Loạt"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Tập phim"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Thư mục sê-ri: Không thể có thông tin"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Loạt Phong Cách:"
 
 msgid "Show"
-msgstr ""
+msgstr "Trình diễn"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Hiển thị phông nền:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Hiển thị danh sách thư mục phim:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Hiển thị TV ở chế độ nền (không có m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Đăng ký trên TMDB và nhập ApiKey cá nhân miễn phí"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Đăng ký trên TheTVDb và nhập ApiKey cá nhân miễn phí"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Bắt đầu Plugin bằng nút Video:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Nút Dừng: Đánh dấu phim là đã xem"
 
 msgid "Style"
-msgstr ""
+msgstr "Phong cách"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "Khóa API TMDB đã được nhập thành công!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "Kết quả TMDb"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "Ngôn ngữ TMDb/TheTVDb:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Nút văn bản: Chỉnh sửa cơ sở dữ liệu"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "Khóa API TVDb đã được nhập thành công!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "Kết quả TheTVDb"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Cập nhật cơ sở dữ liệu hẹn giờ:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Chuyển đổi kiểu plugin"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Chuyển đổi plugin ẩn/hiển thị"
 
 msgid "Update"
-msgstr ""
+msgstr "Cập nhật"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Cập nhật cơ sở dữ liệu với bộ đếm thời gian:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Cập nhật loạt bài"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Sử dụng Phông nền m1v:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Nút Video: Cập nhật cơ sở dữ liệu"
 
 msgid "Years:"
-msgstr ""
+msgstr "Năm:"
 
 msgid "Yes"
-msgstr ""
+msgstr "Đúng"
 
 msgid "backdrop"
-msgstr ""
+msgstr "bối cảnh"
 
 msgid "banner"
-msgstr ""
+msgstr "ngọn cờ"
 
 msgid "movie"
-msgstr ""
+msgstr "bộ phim"
 
 msgid "poster"
-msgstr ""
+msgstr "áp phích"
 
 msgid "series"
-msgstr ""
+msgstr "loạt"

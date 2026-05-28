@@ -18,391 +18,391 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "******** Časovač aktualizácie databázy prehliadača filmov********\n"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "******** Aktualizácia databázy prehliadača filmov********\n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "Tlačidlo <- ->: Prejsť na prvé písmeno"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<Zoznam priečinka filmu>"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "Výber herca"
 
 msgid "Actors:"
-msgstr ""
+msgstr "Herci:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "Všetky /tmp/posters vyčistené"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automaticky"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "Záložná databáza:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "Súbor filmu na čiernej listine"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "Tlačidlo 0: Prejsť na koniec zoznamu"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "Tlačidlo 1: CutListEditor/MovieCut/LogView"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "Tlačidlo 2: Obnoviť informácie na TMDb"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "Tlačidlo 3: Obnoviť informácie na TheTVDb"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "Tlačidlo 4: Skryť/zobraziť sledované filmy"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "Tlačidlo 5: Prepínanie zobrazenia filmov/seriálov"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "Tlačidlo 6: Výber priečinka filmu"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "Tlačidlo 7: Výber filmového režiséra"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "Tlačidlo 8: Výber filmového herca"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "Tlačidlo 9: Výber žánru filmu"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "Priečinok vyrovnávacej pamäte:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušiť"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "Vyberte položku Adresár"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Vyberte adresár:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Vyčistenie denníka priečinka vyrovnávacej pamäte"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Vyčistiť priečinok vyrovnávacej pamäte:"
 
 msgid "Country:"
-msgstr ""
+msgstr "Krajina:"
 
 msgid "Database"
-msgstr ""
+msgstr "Databáza"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "Editor databázy:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "Denník časovača databázy"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "Denník aktualizácie databázy"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "Časovač aktualizácie databázy zastavený: %s\n"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "Odstrániť filmový súbor"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "Výber režiséra"
 
 msgid "Director:"
-msgstr ""
+msgstr "riaditeľ:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "Stiahnite si nové kulisy:"
 
 msgid "EPISODES"
-msgstr ""
+msgstr "EPIZODY"
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "Chyba pri presúvaní priečinka vyrovnávacej pamäte: %s"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "Súbor %s sa nenašiel!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "Súbor %s sa nenašiel!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "Výber priečinka"
 
 msgid "Free Space"
-msgstr ""
+msgstr "Voľný priestor"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Voľný priestor:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "Výber žánru"
 
 msgid "Genres:"
-msgstr ""
+msgstr "Žánre:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "Prejsť na posledný film na začiatku:"
 
 msgid "Help"
-msgstr ""
+msgstr "Pomoc"
 
 msgid "Hide"
-msgstr ""
+msgstr "Skryť"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "Skryť doplnok počas aktualizácie:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "Tlačidlo Info"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "Tlačidlo Info: Prepína zobrazenie/skrytie informácií"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "Načítajte TMDB Apikey z /tmp/tmdb_api.txt"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "Načítajte TheTVDb Apikey z /tmp/thetvdb_api.txt"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "Načítať posledný výber/filtrovať pri štarte:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "FILMY"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "Spravujte svoje filmy a seriály V.%s"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "Farba výberu zoznamu metriky:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "Priradenie kľúča prehliadača filmov"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "Dátum vytvorenia filmu vzostupne"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "Dátum vytvorenia filmu zostupne"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "Aktualizácia filmovej databázy sa začala: %s\n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "Informácie o súbore filmu"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "Filmový priečinok"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "Priečinok filmu Vzostupne"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "Priečinok filmu zostupne"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "Výber priečinka filmu"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "Priečinok filmu:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "Hodnotenie filmu 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "Hodnotenie filmu 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "Dátum vydania filmu vzostupne"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "Dátum vydania filmu zostupne"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "Spustenie filmu Vzostupne"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "Spustenie filmu zostupne"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "Poradie zoradenia filmu:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "Názov filmu A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "Názov filmu Z-A"
 
 msgid "Movies"
-msgstr ""
+msgstr "Filmy"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "Filmy a seriály"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "Štýl filmov:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "Výber filmov alebo seriálov na začiatku:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "Filmy alebo seriály:"
 
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "Pri aktualizácii databázy"
 
 msgid "On First Access"
-msgstr ""
+msgstr "Pri prvom prístupe"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "Transparentnosť doplnku:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "Plugin v ponuke Enigma:"
 
 msgid "Posterwall/Backdrop Show Plot:"
 msgstr ""
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "Prepínač: Odstrániť/zo zoznamu zakázaných filmov"
 
 msgid "Rating:"
-msgstr ""
+msgstr "Hodnotenie:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Naozaj zavrieť bez uloženia nastavení?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "Obnoviť databázu:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "Obnoviť databázu:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "Doba spustenia:"
 
 msgid "SERIES"
-msgstr ""
+msgstr "SÉRIA"
 
 msgid "Save"
-msgstr ""
+msgstr "Uložiť"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "Vyberte vzhľad *Vyžaduje sa reštart GUI:"
 
 msgid "Series"
-msgstr ""
+msgstr "séria"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "Epizódy série"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "Priečinok série: Nie sú možné žiadne informácie"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "Štýl série:"
 
 msgid "Show"
-msgstr ""
+msgstr "Zobraziť"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "Zobraziť kulisy:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "Zobraziť zoznam priečinka s filmom:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "Zobraziť TV na pozadí (bez m1v):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "Zaregistrujte sa na TMDB a zadajte bezplatný osobný kľúč ApiKey"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "Zaregistrujte sa na TheTVDb a zadajte bezplatný osobný kľúč ApiKey"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "Spustite doplnok pomocou tlačidla videa:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "Tlačidlo Stop: Označí film ako videný"
 
 msgid "Style"
-msgstr ""
+msgstr "štýl"
 
 msgid "TMDB API key successfully imported!"
-msgstr ""
+msgstr "Kľúč API TMDB bol úspešne importovaný!"
 
 msgid "TMDb Results"
-msgstr ""
+msgstr "Výsledky TMDb"
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "Jazyk TMDb/TheTVDb:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "Textové tlačidlo: Upraviť databázu"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "Kľúč API TVDb bol úspešne importovaný!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "Výsledky TVDb"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "Aktualizácia databázy časovača:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "Prepnúť štýl doplnku"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "Prepnúť doplnok skryť/zobraziť"
 
 msgid "Update"
-msgstr ""
+msgstr "Aktualizovať"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "Aktualizácia databázy pomocou časovača:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "Aktualizovať sériu"
 
 msgid "Use m1v Backdrops:"
-msgstr ""
+msgstr "Použiť kulisy m1v:"
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "Video tlačidlo: Aktualizácia databázy"
 
 msgid "Years:"
-msgstr ""
+msgstr "Roky:"
 
 msgid "Yes"
-msgstr ""
+msgstr "áno"
 
 msgid "backdrop"
-msgstr ""
+msgstr "pozadie"
 
 msgid "banner"
 msgstr ""
 
 msgid "movie"
-msgstr ""
+msgstr "film"
 
 msgid "poster"
-msgstr ""
+msgstr "plagát"
 
 msgid "series"
-msgstr ""
+msgstr "séria"

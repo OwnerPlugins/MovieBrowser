@@ -17,331 +17,331 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "*******Movie Browser Database Update Timer*******\n"
-msgstr ""
+msgstr "******* ଚଳଚ୍ଚିତ୍ର ବ୍ରାଉଜର୍ ଡାଟାବେସ୍ ଅପଡେଟ୍ ଟାଇମର୍ ******* \ n |"
 
 msgid "*******Movie Browser Database Update*******\n"
-msgstr ""
+msgstr "******* ଚଳଚ୍ଚିତ୍ର ବ୍ରାଉଜର୍ ଡାଟାବେସ୍ ଅଦ୍ୟତନ ******* \ n"
 
 msgid "<- -> Button: Go to first letter"
-msgstr ""
+msgstr "<- -> ବଟନ୍: ପ୍ରଥମ ଅକ୍ଷରକୁ ଯାଆନ୍ତୁ |"
 
 msgid "<List of Movie Folder>"
-msgstr ""
+msgstr "<ଚଳଚ୍ଚିତ୍ର ଫୋଲ୍ଡରର ତାଲିକା> |"
 
 msgid "Actor Selection"
-msgstr ""
+msgstr "ଅଭିନେତା ଚୟନ |"
 
 msgid "Actors:"
-msgstr ""
+msgstr "ଅଭିନେତା:"
 
 msgid "All /tmp/posters Cleaned"
-msgstr ""
+msgstr "ସମସ୍ତ / tmp / ପୋଷ୍ଟର ସଫା ହୋଇଛି |"
 
 msgid "Automatic"
-msgstr ""
+msgstr "ସ୍ୱୟଂଚାଳିତ |"
 
 msgid "Backup Database:"
-msgstr ""
+msgstr "ବ୍ୟାକଅପ୍ ଡାଟାବେସ୍:"
 
 msgid "Blacklist Movie File"
-msgstr ""
+msgstr "କଳା ତାଲିକା ଚଳଚ୍ଚିତ୍ର ଫାଇଲ୍ |"
 
 msgid "Button 0: Go to end of list"
-msgstr ""
+msgstr "ବଟନ୍ 0: ତାଲିକାର ଶେଷକୁ ଯାଆନ୍ତୁ |"
 
 msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr ""
+msgstr "ବଟନ୍ :: କଟଲିଷ୍ଟ ଏଡିଟର୍ / ମୁଭି କଟ୍ / ଲଗ୍ ଭିଭ୍ |"
 
 msgid "Button 2: Renew infos on TMDb"
-msgstr ""
+msgstr "ବଟନ୍ ୨: TMDb ରେ ଇନଫୋ ରିନ୍ୟୁ କରନ୍ତୁ |"
 
 msgid "Button 3: Renew infos on TheTVDb"
-msgstr ""
+msgstr "ବଟନ୍ :: TheTVDb ରେ ଇନଫୋ ରିନ୍ୟୁ କରନ୍ତୁ |"
 
 msgid "Button 4: Hide/show seen movies"
-msgstr ""
+msgstr "ବଟନ୍ 4: ଦେଖାଯାଇଥିବା ଚଳଚ୍ଚିତ୍ର ଲୁଚାନ୍ତୁ / ଦେଖାନ୍ତୁ |"
 
 msgid "Button 5: Toggle Movies/Series view"
-msgstr ""
+msgstr "ବଟନ୍ :: ଚଳଚ୍ଚିତ୍ର / ସିରିଜ୍ ଦୃଶ୍ୟ ଟୋଗଲ୍ କରନ୍ତୁ |"
 
 msgid "Button 6: Movie Folder Selection"
-msgstr ""
+msgstr "ବଟନ୍ 6: ଚଳଚ୍ଚିତ୍ର ଫୋଲ୍ଡର ଚୟନ |"
 
 msgid "Button 7: Movie Director Selection"
-msgstr ""
+msgstr "ବଟନ୍ 7: ଚଳଚ୍ଚିତ୍ର ନିର୍ଦ୍ଦେଶକ ଚୟନ |"
 
 msgid "Button 8: Movie Actor Selection"
-msgstr ""
+msgstr "ବଟନ୍ 8: ଚଳଚ୍ଚିତ୍ର ଅଭିନେତା ଚୟନ |"
 
 msgid "Button 9: Movie Genre Selection"
-msgstr ""
+msgstr "ବଟନ୍ 9: ଚଳଚ୍ଚିତ୍ର ଧାରା ଚୟନ |"
 
 msgid "Cache Folder:"
-msgstr ""
+msgstr "କ୍ୟାଚ୍ ଫୋଲ୍ଡର୍:"
 
 msgid "Cancel"
-msgstr ""
+msgstr "ବାତିଲ୍ କରନ୍ତୁ |"
 
 msgid "Choose Directory"
-msgstr ""
+msgstr "ଡିରେକ୍ଟୋରୀ ବାଛନ୍ତୁ |"
 
 msgid "Choose Directory:"
-msgstr ""
+msgstr "ଡିରେକ୍ଟୋରୀ ବାଛନ୍ତୁ:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "କ୍ଲିନଅପ୍ କ୍ୟାଚ୍ ଫୋଲ୍ଡର ଲଗ୍ |"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "କ୍ଲିନଅପ୍ କ୍ୟାଚ୍ ଫୋଲ୍ଡର:"
 
 msgid "Country:"
-msgstr ""
+msgstr "ଦେଶ:"
 
 msgid "Database"
-msgstr ""
+msgstr "ଡାଟାବେସ୍"
 
 msgid "Database Editor:"
-msgstr ""
+msgstr "ଡାଟାବେସ୍ ସମ୍ପାଦକ:"
 
 msgid "Database Timer Log"
-msgstr ""
+msgstr "ଡାଟାବେସ୍ ଟାଇମର୍ ଲଗ୍ |"
 
 msgid "Database Update Log"
-msgstr ""
+msgstr "ଡାଟାବେସ୍ ଅପଡେଟ୍ ଲଗ୍ |"
 
 msgid "Database Update Timer stopped: %s\n"
-msgstr ""
+msgstr "ଡାଟାବେସ୍ ଅପଡେଟ୍ ଟାଇମର୍ ବନ୍ଦ ହେଲା:% s \ n |"
 
 msgid "Delete Movie File"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଫାଇଲ୍ ଡିଲିଟ୍ କରନ୍ତୁ |"
 
 msgid "Director Selection"
-msgstr ""
+msgstr "ନିର୍ଦ୍ଦେଶକ ଚୟନ"
 
 msgid "Director:"
-msgstr ""
+msgstr "ନିର୍ଦ୍ଦେଶକ:"
 
 msgid "Download new Backdrops:"
-msgstr ""
+msgstr "ନୂତନ ବ୍ୟାକଡ୍ରପ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ:"
 
 msgid "EPISODES"
 msgstr ""
 
 msgid "Error moving cache folder: %s"
-msgstr ""
+msgstr "କ୍ୟାଚ୍ ଫୋଲ୍ଡର ଚଳାଇବାରେ ତ୍ରୁଟି:% s |"
 
 msgid "File %s non trovato!"
-msgstr ""
+msgstr "ଫାଇଲ୍% s ମିଳିଲା ନାହିଁ!"
 
 msgid "File %s not found!"
-msgstr ""
+msgstr "ଫାଇଲ୍% s ମିଳିଲା ନାହିଁ!"
 
 msgid "Folder Selection"
-msgstr ""
+msgstr "ଫୋଲ୍ଡର ଚୟନ"
 
 msgid "Free Space"
-msgstr ""
+msgstr "ଖାଲି ସ୍ଥାନ |"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "ଖାଲି ସ୍ଥାନ:"
 
 msgid "Genre Selection"
-msgstr ""
+msgstr "ଧାରା ଚୟନ"
 
 msgid "Genres:"
-msgstr ""
+msgstr "ଧାରା:"
 
 msgid "Goto last Movie on Start:"
-msgstr ""
+msgstr "ଆରମ୍ଭରେ ଶେଷ ଚଳଚ୍ଚିତ୍ର:"
 
 msgid "Help"
-msgstr ""
+msgstr "ସାହାଯ୍ୟ"
 
 msgid "Hide"
-msgstr ""
+msgstr "ଲୁଚାନ୍ତୁ |"
 
 msgid "Hide Plugin during Update:"
-msgstr ""
+msgstr "ଅଦ୍ୟତନ ସମୟରେ ପ୍ଲଗଇନ୍ ଲୁଚାନ୍ତୁ:"
 
 msgid "Info Button"
-msgstr ""
+msgstr "ସୂଚନା ବଟନ୍ |"
 
 msgid "Info Button: Toggle show/hide infos"
-msgstr ""
+msgstr "ସୂଚନା ବଟନ୍: ଶୋ ଟୋଗଲ୍ / ଇନଫୋସ୍ ଲୁଚାନ୍ତୁ |"
 
 msgid "Load TMDB Apikey from /tmp/tmdb_api.txt"
-msgstr ""
+msgstr "/Tmp/tmdb_api.txt ରୁ TMDB Apikey ଲୋଡ୍ କରନ୍ତୁ |"
 
 msgid "Load TheTVDb Apikey from /tmp/thetvdb_api.txt"
-msgstr ""
+msgstr "/Tmp/thetvdb_api.txt ରୁ TheTVDb Apikey ଲୋଡ୍ କରନ୍ତୁ |"
 
 msgid "Load last Selection/Filter on Start:"
-msgstr ""
+msgstr "ଆରମ୍ଭରେ ଶେଷ ଚୟନ / ଫିଲ୍ଟର୍ ଲୋଡ୍ କରନ୍ତୁ:"
 
 msgid "MOVIES"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର"
 
 msgid "Manage your Movies & Series V.%s"
-msgstr ""
+msgstr "ଆପଣଙ୍କର ଚଳଚ୍ଚିତ୍ର ଏବଂ ସିରିଜ୍ V.% s ପରିଚାଳନା କରନ୍ତୁ |"
 
 msgid "Metrix List Selection Color:"
-msgstr ""
+msgstr "ମେଟ୍ରିକ୍ସ ତାଲିକା ଚୟନ ରଙ୍ଗ:"
 
 msgid "Movie Browser Key Assignment"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ବ୍ରାଉଜର୍ କି ଆସାଇନମେଣ୍ଟ୍ |"
 
 msgid "Movie Creation Date Ascending"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ନିର୍ମାଣ ତାରିଖ ଆରୋହଣ |"
 
 msgid "Movie Creation Date Descending"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ନିର୍ମାଣ ତାରିଖ ଅବତରଣ |"
 
 msgid "Movie Database Update started: %s\n"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଡାଟାବେସ୍ ଅଦ୍ୟତନ ଆରମ୍ଭ ହେଲା:% s \ n"
 
 msgid "Movie File Informations"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଫାଇଲ ସୂଚନା"
 
 msgid "Movie Folder"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଫୋଲ୍ଡର"
 
 msgid "Movie Folder Ascending"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଫୋଲ୍ଡର ଆରୋହଣ"
 
 msgid "Movie Folder Descending"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଫୋଲ୍ଡର ଅବତରଣ |"
 
 msgid "Movie Folder Selection"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଫୋଲ୍ଡର ଚୟନ |"
 
 msgid "Movie Folder:"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଫୋଲ୍ଡର:"
 
 msgid "Movie Rating 0-10"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ମୂଲ୍ୟାୟନ 0-10"
 
 msgid "Movie Rating 10-0"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ମୂଲ୍ୟାୟନ 10-0"
 
 msgid "Movie Release Date Ascending"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ରିଲିଜ୍ ତାରିଖ ଆରୋହଣ |"
 
 msgid "Movie Release Date Descending"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ରିଲିଜ୍ ତାରିଖ ଅବତରଣ |"
 
 msgid "Movie Runtime Ascending"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଚାଲିବା ସମୟ ଆରୋହଣ |"
 
 msgid "Movie Runtime Descending"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଚାଲିବା ସମୟ ଅବତରଣ |"
 
 msgid "Movie Sort Order:"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ସର୍ଟ ଅର୍ଡର:"
 
 msgid "Movie Title A-Z"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଆଖ୍ୟା A-Z"
 
 msgid "Movie Title Z-A"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଆଖ୍ୟା Z-A |"
 
 msgid "Movies"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର"
 
 msgid "Movies & Series"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଏବଂ ସିରିଜ୍ |"
 
 msgid "Movies Style:"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଶ Style ଳୀ:"
 
 msgid "Movies or Series Selection at Start:"
-msgstr ""
+msgstr "ଆରମ୍ଭରେ ଚଳଚ୍ଚିତ୍ର କିମ୍ବା ସିରିଜ୍ ଚୟନ:"
 
 msgid "Movies or Series:"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର କିମ୍ବା ସିରିଜ୍:"
 
 msgid "No"
-msgstr ""
+msgstr "ନା"
 
 msgid "On Database Update"
-msgstr ""
+msgstr "ଡାଟାବେସ୍ ଅପଡେଟ୍ ରେ |"
 
 msgid "On First Access"
-msgstr ""
+msgstr "ପ୍ରଥମ ଆକ୍ସେସ୍ ଉପରେ |"
 
 msgid "Plugin Transparency:"
-msgstr ""
+msgstr "ପ୍ଲଗଇନ୍ ସ୍ୱଚ୍ଛତା:"
 
 msgid "Plugin in Enigma Menu:"
-msgstr ""
+msgstr "ଏନିଗମା ମେନୁରେ ପ୍ଲଗଇନ୍:"
 
 msgid "Posterwall/Backdrop Show Plot:"
-msgstr ""
+msgstr "ପୋଷ୍ଟରୱାଲ୍ / ବ୍ୟାକଡ୍ରପ୍ ଶୋ ପ୍ଲଟ୍:"
 
 msgid "Radio Button: Delete/Blacklist movie"
-msgstr ""
+msgstr "ରେଡିଓ ବଟନ୍: ଡିଲିଟ୍ / ବ୍ଲାକ୍ଲିଷ୍ଟ୍ ଚଳଚ୍ଚିତ୍ର |"
 
 msgid "Rating:"
-msgstr ""
+msgstr "ମୂଲ୍ୟାୟନ:"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "ସେଟିଂ ସେଭ୍ ନକରି ପ୍ରକୃତରେ ବନ୍ଦ?"
 
 msgid "Reset Database:"
-msgstr ""
+msgstr "ଡାଟାବେସ୍ ପୁନ Res ସେଟ୍ କରନ୍ତୁ:"
 
 msgid "Restore Database:"
-msgstr ""
+msgstr "ଡାଟାବେସ୍ ପୁନରୁଦ୍ଧାର କରନ୍ତୁ:"
 
 msgid "Runtime:"
-msgstr ""
+msgstr "ଚାଲିବା ସମୟ:"
 
 msgid "SERIES"
 msgstr ""
 
 msgid "Save"
-msgstr ""
+msgstr "ସଞ୍ଚୟ କରନ୍ତୁ |"
 
 msgid "Select skin *Restart GUI Required:"
-msgstr ""
+msgstr "ଚର୍ମ ଚୟନ କରନ୍ତୁ * GUI ପୁନ Rest ଆରମ୍ଭ ଆବଶ୍ୟକ:"
 
 msgid "Series"
-msgstr ""
+msgstr "ସିରିଜ୍"
 
 msgid "Series Episodes"
-msgstr ""
+msgstr "ସିରିଜ୍ ଏପିସୋଡ୍ |"
 
 msgid "Series Folder: No Info possible"
-msgstr ""
+msgstr "ସିରିଜ୍ ଫୋଲ୍ଡର୍: କ Info ଣସି ସୂଚନା ସମ୍ଭବ ନୁହେଁ |"
 
 msgid "Series Style:"
-msgstr ""
+msgstr "ସିରିଜ୍ ଶ Style ଳୀ:"
 
 msgid "Show"
-msgstr ""
+msgstr "ଦେଖାନ୍ତୁ |"
 
 msgid "Show Backdrops:"
-msgstr ""
+msgstr "ପୃଷ୍ଠପଟ ଦେଖାନ୍ତୁ:"
 
 msgid "Show List of Movie Folder:"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର ଫୋଲ୍ଡରର ତାଲିକା ଦେଖାନ୍ତୁ:"
 
 msgid "Show TV in Background (no m1v):"
-msgstr ""
+msgstr "ପୃଷ୍ଠଭୂମିରେ ଟିଭି ଦେଖାନ୍ତୁ (m1v ନାହିଁ):"
 
 msgid "Signup on TMDB and input free personal ApiKey"
-msgstr ""
+msgstr "TMDB ରେ ସାଇନ୍ ଅପ୍ ଏବଂ ମାଗଣା ବ୍ୟକ୍ତିଗତ ApiKey ଇନପୁଟ୍ କରନ୍ତୁ |"
 
 msgid "Signup on TheTVDb and input free personal ApiKey"
-msgstr ""
+msgstr "TheTVDb ରେ ସାଇନ୍ ଅପ୍ ଏବଂ ମାଗଣା ବ୍ୟକ୍ତିଗତ ApiKey ଇନପୁଟ୍ କରନ୍ତୁ |"
 
 msgid "Start Plugin with Video Button:"
-msgstr ""
+msgstr "ଭିଡିଓ ବଟନ୍ ସହିତ ପ୍ଲଗଇନ୍ ଆରମ୍ଭ କରନ୍ତୁ:"
 
 msgid "Stop Button: Mark movie as seen"
-msgstr ""
+msgstr "ଷ୍ଟପ୍ ବଟନ୍: ଦେଖାଯାଇଥିବା ପରି ଚଳଚ୍ଚିତ୍ର ଚିହ୍ନିତ କର |"
 
 msgid "Style"
-msgstr ""
+msgstr "ଶ Style ଳୀ"
 
 msgid "TMDB API key successfully imported!"
 msgstr ""
@@ -350,58 +350,58 @@ msgid "TMDb Results"
 msgstr ""
 
 msgid "TMDb/TheTVDb Language:"
-msgstr ""
+msgstr "TMDb / TheTVDb ଭାଷା:"
 
 msgid "Text Button: Edit Database"
-msgstr ""
+msgstr "ପାଠ୍ୟ ବଟନ୍: ଡାଟାବେସ୍ ସଂପାଦନ କରନ୍ତୁ |"
 
 msgid "TheTVDb API key successfully imported!"
-msgstr ""
+msgstr "TTVDb API କି ସଫଳତାର ସହିତ ଆମଦାନୀ ହେଲା!"
 
 msgid "TheTVDb Results"
-msgstr ""
+msgstr "TheTVDb ଫଳାଫଳ |"
 
 msgid "Timer Database Update:"
-msgstr ""
+msgstr "ଟାଇମର୍ ଡାଟାବେସ୍ ଅପଡେଟ୍:"
 
 msgid "Toggle Plugin Style"
-msgstr ""
+msgstr "ପ୍ଲଗଇନ୍ ଷ୍ଟାଇଲ୍ ଟୋଗଲ୍ କରନ୍ତୁ |"
 
 msgid "Toggle hide/show plugin"
-msgstr ""
+msgstr "ପ୍ଲଗଇନ୍ ଲୁଚାନ୍ତୁ / ଦେଖାନ୍ତୁ ଟୋଗଲ୍ କରନ୍ତୁ |"
 
 msgid "Update"
-msgstr ""
+msgstr "ଅଦ୍ୟତନ କରନ୍ତୁ |"
 
 msgid "Update Database with Timer:"
-msgstr ""
+msgstr "ଟାଇମର୍ ସହିତ ଡାଟାବେସ୍ ଅପଡେଟ୍ କରନ୍ତୁ:"
 
 msgid "Update Series"
-msgstr ""
+msgstr "ସିରିଜ୍ ଅପଡେଟ୍ କରନ୍ତୁ |"
 
 msgid "Use m1v Backdrops:"
 msgstr ""
 
 msgid "Video Button: Update Database"
-msgstr ""
+msgstr "ଭିଡିଓ ବଟନ୍: ଡାଟାବେସ୍ ଅପଡେଟ୍ କରନ୍ତୁ |"
 
 msgid "Years:"
-msgstr ""
+msgstr "ବର୍ଷ:"
 
 msgid "Yes"
-msgstr ""
+msgstr "ହଁ"
 
 msgid "backdrop"
-msgstr ""
+msgstr "ପୃଷ୍ଠଭୂମି"
 
 msgid "banner"
-msgstr ""
+msgstr "ବ୍ୟାନର"
 
 msgid "movie"
-msgstr ""
+msgstr "ଚଳଚ୍ଚିତ୍ର"
 
 msgid "poster"
 msgstr ""
 
 msgid "series"
-msgstr ""
+msgstr "କ୍ରମ"
