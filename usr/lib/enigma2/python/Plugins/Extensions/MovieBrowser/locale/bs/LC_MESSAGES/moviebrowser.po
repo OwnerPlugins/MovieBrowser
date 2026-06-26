@@ -89,7 +89,7 @@ msgid "Choose Directory:"
 msgstr "Odaberite imenik:"
 
 msgid "Cleanup Cache Folder Log"
-msgstr ""
+msgstr "Čišćenje dnevnika fascikle keša"
 
 msgid "Cleanup Cache Folder:"
 msgstr "Očistite keš folder:"
