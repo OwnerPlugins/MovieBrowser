@@ -92,7 +92,7 @@ msgid "Cleanup Cache Folder Log"
 msgstr "Tindif Cache Folder Log"
 
 msgid "Cleanup Cache Folder:"
-msgstr ""
+msgstr "Folder tal-Cache tat-tindif:"
 
 msgid "Country:"
 msgstr "Pajjiż:"
