@@ -1,13 +1,14 @@
 <h1 align="center">🎬 MovieBrowser for Enigma2</h1>
 
-![Visitors](https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet)
 [![Version](https://img.shields.io/badge/Version.-1.0-blue.svg)](https://github.com/Belfagor2005/MovieBrowser)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org)
 [![Python package](https://github.com/Belfagor2005/MovieBrowser/actions/workflows/pylint.yml/badge.svg)](https://github.com/Belfagor2005/MovieBrowser/actions/workflows/pylint.yml) 
 [![Ruff Status](https://github.com/Belfagor2005/MovieBrowser/actions/workflows/ruff.yml/badge.svg)](https://github.com/Belfagor2005/MovieBrowser/actions/workflows/ruff.yml)
-[![GitHub stars](https://img.shields.io/github/stars/Belfagor2005/MovieBrowser?style=social)](https://github.com/Belfagor2005/MovieBrowser/stargazers)
+
+[![Visitors](https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet)](https://github.com/Belfagor2005)
 [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
+[![Donate](https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://paypal.me/belfagor2005)
 
 **Advanced movie and series management plugin for Enigma2-based set-top boxes**  
 *Forked from @kashmir's original work, completely rewritten for modern APIs*
