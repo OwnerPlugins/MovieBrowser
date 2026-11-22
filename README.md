@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Belfagor2005/MovieBrowser">
-    <img src="https://img.shields.io/badge/Version-1.0-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-4.2-blue.svg" alt="Version">
   </a>
 
   <a href="https://www.enigma2.net">
@@ -83,6 +83,7 @@
 - [🐛 Troubleshooting](#-troubleshooting)
 - [📁 Project Structure](#-project-structure)
 - [🔑 API Keys Setup](#-api-keys-setup)
+- [📜 Changelog v4.2](#-changelog-v42)
 - [📜 Changelog v4.0](#-changelog-v40)
 - [🤝 Contributing](#-contributing)
 
@@ -92,7 +93,7 @@
 
 ### 🗄️ **Database Management**
 - **SQLite database** with optimized queries and indexes
-- **Automatic metadata scraping** from TMDb and TheTVDB
+- **Automatic metadata scraping** from TMDb (movies and series)
 - **Multi-filter system** (genre, actor, director, folder)
 - **Watch status tracking** and blacklist management
 
@@ -101,11 +102,11 @@
 - **Dynamic poster display** with 4-panel preview
 - **Horizontal banner support** for TV series
 - **Rating bars** with visual progress indicators
-- **Multi-language UI** (Italian, German, Chinese included)
+- **Multi-language UI** (Italian, German, Dutch, Chinese included)
 
 ### 🔄 **Media Integration**
-- **TMDb API v3** integration for movie metadata
-- **TheTVDB API v4** support with legacy URL conversion
+- **TMDb API v3** integration for movie and series metadata and covers
+- **TheTVDB** no longer used (its API is gone): series info now comes from TMDb
 - **Smart image caching** system
 - **Automatic backdrop and poster downloading**
 
@@ -331,6 +332,23 @@ curl "https://api4.thetvdb.com/v4/series/80379"
 
 ---
 
+## 📜 Changelog v4.2
+
+### **Fixes Caught (Nov 2026)**
+- ✅ **library.py**: series info and covers now come from TMDb (TheTVDb API is gone)
+- ✅ **Library Scan**: fixed filename recognition, so movies aren't re-added as duplicates on every scan
+- ✅ **TMDb Search**: fixed a title-filtering bug that cut off movie names after the first word
+- ✅ **Media & Blacklist**: fixed broken background/default poster loading and blacklist reading errors
+- ✅ **Series**: fixes needed to show info in series
+- ✅ **plugin.py**: MovieBrowser's movie player now also closes with the Exit button (same as Stop)
+
+### **UI & Translations**
+- ✅ **New plugin.png logo**
+- ✅ **New select movie frame**
+- ✅ **Translations updated**: DE, IT and NL
+
+---
+
 ## 📜 Changelog v4.0
 
 ### **Major Improvements**
@@ -424,4 +442,4 @@ This project is licensed under the **GNU General Public License v3.0** - see the
 
 ---
 
-*Last Updated: December 2024 | Version: 4.0*
+*Last Updated: November 2026 | Version: 4.2*

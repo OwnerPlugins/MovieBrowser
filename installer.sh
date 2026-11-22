@@ -1,14 +1,17 @@
 #!/bin/bash
 
-version='4.1'
+version='4.2'
 changelog = (
-    '\nRefactoryzed - recode all code'
-    '\nFixed screen (rewrite) - code source - API URL'
-    '\nSeparate libraries into other modules'
-    '\nDatabase rewrite code'
-    '\nRemoved unused code'
-    '\nNew API v4'
-    '\nFixed banner on MovieList'
+    "\nFixes (Nov 2026 - Caught):"
+    "\nlibrary.py: series info and covers now come from TMDb (TheTVDb API is gone)"
+    "\nLibrary Scan: Fixed filename recognition, so movies aren't re-added as duplicates on every scan."
+    "\nTMDb Search: Fixed a title-filtering bug that cut off movie names after the first word."
+    "\nMedia & Blacklist: Fixed broken background/default poster loading and blacklist reading errors."
+    "\nTranslations: Updated DE, IT, and NL languages."
+    "\nFixes needed to show info in series."
+    "\nNew plugin.png logo"
+    "\nNew select movie frame"
+    "\nplugin.py: MovieBrowser's movie player now also closes with the Exit button (same as Stop)"
 )
 
 
