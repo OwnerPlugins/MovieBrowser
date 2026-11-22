@@ -68,7 +68,7 @@ from Screens.Standby import TryQuitMainloop
 from Screens.VirtualKeyBoard import VirtualKeyBoard
 from Tools.Directories import fileExists
 from twisted.web.client import downloadPage
-from . import _, PY3
+from . import _, PY3, __version__
 from .library import (
     convert_size,
     isFHD,
@@ -170,7 +170,7 @@ def closeWaitBox(session, box):
         print('[MovieBrowser] closeWaitBox: ' + str(e))
 
 
-version = '4.2'
+version = __version__
 screenwidth = getDesktop(0).size()
 dir_plugins = "/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser"
 if dir_plugins not in path:
