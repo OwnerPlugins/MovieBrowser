@@ -17,8 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, fuzzy
 msgid "*******Movie Browser Database Update*******\\\\\\\\n"
-msgstr "*******Atualização do banco de dados do navegador de filmes*******\\\\\\\\\\\\\\\\n"
+msgstr "*******Atualização do banco de dados do navegador de filmes*******\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "<- -> Button: Go to first letter"
 msgstr "<- -> Botão: Ir para a primeira letra"
@@ -107,8 +108,9 @@ msgstr "Log do temporizador do banco de dados"
 msgid "Database Update Log"
 msgstr "Log de atualização do banco de dados"
 
+#, fuzzy
 msgid "Database Update Timer stopped: %s\\\\\\\\n"
-msgstr "Temporizador de atualização do banco de dados interrompido: %s\\\\\\\\\\\\\\\\n"
+msgstr "Temporizador de atualização do banco de dados interrompido: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Delete Movie File"
 msgstr "Excluir arquivo de filme"
@@ -153,7 +155,7 @@ msgid "Go to last Movie on Start:"
 msgstr "Vá para o último filme no início:"
 
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 msgid "Hide"
 msgstr "Esconder"
@@ -197,8 +199,9 @@ msgstr "Data de criação do filme crescente"
 msgid "Movie Creation Date Descending"
 msgstr "Data de criação do filme decrescente"
 
+#, fuzzy
 msgid "Movie Database Update started: %s\\\\\\\\n"
-msgstr "Atualização do banco de dados de filmes iniciada: %s\\\\\\\\\\\\\\\\n"
+msgstr "Atualização do banco de dados de filmes iniciada: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Movie File Information"
 msgstr "Informações do arquivo de filme"
@@ -267,7 +270,7 @@ msgid "On Database Update"
 msgstr "Na atualização do banco de dados"
 
 msgid "On First Access"
-msgstr ""
+msgstr "No primeiro acesso"
 
 msgid "Please wait, loading database..."
 msgstr "Aguarde, carregando banco de dados..."

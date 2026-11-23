@@ -16,8 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#, fuzzy
 msgid "*******Movie Browser Database Update*******\\\\\\\\n"
-msgstr "******* อัพเดตฐานข้อมูลเบราว์เซอร์ภาพยนตร์ *******\\\\\\\\\\\\\\\\n"
+msgstr "******* อัพเดตฐานข้อมูลเบราว์เซอร์ภาพยนตร์ *******\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "<- -> Button: Go to first letter"
 msgstr "<- -> ปุ่ม: ไปที่ตัวอักษรตัวแรก"
@@ -106,8 +107,9 @@ msgstr "บันทึกตัวจับเวลาฐานข้อมู
 msgid "Database Update Log"
 msgstr "บันทึกการอัพเดตฐานข้อมูล"
 
+#, fuzzy
 msgid "Database Update Timer stopped: %s\\\\\\\\n"
-msgstr "ตัวจับเวลาการอัปเดตฐานข้อมูลหยุดทำงาน: %s\\\\\\\\\\\\\\\\n"
+msgstr "ตัวจับเวลาการอัปเดตฐานข้อมูลหยุดทำงาน: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Delete Movie File"
 msgstr "ลบไฟล์ภาพยนตร์"
@@ -196,8 +198,9 @@ msgstr "วันที่สร้างภาพยนตร์จากน้
 msgid "Movie Creation Date Descending"
 msgstr "วันที่สร้างภาพยนตร์จากมากไปน้อย"
 
+#, fuzzy
 msgid "Movie Database Update started: %s\\\\\\\\n"
-msgstr "เริ่มต้นการอัพเดตฐานข้อมูลภาพยนตร์: %s\\\\\\\\\\\\\\\\n"
+msgstr "เริ่มต้นการอัพเดตฐานข้อมูลภาพยนตร์: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Movie File Information"
 msgstr "ข้อมูลไฟล์ภาพยนตร์"
@@ -269,7 +272,7 @@ msgid "On First Access"
 msgstr "ในการเข้าถึงครั้งแรก"
 
 msgid "Please wait, loading database..."
-msgstr ""
+msgstr "กรุณารอสักครู่ กำลังโหลดฐานข้อมูล..."
 
 msgid "Plugin Transparency:"
 msgstr "ความโปร่งใสของปลั๊กอิน:"
