@@ -1,1254 +1,402 @@
+# moviebrowser translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: moviebrowser\n"
-"POT-Creation-Date: 2026-11-13 12:00+0100\n"
-"PO-Revision-Date: 2026-11-13 12:00+0100\n"
-"Last-Translator: \n"
-"Language-Team: lululla\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-11-22 19:09+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-SearchPath-0: plugin.py\n"
-"X-Poedit-SearchPath-1: movie_config.py\n"
-"X-Poedit-SearchPath-2: library.py\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
-#: plugin.py:212 plugin.py:3217 plugin.py:6276
-msgid "Director:"
-msgstr "Regisseur:"
+msgid "*******Movie Browser Database Update*******\\\\\\\\n"
+msgstr "*******Aktualisierung der Filmbrowser-Datenbank*******\\\\\\\\\\\\\\\\n"
 
-#: plugin.py:213 plugin.py:3218 plugin.py:6277
-msgid "Actors:"
-msgstr "Darsteller:"
+msgid "<- -> Button: Go to first letter"
+msgstr "<- -> Schaltfläche: Gehe zum ersten Buchstaben"
 
-#: plugin.py:214 plugin.py:3219 plugin.py:6278
-msgid "Years:"
-msgstr "Jahre:"
-
-#: plugin.py:215 plugin.py:3220 plugin.py:6279
-msgid "Runtime:"
-msgstr "Laufzeit:"
-
-#: plugin.py:216 plugin.py:3221 plugin.py:6280
-msgid "Country:"
-msgstr "Land:"
-
-#: plugin.py:217
-msgid "Update"
-msgstr "Update"
-
-#: plugin.py:218
-msgid "Style"
-msgstr "Stil"
-
-#: plugin.py:219 plugin.py:13421
-msgid "Help"
-msgstr "Hilfe"
-
-#: plugin.py:220 plugin.py:3222 plugin.py:6281
-msgid "Genres:"
-msgstr "Genre:"
-
-#: plugin.py:395 plugin.py:3424 plugin.py:6447
-msgid ""
-"The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n"
-"\n"
-"If the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n"
-"\n"
-"Rebuild the Database now?"
-msgstr ""
-"Die Filmbrowser-Datenbank wird jetzt neu erstellt. Abhängig von der Anzahl Ihrer Filme kann dies einige Minuten dauern.\n"
-"\n"
-"Wenn das Plugin nach einigen Minuten beendet wird, starten Sie das Plugin neu und führen Sie ein manuelles Datenbank-Update durch (Schaltfläche Video).\n"
-"\n"
-"Datenbank jetzt neu erstellen?"
-
-#: plugin.py:401 plugin.py:3430 plugin.py:6453
-msgid ""
-"Before the Database is rebuilt, check your settings in the plugin setup:\n"
-"\n"
-"- Check the path to the Movie Folder\n"
-"- Check your TMDb/TheTVDb Language\n"
-"- Set the Cache Folder to your hard disk drive."
-msgstr ""
-"Bevor die Datenbank neu erstellt wird, überprüfen Sie Ihre Einstellungen im Setup des Plugins:\n"
-"\n"
-"- Überprüfen Sie den Pfad zum Filmordner\n"
-"- Überprüfen Sie Ihre TMDb / TheTVDb Sprache\n"
-"- Ändern Sie den Cache-Ordner auf Ihre Festplatte."
-
-#: plugin.py:502 plugin.py:606 plugin.py:620 plugin.py:636
 msgid "<List of Movie Folder>"
-msgstr "<List of Movie Folder>"
+msgstr "<Liste des Filmordners>"
 
-#: plugin.py:695 plugin.py:11341
-msgid "Free Space"
-msgstr "Freier Speicherplatz"
-
-#: plugin.py:696 plugin.py:11342 plugin.py:13115
-msgid "Movie Folder"
-msgstr "Filmordner"
-
-#: plugin.py:697
-msgid "MOVIES"
-msgstr "Filme"
-
-#: plugin.py:698
-msgid "SERIES"
-msgstr "Serien"
-
-#: plugin.py:699
-msgid "EPISODES"
-msgstr "Episoden"
-
-#: plugin.py:757 plugin.py:3610 plugin.py:6640
-msgid ""
-"\n"
-"Movie Folder %s not reachable:\n"
-"Movie Browser Database Update canceled."
-msgstr ""
-"\n"
-"Filmordner %s nicht erreichbar:\n"
-"Aktualisierung der Filmbrowser-Datenbank abgebrochen."
-
-#: plugin.py:763 plugin.py:3616 plugin.py:6646
-msgid ""
-"\n"
-"Cache Folder %s not reachable:\n"
-"Movie Browser Database Update canceled."
-msgstr ""
-"\n"
-"Cache-Ordner %s nicht erreichbar:\n"
-"Aktualisierung der Filmbrowser-Datenbank abgebrochen."
-
-#: plugin.py:825 plugin.py:3672 plugin.py:6706
-msgid ""
-"\n"
-"No new Movies or Series found:\n"
-"Your Database is up to date."
-msgstr ""
-"\n"
-"Keine neuen Filme oder Serien gefunden:\n"
-"Ihre Datenbank ist auf dem neuesten Stand."
-
-#: plugin.py:832 plugin.py:3679 plugin.py:6713
-msgid ""
-"\n"
-"No new Movies or Series found.\n"
-"%s orphaned Database Entry deleted."
-msgstr ""
-"\n"
-"Keine neuen Filme oder Serien gefunden.\n"
-"%s verwaister Datenbankeintrag gelöscht."
-
-#: plugin.py:838 plugin.py:3685 plugin.py:6719
-msgid ""
-"\n"
-"No new Movies or Series found.\n"
-"%s orphaned Database Entries deleted."
-msgstr ""
-"\n"
-"Keine neuen Filme oder Serien gefunden.\n"
-"%s verwaiste Datenbankeinträge gelöscht."
-
-#: plugin.py:845 plugin.py:3692 plugin.py:6726
-msgid ""
-"\n"
-"%s Movie imported into Database."
-msgstr ""
-"\n"
-"%s In Datenbank importierter Film."
-
-#: plugin.py:849 plugin.py:857 plugin.py:3696 plugin.py:3704
-msgid ""
-"\n"
-"%s Series imported into Database."
-msgstr ""
-"\n"
-"%s Serie in Datenbank importiert."
-
-#: plugin.py:853 plugin.py:3700 plugin.py:6734
-msgid ""
-"\n"
-"%s Movies imported into Database."
-msgstr ""
-"\n"
-"%s In die Datenbank importierte Filme."
-
-#: plugin.py:861 plugin.py:3708 plugin.py:6742
-msgid ""
-"\n"
-"%s Movies and %s Series imported into Database."
-msgstr ""
-"\n"
-"%s Filme und %s Serien in die Datenbank importiert."
-
-#: plugin.py:868 plugin.py:3715 plugin.py:6749
-msgid ""
-"\n"
-"%s Movie imported into Database.\n"
-"%s orphaned Database Entry deleted."
-msgstr ""
-"\n"
-"%s In Datenbank importierter Film.\n"
-"%s verwaister Datenbankeintrag gelöscht."
-
-#: plugin.py:875 plugin.py:904 plugin.py:3722 plugin.py:3751
-msgid ""
-"\n"
-"%s Series imported into Database.\n"
-"%s orphaned Database Entry deleted."
-msgstr ""
-"\n"
-"%s Serie in Datenbank importiert.\n"
-"%s verwaister Datenbankeintrag gelöscht."
-
-#: plugin.py:882 plugin.py:3729 plugin.py:6763
-msgid ""
-"\n"
-"%s Movie imported into Database.\n"
-"%s orphaned Database Entries deleted."
-msgstr ""
-"\n"
-"%s In Datenbank importierter Film.\n"
-"%s verwaiste Datenbankeinträge gelöscht."
-
-#: plugin.py:889 plugin.py:926 plugin.py:3736 plugin.py:3773
-msgid ""
-"\n"
-"%s Series imported into Database.\n"
-"%s orphaned Database Entries deleted."
-msgstr ""
-"\n"
-"%s Serie in Datenbank importiert.\n"
-"%s verwaiste Datenbankeinträge gelöscht."
-
-#: plugin.py:897 plugin.py:3744 plugin.py:6778
-msgid ""
-"\n"
-"%s Movies imported into Database.\n"
-"%s orphaned Database Entry deleted."
-msgstr ""
-"\n"
-"%s In die Datenbank importierte Filme.\n"
-"%s verwaister Datenbankeintrag gelöscht."
-
-#: plugin.py:911 plugin.py:3758 plugin.py:6792
-msgid ""
-"\n"
-"%s Movies and %s Series imported into Database.\n"
-"%s orphaned Database Entry deleted."
-msgstr ""
-"\n"
-"%s Filme und %s Serien in die Datenbank importiert.\n"
-"%s verwaister Datenbankeintrag gelöscht."
-
-#: plugin.py:919 plugin.py:3766 plugin.py:6800
-msgid ""
-"\n"
-"%s Movies imported into Database.\n"
-"%s orphaned Database Entries deleted."
-msgstr ""
-"\n"
-"%s In die Datenbank importierte Filme.\n"
-"%s verwaiste Datenbankeinträge gelöscht."
-
-#: plugin.py:933 plugin.py:3780 plugin.py:6814
-msgid ""
-"\n"
-"%s Movies and %s Series imported into Database.\n"
-"%s orphaned Database Entries deleted."
-msgstr ""
-"\n"
-"%s Filme und %s Serien in die Datenbank importiert.\n"
-"%s verwaiste Datenbankeinträge gelöscht."
-
-#: plugin.py:993 plugin.py:1004 plugin.py:1018 plugin.py:3834
-msgid ""
-"\n"
-"Movie file %s not available."
-msgstr ""
-"\n"
-"Filmdatei %s nicht verfügbar."
-
-#: plugin.py:1009 plugin.py:3850 plugin.py:6894
-msgid ""
-"\n"
-"DVD Player Plugin not installed."
-msgstr ""
-"\n"
-"DVD-Player-Plugin nicht installiert."
-
-#: plugin.py:1164 plugin.py:4006 plugin.py:7066
-msgid ""
-"\n"
-"TMDb Movie Update Error:\n"
-"Series Folder"
-msgstr ""
-"\n"
-"TMDb Movie Update Fehler:\n"
-"Serienmappe"
-
-#: plugin.py:1200 plugin.py:4039 plugin.py:7100 plugin.py:12282
-msgid ""
-"\n"
-"TMDb API Server is not reachable."
-msgstr ""
-"\n"
-"TMDb API Server ist nicht erreichbar."
-
-#: plugin.py:1229 plugin.py:4067 plugin.py:7129
-msgid "TMDb Results"
-msgstr "TMDb Ergebnisse"
-
-#: plugin.py:1233 plugin.py:4071 plugin.py:7133
-msgid ""
-"\n"
-"No TMDb Results for %s."
-msgstr ""
-"\n"
-"Keine TMDb-Ergebnisse für %s."
-
-#: plugin.py:1316 plugin.py:4157 plugin.py:7214 plugin.py:12367
-msgid ""
-"\n"
-"TheTVDb API Server is not reachable."
-msgstr ""
-"\n"
-"Der TheTVDb-API-Server ist nicht erreichbar."
-
-#: plugin.py:1399 plugin.py:4244 plugin.py:7297
-msgid "TheTVDb Results"
-msgstr "TheTVDb Ergebnisse"
-
-#: plugin.py:1404 plugin.py:4248 plugin.py:7301
-msgid ""
-"\n"
-"No TheTVDb Results for %s."
-msgstr ""
-"\n"
-"Keine TheTVDb-Ergebnisse für %s."
-
-#: plugin.py:1480 plugin.py:4320 plugin.py:7378 plugin.py:10979
-msgid ""
-"\n"
-"The List of Movie Folder cannot be deleted."
-msgstr ""
-"\n"
-"Die Liste der Filmordner kann nicht gelöscht werden."
-
-#: plugin.py:1486 plugin.py:4326 plugin.py:7384 plugin.py:10985
-msgid ""
-"\n"
-"This will delete all %s entries from the Database but not from the Movie Folder.\n"
-"\n"
-"Do you want to continue?"
-msgstr ""
-"\n"
-"Dadurch werden alle %s Einträge aus der Datenbank gelöscht, jedoch nicht aus dem Filmordner.\n"
-"\n"
-"Möchten Sie fortfahren?"
-
-#: plugin.py:1493 plugin.py:4333 plugin.py:7391 plugin.py:10992
-msgid ""
-"\n"
-"This will delete %s from the Database and from the Movie Folder!\n"
-"\n"
-"Do you want to continue?"
-msgstr ""
-"\n"
-"Dadurch werden %s aus der Datenbank und aus dem Filmordner gelöscht!\n"
-"\n"
-"Möchten Sie fortfahren?"
-
-#: plugin.py:1575 plugin.py:4416 plugin.py:7477 plugin.py:11077
-msgid ""
-"\n"
-"This will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n"
-"\n"
-"Do you want to continue?"
-msgstr ""
-"\n"
-"Dadurch werden %s aus der Datenbank gelöscht und auf die Blacklist gesetzt, sodass der Film von zukünftigen Datenbank-Updates ignoriert wird.\n"
-"\n"
-"Möchten Sie fortfahren?"
-
-#: plugin.py:2376 plugin.py:5202 plugin.py:8578
-msgid "Series Folder: No Info possible"
-msgstr "Serienmappe: Keine Info möglich"
-
-#: plugin.py:2555 plugin.py:5344 plugin.py:8732
-msgid "Movie Folder Selection"
-msgstr "Auswahl des Filmordners"
-
-#: plugin.py:2601 plugin.py:5392 plugin.py:8779
-msgid "Genre Selection"
-msgstr "Genre Auswahl"
-
-#: plugin.py:2646 plugin.py:5440 plugin.py:8825
 msgid "Actor Selection"
 msgstr "Schauspielerauswahl"
 
-#: plugin.py:2691 plugin.py:5488 plugin.py:8871
-msgid "Director Selection"
-msgstr "Auswahl der Regisseure"
+msgid "Actors:"
+msgstr "Schauspieler:"
 
-#: plugin.py:3046 plugin.py:5926 plugin.py:9319 plugin.py:10665
-msgid ""
-"\n"
-"Database Error: Entry without runtime"
-msgstr ""
-"\n"
-"Datenbankfehler: Eintrag ohne Laufzeit"
-
-#: plugin.py:3223 plugin.py:6282
-msgid "Rating:"
-msgstr "Bewertung:"
-
-#: plugin.py:4809 plugin.py:8017
-msgid "Error while loading"
-msgstr "Fehler beim Laden"
-
-#: plugin.py:6635
-msgid ""
-"\n"
-"Update Movie Browser Database?"
-msgstr ""
-"\n"
-"Aktualisieren Sie die Filmbrowser-Datenbank?"
-
-#: plugin.py:10577 movie_config.py:1220
-msgid ""
-"Start time: %s\n"
-"End time: %s\n"
-"Total scanned files: %s\n"
-"TheTVDb Database Requests: %s\n"
-"TMDb Database Requests: %s\n"
-"Orphaned Movies/Series: %s\n"
-"New Series: %s\n"
-"New Movies: %s\n"
-"\n"
-msgstr ""
-"Startzeit: %s\n"
-"Endzeit: %s\n"
-"Gesamtzahl der gescannten Dateien: %s\n"
-"TheTVDb Datenbankanfragen: %s\n"
-"TMDb-Datenbankanforderungen: %s\n"
-"Verwaiste Filme/Serien: %s\n"
-"Neue Serie: %s\n"
-"Neue Filme: %s\n"
-"\n"
-
-#: plugin.py:10869
-msgid "Movie File Information"
-msgstr "Informationen zur Filmdatei"
-
-#: plugin.py:10870
-msgid "Delete Movie File"
-msgstr "Filmdatei löschen"
-
-#: plugin.py:10871
-msgid "Blacklist Movie File"
-msgstr "Filmdatei auf der schwarzen Liste"
-
-#: plugin.py:10872
-msgid "Database Update Log"
-msgstr "Datenbank-Update-Protokoll"
-
-#: plugin.py:10873
-msgid "Database Timer Log"
-msgstr "Datenbank-Timer-Protokoll"
-
-#: plugin.py:10874
-msgid "Cleanup Cache Folder Log"
-msgstr "Ordnerprotokoll für den Bereinigungscache"
-
-#: plugin.py:11340
-msgid "Database"
-msgstr "Datenbank"
-
-#: plugin.py:11343 movie_config.py:121
-msgid "Movies"
-msgstr "Filme"
-
-#: plugin.py:11473
-msgid "Database Editor:"
-msgstr "Datenbank-Editor:"
-
-#: plugin.py:11966
-msgid "Update Selection"
-msgstr "Aktualisierungsauswahl"
-
-#: plugin.py:11970 plugin.py:11972
-msgid "Update Movie/Series"
-msgstr "Film/Serie aktualisieren"
-
-#: plugin.py:12012
-msgid "Invalid selection"
-msgstr "Ungültige Auswahl"
-
-#: plugin.py:12025
-msgid ""
-"Cannot update with TMDb: ID is not numeric\n"
-"This appears to be a TV series, not a movie."
-msgstr ""
-"Aktualisierung mit TMDb nicht möglich: ID ist nicht numerisch\n"
-"Dies scheint eine Fernsehserie zu sein, kein Film."
-
-#: plugin.py:12035
-msgid ""
-"Cannot update with TheTVDb: ID appears to be a movie ID\n"
-"Try \"Update Movie\" instead."
-msgstr ""
-"Aktualisierung mit TheTVDb nicht möglich: Die ID scheint eine Film-ID zu sein\n"
-"Versuchen Sie stattdessen „Film aktualisieren“."
-
-#: plugin.py:12082
-msgid "Update error: "
-msgstr "Aktualisierungsfehler: "
-
-#: plugin.py:12102
 msgid "All /tmp/posters cleaned"
 msgstr "Alle /tmp/posters bereinigt"
 
-#: plugin.py:13113
-msgid "Series Episodes"
-msgstr "Serien-Episoden"
-
-#: plugin.py:13114
-msgid "Free Space:"
-msgstr "Freier Speicherplatz:"
-
-#: plugin.py:13406
-msgid "Movie Browser Key Assignment"
-msgstr "Tastenbelegung des Filmbrowsers"
-
-#: plugin.py:13420
-msgid "Manage your Movies & Series V.%s"
-msgstr "Verwalten Sie Ihre Filme & Serien V.%s"
-
-#: plugin.py:13422
-msgid "Toggle Plugin Style"
-msgstr "Plugin-Stil umschalten"
-
-#: plugin.py:13423
-msgid "Toggle hide/show plugin"
-msgstr "Plugin ausblenden/einblenden"
-
-#: plugin.py:13424
-msgid "Info Button: Toggle show/hide infos"
-msgstr "Info-Taste: Infos ein-/ausblenden"
-
-#: plugin.py:13425
-msgid "Video Button: Update Database"
-msgstr "Video-Taste: Datenbank aktualisieren"
-
-#: plugin.py:13426
-msgid "Text Button: Edit Database"
-msgstr "Text-Taste: Datenbank bearbeiten"
-
-#: plugin.py:13427
-msgid "Stop Button: Mark movie as seen"
-msgstr "Stopp-Taste: Film als gesehen markieren"
-
-#: plugin.py:13428
-msgid "Radio Button: Delete/Blacklist movie"
-msgstr "Radio-Taste: Film löschen/auf die schwarze Liste setzen"
-
-#: plugin.py:13429
-msgid "<- -> Button: Go to first letter"
-msgstr "<- -> Taste: Zum ersten Buchstaben springen"
-
-#: plugin.py:13430
-msgid "Button 1: CutListEditor/MovieCut/LogView"
-msgstr "Taste 1: CutListEditor/MovieCut/LogView"
-
-#: plugin.py:13431
-msgid "Button 2: Renew infos on TMDb"
-msgstr "Taste 2: Infos über TMDb erneuern"
-
-#: plugin.py:13432
-msgid "Button 3: Renew infos on TheTVDb"
-msgstr "Taste 3: Infos über TheTVDb erneuern"
-
-#: plugin.py:13433
-msgid "Button 4: Hide/show seen movies"
-msgstr "Taste 4: Gesehene Filme aus-/einblenden"
-
-#: plugin.py:13434
-msgid "Button 5: Toggle Movies/Series view"
-msgstr "Taste 5: Film-/Serienansicht umschalten"
-
-#: plugin.py:13435
-msgid "Button 6: Movie Folder Selection"
-msgstr "Taste 6: Filmordner auswählen"
-
-#: plugin.py:13436
-msgid "Button 7: Movie Director Selection"
-msgstr "Taste 7: Regisseur auswählen"
-
-#: plugin.py:13437
-msgid "Button 8: Movie Actor Selection"
-msgstr "Taste 8: Schauspieler auswählen"
-
-#: plugin.py:13438
-msgid "Button 9: Movie Genre Selection"
-msgstr "Taste 9: Filmgenre auswählen"
-
-#: plugin.py:13439
-msgid "Button 0: Go to end of list"
-msgstr "Taste 0: Zum Ende der Liste springen"
-
-#: plugin.py:13556
-msgid "*******Movie Browser Database Update*******\n"
-msgstr "Aktualisierung der Filmbrowser-Datenbank*******\n"
-
-#: plugin.py:13575
-msgid ""
-"*******Movie Browser Database Update*******\n"
-"Time: %s\n"
-"Error: %s\n"
-"Reason: %s"
-msgstr ""
-"Aktualisierung der Filmbrowser-Datenbank*******\n"
-"Dauer: %s\n"
-"Fehler: %s\n"
-"Grund: %s"
-
-#: plugin.py:13602
-msgid ""
-"*******Cleanup Cache Folder*******\n"
-"Start time: %s\n"
-"End time: %s\n"
-"Orphaned Backdrops/Posters removed: %s\n"
-"\n"
-msgstr ""
-"Cache-Ordner bereinigen *******\n"
-"Startzeit: %s\n"
-"Endzeit: %s\n"
-"Verwaiste Hintergründe/Poster entfernt: %s\n"
-"\n"
-
-#: movie_config.py:123
-msgid "Series"
-msgstr "Serien"
-
-#: movie_config.py:125
-msgid "Movies & Series"
-msgstr "Filme & Serien"
-
-#: movie_config.py:127
-msgid "Movie Creation Date Descending"
-msgstr "Film Erstellungsdatum Absteigend"
-
-#: movie_config.py:128
-msgid "Movie Creation Date Ascending"
-msgstr "Film Erstellungsdatum Aufsteigend"
-
-#: movie_config.py:129
-msgid "Movie Title A-Z"
-msgstr "Film Titel A-Z"
-
-#: movie_config.py:130
-msgid "Movie Title Z-A"
-msgstr "Film Titel Z-A"
-
-#: movie_config.py:131
-msgid "Movie Rating 10-0"
-msgstr "Film Rating 10-0"
-
-#: movie_config.py:132
-msgid "Movie Rating 0-10"
-msgstr "Film Rating 0-10"
-
-#: movie_config.py:133
-msgid "Movie Release Date Descending"
-msgstr "Film Erscheinungsdatum Absteigend"
-
-#: movie_config.py:134
-msgid "Movie Release Date Ascending"
-msgstr "Film Erscheinungsdatum Aufsteigend"
-
-#: movie_config.py:135
-msgid "Movie Runtime Descending"
-msgstr "Film Laufzeit Absteigend"
-
-#: movie_config.py:136
-msgid "Movie Runtime Ascending"
-msgstr "Film Laufzeit Aufsteigend"
-
-#: movie_config.py:137
-msgid "Movie Folder Ascending"
-msgstr "Film Ordner Aufsteigend"
-
-#: movie_config.py:138
-msgid "Movie Folder Descending"
-msgstr "Film Ordner Absteigend"
-
-#: movie_config.py:142 movie_config.py:173
-msgid "Info Button"
-msgstr "Info-Taste"
-
-#: movie_config.py:143 movie_config.py:173
 msgid "Automatic"
 msgstr "Automatisch"
 
-#: movie_config.py:144 movie_config.py:153 movie_config.py:156
-msgid "Hide"
-msgstr "Verstecken"
+msgid "Backup Database:"
+msgstr "Backup-Datenbank:"
 
-#: movie_config.py:148
-msgid "On First Access"
-msgstr "Beim ersten Zugriff"
+msgid "Blacklist Movie File"
+msgstr "Filmdatei auf die schwarze Liste setzen"
 
-#: movie_config.py:148
-msgid "On Database Update"
-msgstr "Beim Datenbank-Update"
+msgid "Button 0: Go to end of list"
+msgstr "Schaltfläche 0: Zum Ende der Liste gehen"
 
-#: movie_config.py:153 movie_config.py:156
-msgid "Show"
-msgstr "Anzeigen"
+msgid "Button 1: CutListEditor/MovieCut/LogView"
+msgstr "Schaltfläche 1: CutListEditor/MovieCut/LogView"
 
-#: movie_config.py:162
-msgid "Yes"
-msgstr "Ja"
+msgid "Button 2: Renew infos on TMDb"
+msgstr "Button 2: Infos auf TMDb erneuern"
 
-#: movie_config.py:163
-msgid "No"
-msgstr "Nein"
+msgid "Button 3: Renew infos on TheTVDb"
+msgstr "Button 3: Infos auf TheTVDb erneuern"
 
-#: movie_config.py:164
-msgid "Folder Selection"
-msgstr "Ordnerauswahl"
+msgid "Button 4: Hide/show seen movies"
+msgstr "Taste 4: Gesehene Filme ein-/ausblenden"
 
-#: movie_config.py:1367
-msgid ""
-"*******Movie Browser Database Update Timer*******\n"
-"Initial Update Timer started: %s\n"
-"Timer Value (min): %s\n"
-msgstr ""
-"Movie Browser Database Update Timer *******\n"
-"Der Timer für die erste Aktualisierung wurde gestartet: %s\n"
-"Zeitgeberwert (min): %s\n"
+msgid "Button 5: Toggle Movies/Series view"
+msgstr "Taste 5: Film-/Serienansicht umschalten"
 
-#: movie_config.py:1388
-msgid "Database Update Timer stopped: %s\n"
-msgstr "Datenbankaktualisierungszeitgeber beendet: %s\n"
+msgid "Button 6: Movie Folder Selection"
+msgstr "Taste 6: Auswahl des Filmordners"
 
-#: movie_config.py:1410
-msgid ""
-"Database Update Timer started: %s\n"
-"Timer Value (min): %s\n"
-msgstr ""
-"Datenbank-Update-Timer gestartet: %s\n"
-"Zeitgeberwert (min): %s\n"
+msgid "Button 7: Movie Director Selection"
+msgstr "Taste 7: Auswahl des Filmregisseurs"
 
-#: movie_config.py:1420
-msgid "Movie Database Update started: %s\n"
-msgstr "Aktualisierung der Filmdatenbank gestartet: %s\n"
+msgid "Button 8: Movie Actor Selection"
+msgstr "Taste 8: Auswahl des Filmschauspielers"
 
-#: movie_config.py:1448
-msgid "Save"
-msgstr "Speichern"
+msgid "Button 9: Movie Genre Selection"
+msgstr "Taste 9: Auswahl des Filmgenres"
 
-#: movie_config.py:1449
-msgid "Cancel"
-msgstr "Beenden"
-
-#: movie_config.py:1493 movie_config.py:1653
-msgid "Movies Style:"
-msgstr "Filmstil:"
-
-#: movie_config.py:1497 movie_config.py:1656
-msgid "Series Style:"
-msgstr "Serienstil:"
-
-#: movie_config.py:1501 movie_config.py:1664
-msgid "Go to last Movie on Start:"
-msgstr "Beim Start zum letzten Film springen:"
-
-#: movie_config.py:1505
-msgid "Load last Selection/Filter on Start:"
-msgstr "Letzte Auswahl/Filter beim Start laden:"
-
-#: movie_config.py:1509
-msgid "Movie Folder:"
-msgstr "Filmordner:"
-
-#: movie_config.py:1513
 msgid "Cache Folder:"
 msgstr "Cache-Ordner:"
 
-#: movie_config.py:1517
-msgid "Movie Sort Order:"
-msgstr "Sortierreihenfolge des Films:"
+msgid "Cancel"
+msgstr "Stornieren"
 
-#: movie_config.py:1521
-msgid "Show List of Movie Folder:"
-msgstr "Liste der Filmordner anzeigen:"
+msgid "Choose Directory"
+msgstr "Wählen Sie Verzeichnis"
 
-#: movie_config.py:1525
-msgid "Movies or Series:"
-msgstr "Filme oder Serien:"
+msgid "Choose Directory:"
+msgstr "Wählen Sie Verzeichnis:"
 
-#: movie_config.py:1529
-msgid "Movies or Series Selection at Start:"
-msgstr "Film- oder Serienauswahl beim Start:"
+msgid "Cleanup Cache Folder Log"
+msgstr "Cache-Ordnerprotokoll bereinigen"
 
-#: movie_config.py:1533
-msgid "Show Backdrops:"
-msgstr "Kulissen anzeigen:"
-
-#: movie_config.py:1537 movie_config.py:1660
-msgid "Use m1v Backdrops:"
-msgstr "Verwenden Sie m1v-Hintergründe:"
-
-#: movie_config.py:1541 movie_config.py:1661
-msgid "Show TV in Background (no m1v):"
-msgstr "TV im Hintergrund anzeigen (kein m1v):"
-
-#: movie_config.py:1545
-msgid "Download new Backdrops:"
-msgstr "Neue Backdrops herunterladen:"
-
-#: movie_config.py:1549
-msgid "Posterwall/Backdrop Show Plot:"
-msgstr "Posterwall/Kulisse Show Plot:"
-
-#: movie_config.py:1553
-msgid "Metrix List Selection Color:"
-msgstr "Metrix-Listenauswahlfarbe:"
-
-#: movie_config.py:1557
-msgid "TMDb/TheTVDb Language:"
-msgstr "TMDb / TheTVDb Sprache:"
-
-#: movie_config.py:1561
-msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
-msgstr "TMDb-API-Schlüssel aus /tmp/tmdb_api.txt laden"
-
-#: movie_config.py:1565
-msgid "Sign up on TMDb and enter your free personal API Key"
-msgstr ""
-"Bei TMDb registrieren und kostenlosen persönlichen API-Schlüssel eingeben"
-
-#: movie_config.py:1569
-msgid "Load TheTVDb API Key from /tmp/thetvdb_api.txt"
-msgstr "TheTVDb-API-Schlüssel aus /tmp/thetvdb_api.txt laden"
-
-#: movie_config.py:1573
-msgid "Sign up on TheTVDb and enter your free personal API Key"
-msgstr ""
-"Bei TheTVDb registrieren und kostenlosen persönlichen API-Schlüssel eingeben"
-
-#: movie_config.py:1577
-msgid "Update Database with Timer:"
-msgstr "Datenbank mit Timer aktualisieren:"
-
-#: movie_config.py:1582
-msgid "Timer Database Update:"
-msgstr "Aktualisierung der Timer-Datenbank:"
-
-#: movie_config.py:1586
-msgid "Hide Plugin during Update:"
-msgstr "Plugin während des Updates ausblenden:"
-
-#: movie_config.py:1591
-msgid "Reset Database:"
-msgstr "Datenbank zurücksetzen:"
-
-#: movie_config.py:1595 movie_config.py:1673
 msgid "Cleanup Cache Folder:"
 msgstr "Cache-Ordner bereinigen:"
 
-#: movie_config.py:1599 movie_config.py:1667
-msgid "Backup Database:"
-msgstr "Datenbank sichern:"
+msgid "Country:"
+msgstr "Land:"
 
-#: movie_config.py:1603 movie_config.py:1670
-msgid "Restore Database:"
-msgstr "Datenbank wiederherstellen:"
+msgid "Database"
+msgstr "Datenbank"
 
-#: movie_config.py:1607
-msgid "Select Skin (GUI Restart Required):"
-msgstr "Skin auswählen (Neustart der GUI erforderlich):"
+msgid "Database Editor:"
+msgstr "Datenbankeditor:"
 
-#: movie_config.py:1611
-msgid "Start Plugin with Video Button:"
-msgstr "Plugin mit Video-Button starten:"
+msgid "Database Timer Log"
+msgstr "Datenbank-Timer-Protokoll"
 
-#: movie_config.py:1615
-msgid "Plugin Transparency:"
-msgstr "Plugin-Transparenz:"
+msgid "Database Update Log"
+msgstr "Datenbankaktualisierungsprotokoll"
 
-#: movie_config.py:1619
-msgid "Plugin in Enigma Menu:"
-msgstr "Plugin im Enigma-Menü:"
+msgid "Database Update Timer stopped: %s\\\\\\\\n"
+msgstr "Datenbankaktualisierungs-Timer gestoppt: %s\\\\\\\\\\\\\\\\n"
 
-#: movie_config.py:1642
+msgid "Delete Movie File"
+msgstr "Filmdatei löschen"
+
+msgid "Director Selection"
+msgstr "Auswahl des Regisseurs"
+
+msgid "Director:"
+msgstr "Direktor:"
+
+msgid "Download new Backdrops:"
+msgstr "Laden Sie neue Hintergründe herunter:"
+
+msgid "EPISODES"
+msgstr "EPISODEN"
+
 msgid "Error moving cache folder: %s"
 msgstr "Fehler beim Verschieben des Cache-Ordners: %s"
 
-#: movie_config.py:1695
-msgid ""
-"\n"
-"Cache Folder %s not reachable:\n"
-"Movie Browser Database Backup canceled."
-msgstr ""
-"\n"
-"Cache-Ordner %s nicht erreichbar:\n"
-"Sicherung der Filmbrowser-Datenbank abgebrochen."
+msgid "Error while loading"
+msgstr "Fehler beim Laden"
 
-#: movie_config.py:1702
-msgid ""
-"\n"
-"Database %s not found:\n"
-"Movie Browser Database Backup canceled."
-msgstr ""
-"\n"
-"Datenbank %s nicht gefunden:\n"
-"Sicherung der Filmbrowser-Datenbank abgebrochen."
-
-#: movie_config.py:1717
-msgid ""
-"\n"
-"Database backed up to %s"
-msgstr ""
-"\n"
-"Datenbank in %s gesichert"
-
-#: movie_config.py:1729
-msgid ""
-"\n"
-"Cache Folder %s not reachable:\n"
-"Movie Browser Database Restore canceled."
-msgstr ""
-"\n"
-"Cache-Ordner %s nicht erreichbar:\n"
-"Die Wiederherstellung der Filmbrowser-Datenbank wurde abgebrochen."
-
-#: movie_config.py:1737
-msgid ""
-"\n"
-"Database Backup %s not found:\n"
-"Movie Browser Database Restore canceled."
-msgstr ""
-"\n"
-"Datenbanksicherung %s nicht gefunden:\n"
-"Die Wiederherstellung der Filmbrowser-Datenbank wurde abgebrochen."
-
-#: movie_config.py:1748
-msgid ""
-"\n"
-"Database restored from %s"
-msgstr ""
-"\n"
-"Datenbank aus %s wiederhergestellt"
-
-#: movie_config.py:1760
-msgid ""
-"\n"
-"Cache Folder %s not reachable:\n"
-"Cleanup Cache Folder canceled."
-msgstr ""
-"\n"
-"Cache-Ordner %s nicht erreichbar:\n"
-"Bereinigungscacheordner abgebrochen."
-
-#: movie_config.py:1767
-msgid ""
-"\n"
-"Database %s not found:\n"
-"Cleanup Cache Folder canceled."
-msgstr ""
-"\n"
-"Datenbank %s nicht gefunden:\n"
-"Bereinigungscacheordner abgebrochen."
-
-#: movie_config.py:1788
-msgid ""
-"\n"
-"No orphaned Backdrops or Posters found:\n"
-"Your Cache Folder is clean."
-msgstr ""
-"\n"
-"Keine verwaisten Hintergründe oder Poster gefunden:\n"
-"Ihr Cache-Ordner ist sauber."
-
-#: movie_config.py:1794
-msgid ""
-"\n"
-"Cleanup Cache Folder finished:\n"
-"%s orphaned Backdrops or Posters removed."
-msgstr ""
-"\n"
-"Cleanup Cache Folder abgeschlossen:\n"
-"%s verwaiste Kulissen oder Poster entfernt."
-
-#: movie_config.py:1822
-msgid "Choose Directory:"
-msgstr "Verzeichnis wählen:"
-
-#: movie_config.py:1823
-msgid "Choose Directory"
-msgstr "Verzeichnis wählen"
-
-#: movie_config.py:1852
 msgid "File %s not found!"
 msgstr "Datei %s nicht gefunden!"
 
-#: movie_config.py:1867
-msgid "TMDb API key successfully imported!"
-msgstr "TMDb-API-Schlüssel erfolgreich importiert!"
+msgid "Folder Selection"
+msgstr "Ordnerauswahl"
 
-#: movie_config.py:1874
-msgid "TheTVDb API key successfully imported!"
-msgstr "TheTVDb-API-Schlüssel erfolgreich importiert!"
+msgid "Free Space"
+msgstr "Freier Speicherplatz"
 
-#: movie_config.py:2064
+msgid "Free Space:"
+msgstr "Freier Speicherplatz:"
+
+msgid "Genre Selection"
+msgstr "Genreauswahl"
+
+msgid "Genres:"
+msgstr ""
+
+msgid "Go to last Movie on Start:"
+msgstr "Gehe beim Start zum letzten Film:"
+
+msgid "Help"
+msgstr "Helfen"
+
+msgid "Hide"
+msgstr "Verstecken"
+
+msgid "Hide Plugin during Update:"
+msgstr "Plugin während Update ausblenden:"
+
+msgid "Info Button"
+msgstr "Info-Taste"
+
+msgid "Info Button: Toggle show/hide infos"
+msgstr "Info-Button: Infos ein-/ausblenden"
+
+msgid "Invalid selection"
+msgstr "Ungültige Auswahl"
+
+msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
+msgstr "Laden Sie den TMDb-API-Schlüssel aus /tmp/tmdb_api.txt"
+
+msgid "Load TheTVDb API Key from /tmp/thetvdb_api.txt"
+msgstr "Laden Sie den TheTVDb-API-Schlüssel aus /tmp/thetvdb_api.txt"
+
+msgid "Load last Selection/Filter on Start:"
+msgstr "Letzte Auswahl/Filter beim Start laden:"
+
+msgid "MOVIES"
+msgstr "FILME"
+
+msgid "Manage your Movies & Series V.%s"
+msgstr "Verwalten Sie Ihre Filme und Serien V.%s"
+
+msgid "Metrix List Selection Color:"
+msgstr "Farbe der Auswahl der Matrizenliste:"
+
+msgid "Movie Browser Key Assignment"
+msgstr "Tastenzuweisung für den Filmbrowser"
+
+msgid "Movie Creation Date Ascending"
+msgstr "Erstellungsdatum des Films aufsteigend"
+
+msgid "Movie Creation Date Descending"
+msgstr "Erstellungsdatum des Films absteigend"
+
+msgid "Movie Database Update started: %s\\\\\\\\n"
+msgstr "Update der Filmdatenbank gestartet: %s\\\\\\\\\\\\\\\\n"
+
+msgid "Movie File Information"
+msgstr "Informationen zur Filmdatei"
+
+msgid "Movie Folder"
+msgstr "Filmordner"
+
+msgid "Movie Folder Ascending"
+msgstr "Filmordner aufsteigend"
+
+msgid "Movie Folder Descending"
+msgstr "Filmordner absteigend"
+
+msgid "Movie Folder Selection"
+msgstr "Auswahl des Filmordners"
+
+msgid "Movie Folder:"
+msgstr "Filmordner:"
+
+msgid "Movie Rating 0-10"
+msgstr "Filmbewertung 0-10"
+
+msgid "Movie Rating 10-0"
+msgstr "Filmbewertung 10-0"
+
+msgid "Movie Release Date Ascending"
+msgstr "Filmveröffentlichungsdatum aufsteigend"
+
+msgid "Movie Release Date Descending"
+msgstr "Erscheinungsdatum des Films absteigend"
+
+msgid "Movie Runtime Ascending"
+msgstr "Filmlaufzeit aufsteigend"
+
+msgid "Movie Runtime Descending"
+msgstr "Filmlaufzeit absteigend"
+
+msgid "Movie Sort Order:"
+msgstr "Sortierreihenfolge der Filme:"
+
+msgid "Movie Title A-Z"
+msgstr "Filmtitel A-Z"
+
+msgid "Movie Title Z-A"
+msgstr "Filmtitel Z-A"
+
+msgid "Movies"
+msgstr "Filme"
+
+msgid "Movies & Series"
+msgstr "Filme & Serien"
+
+msgid "Movies Style:"
+msgstr "Filmstil:"
+
+msgid "Movies or Series Selection at Start:"
+msgstr "Film- oder Serienauswahl beim Start:"
+
+msgid "Movies or Series:"
+msgstr "Filme oder Serien:"
+
+msgid "No"
+msgstr "NEIN"
+
+msgid "On Database Update"
+msgstr "Beim Datenbank-Update"
+
+msgid "On First Access"
+msgstr "Beim ersten Zugriff"
+
+msgid "Please wait, loading database..."
+msgstr "Bitte warten, Datenbank wird geladen..."
+
+msgid "Plugin Transparency:"
+msgstr "Plugin-Transparenz:"
+
+msgid "Plugin in Enigma Menu:"
+msgstr "Plugin im Enigma-Menü:"
+
+msgid "Posterwall/Backdrop Show Plot:"
+msgstr "Posterwand/Hintergrund Showplot:"
+
+msgid "Radio Button: Delete/Blacklist movie"
+msgstr "Optionsfeld: Film löschen/auf die schwarze Liste setzen"
+
+msgid "Rating:"
+msgstr "Bewertung:"
+
 msgid "Really close without saving settings?"
 msgstr "Wirklich schließen, ohne die Einstellungen zu speichern?"
 
-#~ msgid "Edit"
-#~ msgstr "Editieren"
+msgid "Reset Database:"
+msgstr "Datenbank zurücksetzen:"
 
-#~ msgid "free Space"
-#~ msgstr "freier Speicherplatz"
+msgid "Restore Database:"
+msgstr "Datenbank wiederherstellen:"
 
-#~ msgid ""
-#~ "\n"
-#~ "The TVDb API Server is not reachable."
-#~ msgstr ""
-#~ "\n"
-#~ "Der TVDb API Server ist nicht erreichbar."
+msgid "Runtime:"
+msgstr "Laufzeit:"
 
-#~ msgid ""
-#~ "\n"
-#~ "No The TVDb Results for %s."
-#~ msgstr ""
-#~ "\n"
-#~ "Nein Die TVDb-Ergebnisse für %s."
+msgid "SERIES"
+msgstr "SERIE"
 
-#~ msgid "Movie Browser"
-#~ msgstr "Film-Browser"
+msgid "Save"
+msgstr "Speichern"
 
-#~ msgid ""
-#~ "\n"
-#~ "The CutListEditor plugin supports only records with the box."
-#~ msgstr ""
-#~ "\n"
-#~ "Das CutListEditor-Plugin unterstützt nur Datensätze mit der Box."
+msgid "Select Skin (GUI Restart Required):"
+msgstr "Skin auswählen (GUI-Neustart erforderlich):"
 
-#~ msgid ""
-#~ "\n"
-#~ "The CutListEditor plugin is not installed.\n"
-#~ "\n"
-#~ "The plugin can be installed automatically if it exists on the feed of your image. Search for the plugin now and install it if present on the feed?"
-#~ msgstr ""
-#~ "\n"
-#~ "Das CutListEditor-Plugin ist nicht installiert.\n"
-#~ "\n"
-#~ "Das Plugin kann automatisch installiert werden, wenn es im Feed Ihres Bildes vorhanden ist. Suchen Sie jetzt nach dem Plugin und installieren Sie es, wenn es im Feed vorhanden ist?"
+msgid "Series"
+msgstr "Serie"
 
-#~ msgid ""
-#~ "\n"
-#~ "The MovieCut plugin supports only records with the box."
-#~ msgstr ""
-#~ "\n"
-#~ "Das MovieCut-Plugin unterstützt nur Datensätze mit der Box."
+msgid "Series Episodes"
+msgstr "Serienepisoden"
 
-#~ msgid ""
-#~ "\n"
-#~ "The MovieCut plugin is not installed.\n"
-#~ "\n"
-#~ "The plugin can be installed automatically if it exists on the feed of your image. Search for the plugin now and install it if present on the feed?"
-#~ msgstr ""
-#~ "\n"
-#~ "Das MovieCut-Plugin ist nicht installiert.\n"
-#~ "\n"
-#~ "Das Plugin kann automatisch installiert werden, wenn es im Feed Ihres Bildes vorhanden ist. Suchen Sie jetzt nach dem Plugin und installieren Sie es, wenn es im Feed vorhanden ist?"
+msgid "Series Folder: No Info possible"
+msgstr "Serienordner: Keine Angaben möglich"
 
-#~ msgid ""
-#~ "\n"
-#~ "The CutListEditor plugin was installed.\n"
-#~ "Please restart Enigma."
-#~ msgstr ""
-#~ "\n"
-#~ "Das CutListEditor-Plugin wurde installiert.\n"
-#~ "Bitte starten Sie Enigma neu."
+msgid "Series Style:"
+msgstr "Serienstil:"
 
-#~ msgid ""
-#~ "\n"
-#~ "The CutListEditor plugin is not present on the feed of your image.\n"
-#~ "\n"
-#~ "Please install the CutListEditor plugin manually."
-#~ msgstr ""
-#~ "\n"
-#~ "Das CutListEditor-Plugin ist nicht im Feed Ihres Bildes vorhanden.\n"
-#~ "\n"
-#~ "Bitte installieren Sie das CutListEditor-Plugin manuell."
+msgid "Show"
+msgstr "Zeigen"
 
-#~ msgid ""
-#~ "\n"
-#~ "The MovieCut plugin was installed.\n"
-#~ "Please restart Enigma."
-#~ msgstr ""
-#~ "\n"
-#~ "Das MovieCut-Plugin wurde installiert.\n"
-#~ "Bitte starten Sie Enigma neu."
+msgid "Show Backdrops:"
+msgstr "Hintergründe anzeigen:"
 
-#~ msgid ""
-#~ "\n"
-#~ "The MovieCut plugin is not present on the feed of your image.\n"
-#~ "\n"
-#~ "Please install the CutListEditor plugin manually."
-#~ msgstr ""
-#~ "\n"
-#~ "Das MovieCut-Plugin ist nicht im Feed Ihres Bildes vorhanden.\n"
-#~ "\n"
-#~ "Bitte installieren Sie das CutListEditor-Plugin manuell."
+msgid "Show List of Movie Folder:"
+msgstr "Liste der Filmordner anzeigen:"
 
-#~ msgid "movie"
-#~ msgstr "Film"
+msgid "Show TV in Background (no m1v):"
+msgstr "TV im Hintergrund anzeigen (kein m1v):"
 
-#~ msgid "poster"
-#~ msgstr "Plakat"
+msgid "Sign up on TMDb and enter your free personal API Key"
+msgstr "Melden Sie sich bei TMDb an und geben Sie Ihren kostenlosen persönlichen API-Schlüssel ein"
 
-#~ msgid "backdrop"
-#~ msgstr "Hintergrund"
+msgid "Sign up on TheTVDb and enter your free personal API Key"
+msgstr "Melden Sie sich bei TheTVDb an und geben Sie Ihren kostenlosen persönlichen API-Schlüssel ein"
 
-#~ msgid "banner"
-#~ msgstr "banner"
+msgid "Start Plugin with Video Button:"
+msgstr "Plugin mit Video-Button starten:"
 
-#~ msgid "Update Series"
-#~ msgstr "Reihe aktualisieren"
+msgid "Stop Button: Mark movie as seen"
+msgstr "Stopp-Taste: Film als gesehen markieren"
 
-#~ msgid "series"
-#~ msgstr "Serien"
+msgid "Style"
+msgstr "Stil"
 
-#~ msgid "MOVIES & SERIES"
-#~ msgstr "Filme & Serien"
+msgid "TMDb API key successfully imported!"
+msgstr "TMDb-API-Schlüssel erfolgreich importiert!"
 
-#~ msgid "METRIX"
-#~ msgstr "METRIX"
+msgid "TMDb Results"
+msgstr "TMDb-Ergebnisse"
 
-#~ msgid "BACKDROP"
-#~ msgstr "HINTERGRUND"
+msgid "TMDb/TheTVDb Language:"
+msgstr "TMDb/TheTVDb-Sprache:"
 
-#~ msgid "POSTERWALL"
-#~ msgstr "POSTERWALL"
+msgid "Text Button: Edit Database"
+msgstr "Textschaltfläche: Datenbank bearbeiten"
 
-#~ msgid "YouTube Trailer Search | Page "
-#~ msgstr "YouTube Trailer Suche | Seite "
+msgid "TheTVDb API key successfully imported!"
+msgstr "Der TVDb-API-Schlüssel wurde erfolgreich importiert!"
 
-#~ msgid "= Hide"
-#~ msgstr "= Ausblenden"
+msgid "TheTVDb Results"
+msgstr "TheTVDb-Ergebnisse"
 
-#~ msgid "= YouTube Search"
-#~ msgstr "= YouTube-Suche"
+msgid "Timer Database Update:"
+msgstr "Aktualisierung der Timer-Datenbank:"
 
-#~ msgid "YouTube Trailer Search:"
-#~ msgstr "YouTube Trailer Suche:"
+msgid "Toggle Plugin Style"
+msgstr "Plugin-Stil umschalten"
 
-#~ msgid ""
-#~ "\n"
-#~ "The YouTube Server is not reachable:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "\n"
-#~ "Der YouTube-Server ist nicht erreichbar:\n"
-#~ "%s"
+msgid "Toggle hide/show plugin"
+msgstr "Plugin ein-/ausblenden umschalten"
 
-#~ msgid ""
-#~ "\n"
-#~ "The YouTube Server is not reachable."
-#~ msgstr ""
-#~ "\n"
-#~ "Der YouTube-Server ist nicht erreichbar."
+msgid "Update"
+msgstr "Aktualisieren"
 
-#~ msgid ""
-#~ "     : YouTube Movie Trailer\n"
-#~ "     : Wikipedia Search\n"
-#~ "     : Toggle Plugin Style\n"
-#~ "     : Toggle hide/show plugin\n"
-#~ "Info Button: Toggle show/hide infos\n"
-#~ "Video Button: Update Database\n"
-#~ "Text Button: Edit Database\n"
-#~ "Stop Button: Mark movie as seen\n"
-#~ "Radio Button: Delete/Blacklist movie\n"
-#~ "<- -> Button: Go to first letter\n"
-#~ "Button 1: CutListEditor/MovieCut/LogView\n"
-#~ "Button 2: Renew infos on TMDb\n"
-#~ "Button 3: Renew infos on TheTVDb\n"
-#~ "Button 4: Hide/show seen movies\n"
-#~ "Button 5: Toggle Movies/Series view\n"
-#~ "Button 6: Movie Folder Selection\n"
-#~ "Button 7: Movie Director Selection\n"
-#~ "Button 8: Movie Actor Selection\n"
-#~ "Button 9: Movie Genre Selection\n"
-#~ "Button 0: Go to end of list"
-#~ msgstr ""
-#~ "     : YouTube Film Trailer\n"
-#~ "     : Wikipedia Suche\n"
-#~ "     : Plugin-Stil umschalten\n"
-#~ "     : Plugin ausblenden/einblenden umschalten\n"
-#~ "Info-Button: Infos ein-/ausblenden\n"
-#~ "Video-Schaltfläche: Datenbank aktualisieren\n"
-#~ "Textschaltfläche: Datenbank bearbeiten\n"
-#~ "Stopp-Taste: Film als gesehen markieren\n"
-#~ "Optionsfeld: Film löschen/auf die schwarze Liste setzen\n"
-#~ "<- -=\"\"> Button: Zum ersten Buchstaben gehen\n"
-#~ "Schaltfläche 1: CutListEditor / MovieCut / LogView\n"
-#~ "Button 2: Infos auf TMDb erneuern\n"
-#~ "Button 3: Infos auf TheTVDb erneuern\n"
-#~ "Taste 4: Gesehene Filme ein-/ausblenden\n"
-#~ "Schaltfläche 5: Film-/Serienansicht ein-/ausschalten\n"
-#~ "Schaltfläche 6: Filmordnerauswahl\n"
-#~ "Taste 7: Auswahl des Filmregisseurs\n"
-#~ "Taste 8: Auswahl des Filmschauspielers\n"
-#~ "Button 9: Filmgenreauswahl\n"
-#~ "Button 0: Zum Ende der Liste wechseln</->"
+msgid "Update Database with Timer:"
+msgstr "Datenbank mit Timer aktualisieren:"
 
-#~ msgid "Plugin Sans Serif Font:"
-#~ msgstr "Plugin Sans Serif Font:"
+msgid "Update Movie/Series"
+msgstr "Film/Serie aktualisieren"
 
-#~ msgid "Posterwall/Backdrop Plugin Size:"
-#~ msgstr "Posterwall/Backdrop Plugin Größe:"
+msgid "Update Selection"
+msgstr "Auswahl aktualisieren"
 
-#~ msgid "Posterwall/Backdrop Headline Color:"
-#~ msgstr "Farbe der Posterwall/Hintergrundüberschrift:"
+msgid "Update error:"
+msgstr "Update-Fehler:"
 
-#~ msgid "Plugin Auto Update Check:"
-#~ msgstr "Plugin Auto Update Check:"
+msgid "Use m1v Backdrops:"
+msgstr "Verwenden Sie m1v-Hintergründe:"
 
-#~ msgid "Full HD Skin Support:"
-#~ msgstr "Full HD Skin Unterstützung:"
+msgid "Video Button: Update Database"
+msgstr "Video-Schaltfläche: Datenbank aktualisieren"
 
-#~ msgid "PayPal Info:"
-#~ msgstr "PayPal Infos:"
+msgid "Years:"
+msgstr "Jahre:"
 
-#~ msgid ""
-#~ "\n"
-#~ "Database backuped to %s"
-#~ msgstr ""
-#~ "\n"
-#~ "Datenbank in %s gesichert"
-
-#~ msgid ""
-#~ "Start time: %s\n"
-#~ "End time: %s\n"
-#~ "Orphaned Backdrops/Posters removed: %s\n"
-#~ "\n"
-#~ msgstr ""
-#~ "Startzeit: %s\n"
-#~ "Endzeit: %s\n"
-#~ "Verwaiste Hintergründe/Poster entfernt: %s\n"
-#~ "\n"
-
-#~ msgid "Manage your Movies & Series"
-#~ msgstr "Verwalten Sie Ihre Filme und Serien"
+msgid "Yes"
+msgstr "Ja"
