@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: moviebrowser\n"
 "POT-Creation-Date: 2026-11-13 12:00+0100\n"
-"PO-Revision-Date: 2026-11-13 12:00+0100\n"
+"PO-Revision-Date: 2026-11-24 09:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: lululla\n"
 "Language: nl\n"
@@ -1011,6 +1011,171 @@ msgstr "TheTVDb API-sleutel succesvol geïmporteerd!"
 #: movie_config.py:2064
 msgid "Really close without saving settings?"
 msgstr "Echt afsluiten zonder de instellingen op te slaan?"
+
+msgid "Popular"
+msgstr "Populair"
+
+msgid "Top Rated"
+msgstr "Best beoordeeld"
+
+msgid "New Releases"
+msgstr "Nieuwe releases"
+
+msgid "Upcoming"
+msgstr "Binnenkort"
+
+msgid "In library"
+msgstr "In bibliotheek"
+
+msgid "Loading..."
+msgstr "Laden..."
+
+msgid "No results"
+msgstr "Geen resultaten"
+
+msgid "TMDb API Server is not reachable."
+msgstr "TMDb API-server is niet bereikbaar."
+
+msgid "OK: Movie information"
+msgstr "OK: Filminformatie"
+
+msgid "Left/Right: Movie"
+msgstr "Links/rechts: Film"
+
+msgid "Up/Down: Category"
+msgstr "Omhoog/omlaag: Categorie"
+
+msgid "Red: Style"
+msgstr "Rood: Stijl"
+
+msgid "Exit: Back"
+msgstr "Exit: Terug"
+
+msgid "Please wait, loading database..."
+msgstr "Even geduld, database wordt geladen..."
+
+msgid "Select style"
+msgstr "Stijl kiezen"
+
+msgid "%s min"
+msgstr "%s min"
+
+msgid "DISCOVER"
+msgstr "ONTDEKKEN"
+
+msgid "DISCOVER MOVIES"
+msgstr "FILMS ONTDEKKEN"
+
+msgid "Popular, top rated and upcoming films from TMDb"
+msgstr "Populaire, best beoordeelde en aankomende films van TMDb"
+
+msgid "List view with poster and details"
+msgstr "Lijstweergave met poster en details"
+
+msgid "Backdrop view with poster strip"
+msgstr "Achtergrondweergave met posterstrook"
+
+msgid "Wall of posters"
+msgstr "Posterwand"
+
+msgid "Check for plugin update"
+msgstr "Controleer op plugin-update"
+
+msgid ""
+"Update check failed:\n"
+"%s"
+msgstr ""
+"Updatecontrole mislukt:\n"
+"%s"
+
+msgid "You already have the latest version (%s)."
+msgstr "U heeft al de nieuwste versie (%s)."
+
+msgid ""
+"New version %s available (installed: %s).\n"
+"Install now?"
+msgstr ""
+"Nieuwe versie %s beschikbaar (geïnstalleerd: %s).\n"
+"Nu installeren?"
+
+msgid ""
+"Update failed:\n"
+"%s"
+msgstr ""
+"Update mislukt:\n"
+"%s"
+
+msgid ""
+"Updated to version %s (%d files).\n"
+"Restart GUI now?"
+msgstr ""
+"Bijgewerkt naar versie %s (%d bestanden).\n"
+"GUI nu herstarten?"
+
+msgid "Check for Plugin Update:"
+msgstr "Controleren op plugin-update:"
+
+msgid "Plugin Auto Update:"
+msgstr "Automatische plugin-update:"
+
+msgid "Off"
+msgstr "Uit"
+
+msgid "Check only"
+msgstr "Alleen controleren"
+
+msgid "Install automatically"
+msgstr "Automatisch installeren"
+
+msgid "TMDb Language:"
+msgstr "TMDb-taal:"
+
+msgid ""
+"Movie Browser: new version %s available (installed: %s).\n"
+"Install it via the plugin setup."
+msgstr ""
+"Movie Browser: nieuwe versie %s beschikbaar (geïnstalleerd: %s).\n"
+"Installeer deze via de plugin-instellingen."
+
+msgid ""
+"Movie Browser updated to version %s.\n"
+"Restart GUI now?"
+msgstr ""
+"Movie Browser is bijgewerkt naar versie %s.\n"
+"GUI nu herstarten?"
+
+msgid "Airing Today"
+msgstr "Vandaag"
+
+msgid "On The Air"
+msgstr "Lopend"
+
+msgid "Creator:"
+msgstr "Bedenker:"
+
+msgid "Seasons: %s"
+msgstr "Seizoenen: %s"
+
+msgid "Discover Movies:"
+msgstr "Films ontdekken:"
+
+msgid "Discover Series:"
+msgstr "Series ontdekken:"
+
+msgid "Open"
+msgstr "Openen"
+
+msgid "Movie Browser Key Assignment:"
+msgstr "Toetstoewijzing Movie Browser:"
+
+msgid "Popular, top rated and airing series from TMDb"
+msgstr "Populaire, best beoordeelde en lopende series van TMDb"
+
+msgid "Left/Right: Series"
+msgstr "Links/rechts: Serie"
+
+msgid "Menu: Setup"
+msgstr "Menu: Instellingen"
 
 #~ msgid "Edit"
 #~ msgstr "Bewerken"
