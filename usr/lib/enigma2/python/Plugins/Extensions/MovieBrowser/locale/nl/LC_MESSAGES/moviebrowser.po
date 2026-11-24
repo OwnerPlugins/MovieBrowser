@@ -1,0 +1,1424 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: moviebrowser\n"
+"POT-Creation-Date: 2026-11-13 12:00+0100\n"
+"PO-Revision-Date: 2026-11-24 09:11+0100\n"
+"Last-Translator: \n"
+"Language-Team: lululla\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: plugin.py\n"
+"X-Poedit-SearchPath-1: movie_config.py\n"
+"X-Poedit-SearchPath-2: library.py\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: plugin.py:212 plugin.py:3217 plugin.py:6276
+msgid "Director:"
+msgstr "Regie:"
+
+#: plugin.py:213 plugin.py:3218 plugin.py:6277
+msgid "Actors:"
+msgstr "Acteurs:"
+
+#: plugin.py:214 plugin.py:3219 plugin.py:6278
+msgid "Years:"
+msgstr "Jaren:"
+
+#: plugin.py:215 plugin.py:3220 plugin.py:6279
+msgid "Runtime:"
+msgstr "Speelduur:"
+
+#: plugin.py:216 plugin.py:3221 plugin.py:6280
+msgid "Country:"
+msgstr "Land:"
+
+#: plugin.py:217
+msgid "Update"
+msgstr "Update"
+
+#: plugin.py:218
+msgid "Style"
+msgstr "Stijl"
+
+#: plugin.py:219 plugin.py:13421
+msgid "Help"
+msgstr "Help"
+
+#: plugin.py:220 plugin.py:3222 plugin.py:6281
+msgid "Genres:"
+msgstr "Genres:"
+
+#: plugin.py:395 plugin.py:3424 plugin.py:6447
+msgid ""
+"The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n"
+"\n"
+"If the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n"
+"\n"
+"Rebuild the Database now?"
+msgstr ""
+"De Movie Browser-database wordt nu opnieuw opgebouwd. Afhankelijk van het aantal films kan dit enkele minuten duren.\n"
+"\n"
+"Als de plugin na enkele minuten stopt, start de plugin dan opnieuw en voer een handmatige database-update uit (Video-toets).\n"
+"\n"
+"Database nu opnieuw opbouwen?"
+
+#: plugin.py:401 plugin.py:3430 plugin.py:6453
+msgid ""
+"Before the Database is rebuilt, check your settings in the plugin setup:\n"
+"\n"
+"- Check the path to the Movie Folder\n"
+"- Check your TMDb/TheTVDb Language\n"
+"- Set the Cache Folder to your hard disk drive."
+msgstr ""
+"Controleer de instellingen in de setup van de plugin voordat de database opnieuw wordt opgebouwd:\n"
+"\n"
+"- Controleer het pad naar de filmmap\n"
+"- Controleer uw TMDb/TheTVDb-taal\n"
+"- Zet de cachemap op uw harde schijf."
+
+#: plugin.py:502 plugin.py:606 plugin.py:620 plugin.py:636
+msgid "<List of Movie Folder>"
+msgstr "<List of Movie Folder>"
+
+#: plugin.py:695 plugin.py:11341
+msgid "Free Space"
+msgstr "Vrije ruimte"
+
+#: plugin.py:696 plugin.py:11342 plugin.py:13115
+msgid "Movie Folder"
+msgstr "Filmmap"
+
+#: plugin.py:697
+msgid "MOVIES"
+msgstr "FILMS"
+
+#: plugin.py:698
+msgid "SERIES"
+msgstr "SERIES"
+
+#: plugin.py:699
+msgid "EPISODES"
+msgstr "AFLEVERINGEN"
+
+#: plugin.py:757 plugin.py:3610 plugin.py:6640
+msgid ""
+"\n"
+"Movie Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr ""
+"\n"
+"Filmmap %s niet bereikbaar:\n"
+"Bijwerken van de Movie Browser-database geannuleerd."
+
+#: plugin.py:763 plugin.py:3616 plugin.py:6646
+msgid ""
+"\n"
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr ""
+"\n"
+"Cachemap %s niet bereikbaar:\n"
+"Bijwerken van de Movie Browser-database geannuleerd."
+
+#: plugin.py:825 plugin.py:3672 plugin.py:6706
+msgid ""
+"\n"
+"No new Movies or Series found:\n"
+"Your Database is up to date."
+msgstr ""
+"\n"
+"Geen nieuwe films of series gevonden:\n"
+"Uw database is up-to-date."
+
+#: plugin.py:832 plugin.py:3679 plugin.py:6713
+msgid ""
+"\n"
+"No new Movies or Series found.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"Geen nieuwe films of series gevonden.\n"
+"%s verweesd database-item verwijderd."
+
+#: plugin.py:838 plugin.py:3685 plugin.py:6719
+msgid ""
+"\n"
+"No new Movies or Series found.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"Geen nieuwe films of series gevonden.\n"
+"%s verweesde database-items verwijderd."
+
+#: plugin.py:845 plugin.py:3692 plugin.py:6726
+msgid ""
+"\n"
+"%s Movie imported into Database."
+msgstr ""
+"\n"
+"%s film in database geïmporteerd."
+
+#: plugin.py:849 plugin.py:857 plugin.py:3696 plugin.py:3704
+msgid ""
+"\n"
+"%s Series imported into Database."
+msgstr ""
+"\n"
+"%s serie in database geïmporteerd."
+
+#: plugin.py:853 plugin.py:3700 plugin.py:6734
+msgid ""
+"\n"
+"%s Movies imported into Database."
+msgstr ""
+"\n"
+"%s films in database geïmporteerd."
+
+#: plugin.py:861 plugin.py:3708 plugin.py:6742
+msgid ""
+"\n"
+"%s Movies and %s Series imported into Database."
+msgstr ""
+"\n"
+"%s films en %s series in database geïmporteerd."
+
+#: plugin.py:868 plugin.py:3715 plugin.py:6749
+msgid ""
+"\n"
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"%s film in database geïmporteerd.\n"
+"%s verweesd database-item verwijderd."
+
+#: plugin.py:875 plugin.py:904 plugin.py:3722 plugin.py:3751
+msgid ""
+"\n"
+"%s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"%s serie in database geïmporteerd.\n"
+"%s verweesd database-item verwijderd."
+
+#: plugin.py:882 plugin.py:3729 plugin.py:6763
+msgid ""
+"\n"
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"%s film in database geïmporteerd.\n"
+"%s verweesde database-items verwijderd."
+
+#: plugin.py:889 plugin.py:926 plugin.py:3736 plugin.py:3773
+msgid ""
+"\n"
+"%s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"%s serie in database geïmporteerd.\n"
+"%s verweesde database-items verwijderd."
+
+#: plugin.py:897 plugin.py:3744 plugin.py:6778
+msgid ""
+"\n"
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"%s films in database geïmporteerd.\n"
+"%s verweesd database-item verwijderd."
+
+#: plugin.py:911 plugin.py:3758 plugin.py:6792
+msgid ""
+"\n"
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"%s films en %s series in database geïmporteerd.\n"
+"%s verweesd database-item verwijderd."
+
+#: plugin.py:919 plugin.py:3766 plugin.py:6800
+msgid ""
+"\n"
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"%s films in database geïmporteerd.\n"
+"%s verweesde database-items verwijderd."
+
+#: plugin.py:933 plugin.py:3780 plugin.py:6814
+msgid ""
+"\n"
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"%s films en %s series in database geïmporteerd.\n"
+"%s verweesde database-items verwijderd."
+
+#: plugin.py:993 plugin.py:1004 plugin.py:1018 plugin.py:3834
+msgid ""
+"\n"
+"Movie file %s not available."
+msgstr ""
+"\n"
+"Filmbestand %s niet beschikbaar."
+
+#: plugin.py:1009 plugin.py:3850 plugin.py:6894
+msgid ""
+"\n"
+"DVD Player Plugin not installed."
+msgstr ""
+"\n"
+"DVD-speler-plugin niet geïnstalleerd."
+
+#: plugin.py:1164 plugin.py:4006 plugin.py:7066
+msgid ""
+"\n"
+"TMDb Movie Update Error:\n"
+"Series Folder"
+msgstr ""
+"\n"
+"TMDb-filmupdatefout:\n"
+"Seriemap"
+
+#: plugin.py:1200 plugin.py:4039 plugin.py:7100 plugin.py:12282
+msgid ""
+"\n"
+"TMDb API Server is not reachable."
+msgstr ""
+"\n"
+"TMDb API-server is niet bereikbaar."
+
+#: plugin.py:1229 plugin.py:4067 plugin.py:7129
+msgid "TMDb Results"
+msgstr "TMDb-resultaten"
+
+#: plugin.py:1233 plugin.py:4071 plugin.py:7133
+msgid ""
+"\n"
+"No TMDb Results for %s."
+msgstr ""
+"\n"
+"Geen TMDb-resultaten voor %s."
+
+#: plugin.py:1316 plugin.py:4157 plugin.py:7214 plugin.py:12367
+msgid ""
+"\n"
+"TheTVDb API Server is not reachable."
+msgstr ""
+"\n"
+"De TheTVDb API-server is niet bereikbaar."
+
+#: plugin.py:1399 plugin.py:4244 plugin.py:7297
+msgid "TheTVDb Results"
+msgstr "TheTVDb-resultaten"
+
+#: plugin.py:1404 plugin.py:4248 plugin.py:7301
+msgid ""
+"\n"
+"No TheTVDb Results for %s."
+msgstr ""
+"\n"
+"Geen TheTVDb-resultaten voor %s."
+
+#: plugin.py:1480 plugin.py:4320 plugin.py:7378 plugin.py:10979
+msgid ""
+"\n"
+"The List of Movie Folder cannot be deleted."
+msgstr ""
+"\n"
+"De lijst met filmmappen kan niet worden verwijderd."
+
+#: plugin.py:1486 plugin.py:4326 plugin.py:7384 plugin.py:10985
+msgid ""
+"\n"
+"This will delete all %s entries from the Database but not from the Movie Folder.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"\n"
+"Hiermee worden alle %s items uit de database verwijderd, maar niet uit de filmmap.\n"
+"\n"
+"Wilt u doorgaan?"
+
+#: plugin.py:1493 plugin.py:4333 plugin.py:7391 plugin.py:10992
+msgid ""
+"\n"
+"This will delete %s from the Database and from the Movie Folder!\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"\n"
+"Hiermee wordt %s uit de database én uit de filmmap verwijderd!\n"
+"\n"
+"Wilt u doorgaan?"
+
+#: plugin.py:1575 plugin.py:4416 plugin.py:7477 plugin.py:11077
+msgid ""
+"\n"
+"This will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"\n"
+"Hiermee wordt %s uit de database verwijderd en op de zwarte lijst gezet, zodat de film bij toekomstige database-updates wordt genegeerd.\n"
+"\n"
+"Wilt u doorgaan?"
+
+#: plugin.py:2376 plugin.py:5202 plugin.py:8578
+msgid "Series Folder: No Info possible"
+msgstr "Seriemap: geen info mogelijk"
+
+#: plugin.py:2555 plugin.py:5344 plugin.py:8732
+msgid "Movie Folder Selection"
+msgstr "Filmmap selecteren"
+
+#: plugin.py:2601 plugin.py:5392 plugin.py:8779
+msgid "Genre Selection"
+msgstr "Genre selecteren"
+
+#: plugin.py:2646 plugin.py:5440 plugin.py:8825
+msgid "Actor Selection"
+msgstr "Acteur selecteren"
+
+#: plugin.py:2691 plugin.py:5488 plugin.py:8871
+msgid "Director Selection"
+msgstr "Regisseur selecteren"
+
+#: plugin.py:3046 plugin.py:5926 plugin.py:9319 plugin.py:10665
+msgid ""
+"\n"
+"Database Error: Entry without runtime"
+msgstr ""
+"\n"
+"Databasefout: item zonder speelduur"
+
+#: plugin.py:3223 plugin.py:6282
+msgid "Rating:"
+msgstr "Beoordeling:"
+
+#: plugin.py:4809 plugin.py:8017
+msgid "Error while loading"
+msgstr "Fout bij het laden"
+
+#: plugin.py:6635
+msgid ""
+"\n"
+"Update Movie Browser Database?"
+msgstr ""
+"\n"
+"Movie Browser-database bijwerken?"
+
+#: plugin.py:10577 movie_config.py:1220
+msgid ""
+"Start time: %s\n"
+"End time: %s\n"
+"Total scanned files: %s\n"
+"TheTVDb Database Requests: %s\n"
+"TMDb Database Requests: %s\n"
+"Orphaned Movies/Series: %s\n"
+"New Series: %s\n"
+"New Movies: %s\n"
+"\n"
+msgstr ""
+"Starttijd: %s\n"
+"Eindtijd: %s\n"
+"Totaal aantal gescande bestanden: %s\n"
+"TheTVDb-databaseverzoeken: %s\n"
+"TMDb-databaseverzoeken: %s\n"
+"Verweesde films/series: %s\n"
+"Nieuwe series: %s\n"
+"Nieuwe films: %s\n"
+"\n"
+
+#: plugin.py:10869
+msgid "Movie File Information"
+msgstr "Filmbestandsinformatie"
+
+#: plugin.py:10870
+msgid "Delete Movie File"
+msgstr "Filmbestand verwijderen"
+
+#: plugin.py:10871
+msgid "Blacklist Movie File"
+msgstr "Filmbestand op zwarte lijst zetten"
+
+#: plugin.py:10872
+msgid "Database Update Log"
+msgstr "Database-updatelogboek"
+
+#: plugin.py:10873
+msgid "Database Timer Log"
+msgstr "Database-timerlogboek"
+
+#: plugin.py:10874
+msgid "Cleanup Cache Folder Log"
+msgstr "Logboek cachemap opschonen"
+
+#: plugin.py:11340
+msgid "Database"
+msgstr "Database"
+
+#: plugin.py:11343 movie_config.py:121
+msgid "Movies"
+msgstr "Films"
+
+#: plugin.py:11473
+msgid "Database Editor:"
+msgstr "Database-editor:"
+
+#: plugin.py:11966
+msgid "Update Selection"
+msgstr "Update-keuze"
+
+#: plugin.py:11970 plugin.py:11972
+msgid "Update Movie/Series"
+msgstr "Film/serie bijwerken"
+
+#: plugin.py:12012
+msgid "Invalid selection"
+msgstr "Ongeldige keuze"
+
+#: plugin.py:12025
+msgid ""
+"Cannot update with TMDb: ID is not numeric\n"
+"This appears to be a TV series, not a movie."
+msgstr ""
+"Bijwerken met TMDb niet mogelijk: ID is niet numeriek\n"
+"Dit lijkt een tv-serie te zijn, geen film."
+
+#: plugin.py:12035
+msgid ""
+"Cannot update with TheTVDb: ID appears to be a movie ID\n"
+"Try \"Update Movie\" instead."
+msgstr ""
+"Bijwerken met TheTVDb niet mogelijk: het ID lijkt een film-ID te zijn\n"
+"Probeer in plaats daarvan \"Film bijwerken\"."
+
+#: plugin.py:12082
+msgid "Update error: "
+msgstr "Updatefout: "
+
+#: plugin.py:12102
+msgid "All /tmp/posters cleaned"
+msgstr "Alle /tmp/posters opgeschoond"
+
+#: plugin.py:13113
+msgid "Series Episodes"
+msgstr "Serie-afleveringen"
+
+#: plugin.py:13114
+msgid "Free Space:"
+msgstr "Vrije ruimte:"
+
+#: plugin.py:13406
+msgid "Movie Browser Key Assignment"
+msgstr "Toetstoewijzing Movie Browser"
+
+#: plugin.py:13420
+msgid "Manage your Movies & Series V.%s"
+msgstr "Beheer uw films & series V.%s"
+
+#: plugin.py:13422
+msgid "Toggle Plugin Style"
+msgstr "Pluginstijl wisselen"
+
+#: plugin.py:13423
+msgid "Toggle hide/show plugin"
+msgstr "Plugin verbergen/tonen"
+
+#: plugin.py:13424
+msgid "Info Button: Toggle show/hide infos"
+msgstr "Info-toets: info tonen/verbergen"
+
+#: plugin.py:13425
+msgid "Video Button: Update Database"
+msgstr "Video-toets: database bijwerken"
+
+#: plugin.py:13426
+msgid "Text Button: Edit Database"
+msgstr "Tekst-toets: database bewerken"
+
+#: plugin.py:13427
+msgid "Stop Button: Mark movie as seen"
+msgstr "Stop-toets: film als gezien markeren"
+
+#: plugin.py:13428
+msgid "Radio Button: Delete/Blacklist movie"
+msgstr "Radio-toets: film verwijderen/op zwarte lijst zetten"
+
+#: plugin.py:13429
+msgid "<- -> Button: Go to first letter"
+msgstr "<- -> toets: naar de eerste letter gaan"
+
+#: plugin.py:13430
+msgid "Button 1: CutListEditor/MovieCut/LogView"
+msgstr "Toets 1: CutListEditor/MovieCut/LogView"
+
+#: plugin.py:13431
+msgid "Button 2: Renew infos on TMDb"
+msgstr "Toets 2: info vernieuwen via TMDb"
+
+#: plugin.py:13432
+msgid "Button 3: Renew infos on TheTVDb"
+msgstr "Toets 3: info vernieuwen via TheTVDb"
+
+#: plugin.py:13433
+msgid "Button 4: Hide/show seen movies"
+msgstr "Toets 4: geziene films verbergen/tonen"
+
+#: plugin.py:13434
+msgid "Button 5: Toggle Movies/Series view"
+msgstr "Toets 5: weergave films/series wisselen"
+
+#: plugin.py:13435
+msgid "Button 6: Movie Folder Selection"
+msgstr "Toets 6: filmmap selecteren"
+
+#: plugin.py:13436
+msgid "Button 7: Movie Director Selection"
+msgstr "Toets 7: regisseur selecteren"
+
+#: plugin.py:13437
+msgid "Button 8: Movie Actor Selection"
+msgstr "Toets 8: acteur selecteren"
+
+#: plugin.py:13438
+msgid "Button 9: Movie Genre Selection"
+msgstr "Toets 9: filmgenre selecteren"
+
+#: plugin.py:13439
+msgid "Button 0: Go to end of list"
+msgstr "Toets 0: naar het einde van de lijst gaan"
+
+#: plugin.py:13556
+msgid "*******Movie Browser Database Update*******\n"
+msgstr "*******Movie Browser database-update*******\n"
+
+#: plugin.py:13575
+msgid ""
+"*******Movie Browser Database Update*******\n"
+"Time: %s\n"
+"Error: %s\n"
+"Reason: %s"
+msgstr ""
+"*******Movie Browser database-update*******\n"
+"Tijd: %s\n"
+"Fout: %s\n"
+"Reden: %s"
+
+#: plugin.py:13602
+msgid ""
+"*******Cleanup Cache Folder*******\n"
+"Start time: %s\n"
+"End time: %s\n"
+"Orphaned Backdrops/Posters removed: %s\n"
+"\n"
+msgstr ""
+"*******Cachemap opschonen*******\n"
+"Starttijd: %s\n"
+"Eindtijd: %s\n"
+"Verweesde achtergronden/posters verwijderd: %s\n"
+"\n"
+
+#: movie_config.py:123
+msgid "Series"
+msgstr "Series"
+
+#: movie_config.py:125
+msgid "Movies & Series"
+msgstr "Films & series"
+
+#: movie_config.py:127
+msgid "Movie Creation Date Descending"
+msgstr "Film aanmaakdatum aflopend"
+
+#: movie_config.py:128
+msgid "Movie Creation Date Ascending"
+msgstr "Film aanmaakdatum oplopend"
+
+#: movie_config.py:129
+msgid "Movie Title A-Z"
+msgstr "Film titel A-Z"
+
+#: movie_config.py:130
+msgid "Movie Title Z-A"
+msgstr "Film titel Z-A"
+
+#: movie_config.py:131
+msgid "Movie Rating 10-0"
+msgstr "Film beoordeling 10-0"
+
+#: movie_config.py:132
+msgid "Movie Rating 0-10"
+msgstr "Film beoordeling 0-10"
+
+#: movie_config.py:133
+msgid "Movie Release Date Descending"
+msgstr "Film releasedatum aflopend"
+
+#: movie_config.py:134
+msgid "Movie Release Date Ascending"
+msgstr "Film releasedatum oplopend"
+
+#: movie_config.py:135
+msgid "Movie Runtime Descending"
+msgstr "Film speelduur aflopend"
+
+#: movie_config.py:136
+msgid "Movie Runtime Ascending"
+msgstr "Film speelduur oplopend"
+
+#: movie_config.py:137
+msgid "Movie Folder Ascending"
+msgstr "Filmmap oplopend"
+
+#: movie_config.py:138
+msgid "Movie Folder Descending"
+msgstr "Filmmap aflopend"
+
+#: movie_config.py:142 movie_config.py:173
+msgid "Info Button"
+msgstr "Info-toets"
+
+#: movie_config.py:143 movie_config.py:173
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: movie_config.py:144 movie_config.py:153 movie_config.py:156
+msgid "Hide"
+msgstr "Verbergen"
+
+#: movie_config.py:148
+msgid "On First Access"
+msgstr "Bij eerste toegang"
+
+#: movie_config.py:148
+msgid "On Database Update"
+msgstr "Bij database-update"
+
+#: movie_config.py:153 movie_config.py:156
+msgid "Show"
+msgstr "Tonen"
+
+#: movie_config.py:162
+msgid "Yes"
+msgstr "Ja"
+
+#: movie_config.py:163
+msgid "No"
+msgstr "Nee"
+
+#: movie_config.py:164
+msgid "Folder Selection"
+msgstr "Mapkeuze"
+
+#: movie_config.py:1367
+msgid ""
+"*******Movie Browser Database Update Timer*******\n"
+"Initial Update Timer started: %s\n"
+"Timer Value (min): %s\n"
+msgstr ""
+"*******Movie Browser database-updatetimer*******\n"
+"Eerste updatetimer gestart: %s\n"
+"Timerwaarde (min): %s\n"
+
+#: movie_config.py:1388
+msgid "Database Update Timer stopped: %s\n"
+msgstr "Database-updatetimer gestopt: %s\n"
+
+#: movie_config.py:1410
+msgid ""
+"Database Update Timer started: %s\n"
+"Timer Value (min): %s\n"
+msgstr ""
+"Database-updatetimer gestart: %s\n"
+"Timerwaarde (min): %s\n"
+
+#: movie_config.py:1420
+msgid "Movie Database Update started: %s\n"
+msgstr "Update van filmdatabase gestart: %s\n"
+
+#: movie_config.py:1448
+msgid "Save"
+msgstr "Opslaan"
+
+#: movie_config.py:1449
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: movie_config.py:1493 movie_config.py:1653
+msgid "Movies Style:"
+msgstr "Filmstijl:"
+
+#: movie_config.py:1497 movie_config.py:1656
+msgid "Series Style:"
+msgstr "Seriestijl:"
+
+#: movie_config.py:1501 movie_config.py:1664
+msgid "Go to last Movie on Start:"
+msgstr "Bij start naar laatste film gaan:"
+
+#: movie_config.py:1505
+msgid "Load last Selection/Filter on Start:"
+msgstr "Laatste selectie/filter laden bij start:"
+
+#: movie_config.py:1509
+msgid "Movie Folder:"
+msgstr "Filmmap:"
+
+#: movie_config.py:1513
+msgid "Cache Folder:"
+msgstr "Cachemap:"
+
+#: movie_config.py:1517
+msgid "Movie Sort Order:"
+msgstr "Sortering films:"
+
+#: movie_config.py:1521
+msgid "Show List of Movie Folder:"
+msgstr "Lijst met filmmappen tonen:"
+
+#: movie_config.py:1525
+msgid "Movies or Series:"
+msgstr "Films of series:"
+
+#: movie_config.py:1529
+msgid "Movies or Series Selection at Start:"
+msgstr "Keuze films of series bij start:"
+
+#: movie_config.py:1533
+msgid "Show Backdrops:"
+msgstr "Achtergronden tonen:"
+
+#: movie_config.py:1537 movie_config.py:1660
+msgid "Use m1v Backdrops:"
+msgstr "m1v-achtergronden gebruiken:"
+
+#: movie_config.py:1541 movie_config.py:1661
+msgid "Show TV in Background (no m1v):"
+msgstr "TV op de achtergrond tonen (geen m1v):"
+
+#: movie_config.py:1545
+msgid "Download new Backdrops:"
+msgstr "Nieuwe achtergronden downloaden:"
+
+#: movie_config.py:1549
+msgid "Posterwall/Backdrop Show Plot:"
+msgstr "Posterwall/achtergrond plot tonen:"
+
+#: movie_config.py:1553
+msgid "Metrix List Selection Color:"
+msgstr "Metrix-lijstselectiekleur:"
+
+#: movie_config.py:1557
+msgid "TMDb/TheTVDb Language:"
+msgstr "TMDb/TheTVDb-taal:"
+
+#: movie_config.py:1561
+msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
+msgstr "TMDb API-sleutel laden uit /tmp/tmdb_api.txt"
+
+#: movie_config.py:1565
+msgid "Sign up on TMDb and enter your free personal API Key"
+msgstr "Registreer op TMDb en voer uw gratis persoonlijke API-sleutel in"
+
+#: movie_config.py:1569
+msgid "Load TheTVDb API Key from /tmp/thetvdb_api.txt"
+msgstr "TheTVDb API-sleutel laden uit /tmp/thetvdb_api.txt"
+
+#: movie_config.py:1573
+msgid "Sign up on TheTVDb and enter your free personal API Key"
+msgstr "Registreer op TheTVDb en voer uw gratis persoonlijke API-sleutel in"
+
+#: movie_config.py:1577
+msgid "Update Database with Timer:"
+msgstr "Database bijwerken met timer:"
+
+#: movie_config.py:1582
+msgid "Timer Database Update:"
+msgstr "Timer database-update:"
+
+#: movie_config.py:1586
+msgid "Hide Plugin during Update:"
+msgstr "Plugin verbergen tijdens update:"
+
+#: movie_config.py:1591
+msgid "Reset Database:"
+msgstr "Database resetten:"
+
+#: movie_config.py:1595 movie_config.py:1673
+msgid "Cleanup Cache Folder:"
+msgstr "Cachemap opschonen:"
+
+#: movie_config.py:1599 movie_config.py:1667
+msgid "Backup Database:"
+msgstr "Database back-uppen:"
+
+#: movie_config.py:1603 movie_config.py:1670
+msgid "Restore Database:"
+msgstr "Database herstellen:"
+
+#: movie_config.py:1607
+msgid "Select Skin (GUI Restart Required):"
+msgstr "Skin kiezen (herstart GUI vereist):"
+
+#: movie_config.py:1611
+msgid "Start Plugin with Video Button:"
+msgstr "Plugin starten met Video-toets:"
+
+#: movie_config.py:1615
+msgid "Plugin Transparency:"
+msgstr "Plugin-transparantie:"
+
+#: movie_config.py:1619
+msgid "Plugin in Enigma Menu:"
+msgstr "Plugin in Enigma-menu:"
+
+#: movie_config.py:1642
+msgid "Error moving cache folder: %s"
+msgstr "Fout bij het verplaatsen van de cachemap: %s"
+
+#: movie_config.py:1695
+msgid ""
+"\n"
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Backup canceled."
+msgstr ""
+"\n"
+"Cachemap %s niet bereikbaar:\n"
+"Back-up van de Movie Browser-database geannuleerd."
+
+#: movie_config.py:1702
+msgid ""
+"\n"
+"Database %s not found:\n"
+"Movie Browser Database Backup canceled."
+msgstr ""
+"\n"
+"Database %s niet gevonden:\n"
+"Back-up van de Movie Browser-database geannuleerd."
+
+#: movie_config.py:1717
+msgid ""
+"\n"
+"Database backed up to %s"
+msgstr ""
+"\n"
+"Database-back-up opgeslagen in %s"
+
+#: movie_config.py:1729
+msgid ""
+"\n"
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Restore canceled."
+msgstr ""
+"\n"
+"Cachemap %s niet bereikbaar:\n"
+"Herstel van de Movie Browser-database geannuleerd."
+
+#: movie_config.py:1737
+msgid ""
+"\n"
+"Database Backup %s not found:\n"
+"Movie Browser Database Restore canceled."
+msgstr ""
+"\n"
+"Database-back-up %s niet gevonden:\n"
+"Herstel van de Movie Browser-database geannuleerd."
+
+#: movie_config.py:1748
+msgid ""
+"\n"
+"Database restored from %s"
+msgstr ""
+"\n"
+"Database hersteld uit %s"
+
+#: movie_config.py:1760
+msgid ""
+"\n"
+"Cache Folder %s not reachable:\n"
+"Cleanup Cache Folder canceled."
+msgstr ""
+"\n"
+"Cachemap %s niet bereikbaar:\n"
+"Cachemap opschonen geannuleerd."
+
+#: movie_config.py:1767
+msgid ""
+"\n"
+"Database %s not found:\n"
+"Cleanup Cache Folder canceled."
+msgstr ""
+"\n"
+"Database %s niet gevonden:\n"
+"Cachemap opschonen geannuleerd."
+
+#: movie_config.py:1788
+msgid ""
+"\n"
+"No orphaned Backdrops or Posters found:\n"
+"Your Cache Folder is clean."
+msgstr ""
+"\n"
+"Geen verweesde achtergronden of posters gevonden:\n"
+"Uw cachemap is schoon."
+
+#: movie_config.py:1794
+msgid ""
+"\n"
+"Cleanup Cache Folder finished:\n"
+"%s orphaned Backdrops or Posters removed."
+msgstr ""
+"\n"
+"Cachemap opschonen voltooid:\n"
+"%s verweesde achtergronden of posters verwijderd."
+
+#: movie_config.py:1822
+msgid "Choose Directory:"
+msgstr "Map kiezen:"
+
+#: movie_config.py:1823
+msgid "Choose Directory"
+msgstr "Map kiezen"
+
+#: movie_config.py:1852
+msgid "File %s not found!"
+msgstr "Bestand %s niet gevonden!"
+
+#: movie_config.py:1867
+msgid "TMDb API key successfully imported!"
+msgstr "TMDb API-sleutel succesvol geïmporteerd!"
+
+#: movie_config.py:1874
+msgid "TheTVDb API key successfully imported!"
+msgstr "TheTVDb API-sleutel succesvol geïmporteerd!"
+
+#: movie_config.py:2064
+msgid "Really close without saving settings?"
+msgstr "Echt afsluiten zonder de instellingen op te slaan?"
+
+msgid "Popular"
+msgstr "Populair"
+
+msgid "Top Rated"
+msgstr "Best beoordeeld"
+
+msgid "New Releases"
+msgstr "Nieuwe releases"
+
+msgid "Upcoming"
+msgstr "Binnenkort"
+
+msgid "In library"
+msgstr "In bibliotheek"
+
+msgid "Loading..."
+msgstr "Laden..."
+
+msgid "No results"
+msgstr "Geen resultaten"
+
+msgid "TMDb API Server is not reachable."
+msgstr "TMDb API-server is niet bereikbaar."
+
+msgid "OK: Movie information"
+msgstr "OK: Filminformatie"
+
+msgid "Left/Right: Movie"
+msgstr "Links/rechts: Film"
+
+msgid "Up/Down: Category"
+msgstr "Omhoog/omlaag: Categorie"
+
+msgid "Red: Style"
+msgstr "Rood: Stijl"
+
+msgid "Exit: Back"
+msgstr "Exit: Terug"
+
+msgid "Please wait, loading database..."
+msgstr "Even geduld, database wordt geladen..."
+
+msgid "Select style"
+msgstr "Stijl kiezen"
+
+msgid "%s min"
+msgstr "%s min"
+
+msgid "DISCOVER"
+msgstr "ONTDEKKEN"
+
+msgid "DISCOVER MOVIES"
+msgstr "FILMS ONTDEKKEN"
+
+msgid "Popular, top rated and upcoming films from TMDb"
+msgstr "Populaire, best beoordeelde en aankomende films van TMDb"
+
+msgid "List view with poster and details"
+msgstr "Lijstweergave met poster en details"
+
+msgid "Backdrop view with poster strip"
+msgstr "Achtergrondweergave met posterstrook"
+
+msgid "Wall of posters"
+msgstr "Posterwand"
+
+msgid "Check for plugin update"
+msgstr "Controleer op plugin-update"
+
+msgid ""
+"Update check failed:\n"
+"%s"
+msgstr ""
+"Updatecontrole mislukt:\n"
+"%s"
+
+msgid "You already have the latest version (%s)."
+msgstr "U heeft al de nieuwste versie (%s)."
+
+msgid ""
+"New version %s available (installed: %s).\n"
+"Install now?"
+msgstr ""
+"Nieuwe versie %s beschikbaar (geïnstalleerd: %s).\n"
+"Nu installeren?"
+
+msgid ""
+"Update failed:\n"
+"%s"
+msgstr ""
+"Update mislukt:\n"
+"%s"
+
+msgid ""
+"Updated to version %s (%d files).\n"
+"Restart GUI now?"
+msgstr ""
+"Bijgewerkt naar versie %s (%d bestanden).\n"
+"GUI nu herstarten?"
+
+msgid "Check for Plugin Update:"
+msgstr "Controleren op plugin-update:"
+
+msgid "Plugin Auto Update:"
+msgstr "Automatische plugin-update:"
+
+msgid "Off"
+msgstr "Uit"
+
+msgid "Check only"
+msgstr "Alleen controleren"
+
+msgid "Install automatically"
+msgstr "Automatisch installeren"
+
+msgid "TMDb Language:"
+msgstr "TMDb-taal:"
+
+msgid ""
+"Movie Browser: new version %s available (installed: %s).\n"
+"Install it via the plugin setup."
+msgstr ""
+"Movie Browser: nieuwe versie %s beschikbaar (geïnstalleerd: %s).\n"
+"Installeer deze via de plugin-instellingen."
+
+msgid ""
+"Movie Browser updated to version %s.\n"
+"Restart GUI now?"
+msgstr ""
+"Movie Browser is bijgewerkt naar versie %s.\n"
+"GUI nu herstarten?"
+
+msgid "Airing Today"
+msgstr "Vandaag"
+
+msgid "On The Air"
+msgstr "Lopend"
+
+msgid "Creator:"
+msgstr "Bedenker:"
+
+msgid "Seasons: %s"
+msgstr "Seizoenen: %s"
+
+msgid "Discover Movies:"
+msgstr "Films ontdekken:"
+
+msgid "Discover Series:"
+msgstr "Series ontdekken:"
+
+msgid "Open"
+msgstr "Openen"
+
+msgid "Movie Browser Key Assignment:"
+msgstr "Toetstoewijzing Movie Browser:"
+
+msgid "Popular, top rated and airing series from TMDb"
+msgstr "Populaire, best beoordeelde en lopende series van TMDb"
+
+msgid "Left/Right: Series"
+msgstr "Links/rechts: Serie"
+
+msgid "Menu: Setup"
+msgstr "Menu: Instellingen"
+
+#~ msgid "Edit"
+#~ msgstr "Bewerken"
+
+#~ msgid "free Space"
+#~ msgstr "vrije ruimte"
+
+#~ msgid ""
+#~ "\n"
+#~ "The TVDb API Server is not reachable."
+#~ msgstr ""
+#~ "\n"
+#~ "De TVDb API-server is niet bereikbaar."
+
+#~ msgid ""
+#~ "\n"
+#~ "No The TVDb Results for %s."
+#~ msgstr ""
+#~ "\n"
+#~ "Geen TheTVDb-resultaten voor %s."
+
+#~ msgid "Movie Browser"
+#~ msgstr "Movie Browser"
+
+#~ msgid ""
+#~ "\n"
+#~ "The CutListEditor plugin supports only records with the box."
+#~ msgstr ""
+#~ "\n"
+#~ "De CutListEditor-plugin ondersteunt alleen opnames op de box."
+
+#~ msgid ""
+#~ "\n"
+#~ "The CutListEditor plugin is not installed.\n"
+#~ "\n"
+#~ "The plugin can be installed automatically if it exists on the feed of your image. Search for the plugin now and install it if present on the feed?"
+#~ msgstr ""
+#~ "\n"
+#~ "De CutListEditor-plugin is niet geïnstalleerd.\n"
+#~ "\n"
+#~ "De plugin kan automatisch worden geïnstalleerd als deze in de feed van uw image staat. Nu naar de plugin zoeken en installeren als deze in de feed aanwezig is?"
+
+#~ msgid ""
+#~ "\n"
+#~ "The MovieCut plugin supports only records with the box."
+#~ msgstr ""
+#~ "\n"
+#~ "De MovieCut-plugin ondersteunt alleen opnames op de box."
+
+#~ msgid ""
+#~ "\n"
+#~ "The MovieCut plugin is not installed.\n"
+#~ "\n"
+#~ "The plugin can be installed automatically if it exists on the feed of your image. Search for the plugin now and install it if present on the feed?"
+#~ msgstr ""
+#~ "\n"
+#~ "De MovieCut-plugin is niet geïnstalleerd.\n"
+#~ "\n"
+#~ "De plugin kan automatisch worden geïnstalleerd als deze in de feed van uw image staat. Nu naar de plugin zoeken en installeren als deze in de feed aanwezig is?"
+
+#~ msgid ""
+#~ "\n"
+#~ "The CutListEditor plugin was installed.\n"
+#~ "Please restart Enigma."
+#~ msgstr ""
+#~ "\n"
+#~ "De CutListEditor-plugin is geïnstalleerd.\n"
+#~ "Herstart Enigma."
+
+#~ msgid ""
+#~ "\n"
+#~ "The CutListEditor plugin is not present on the feed of your image.\n"
+#~ "\n"
+#~ "Please install the CutListEditor plugin manually."
+#~ msgstr ""
+#~ "\n"
+#~ "De CutListEditor-plugin staat niet in de feed van uw image.\n"
+#~ "\n"
+#~ "Installeer de CutListEditor-plugin handmatig."
+
+#~ msgid ""
+#~ "\n"
+#~ "The MovieCut plugin was installed.\n"
+#~ "Please restart Enigma."
+#~ msgstr ""
+#~ "\n"
+#~ "De MovieCut-plugin is geïnstalleerd.\n"
+#~ "Herstart Enigma."
+
+#~ msgid ""
+#~ "\n"
+#~ "The MovieCut plugin is not present on the feed of your image.\n"
+#~ "\n"
+#~ "Please install the CutListEditor plugin manually."
+#~ msgstr ""
+#~ "\n"
+#~ "De MovieCut-plugin staat niet in de feed van uw image.\n"
+#~ "\n"
+#~ "Installeer de CutListEditor-plugin handmatig."
+
+#~ msgid "movie"
+#~ msgstr "film"
+
+#~ msgid "poster"
+#~ msgstr "poster"
+
+#~ msgid "backdrop"
+#~ msgstr "achtergrond"
+
+#~ msgid "banner"
+#~ msgstr "banner"
+
+#~ msgid "Update Series"
+#~ msgstr "Serie bijwerken"
+
+#~ msgid "series"
+#~ msgstr "series"
+
+#~ msgid "MOVIES & SERIES"
+#~ msgstr "FILMS & SERIES"
+
+#~ msgid "METRIX"
+#~ msgstr "METRIX"
+
+#~ msgid "BACKDROP"
+#~ msgstr "ACHTERGROND"
+
+#~ msgid "POSTERWALL"
+#~ msgstr "POSTERWALL"
+
+#~ msgid "YouTube Trailer Search | Page "
+#~ msgstr "YouTube-trailer zoeken | Pagina "
+
+#~ msgid "= Hide"
+#~ msgstr "= Verbergen"
+
+#~ msgid "= YouTube Search"
+#~ msgstr "= YouTube zoeken"
+
+#~ msgid "YouTube Trailer Search:"
+#~ msgstr "YouTube-trailer zoeken:"
+
+#~ msgid ""
+#~ "\n"
+#~ "The YouTube Server is not reachable:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "De YouTube-server is niet bereikbaar:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "\n"
+#~ "The YouTube Server is not reachable."
+#~ msgstr ""
+#~ "\n"
+#~ "De YouTube-server is niet bereikbaar."
+
+#~ msgid ""
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "     : YouTube Movie Trailer\n"
+#~ "     : Wikipedia Search\n"
+#~ "     : Toggle Plugin Style\n"
+#~ "     : Toggle hide/show plugin\n"
+#~ "Info Button: Toggle show/hide infos\n"
+#~ "Video Button: Update Database\n"
+#~ "Text Button: Edit Database\n"
+#~ "Stop Button: Mark movie as seen\n"
+#~ "Radio Button: Delete/Blacklist movie\n"
+#~ "<- -> Button: Go to first letter\n"
+#~ "Button 1: CutListEditor/MovieCut/LogView\n"
+#~ "Button 2: Renew infos on TMDb\n"
+#~ "Button 3: Renew infos on TheTVDb\n"
+#~ "Button 4: Hide/show seen movies\n"
+#~ "Button 5: Toggle Movies/Series view\n"
+#~ "Button 6: Movie Folder Selection\n"
+#~ "Button 7: Movie Director Selection\n"
+#~ "Button 8: Movie Actor Selection\n"
+#~ "Button 9: Movie Genre Selection\n"
+#~ "Button 0: Go to end of list"
+#~ msgstr ""
+#~ "     : YouTube-filmtrailer\n"
+#~ "     : Wikipedia zoeken\n"
+#~ "     : Pluginstijl wisselen\n"
+#~ "     : Plugin verbergen/tonen\n"
+#~ "Info-toets: Info tonen/verbergen\n"
+#~ "Video-toets: Database bijwerken\n"
+#~ "Tekst-toets: Database bewerken\n"
+#~ "Stop-toets: Film als gezien markeren\n"
+#~ "Radio-toets: Film verwijderen/op zwarte lijst zetten\n"
+#~ "<- -> toets: Naar eerste letter gaan\n"
+#~ "Toets 1: CutListEditor/MovieCut/LogView\n"
+#~ "Toets 2: Info vernieuwen via TMDb\n"
+#~ "Toets 3: Info vernieuwen via TheTVDb\n"
+#~ "Toets 4: Geziene films verbergen/tonen\n"
+#~ "Toets 5: Weergave films/series wisselen\n"
+#~ "Toets 6: Filmmap selecteren\n"
+#~ "Toets 7: Regisseur selecteren\n"
+#~ "Toets 8: Acteur selecteren\n"
+#~ "Toets 9: Filmgenre selecteren\n"
+#~ "Toets 0: Naar einde van de lijst gaan"
+
+#~ msgid "Plugin Sans Serif Font:"
+#~ msgstr "Plugin sans-seriflettertype:"
+
+#~ msgid "Posterwall/Backdrop Plugin Size:"
+#~ msgstr "Posterwall/achtergrond pluginformaat:"
+
+#~ msgid "Posterwall/Backdrop Headline Color:"
+#~ msgstr "Posterwall/achtergrond kopkleur:"
+
+#~ msgid "Plugin Auto Update Check:"
+#~ msgstr "Plugin automatische updatecontrole:"
+
+#~ msgid "Full HD Skin Support:"
+#~ msgstr "Full HD-skinondersteuning:"
+
+#~ msgid "PayPal Info:"
+#~ msgstr "PayPal-info:"
+
+#~ msgid ""
+#~ "\n"
+#~ "Database backuped to %s"
+#~ msgstr ""
+#~ "\n"
+#~ "Database-back-up opgeslagen in %s"
+
+#~ msgid ""
+#~ "Start time: %s\n"
+#~ "End time: %s\n"
+#~ "Orphaned Backdrops/Posters removed: %s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Starttijd: %s\n"
+#~ "Eindtijd: %s\n"
+#~ "Verweesde achtergronden/posters verwijderd: %s\n"
+#~ "\n"
+
+#~ msgid "Manage your Movies & Series"
+#~ msgstr "Beheer uw films en series"
