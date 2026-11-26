@@ -45,9 +45,12 @@ if exists(init_file):
             PLUGIN_NAME = match.group(1)
             print("Detected PluginLanguageDomain = '{}'".format(PLUGIN_NAME))
         else:
-            print("__init__.py has no PluginLanguageDomain; using '{}'".format(PLUGIN_NAME))
+            print(
+                "__init__.py has no PluginLanguageDomain; using '{}'".format(PLUGIN_NAME))
     except Exception as exc:
-        print("Warning reading __init__.py: {}; using '{}'".format(exc, PLUGIN_NAME))
+        print(
+            "Warning reading __init__.py: {}; using '{}'".format(
+                exc, PLUGIN_NAME))
 else:
     print("__init__.py not found; using folder name '{}'".format(PLUGIN_NAME))
 
@@ -134,7 +137,8 @@ def _is_text_arabic(text):
     letters = [c for c in _to_unicode(text) if c.isalpha()]
     if not letters:
         return False
-    return sum(1 for c in letters if _is_arabic_char(c)) / float(len(letters)) >= 0.6
+    return sum(1 for c in letters if _is_arabic_char(c)) / \
+        float(len(letters)) >= 0.6
 
 
 def _get_cache_key(text, target_lang):
@@ -275,16 +279,20 @@ def translate_text(text, target_lang=None, use_cache=True):
         _log("Arabic source text skipped")
         return original_text
 
-    protected_text, python_placeholders, csharp_placeholders = _protect_placeholders(original_text)
+    protected_text, python_placeholders, csharp_placeholders = _protect_placeholders(
+        original_text)
 
     if use_cache:
         cached = _get_cached_translation(protected_text, target_lang)
         if cached is not None:
-            return _restore_placeholders(cached, python_placeholders, csharp_placeholders)
+            return _restore_placeholders(
+                cached, python_placeholders, csharp_placeholders)
 
-    # Do not silently truncate: that would permanently cache an incomplete translation.
+    # Do not silently truncate: that would permanently cache an incomplete
+    # translation.
     if len(protected_text) > MAX_CHARS_PER_REQUEST:
-        _log("Text exceeds {} characters; leaving it untranslated".format(MAX_CHARS_PER_REQUEST))
+        _log("Text exceeds {} characters; leaving it untranslated".format(
+            MAX_CHARS_PER_REQUEST))
         return original_text
 
     params = {
@@ -312,16 +320,19 @@ def translate_text(text, target_lang=None, use_cache=True):
                 )
 
             if not translated:
-                _log("Empty translation response for '{}'".format(original_text[:40]))
+                _log("Empty translation response for '{}'".format(
+                    original_text[:40]))
                 return original_text
 
             translated = _clean_whitespace(translated)
 
-            # Cache the protected form. Placeholders are restored only on return.
+            # Cache the protected form. Placeholders are restored only on
+            # return.
             if use_cache:
                 _cache_translation(protected_text, target_lang, translated)
 
-            return _restore_placeholders(translated, python_placeholders, csharp_placeholders)
+            return _restore_placeholders(
+                translated, python_placeholders, csharp_placeholders)
 
         except HTTPError as exc:
             retryable = exc.code == 429 or 500 <= exc.code < 600
@@ -337,7 +348,8 @@ def translate_text(text, target_lang=None, use_cache=True):
 
         except (URLError, TimeoutError, OSError) as exc:
             if attempt < MAX_RETRIES:
-                delay = min(RETRY_BACKOFF_BASE * (2 ** attempt), MAX_RETRY_WAIT)
+                delay = min(RETRY_BACKOFF_BASE *
+                            (2 ** attempt), MAX_RETRY_WAIT)
                 _log("Connection error: retry {}/{} in {:.1f}s ({})".format(
                     attempt + 1, MAX_RETRIES, delay, exc
                 ))
@@ -379,7 +391,8 @@ def _parse_po_entries(text):
 def _read_po_field(lines, field_name):
     """Return (decoded value, next index) for a PO field."""
     prefix = field_name + " "
-    index = next((i for i, line in enumerate(lines) if line.startswith(prefix)), None)
+    index = next((i for i, line in enumerate(lines)
+                 if line.startswith(prefix)), None)
     if index is None:
         return None, None
 
@@ -398,7 +411,8 @@ def _read_po_field(lines, field_name):
 def _replace_po_field(lines, field_name, new_value):
     """Replace a field and its continuation lines, retaining other entry data."""
     prefix = field_name + " "
-    index = next((i for i, line in enumerate(lines) if line.startswith(prefix)), None)
+    index = next((i for i, line in enumerate(lines)
+                 if line.startswith(prefix)), None)
     if index is None:
         return lines
 
@@ -430,11 +444,15 @@ def auto_translate_po_file(po_file, target_lang):
         msgid, _ = _read_po_field(lines, "msgid")
         msgstr, _ = _read_po_field(lines, "msgstr")
 
-        # Keep headers, plural entries, comments and already translated entries intact.
+        # Keep headers, plural entries, comments and already translated entries
+        # intact.
         if msgid is None or msgstr is None or msgid == "" or msgstr.strip():
             output_entries.append(lines)
             continue
-        if any(line.startswith("msgid_plural ") or re.match(r"msgstr\[\d+\]", line) for line in lines):
+        if any(
+            line.startswith("msgid_plural ") or re.match(
+                r"msgstr\[\d+\]",
+                line) for line in lines):
             output_entries.append(lines)
             continue
 
@@ -448,8 +466,12 @@ def auto_translate_po_file(po_file, target_lang):
 
     try:
         with open(po_file, "w", encoding="utf-8") as f:
-            f.write("\n\n".join("\n".join(entry) for entry in output_entries) + "\n")
-        print("  {}: {} new translations".format(target_lang, translated_count))
+            f.write("\n\n".join("\n".join(entry)
+                    for entry in output_entries) + "\n")
+        print(
+            "  {}: {} new translations".format(
+                target_lang,
+                translated_count))
         return True
     except Exception as exc:
         print("ERROR writing {}: {}".format(po_file, exc))
@@ -479,7 +501,17 @@ def clean_strings(strings):
         value = value.strip()
         if not value or value in seen:
             continue
-        if value in {"{0}", "{1}", "{2}", "{3}", "{4}", "{5}", "{6}", "{7}", "{8}", "{9}"}:
+        if value in {
+            "{0}",
+            "{1}",
+            "{2}",
+            "{3}",
+            "{4}",
+            "{5}",
+            "{6}",
+            "{7}",
+            "{8}",
+                "{9}"}:
             continue
         if re.match(r"^[0-9\s\W]+$", value):
             continue
@@ -515,10 +547,12 @@ def extract_python_strings():
     py_files = []
     for root_dir, _, files in walk(PLUGIN_DIR):
         # Do not scan generated locale/build/cache directories.
-        if any(part in root_dir.split("/") for part in (".git", "venv", "__pycache__")):
+        if any(part in root_dir.split("/")
+               for part in (".git", "venv", "__pycache__")):
             continue
         for filename in files:
-            if filename.endswith(".py") and not filename.startswith("test_") and filename != "update_translations.py":
+            if filename.endswith(".py") and not filename.startswith(
+                    "test_") and filename != "update_translations.py":
                 py_files.append(join(root_dir, filename))
 
     if not py_files:
@@ -533,7 +567,11 @@ def extract_python_strings():
     ] + py_files
 
     try:
-        process = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        process = subprocess.run(
+            cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True)
         if process.returncode != 0:
             print("ERROR xgettext: {}".format(process.stderr.strip()))
             return []
@@ -573,7 +611,8 @@ def update_pot_file(xml_strings, py_strings):
             with open(POT_FILE, "r", encoding="utf-8") as f:
                 old_content = f.read()
             old_entries = _parse_po_entries(old_content)
-            if old_entries and any(line.startswith('msgid ""') for line in old_entries[0]):
+            if old_entries and any(line.startswith('msgid ""')
+                                   for line in old_entries[0]):
                 header = "\n".join(old_entries[0])
         except Exception:
             pass
@@ -584,7 +623,8 @@ def update_pot_file(xml_strings, py_strings):
         else:
             f.write("# {} translations\n".format(PLUGIN_NAME))
             f.write("# Copyright (C) 2025 Lululla Team\n")
-            f.write("# This file is distributed under the same license as the package.\n")
+            f.write(
+                "# This file is distributed under the same license as the package.\n")
             f.write('msgid ""\nmsgstr ""\n')
             f.write('"Project-Id-Version: {}\\n"\n'.format(PLUGIN_NAME))
             f.write('"MIME-Version: 1.0\\n"\n')
@@ -592,7 +632,8 @@ def update_pot_file(xml_strings, py_strings):
             f.write('"Content-Transfer-Encoding: 8bit\\n"\n\n')
 
         for msgid in all_strings:
-            f.write("msgid {}\nmsgstr \"\"\n\n".format(json.dumps(msgid, ensure_ascii=False)))
+            f.write("msgid {}\nmsgstr \"\"\n\n".format(
+                json.dumps(msgid, ensure_ascii=False)))
 
     print("Updated .pot file: {}".format(POT_FILE))
     return len(all_strings)
@@ -609,8 +650,11 @@ DEFAULT_KEEP_LANGS = [
 
 _env_langs = environ.get("KEEP_LANGS", "").strip()
 if _env_langs:
-    STANDARD_LANGUAGES = [lang.strip() for lang in _env_langs.split(",") if lang.strip()]
-    print("KEEP_LANGS from environment: {}".format(", ".join(STANDARD_LANGUAGES)))
+    STANDARD_LANGUAGES = [lang.strip()
+                          for lang in _env_langs.split(",") if lang.strip()]
+    print(
+        "KEEP_LANGS from environment: {}".format(
+            ", ".join(STANDARD_LANGUAGES)))
 else:
     STANDARD_LANGUAGES = list(DEFAULT_KEEP_LANGS)
     print("Using default languages: {}".format(", ".join(STANDARD_LANGUAGES)))
@@ -630,7 +674,9 @@ def fix_po_file(po_file):
             text=True,
         )
         if result.returncode != 0:
-            print("PO validation warning for {}:\n{}".format(po_file, result.stderr.strip()))
+            print(
+                "PO validation warning for {}:\n{}".format(
+                    po_file, result.stderr.strip()))
             return False
         return True
     except OSError as exc:
@@ -655,7 +701,10 @@ def create_template_po_file(po_file, lang_code):
             for entry in entries:
                 msgid, _ = _read_po_field(entry, "msgid")
                 if msgid:
-                    f.write("msgid {}\nmsgstr \"\"\n\n".format(json.dumps(msgid, ensure_ascii=False)))
+                    f.write(
+                        "msgid {}\nmsgstr \"\"\n\n".format(
+                            json.dumps(
+                                msgid, ensure_ascii=False)))
         return True
     except Exception as exc:
         print("ERROR creating template for {}: {}".format(lang_code, exc))
@@ -670,15 +719,24 @@ def update_po_files():
     existing_languages = []
     if exists(LOCALE_DIR):
         for item in listdir(LOCALE_DIR):
-            po_file = join(LOCALE_DIR, item, "LC_MESSAGES", "{}.po".format(PLUGIN_NAME))
+            po_file = join(
+                LOCALE_DIR,
+                item,
+                "LC_MESSAGES",
+                "{}.po".format(PLUGIN_NAME))
             if isdir(join(LOCALE_DIR, item)) and exists(po_file):
                 existing_languages.append(item)
 
-    all_languages = sorted(set(existing_languages).intersection(STANDARD_LANGUAGES))
-    all_languages.extend(lang for lang in STANDARD_LANGUAGES if lang not in all_languages)
+    all_languages = sorted(
+        set(existing_languages).intersection(STANDARD_LANGUAGES))
+    all_languages.extend(
+        lang for lang in STANDARD_LANGUAGES if lang not in all_languages)
     all_languages = sorted(set(all_languages))
 
-    print("Processing {} languages: {}".format(len(all_languages), ", ".join(all_languages)))
+    print(
+        "Processing {} languages: {}".format(
+            len(all_languages),
+            ", ".join(all_languages)))
 
     for lang_code in all_languages:
         lc_messages_dir = ensure_directory_structure(lang_code)
@@ -688,24 +746,51 @@ def update_po_files():
 
         if exists(po_file):
             print("Updating: {}".format(lang_code))
-            cmd = ["msgmerge", "--update", "--backup=none", "--no-wrap", po_file, POT_FILE]
+            cmd = [
+                "msgmerge",
+                "--update",
+                "--backup=none",
+                "--no-wrap",
+                po_file,
+                POT_FILE]
             try:
-                result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+                result = subprocess.run(
+                    cmd,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    text=True)
                 if result.returncode != 0:
-                    print("ERROR msgmerge {}: {}".format(lang_code, result.stderr.strip()))
+                    print(
+                        "ERROR msgmerge {}: {}".format(
+                            lang_code, result.stderr.strip()))
                     continue
                 print(" ✓ {} merged".format(lang_code))
             except OSError as exc:
-                print("ERROR running msgmerge for {}: {}".format(lang_code, exc))
+                print(
+                    "ERROR running msgmerge for {}: {}".format(
+                        lang_code, exc))
                 continue
         else:
             print("Creating new: {}".format(lang_code))
             lang_locale = lang_code.replace("_", "-")
-            cmd = ["msginit", "--no-wrap", "-i", POT_FILE, "-o", po_file, "-l", lang_locale]
+            cmd = [
+                "msginit",
+                "--no-wrap",
+                "-i",
+                POT_FILE,
+                "-o",
+                po_file,
+                "-l",
+                lang_locale]
             try:
-                result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+                result = subprocess.run(
+                    cmd,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    text=True)
                 if result.returncode != 0:
-                    print("msginit failed for {}; creating template".format(lang_code))
+                    print(
+                        "msginit failed for {}; creating template".format(lang_code))
                     if not create_template_po_file(po_file, lang_code):
                         continue
             except OSError as exc:
@@ -738,7 +823,10 @@ def compile_mo_files():
             if result.returncode == 0:
                 print("✓ Compiled: {}/LC_MESSAGES/{}.mo".format(lang_code, PLUGIN_NAME))
             else:
-                print("✗ ERROR compiling {}: {}".format(lang_code, result.stderr.strip()))
+                print(
+                    "✗ ERROR compiling {}: {}".format(
+                        lang_code,
+                        result.stderr.strip()))
         except OSError as exc:
             print("✗ ERROR compiling {}: {}".format(lang_code, exc))
 
@@ -774,7 +862,8 @@ def main():
         save_cache_to_disk()
 
     print("\n" + "=" * 60)
-    print("COMPLETED: {} strings in the catalog".format(total if "total" in locals() else 0))
+    print("COMPLETED: {} strings in the catalog".format(
+        total if "total" in locals() else 0))
     print("Languages configured: {}".format(len(STANDARD_LANGUAGES)))
     print("Translation cache: {} hits / {} misses".format(_cache_hits, _cache_misses))
     print("=" * 60)
