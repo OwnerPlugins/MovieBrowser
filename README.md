@@ -17,9 +17,6 @@
     <img src="https://github.com/Belfagor2005/MovieBrowser/actions/workflows/pylint.yml/badge.svg" alt="Python package">
   </a>
 
-  <a href="https://github.com/Belfagor2005/MovieBrowser/actions/workflows/ruff.yml">
-    <img src="https://github.com/Belfagor2005/MovieBrowser/actions/workflows/ruff.yml/badge.svg" alt="Ruff Status">
-  </a>
 </p>
 
 <p align="center">
