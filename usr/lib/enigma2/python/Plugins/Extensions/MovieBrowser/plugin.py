@@ -97,7 +97,9 @@ except ImportError:
 class MoviePlayer(BaseMoviePlayer):
     def __init__(self, session, service, *args, **kwargs):
         BaseMoviePlayer.__init__(self, session, service, *args, **kwargs)
-        self['moviebrowserExit'] = ActionMap(['OkCancelActions'], {'cancel': self.leavePlayer}, -1)
+        self['moviebrowserExit'] = ActionMap(
+    ['OkCancelActions'], {
+        'cancel': self.leavePlayer}, -1)
 
 
 class ItemList(MenuList):
@@ -119,8 +121,9 @@ class ItemList(MenuList):
             self.l.setFont(26, gFont('Regular', 26))
             self.l.setFont(24, gFont('Regular', 24))
 
+
 def showWaitBox(session, text=None):
-    
+
     text = text or _('Please wait, loading database...')
     try:
         return session.open(
@@ -141,6 +144,7 @@ def closeWaitBox(session, box):
             box.close()
     except Exception as e:
         print('[MovieBrowser] closeWaitBox: ' + str(e))
+
 
 screenwidth = getDesktop(0).size()
 dir_plugins = "/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser"
@@ -395,15 +399,18 @@ class movieBrowserMetrix(Screen):
             self.makeMovieBrowserTimer = eTimer()
             try:
                 # Dreambox-specific implementation
-                self.makeMovieBrowserTimer.timeout.connect(lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer.timeout.connect(
+                    lambda: self.makeMovies(self.filter))
             except AttributeError:
-                self.makeMovieBrowserTimer.callback.append(lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer.callback.append(
+                    lambda: self.makeMovies(self.filter))
 
             self.makeMovieBrowserTimer.start(500, True)
         else:
             self.openTimer = eTimer()
             try:
-                self.openTimer_conn = self.openTimer.timeout.connect(self.openInfo)
+                self.openTimer_conn = self.openTimer.timeout.connect(
+                    self.openInfo)
             except BaseException:
                 self.openTimer.callback.append(self.openInfo)
             self.openTimer.start(500, True)
@@ -444,9 +451,11 @@ class movieBrowserMetrix(Screen):
             self.makeMovieBrowserTimer = eTimer()
             self.resetTimer = eTimer()
             try:
-                self.resetTimer_conn = self.resetTimer.timeout.connect(lambda: self.database_return(True))
+                self.resetTimer_conn = self.resetTimer.timeout.connect(
+                    lambda: self.database_return(True))
             except BaseException:
-                self.resetTimer.callback.append(lambda: self.database_return(True))
+                self.resetTimer.callback.append(
+                    lambda: self.database_return(True))
             self.resetTimer.start(500, True)
         else:
             if fileExists(DATABASE_PATH) and fileExists(DATABASE_RESET):
@@ -705,7 +714,8 @@ class movieBrowserMetrix(Screen):
                     self.hideInfo()
                     self.makeEPoster()
                 plot = self.plotlist[self.index]
-                # plot = plot.encode('utf-8') if isinstance(plot, text_type) else plot
+                # plot = plot.encode('utf-8') if isinstance(plot, text_type)
+                # else plot
                 self['plotfull'].setText(plot)
                 self.showPlot()
         except IndexError:
@@ -801,7 +811,8 @@ class movieBrowserMetrix(Screen):
             if fileExists(DATABASE_PATH):
                 self.runTimer = eTimer()
                 try:
-                    self.runTimer_conn = self.runTimer.timeout.connect(self.database_run)
+                    self.runTimer_conn = self.runTimer.timeout.connect(
+                        self.database_run)
                 except BaseException:
                     self.runTimer.callback.append(self.database_run)
                 self.waitbox = showWaitBox(self.session)
@@ -856,9 +867,11 @@ class movieBrowserMetrix(Screen):
 
             self.makeMovieBrowserTimer = eTimer()
             try:
-                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(
+                    lambda: self.makeMovies(self.filter))
             except BaseException:
-                self.makeMovieBrowserTimer.callback.append(lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer.callback.append(
+                    lambda: self.makeMovies(self.filter))
         elif found == 0 and orphaned == 0:
             self.session.open(
                 MessageBox,
@@ -1067,9 +1080,11 @@ class movieBrowserMetrix(Screen):
                             filename, MessageBox.TYPE_ERROR)
                     self.makeMovieBrowserTimer.stop()
                     try:
-                        self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(self.getMediaInfo)
+                        self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(
+                            self.getMediaInfo)
             except BaseException:
-                        self.makeMovieBrowserTimer.callback.append(self.getMediaInfo)
+                        self.makeMovieBrowserTimer.callback.append(
+                            self.getMediaInfo)
 
                     self.makeMovieBrowserTimer.start(2000, True)
             except IndexError:
