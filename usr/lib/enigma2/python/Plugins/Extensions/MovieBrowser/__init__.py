@@ -8,7 +8,7 @@ from os import environ
 from os.path import exists
 from sys import version_info
 
-__version__ = "4.3"
+__version__ = "4.4"
 PluginLanguageDomain = 'moviebrowser'
 PluginLanguagePath = 'Extensions/MovieBrowser/locale'
 

@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Belfagor2005/MovieBrowser">
-    <img src="https://img.shields.io/badge/Version-4.3-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-4.4-blue.svg" alt="Version">
   </a>
 
   <a href="https://www.enigma2.net">
@@ -305,6 +305,11 @@ curl "https://api.themoviedb.org/3/movie/550?api_key=YOUR_TMDB_API_KEY"
 ```
 
 ---
+
+## 📜 Changelog v4.4
+
+### **Fixed**
+- Development and fix alignment
 
 
 ## 📜 Changelog v4.3
