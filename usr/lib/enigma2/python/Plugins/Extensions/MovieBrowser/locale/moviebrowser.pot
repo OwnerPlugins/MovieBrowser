@@ -13,139 +13,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "*******Cleanup Cache Folder*******\nStart time: %s\nEnd time: %s\nOrphaned Backdrops/Posters removed: %s\n\n"
+msgid "%s Movie imported into Database."
 msgstr ""
 
-msgid "*******Movie Browser Database Update Timer*******\nInitial Update Timer started: %s\nTimer Value (min): %s\n"
+msgid "%s Movie imported into Database.\n%s orphaned Database Entries deleted."
 msgstr ""
 
-msgid "*******Movie Browser Database Update*******\n"
+msgid "%s Movie imported into Database.\n%s orphaned Database Entry deleted."
 msgstr ""
 
-msgid "*******Movie Browser Database Update*******\nTime: %s\nError: %s\nReason: %s"
+msgid "%s Movies and %s Series imported into Database."
 msgstr ""
 
-msgid "\n%s Movie imported into Database."
+msgid "%s Movies and %s Series imported into Database.\n%s orphaned Database Entries deleted."
 msgstr ""
 
-msgid "\n%s Movie imported into Database.\n%s orphaned Database Entries deleted."
+msgid "%s Movies and %s Series imported into Database.\n%s orphaned Database Entry deleted."
 msgstr ""
 
-msgid "\n%s Movie imported into Database.\n%s orphaned Database Entry deleted."
+msgid "%s Movies imported into Database."
 msgstr ""
 
-msgid "\n%s Movies and %s Series imported into Database."
+msgid "%s Movies imported into Database.\n%s orphaned Database Entries deleted."
 msgstr ""
 
-msgid "\n%s Movies and %s Series imported into Database.\n%s orphaned Database Entries deleted."
+msgid "%s Movies imported into Database.\n%s orphaned Database Entry deleted."
 msgstr ""
 
-msgid "\n%s Movies and %s Series imported into Database.\n%s orphaned Database Entry deleted."
+msgid "%s Series imported into Database."
 msgstr ""
 
-msgid "\n%s Movies imported into Database."
+msgid "%s Series imported into Database.\n%s orphaned Database Entries deleted."
 msgstr ""
 
-msgid "\n%s Movies imported into Database.\n%s orphaned Database Entries deleted."
-msgstr ""
-
-msgid "\n%s Movies imported into Database.\n%s orphaned Database Entry deleted."
-msgstr ""
-
-msgid "\n%s Series imported into Database."
-msgstr ""
-
-msgid "\n%s Series imported into Database.\n%s orphaned Database Entries deleted."
-msgstr ""
-
-msgid "\n%s Series imported into Database.\n%s orphaned Database Entry deleted."
-msgstr ""
-
-msgid "\nCache Folder %s not reachable:\nCleanup Cache Folder canceled."
-msgstr ""
-
-msgid "\nCache Folder %s not reachable:\nMovie Browser Database Backup canceled."
-msgstr ""
-
-msgid "\nCache Folder %s not reachable:\nMovie Browser Database Restore canceled."
-msgstr ""
-
-msgid "\nCache Folder %s not reachable:\nMovie Browser Database Update canceled."
-msgstr ""
-
-msgid "\nCleanup Cache Folder finished:\n%s orphaned Backdrops or Posters removed."
-msgstr ""
-
-msgid "\nDatabase %s not found:\nCleanup Cache Folder canceled."
-msgstr ""
-
-msgid "\nDatabase %s not found:\nMovie Browser Database Backup canceled."
-msgstr ""
-
-msgid "\nDatabase backed up to %s"
-msgstr ""
-
-msgid "\nDatabase Backup %s not found:\nMovie Browser Database Restore canceled."
-msgstr ""
-
-msgid "\nDatabase Error: Entry without runtime"
-msgstr ""
-
-msgid "\nDatabase restored from %s"
-msgstr ""
-
-msgid "\nDVD Player Plugin not installed."
-msgstr ""
-
-msgid "\nMovie file %s not available."
-msgstr ""
-
-msgid "\nMovie Folder %s not reachable:\nMovie Browser Database Update canceled."
-msgstr ""
-
-msgid "\nNo new Movies or Series found:\nYour Database is up to date."
-msgstr ""
-
-msgid "\nNo new Movies or Series found.\n%s orphaned Database Entries deleted."
-msgstr ""
-
-msgid "\nNo new Movies or Series found.\n%s orphaned Database Entry deleted."
-msgstr ""
-
-msgid "\nNo orphaned Backdrops or Posters found:\nYour Cache Folder is clean."
-msgstr ""
-
-msgid "\nNo TheTVDb Results for %s."
-msgstr ""
-
-msgid "\nNo TMDb Results for %s."
-msgstr ""
-
-msgid "\nThe List of Movie Folder cannot be deleted."
-msgstr ""
-
-msgid "\nTheTVDb API Server is not reachable."
-msgstr ""
-
-msgid "\nThis will delete %s from the Database and from the Movie Folder!\n\nDo you want to continue?"
-msgstr ""
-
-msgid "\nThis will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n\nDo you want to continue?"
-msgstr ""
-
-msgid "\nThis will delete all %s entries from the Database but not from the Movie Folder.\n\nDo you want to continue?"
-msgstr ""
-
-msgid "\nTMDb API Server is not reachable."
-msgstr ""
-
-msgid "\nTMDb Movie Update Error:\nSeries Folder"
-msgstr ""
-
-msgid "\nUpdate Movie Browser Database?"
+msgid "%s Series imported into Database.\n%s orphaned Database Entry deleted."
 msgstr ""
 
 msgid "%s min"
+msgstr ""
+
+msgid "*******Cleanup Cache Folder*******\nStart time: %s\nEnd time: %s\nOrphaned Backdrops/Posters removed: %s"
+msgstr ""
+
+msgid "*******Movie Browser Database Update Timer*******\nInitial Update Timer started: %s\nTimer Value (min): %s"
+msgstr ""
+
+msgid "*******Movie Browser Database Update*******"
+msgstr ""
+
+msgid "*******Movie Browser Database Update*******\nTime: %s\nError: %s\nReason: %s"
 msgstr ""
 
 msgid "<- -> Button: Go to first letter"
@@ -208,22 +124,34 @@ msgstr ""
 msgid "Button 9: Movie Genre Selection"
 msgstr ""
 
+msgid "Cache Folder %s not reachable:\nCleanup Cache Folder canceled."
+msgstr ""
+
+msgid "Cache Folder %s not reachable:\nMovie Browser Database Backup canceled."
+msgstr ""
+
+msgid "Cache Folder %s not reachable:\nMovie Browser Database Restore canceled."
+msgstr ""
+
+msgid "Cache Folder %s not reachable:\nMovie Browser Database Update canceled."
+msgstr ""
+
 msgid "Cache Folder:"
 msgstr ""
 
 msgid "Cancel"
 msgstr ""
 
-msgid "Cannot update with TheTVDb: ID appears to be a movie ID\nTry \"Update Movie\" instead."
-msgstr ""
-
 msgid "Cannot update with TMDb: ID is not numeric\nThis appears to be a TV series, not a movie."
 msgstr ""
 
-msgid "Check for plugin update"
+msgid "Cannot update with TheTVDb: ID appears to be a movie ID\nTry \"Update Movie\" instead."
 msgstr ""
 
 msgid "Check for Plugin Update:"
+msgstr ""
+
+msgid "Check for plugin update"
 msgstr ""
 
 msgid "Check only"
@@ -238,6 +166,9 @@ msgstr ""
 msgid "Cleanup Cache Folder Log"
 msgstr ""
 
+msgid "Cleanup Cache Folder finished:\n%s orphaned Backdrops or Posters removed."
+msgstr ""
+
 msgid "Cleanup Cache Folder:"
 msgstr ""
 
@@ -247,13 +178,28 @@ msgstr ""
 msgid "Creator:"
 msgstr ""
 
+msgid "DVD Player Plugin not installed."
+msgstr ""
+
 msgid "Dark"
 msgstr ""
 
 msgid "Database"
 msgstr ""
 
+msgid "Database %s not found:\nCleanup Cache Folder canceled."
+msgstr ""
+
+msgid "Database %s not found:\nMovie Browser Database Backup canceled."
+msgstr ""
+
+msgid "Database Backup %s not found:\nMovie Browser Database Restore canceled."
+msgstr ""
+
 msgid "Database Editor:"
+msgstr ""
+
+msgid "Database Error: Entry without runtime"
 msgstr ""
 
 msgid "Database Timer Log"
@@ -262,16 +208,19 @@ msgstr ""
 msgid "Database Update Log"
 msgstr ""
 
-msgid "Database Update Timer started: %s\nTimer Value (min): %s\n"
+msgid "Database Update Timer started: %s\nTimer Value (min): %s"
 msgstr ""
 
-msgid "Database Update Timer stopped: %s\n"
+msgid "Database Update Timer stopped: %s"
+msgstr ""
+
+msgid "Database backed up to %s"
+msgstr ""
+
+msgid "Database restored from %s"
 msgstr ""
 
 msgid "Delete Movie File"
-msgstr ""
-
-msgid "Description not available"
 msgstr ""
 
 msgid "Director Selection"
@@ -355,13 +304,16 @@ msgstr ""
 msgid "List view with poster and details"
 msgstr ""
 
-msgid "Load last Selection/Filter on Start:"
-msgstr ""
-
 msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
 msgstr ""
 
+msgid "Load last Selection/Filter on Start:"
+msgstr ""
+
 msgid "Loading..."
+msgstr ""
+
+msgid "MOVIES"
 msgstr ""
 
 msgid "Manage your Movies & Series V.%s"
@@ -379,25 +331,22 @@ msgstr ""
 msgid "Movie Browser Key Assignment:"
 msgstr ""
 
-msgid "Movie Browser updated to version %s.\nRestart GUI now?"
-msgstr ""
-
-msgid "Movie Browser: new version %s available (installed: %s).\nInstall it via the plugin setup."
-msgstr ""
-
 msgid "Movie Creation Date Ascending"
 msgstr ""
 
 msgid "Movie Creation Date Descending"
 msgstr ""
 
-msgid "Movie Database Update started: %s\n"
+msgid "Movie Database Update started: %s"
 msgstr ""
 
 msgid "Movie File Information"
 msgstr ""
 
 msgid "Movie Folder"
+msgstr ""
+
+msgid "Movie Folder %s not reachable:\nMovie Browser Database Update canceled."
 msgstr ""
 
 msgid "Movie Folder Ascending"
@@ -439,13 +388,16 @@ msgstr ""
 msgid "Movie Title Z-A"
 msgstr ""
 
+msgid "Movie file %s not available."
+msgstr ""
+
 msgid "Movies"
 msgstr ""
 
-msgid "MOVIES"
+msgid "Movies & Series"
 msgstr ""
 
-msgid "Movies & Series"
+msgid "Movies Style:"
 msgstr ""
 
 msgid "Movies or Series Selection at Start:"
@@ -454,16 +406,28 @@ msgstr ""
 msgid "Movies or Series:"
 msgstr ""
 
-msgid "Movies Style:"
-msgstr ""
-
 msgid "New Releases"
 msgstr ""
 
-msgid "New version %s available (installed: %s).\nInstall now?"
+msgid "No"
 msgstr ""
 
-msgid "No"
+msgid "No TMDb Results for %s."
+msgstr ""
+
+msgid "No TheTVDb Results for %s."
+msgstr ""
+
+msgid "No new Movies or Series found.\n%s orphaned Database Entries deleted."
+msgstr ""
+
+msgid "No new Movies or Series found.\n%s orphaned Database Entry deleted."
+msgstr ""
+
+msgid "No new Movies or Series found:\nYour Database is up to date."
+msgstr ""
+
+msgid "No orphaned Backdrops or Posters found:\nYour Cache Folder is clean."
 msgstr ""
 
 msgid "No results"
@@ -523,6 +487,9 @@ msgstr ""
 msgid "Runtime:"
 msgstr ""
 
+msgid "SERIES"
+msgstr ""
+
 msgid "Save"
 msgstr ""
 
@@ -536,9 +503,6 @@ msgid "Select style"
 msgstr ""
 
 msgid "Series"
-msgstr ""
-
-msgid "SERIES"
 msgstr ""
 
 msgid "Series Episodes"
@@ -568,7 +532,7 @@ msgstr ""
 msgid "Start Plugin with Video Button:"
 msgstr ""
 
-msgid "Start time: %s\nEnd time: %s\nTotal scanned files: %s\nTheTVDb Database Requests: %s\nTMDb Database Requests: %s\nOrphaned Movies/Series: %s\nNew Series: %s\nNew Movies: %s\n\n"
+msgid "Start time: %s\nEnd time: %s\nTotal scanned files: %s\nTheTVDb Database Requests: %s\nTMDb Database Requests: %s\nOrphaned Movies/Series: %s\nNew Series: %s\nNew Movies: %s"
 msgstr ""
 
 msgid "Stop Button: Mark movie as seen"
@@ -577,10 +541,31 @@ msgstr ""
 msgid "Style"
 msgstr ""
 
+msgid "TMDb API Server is not reachable."
+msgstr ""
+
+msgid "TMDb API key successfully imported!"
+msgstr ""
+
+msgid "TMDb Language:"
+msgstr ""
+
+msgid "TMDb Movie Update Error:\nSeries Folder"
+msgstr ""
+
+msgid "TMDb Results"
+msgstr ""
+
 msgid "Text Button: Edit Database"
 msgstr ""
 
+msgid "The List of Movie Folder cannot be deleted."
+msgstr ""
+
 msgid "The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n\nIf the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n\nRebuild the Database now?"
+msgstr ""
+
+msgid "TheTVDb API Server is not reachable."
 msgstr ""
 
 msgid "TheTVDb API key successfully imported!"
@@ -589,25 +574,22 @@ msgstr ""
 msgid "TheTVDb Results"
 msgstr ""
 
+msgid "This will delete %s from the Database and from the Movie Folder!\n\nDo you want to continue?"
+msgstr ""
+
+msgid "This will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n\nDo you want to continue?"
+msgstr ""
+
+msgid "This will delete all %s entries from the Database but not from the Movie Folder.\n\nDo you want to continue?"
+msgstr ""
+
 msgid "Timer Database Update:"
 msgstr ""
 
-msgid "TMDb API key successfully imported!"
-msgstr ""
-
-msgid "TMDb API Server is not reachable."
-msgstr ""
-
-msgid "TMDb Language:"
-msgstr ""
-
-msgid "TMDb Results"
+msgid "Toggle Plugin Style"
 msgstr ""
 
 msgid "Toggle hide/show plugin"
-msgstr ""
-
-msgid "Toggle Plugin Style"
 msgstr ""
 
 msgid "Top Rated"
@@ -622,16 +604,10 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-msgid "Update check failed:\n%s"
-msgstr ""
-
 msgid "Update Database with Timer:"
 msgstr ""
 
-msgid "Update error: "
-msgstr ""
-
-msgid "Update failed:\n%s"
+msgid "Update Movie Browser Database?"
 msgstr ""
 
 msgid "Update Movie/Series"
@@ -640,7 +616,7 @@ msgstr ""
 msgid "Update Selection"
 msgstr ""
 
-msgid "Updated to version %s (%d files).\nRestart GUI now?"
+msgid "Update error:"
 msgstr ""
 
 msgid "Use m1v Backdrops:"
@@ -656,8 +632,5 @@ msgid "Years:"
 msgstr ""
 
 msgid "Yes"
-msgstr ""
-
-msgid "You already have the latest version (%s)."
 msgstr ""
 

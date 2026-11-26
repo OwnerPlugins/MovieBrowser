@@ -1,0 +1,724 @@
+# moviebrowser translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-11-26 13:04+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%s Movie imported into Database."
+msgstr "%s ムービーがデータベースにインポートされました。"
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s ムービーがデータベースにインポートされました。\n%s の孤立したデータベース エントリが削除されました。"
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s ムービーがデータベースにインポートされました。\n%s の孤立したデータベース エントリが削除されました。"
+
+msgid "%s Movies and %s Series imported into Database."
+msgstr "%s 映画と %s シリーズがデータベースにインポートされました。"
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s 映画と %s シリーズがデータベースにインポートされました。\n%s の孤立したデータベース エントリが削除されました。"
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s 映画と %s シリーズがデータベースにインポートされました。\n%s の孤立したデータベース エントリが削除されました。"
+
+msgid "%s Movies imported into Database."
+msgstr "%s ムービーがデータベースにインポートされました。"
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s ムービーがデータベースにインポートされました。\n%s の孤立したデータベース エントリが削除されました。"
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s ムービーがデータベースにインポートされました。\n%s の孤立したデータベース エントリが削除されました。"
+
+msgid "%s Series imported into Database."
+msgstr "%s シリーズがデータベースにインポートされました。"
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s シリーズがデータベースにインポートされました。\n%s の孤立したデータベース エントリが削除されました。"
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s シリーズがデータベースにインポートされました。\n%s の孤立したデータベース エントリが削除されました。"
+
+msgid "%s min"
+msgstr "%s 分"
+
+msgid ""
+"*******Cleanup Cache Folder*******\n"
+"Start time: %s\n"
+"End time: %s\n"
+"Orphaned Backdrops/Posters removed: %s"
+msgstr "*******キャッシュ フォルダーのクリーンアップ*******\n開始時刻: %s\n終了時刻: %s\n孤立した背景/ポスターが削除されました: %s"
+
+msgid ""
+"*******Movie Browser Database Update Timer*******\n"
+"Initial Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "*******ムービーブラウザデータベース更新タイマー*******\n初期更新タイマーが開始されました: %s\nタイマー値 (分): %s"
+
+msgid "*******Movie Browser Database Update*******"
+msgstr "*******ムービー ブラウザ データベースの更新*******"
+
+msgid ""
+"*******Movie Browser Database Update*******\n"
+"Time: %s\n"
+"Error: %s\n"
+"Reason: %s"
+msgstr "*******ムービー ブラウザ データベースの更新*******\n時間: %s\nエラー: %s\n理由: %s"
+
+msgid "<- -> Button: Go to first letter"
+msgstr "<- -> ボタン: 最初の文字に移動"
+
+msgid "<List of Movie Folder>"
+msgstr "＜動画フォルダー一覧＞"
+
+msgid "Actor Selection"
+msgstr "俳優の選択"
+
+msgid "Actors:"
+msgstr "俳優:"
+
+msgid "Airing Today"
+msgstr "本日放送"
+
+msgid "All /tmp/posters cleaned"
+msgstr "すべての /tmp/posters がクリーンアップされました"
+
+msgid "Automatic"
+msgstr "自動"
+
+msgid "Backdrop view with poster strip"
+msgstr "ポスター ストリップ付きの背景ビュー"
+
+msgid "Backup Database:"
+msgstr "バックアップデータベース:"
+
+msgid ""
+"Before the Database is rebuilt, check your settings in the plugin setup:\n"
+"\n"
+"- Check the path to the Movie Folder\n"
+"- Check your TMDb/TheTVDb Language\n"
+"- Set the Cache Folder to your hard disk drive."
+msgstr "Before the Database is rebuilt, check your settings in the plugin setup:\n\n- ムービーフォルダーへのパスを確認してください\n- TMDb/TheTVDb 言語を確認してください\n- キャッシュ フォルダーをハードディスク ドライブに設定します。"
+
+msgid "Blacklist Movie File"
+msgstr "ブラックリストムービーファイル"
+
+msgid "Button 0: Go to end of list"
+msgstr "ボタン 0: リストの最後に移動"
+
+msgid "Button 1: CutListEditor/MovieCut/LogView"
+msgstr "ボタン 1: CutListEditor/MovieCut/LogView"
+
+msgid "Button 2: Renew infos on TMDb"
+msgstr "ボタン 2: TMDb の情報を更新する"
+
+msgid "Button 4: Hide/show seen movies"
+msgstr "ボタン 4: 視聴した映画の非表示/表示"
+
+msgid "Button 5: Toggle Movies/Series view"
+msgstr "ボタン 5: 映画/シリーズ ビューの切り替え"
+
+msgid "Button 6: Movie Folder Selection"
+msgstr "ボタン6: ムービーフォルダーの選択"
+
+msgid "Button 7: Movie Director Selection"
+msgstr "ボタン 7: 映画監督の選択"
+
+msgid "Button 8: Movie Actor Selection"
+msgstr "ボタン 8: 映画俳優の選択"
+
+msgid "Button 9: Movie Genre Selection"
+msgstr "ボタン 9: 映画ジャンルの選択"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Cleanup Cache Folder canceled."
+msgstr "キャッシュ フォルダー %s にアクセスできません:\nキャッシュ フォルダーのクリーンアップがキャンセルされました。"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Backup canceled."
+msgstr "キャッシュ フォルダー %s にアクセスできません:\nムービー ブラウザ データベースのバックアップがキャンセルされました。"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Restore canceled."
+msgstr "キャッシュ フォルダー %s にアクセスできません:\nムービー ブラウザ データベースの復元がキャンセルされました。"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "キャッシュ フォルダー %s にアクセスできません:\nムービー ブラウザ データベースの更新がキャンセルされました。"
+
+msgid "Cache Folder:"
+msgstr "キャッシュフォルダー:"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid ""
+"Cannot update with TMDb: ID is not numeric\n"
+"This appears to be a TV series, not a movie."
+msgstr "TMDb で更新できません: ID が数値ではありません\nこれは映画ではなくテレビシリーズのようです。"
+
+msgid ""
+"Cannot update with TheTVDb: ID appears to be a movie ID\n"
+"Try \"Update Movie\" instead."
+msgstr "TheTVDb で更新できません: ID が映画 ID であるようです\n代わりに「ムービーの更新」をお試しください。"
+
+msgid "Check for Plugin Update:"
+msgstr "プラグインのアップデートを確認します。"
+
+msgid "Check for plugin update"
+msgstr "プラグインのアップデートを確認する"
+
+msgid "Check only"
+msgstr "チェックのみ"
+
+msgid "Choose Directory"
+msgstr "ディレクトリの選択"
+
+msgid "Choose Directory:"
+msgstr "ディレクトリを選択してください:"
+
+msgid "Cleanup Cache Folder Log"
+msgstr "キャッシュフォルダーログのクリーンアップ"
+
+msgid ""
+"Cleanup Cache Folder finished:\n"
+"%s orphaned Backdrops or Posters removed."
+msgstr "キャッシュ フォルダーのクリーンアップが完了しました:\n%s の孤立した背景またはポスターが削除されました。"
+
+msgid "Cleanup Cache Folder:"
+msgstr "キャッシュフォルダーのクリーンアップ:"
+
+msgid "Country:"
+msgstr "国："
+
+msgid "Creator:"
+msgstr "作成者:"
+
+msgid "DVD Player Plugin not installed."
+msgstr "DVD プレーヤー プラグインがインストールされていません。"
+
+msgid "Dark"
+msgstr "暗い"
+
+msgid "Database"
+msgstr "データベース"
+
+msgid ""
+"Database %s not found:\n"
+"Cleanup Cache Folder canceled."
+msgstr "データベース %s が見つかりません:\nキャッシュ フォルダーのクリーンアップがキャンセルされました。"
+
+msgid ""
+"Database %s not found:\n"
+"Movie Browser Database Backup canceled."
+msgstr "データベース %s が見つかりません:\nムービー ブラウザ データベースのバックアップがキャンセルされました。"
+
+msgid ""
+"Database Backup %s not found:\n"
+"Movie Browser Database Restore canceled."
+msgstr "データベース バックアップ %s が見つかりません:\nムービー ブラウザ データベースの復元がキャンセルされました。"
+
+msgid "Database Editor:"
+msgstr "データベース編集者:"
+
+msgid "Database Error: Entry without runtime"
+msgstr "データベース エラー: ランタイムなしのエントリ"
+
+msgid "Database Timer Log"
+msgstr "データベースタイマーログ"
+
+msgid "Database Update Log"
+msgstr "データベース更新ログ"
+
+msgid ""
+"Database Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "データベース更新タイマーが開始されました: %s\nタイマー値 (分): %s"
+
+msgid "Database Update Timer stopped: %s"
+msgstr "データベース更新タイマーが停止しました: %s"
+
+msgid "Database backed up to %s"
+msgstr "データベースは %s にバックアップされました"
+
+msgid "Database restored from %s"
+msgstr "データベースは %s から復元されました"
+
+msgid "Delete Movie File"
+msgstr "動画ファイルの削除"
+
+msgid "Director Selection"
+msgstr "監督の選定"
+
+msgid "Director:"
+msgstr "監督："
+
+msgid "Discover Background Overlay:"
+msgstr "背景オーバーレイを発見:"
+
+msgid "Discover Movies:"
+msgstr "映画を発見する:"
+
+msgid "Discover Series:"
+msgstr "ディスカバーシリーズ:"
+
+msgid "Download new Backdrops:"
+msgstr "新しい背景をダウンロードします。"
+
+msgid "EPISODES"
+msgstr "エピソード"
+
+msgid "Error moving cache folder: %s"
+msgstr "キャッシュ フォルダーの移動エラー: %s"
+
+msgid "Error while loading"
+msgstr "読み込み中のエラー"
+
+msgid "File %s not found!"
+msgstr "ファイル %s が見つかりません!"
+
+msgid "Folder Selection"
+msgstr "フォルダーの選択"
+
+msgid "Free Space"
+msgstr "フリースペース"
+
+msgid "Free Space:"
+msgstr "空き容量:"
+
+msgid "Genre Selection"
+msgstr "ジャンル選択"
+
+msgid "Genres:"
+msgstr "ジャンル:"
+
+msgid "Go to last Movie on Start:"
+msgstr "開始時に最後のムービーに移動:"
+
+msgid "Help"
+msgstr "ヘルプ"
+
+msgid "Hide"
+msgstr "隠れる"
+
+msgid "Hide Plugin during Update:"
+msgstr "更新中にプラグインを非表示にする:"
+
+msgid "In library"
+msgstr "図書館内"
+
+msgid "Info Button"
+msgstr "情報ボタン"
+
+msgid "Info Button: Toggle show/hide infos"
+msgstr "情報ボタン: 情報の表示/非表示を切り替えます。"
+
+msgid "Install automatically"
+msgstr "自動的にインストールする"
+
+msgid "Invalid selection"
+msgstr "無効な選択"
+
+msgid "Left/Right: Movie"
+msgstr "左/右：動画"
+
+msgid "Light"
+msgstr "ライト"
+
+msgid "List view with poster and details"
+msgstr "ポスターと詳細を含むリストビュー"
+
+msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
+msgstr "/tmp/tmdb_api.txt から TMDb API キーをロードします"
+
+msgid "Load last Selection/Filter on Start:"
+msgstr "開始時に最後の選択/フィルターをロードします:"
+
+msgid "Loading..."
+msgstr "読み込み中..."
+
+msgid "MOVIES"
+msgstr "映画"
+
+msgid "Manage your Movies & Series V.%s"
+msgstr "映画とシリーズを管理します V.%s"
+
+msgid "Medium"
+msgstr "中くらい"
+
+msgid "Metrix List Selection Color:"
+msgstr "メトリック リストの選択色:"
+
+msgid "Movie Browser Key Assignment"
+msgstr "ムービーブラウザのキー割り当て"
+
+msgid "Movie Browser Key Assignment:"
+msgstr "ムービーブラウザのキー割り当て:"
+
+msgid "Movie Creation Date Ascending"
+msgstr "ムービー作成日昇順"
+
+msgid "Movie Creation Date Descending"
+msgstr "ムービー作成日の降順"
+
+msgid "Movie Database Update started: %s"
+msgstr "ムービー データベースの更新が開始されました: %s"
+
+msgid "Movie File Information"
+msgstr "動画ファイル情報"
+
+msgid "Movie Folder"
+msgstr "ムービーフォルダー"
+
+msgid ""
+"Movie Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "ムービー フォルダ %s にアクセスできません:\nムービー ブラウザ データベースの更新がキャンセルされました。"
+
+msgid "Movie Folder Ascending"
+msgstr "ムービーフォルダーの昇順"
+
+msgid "Movie Folder Descending"
+msgstr "ムービーフォルダー降順"
+
+msgid "Movie Folder Selection"
+msgstr "動画フォルダーの選択"
+
+msgid "Movie Folder:"
+msgstr "ムービーフォルダー:"
+
+msgid "Movie Rating 0-10"
+msgstr "映画の評価 0 ～ 10"
+
+msgid "Movie Rating 10-0"
+msgstr "映画の評価 10-0"
+
+msgid "Movie Release Date Ascending"
+msgstr "映画公開日昇順"
+
+msgid "Movie Release Date Descending"
+msgstr "映画公開日の降順"
+
+msgid "Movie Runtime Ascending"
+msgstr "映画の実行時間の昇順"
+
+msgid "Movie Runtime Descending"
+msgstr "映画のランタイムの降順"
+
+msgid "Movie Sort Order:"
+msgstr "映画の並べ替え順序:"
+
+msgid "Movie Title A-Z"
+msgstr "映画のタイトル A ～ Z"
+
+msgid "Movie Title Z-A"
+msgstr "映画タイトル Z-A"
+
+msgid "Movie file %s not available."
+msgstr "ムービー ファイル %s は利用できません。"
+
+msgid "Movies"
+msgstr "映画"
+
+msgid "Movies & Series"
+msgstr "映画とシリーズ"
+
+msgid "Movies Style:"
+msgstr "映画スタイル:"
+
+msgid "Movies or Series Selection at Start:"
+msgstr "開始時の映画またはシリーズの選択:"
+
+msgid "Movies or Series:"
+msgstr "映画またはシリーズ:"
+
+msgid "New Releases"
+msgstr "新しいリリース"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No TMDb Results for %s."
+msgstr "%s の TMDb 結果がありません。"
+
+msgid "No TheTVDb Results for %s."
+msgstr "%s の TheTVDb 結果はありません。"
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entries deleted."
+msgstr "新しい映画やシリーズは見つかりませんでした。\n%s の孤立したデータベース エントリが削除されました。"
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entry deleted."
+msgstr "新しい映画やシリーズは見つかりませんでした。\n%s の孤立したデータベース エントリが削除されました。"
+
+msgid ""
+"No new Movies or Series found:\n"
+"Your Database is up to date."
+msgstr "新しい映画やシリーズは見つかりませんでした:\nデータベースは最新です。"
+
+msgid ""
+"No orphaned Backdrops or Posters found:\n"
+"Your Cache Folder is clean."
+msgstr "孤立した背景やポスターが見つかりません:\nキャッシュ フォルダーはクリーンです。"
+
+msgid "No results"
+msgstr "結果はありません"
+
+msgid "Off"
+msgstr "オフ"
+
+msgid "On Database Update"
+msgstr "データベースの更新時"
+
+msgid "On First Access"
+msgstr "初回アクセス時"
+
+msgid "On The Air"
+msgstr "オン・ザ・エア"
+
+msgid "Open"
+msgstr "開ける"
+
+msgid "Please wait, loading database..."
+msgstr "データベースをロード中です。お待​​ちください..."
+
+msgid "Plugin in Enigma Menu:"
+msgstr "Enigma メニューのプラグイン:"
+
+msgid "Popular"
+msgstr "人気のある"
+
+msgid "Popular, top rated and airing series from TMDb"
+msgstr "TMDb の人気、最高評価の放送中のシリーズ"
+
+msgid "Popular, top rated and upcoming films from TMDb"
+msgstr "TMDb の人気映画、高評価映画、今後の映画"
+
+msgid "Posterwall/Backdrop Show Plot:"
+msgstr "ポスターウォール/背景ショープロット:"
+
+msgid "Radio Button: Delete/Blacklist movie"
+msgstr "ラジオボタン：ムービーの削除/ブラックリスト"
+
+msgid "Rating:"
+msgstr "評価:"
+
+msgid "Really close without saving settings?"
+msgstr "本当に設定を保存せずに閉じますか?"
+
+msgid "Red: Style"
+msgstr "赤: スタイル"
+
+msgid "Reset Database:"
+msgstr "データベースをリセット:"
+
+msgid "Restore Database:"
+msgstr "データベースを復元します。"
+
+msgid "Runtime:"
+msgstr "ランタイム："
+
+msgid "SERIES"
+msgstr "シリーズ"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Seasons: %s"
+msgstr "シーズン: %s"
+
+msgid "Select Skin (GUI Restart Required):"
+msgstr "スキンを選択します (GUI の再起動が必要です):"
+
+msgid "Select style"
+msgstr "スタイルの選択"
+
+msgid "Series"
+msgstr "シリーズ"
+
+msgid "Series Episodes"
+msgstr "シリーズエピソード"
+
+msgid "Series Folder: No Info possible"
+msgstr "シリーズ フォルダー: 情報はありません"
+
+msgid "Series Style:"
+msgstr "シリーズスタイル:"
+
+msgid "Show"
+msgstr "見せる"
+
+msgid "Show Backdrops:"
+msgstr "背景を表示:"
+
+msgid "Show List of Movie Folder:"
+msgstr "ムービーフォルダーのリストを表示:"
+
+msgid "Show TV in Background (no m1v):"
+msgstr "バックグラウンドでテレビを表示 (m1v なし):"
+
+msgid "Sign up on TMDb and enter your free personal API Key"
+msgstr "TMDb にサインアップし、無料の個人 API キーを入力してください"
+
+msgid "Start Plugin with Video Button:"
+msgstr "ビデオボタンでプラグインを開始:"
+
+msgid ""
+"Start time: %s\n"
+"End time: %s\n"
+"Total scanned files: %s\n"
+"TheTVDb Database Requests: %s\n"
+"TMDb Database Requests: %s\n"
+"Orphaned Movies/Series: %s\n"
+"New Series: %s\n"
+"New Movies: %s"
+msgstr "開始時刻: %s\n終了時刻: %s\nスキャンされたファイルの合計: %s\nTVDb データベース リクエスト: %s\nTMDb データベース リクエスト: %s\n孤立した映画/シリーズ: %s\n新しいシリーズ: %s\n新しい映画: %s"
+
+msgid "Stop Button: Mark movie as seen"
+msgstr "停止ボタン: ムービーを視聴済みとしてマークします"
+
+msgid "Style"
+msgstr "スタイル"
+
+msgid "TMDb API Server is not reachable."
+msgstr "TMDb API サーバーにアクセスできません。"
+
+msgid "TMDb API key successfully imported!"
+msgstr "TMDb API キーが正常にインポートされました。"
+
+msgid "TMDb Language:"
+msgstr "TMDb 言語:"
+
+msgid ""
+"TMDb Movie Update Error:\n"
+"Series Folder"
+msgstr "TMDb ムービー更新エラー:\nシリーズフォルダー"
+
+msgid "TMDb Results"
+msgstr "TMDb の結果"
+
+msgid "Text Button: Edit Database"
+msgstr "テキスト ボタン: データベースの編集"
+
+msgid "The List of Movie Folder cannot be deleted."
+msgstr "動画フォルダー一覧は削除できません。"
+
+msgid ""
+"The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n"
+"\n"
+"If the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n"
+"\n"
+"Rebuild the Database now?"
+msgstr "ムービー ブラウザ データベースが再構築されます。ムービーの数によっては、これには数分かかる場合があります。\n\nプラグインが数分後に終了する場合は、プラグインを再起動し、手動でデータベース更新 (ビデオ ボタン) を実行します。\n\n今すぐデータベースを再構築しますか?"
+
+msgid "TheTVDb API Server is not reachable."
+msgstr "TVDb API サーバーにアクセスできません。"
+
+msgid "TheTVDb API key successfully imported!"
+msgstr "TVDb API キーが正常にインポートされました。"
+
+msgid "TheTVDb Results"
+msgstr "TVDbの結果"
+
+msgid ""
+"This will delete %s from the Database and from the Movie Folder!\n"
+"\n"
+"Do you want to continue?"
+msgstr "これにより、%s がデータベースとムービー フォルダから削除されます。\n\n続けますか?"
+
+msgid ""
+"This will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n"
+"\n"
+"Do you want to continue?"
+msgstr "これにより、%s がデータベースから削除され、ブラックリストに追加されるため、ムービーは将来のデータベース更新では無視されます。\n\n続けますか?"
+
+msgid ""
+"This will delete all %s entries from the Database but not from the Movie Folder.\n"
+"\n"
+"Do you want to continue?"
+msgstr "これにより、すべての %s エントリがデータベースから削除されますが、ムービー フォルダからは削除されません。\n\n続けますか?"
+
+msgid "Timer Database Update:"
+msgstr "タイマーデータベースの更新:"
+
+msgid "Toggle Plugin Style"
+msgstr "プラグインスタイルの切り替え"
+
+msgid "Toggle hide/show plugin"
+msgstr "プラグインの表示/非表示を切り替えます"
+
+msgid "Top Rated"
+msgstr "最高評価"
+
+msgid "Up/Down: Category"
+msgstr "上/下: カテゴリ"
+
+msgid "Upcoming"
+msgstr "今後の予定"
+
+msgid "Update"
+msgstr "アップデート"
+
+msgid "Update Database with Timer:"
+msgstr "タイマーを使用してデータベースを更新します。"
+
+msgid "Update Movie Browser Database?"
+msgstr "ムービー ブラウザ データベースを更新しますか?"
+
+msgid "Update Movie/Series"
+msgstr "映画/シリーズを更新する"
+
+msgid "Update Selection"
+msgstr "選択内容を更新する"
+
+msgid "Update error:"
+msgstr "更新エラー:"
+
+msgid "Use m1v Backdrops:"
+msgstr "m1v 背景を使用する:"
+
+msgid "Video Button: Update Database"
+msgstr "ビデオ ボタン: データベースの更新"
+
+msgid "Wall of posters"
+msgstr "ポスターの壁"
+
+msgid "Years:"
+msgstr "年:"
+
+msgid "Yes"
+msgstr "はい"

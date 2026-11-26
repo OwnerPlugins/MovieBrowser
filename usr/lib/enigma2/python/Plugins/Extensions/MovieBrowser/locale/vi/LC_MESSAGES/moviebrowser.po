@@ -1,0 +1,724 @@
+# moviebrowser translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-11-26 13:25+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%s Movie imported into Database."
+msgstr "%s Phim được nhập vào Cơ sở dữ liệu."
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s Phim được nhập vào Cơ sở dữ liệu.\n%s mục nhập cơ sở dữ liệu mồ côi đã bị xóa."
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s Phim được nhập vào Cơ sở dữ liệu.\nĐã xóa mục nhập cơ sở dữ liệu mồ côi %s."
+
+msgid "%s Movies and %s Series imported into Database."
+msgstr "%s Phim và %s Series được nhập vào Cơ sở dữ liệu."
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s Phim và %s Series được nhập vào Cơ sở dữ liệu.\n%s mục nhập cơ sở dữ liệu mồ côi đã bị xóa."
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s Phim và %s Series được nhập vào Cơ sở dữ liệu.\nĐã xóa mục nhập cơ sở dữ liệu mồ côi %s."
+
+msgid "%s Movies imported into Database."
+msgstr "%s Phim được nhập vào Cơ sở dữ liệu."
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s Phim được nhập vào Cơ sở dữ liệu.\n%s mục nhập cơ sở dữ liệu mồ côi đã bị xóa."
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s Phim được nhập vào Cơ sở dữ liệu.\nĐã xóa mục nhập cơ sở dữ liệu mồ côi %s."
+
+msgid "%s Series imported into Database."
+msgstr "Chuỗi %s được nhập vào Cơ sở dữ liệu."
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "Chuỗi %s được nhập vào Cơ sở dữ liệu.\n%s mục nhập cơ sở dữ liệu mồ côi đã bị xóa."
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "Chuỗi %s được nhập vào Cơ sở dữ liệu.\nĐã xóa mục nhập cơ sở dữ liệu mồ côi %s."
+
+msgid "%s min"
+msgstr "%s phút"
+
+msgid ""
+"*******Cleanup Cache Folder*******\n"
+"Start time: %s\n"
+"End time: %s\n"
+"Orphaned Backdrops/Posters removed: %s"
+msgstr "*******Dọn dẹp thư mục bộ nhớ đệm*********\nThời gian bắt đầu: %s\nThời gian kết thúc: %s\nPhông nền/Áp phích mồ côi đã bị xóa: %s"
+
+msgid ""
+"*******Movie Browser Database Update Timer*******\n"
+"Initial Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "******* Hẹn giờ cập nhật cơ sở dữ liệu trình duyệt phim *******\nBộ hẹn giờ cập nhật lần đầu đã bắt đầu: %s\nGiá trị hẹn giờ (phút): %s"
+
+msgid "*******Movie Browser Database Update*******"
+msgstr "*******Cập nhật cơ sở dữ liệu trình duyệt phim *******"
+
+msgid ""
+"*******Movie Browser Database Update*******\n"
+"Time: %s\n"
+"Error: %s\n"
+"Reason: %s"
+msgstr "*******Cập nhật cơ sở dữ liệu trình duyệt phim *******\nThời gian: %s\nLỗi: %s\nLý do: %s"
+
+msgid "<- -> Button: Go to first letter"
+msgstr "<- -> Nút: Đi tới chữ cái đầu tiên"
+
+msgid "<List of Movie Folder>"
+msgstr "<Danh sách thư mục phim>"
+
+msgid "Actor Selection"
+msgstr "Lựa chọn diễn viên"
+
+msgid "Actors:"
+msgstr "Diễn viên:"
+
+msgid "Airing Today"
+msgstr "Phát sóng hôm nay"
+
+msgid "All /tmp/posters cleaned"
+msgstr "Tất cả /tmp/áp phích đã được làm sạch"
+
+msgid "Automatic"
+msgstr "Tự động"
+
+msgid "Backdrop view with poster strip"
+msgstr "Chế độ xem phông nền với dải áp phích"
+
+msgid "Backup Database:"
+msgstr "Cơ sở dữ liệu sao lưu:"
+
+msgid ""
+"Before the Database is rebuilt, check your settings in the plugin setup:\n"
+"\n"
+"- Check the path to the Movie Folder\n"
+"- Check your TMDb/TheTVDb Language\n"
+"- Set the Cache Folder to your hard disk drive."
+msgstr "Trước khi Cơ sở dữ liệu được xây dựng lại, hãy kiểm tra cài đặt của bạn trong phần thiết lập plugin:\n\n- Kiểm tra đường dẫn tới Thư mục Phim\n- Kiểm tra ngôn ngữ TMDb/TheTVDb của bạn\n- Đặt Thư mục Cache vào ổ đĩa cứng của bạn."
+
+msgid "Blacklist Movie File"
+msgstr "Tệp phim danh sách đen"
+
+msgid "Button 0: Go to end of list"
+msgstr "Nút 0: Về cuối danh sách"
+
+msgid "Button 1: CutListEditor/MovieCut/LogView"
+msgstr "Nút 1: CutListEditor/MovieCut/LogView"
+
+msgid "Button 2: Renew infos on TMDb"
+msgstr "Nút 2: Gia hạn thông tin trên TMDb"
+
+msgid "Button 4: Hide/show seen movies"
+msgstr "Nút 4: Ẩn/hiện phim đã xem"
+
+msgid "Button 5: Toggle Movies/Series view"
+msgstr "Nút 5: Chuyển đổi chế độ xem Phim/Phim bộ"
+
+msgid "Button 6: Movie Folder Selection"
+msgstr "Nút 6: Chọn thư mục phim"
+
+msgid "Button 7: Movie Director Selection"
+msgstr "Nút 7: Lựa chọn đạo diễn phim"
+
+msgid "Button 8: Movie Actor Selection"
+msgstr "Nút 8: Lựa chọn diễn viên điện ảnh"
+
+msgid "Button 9: Movie Genre Selection"
+msgstr "Nút 9: Lựa chọn thể loại phim"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Cleanup Cache Folder canceled."
+msgstr "Thư mục bộ đệm %s không thể truy cập được:\nĐã hủy thư mục bộ đệm ẩn."
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Backup canceled."
+msgstr "Thư mục bộ đệm %s không thể truy cập được:\nSao lưu cơ sở dữ liệu trình duyệt phim đã bị hủy."
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Restore canceled."
+msgstr "Thư mục bộ đệm %s không thể truy cập được:\nKhôi phục cơ sở dữ liệu trình duyệt phim đã bị hủy."
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "Thư mục bộ đệm %s không thể truy cập được:\nĐã hủy cập nhật cơ sở dữ liệu trình duyệt phim."
+
+msgid "Cache Folder:"
+msgstr "Thư mục bộ đệm:"
+
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+msgid ""
+"Cannot update with TMDb: ID is not numeric\n"
+"This appears to be a TV series, not a movie."
+msgstr "Không thể cập nhật bằng TMDb: ID không phải là số\nHình như đây là phim truyền hình chứ không phải phim điện ảnh."
+
+msgid ""
+"Cannot update with TheTVDb: ID appears to be a movie ID\n"
+"Try \"Update Movie\" instead."
+msgstr "Không thể cập nhật với TheTVDb: ID có vẻ là ID phim\nThay vào đó hãy thử \"Cập nhật phim\"."
+
+msgid "Check for Plugin Update:"
+msgstr "Kiểm tra cập nhật plugin:"
+
+msgid "Check for plugin update"
+msgstr "Kiểm tra cập nhật plugin"
+
+msgid "Check only"
+msgstr "Chỉ kiểm tra"
+
+msgid "Choose Directory"
+msgstr "Chọn thư mục"
+
+msgid "Choose Directory:"
+msgstr "Chọn thư mục:"
+
+msgid "Cleanup Cache Folder Log"
+msgstr "Nhật ký thư mục bộ đệm dọn dẹp"
+
+msgid ""
+"Cleanup Cache Folder finished:\n"
+"%s orphaned Backdrops or Posters removed."
+msgstr "Dọn dẹp thư mục bộ đệm đã hoàn tất:\n%s Phông nền hoặc Áp phích mồ côi đã bị xóa."
+
+msgid "Cleanup Cache Folder:"
+msgstr "Dọn dẹp thư mục bộ đệm:"
+
+msgid "Country:"
+msgstr "Quốc gia:"
+
+msgid "Creator:"
+msgstr "Người sáng tạo:"
+
+msgid "DVD Player Plugin not installed."
+msgstr "Plugin Trình phát DVD chưa được cài đặt."
+
+msgid "Dark"
+msgstr "Tối tăm"
+
+msgid "Database"
+msgstr "Cơ sở dữ liệu"
+
+msgid ""
+"Database %s not found:\n"
+"Cleanup Cache Folder canceled."
+msgstr "Không tìm thấy cơ sở dữ liệu %s:\nĐã hủy thư mục bộ đệm ẩn."
+
+msgid ""
+"Database %s not found:\n"
+"Movie Browser Database Backup canceled."
+msgstr "Không tìm thấy cơ sở dữ liệu %s:\nSao lưu cơ sở dữ liệu trình duyệt phim đã bị hủy."
+
+msgid ""
+"Database Backup %s not found:\n"
+"Movie Browser Database Restore canceled."
+msgstr "Không tìm thấy bản sao lưu cơ sở dữ liệu %s:\nKhôi phục cơ sở dữ liệu trình duyệt phim đã bị hủy."
+
+msgid "Database Editor:"
+msgstr "Trình soạn thảo cơ sở dữ liệu:"
+
+msgid "Database Error: Entry without runtime"
+msgstr "Lỗi cơ sở dữ liệu: Mục nhập không có thời gian chạy"
+
+msgid "Database Timer Log"
+msgstr "Nhật ký hẹn giờ cơ sở dữ liệu"
+
+msgid "Database Update Log"
+msgstr "Nhật ký cập nhật cơ sở dữ liệu"
+
+msgid ""
+"Database Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "Bộ hẹn giờ cập nhật cơ sở dữ liệu đã bắt đầu: %s\nGiá trị hẹn giờ (phút): %s"
+
+msgid "Database Update Timer stopped: %s"
+msgstr "Bộ hẹn giờ cập nhật cơ sở dữ liệu đã dừng: %s"
+
+msgid "Database backed up to %s"
+msgstr "Cơ sở dữ liệu được sao lưu vào %s"
+
+msgid "Database restored from %s"
+msgstr "Cơ sở dữ liệu được khôi phục từ %s"
+
+msgid "Delete Movie File"
+msgstr "Xóa tập tin phim"
+
+msgid "Director Selection"
+msgstr "Tuyển chọn giám đốc"
+
+msgid "Director:"
+msgstr "Giám đốc:"
+
+msgid "Discover Background Overlay:"
+msgstr "Khám phá lớp phủ nền:"
+
+msgid "Discover Movies:"
+msgstr "Khám phá phim:"
+
+msgid "Discover Series:"
+msgstr "Chuỗi khám phá:"
+
+msgid "Download new Backdrops:"
+msgstr "Tải xuống Phông nền mới:"
+
+msgid "EPISODES"
+msgstr "TẬP"
+
+msgid "Error moving cache folder: %s"
+msgstr "Lỗi di chuyển thư mục bộ đệm: %s"
+
+msgid "Error while loading"
+msgstr "Lỗi khi tải"
+
+msgid "File %s not found!"
+msgstr "Không tìm thấy tập tin %s!"
+
+msgid "Folder Selection"
+msgstr "Lựa chọn thư mục"
+
+msgid "Free Space"
+msgstr "Không gian trống"
+
+msgid "Free Space:"
+msgstr "Không gian trống:"
+
+msgid "Genre Selection"
+msgstr "Lựa chọn thể loại"
+
+msgid "Genres:"
+msgstr "Thể loại:"
+
+msgid "Go to last Movie on Start:"
+msgstr "Đi tới Phim cuối cùng trên màn hình Bắt đầu:"
+
+msgid "Help"
+msgstr "Giúp đỡ"
+
+msgid "Hide"
+msgstr "Trốn"
+
+msgid "Hide Plugin during Update:"
+msgstr "Ẩn Plugin trong khi cập nhật:"
+
+msgid "In library"
+msgstr "Trong thư viện"
+
+msgid "Info Button"
+msgstr "Nút thông tin"
+
+msgid "Info Button: Toggle show/hide infos"
+msgstr "Nút thông tin: Chuyển đổi hiển thị/ẩn thông tin"
+
+msgid "Install automatically"
+msgstr "Cài đặt tự động"
+
+msgid "Invalid selection"
+msgstr "Lựa chọn không hợp lệ"
+
+msgid "Left/Right: Movie"
+msgstr "Trái/Phải: Phim"
+
+msgid "Light"
+msgstr "Ánh sáng"
+
+msgid "List view with poster and details"
+msgstr "Chế độ xem danh sách với áp phích và thông tin chi tiết"
+
+msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
+msgstr "Tải khóa API TMDb từ /tmp/tmdb_api.txt"
+
+msgid "Load last Selection/Filter on Start:"
+msgstr "Tải Lựa chọn/Bộ lọc cuối cùng khi bắt đầu:"
+
+msgid "Loading..."
+msgstr "Đang tải..."
+
+msgid "MOVIES"
+msgstr "PHIM"
+
+msgid "Manage your Movies & Series V.%s"
+msgstr "Quản lý Phim & Bộ phim V.%s của bạn"
+
+msgid "Medium"
+msgstr "Trung bình"
+
+msgid "Metrix List Selection Color:"
+msgstr "Màu lựa chọn danh sách Metrix:"
+
+msgid "Movie Browser Key Assignment"
+msgstr "Gán phím trình duyệt phim"
+
+msgid "Movie Browser Key Assignment:"
+msgstr "Gán phím trình duyệt phim:"
+
+msgid "Movie Creation Date Ascending"
+msgstr "Ngày tạo phim tăng dần"
+
+msgid "Movie Creation Date Descending"
+msgstr "Ngày tạo phim giảm dần"
+
+msgid "Movie Database Update started: %s"
+msgstr "Đã bắt đầu cập nhật cơ sở dữ liệu phim: %s"
+
+msgid "Movie File Information"
+msgstr "Thông tin tập tin phim"
+
+msgid "Movie Folder"
+msgstr "Thư mục phim"
+
+msgid ""
+"Movie Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "Không thể truy cập Thư mục Phim %s:\nĐã hủy cập nhật cơ sở dữ liệu trình duyệt phim."
+
+msgid "Movie Folder Ascending"
+msgstr "Thư mục phim tăng dần"
+
+msgid "Movie Folder Descending"
+msgstr "Thư mục phim giảm dần"
+
+msgid "Movie Folder Selection"
+msgstr "Lựa chọn thư mục phim"
+
+msgid "Movie Folder:"
+msgstr "Thư mục phim:"
+
+msgid "Movie Rating 0-10"
+msgstr "Xếp hạng phim 0-10"
+
+msgid "Movie Rating 10-0"
+msgstr "Xếp hạng phim 10-0"
+
+msgid "Movie Release Date Ascending"
+msgstr "Ngày phát hành phim tăng dần"
+
+msgid "Movie Release Date Descending"
+msgstr "Ngày phát hành phim giảm dần"
+
+msgid "Movie Runtime Ascending"
+msgstr "Thời gian chạy phim tăng dần"
+
+msgid "Movie Runtime Descending"
+msgstr "Thời lượng phim giảm dần"
+
+msgid "Movie Sort Order:"
+msgstr "Thứ tự sắp xếp phim:"
+
+msgid "Movie Title A-Z"
+msgstr "Tiêu Đề Phim A-Z"
+
+msgid "Movie Title Z-A"
+msgstr "Tên Phim Z-A"
+
+msgid "Movie file %s not available."
+msgstr "Tệp phim %s không có sẵn."
+
+msgid "Movies"
+msgstr "Phim"
+
+msgid "Movies & Series"
+msgstr "Phim & Series"
+
+msgid "Movies Style:"
+msgstr "Phong cách phim:"
+
+msgid "Movies or Series Selection at Start:"
+msgstr "Lựa chọn phim hoặc sê-ri khi bắt đầu:"
+
+msgid "Movies or Series:"
+msgstr "Phim hoặc Series:"
+
+msgid "New Releases"
+msgstr "Bản phát hành mới"
+
+msgid "No"
+msgstr "KHÔNG"
+
+msgid "No TMDb Results for %s."
+msgstr "Không có kết quả TMDb nào cho %s."
+
+msgid "No TheTVDb Results for %s."
+msgstr "Không có kết quả TheTVDb cho %s."
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entries deleted."
+msgstr "Không tìm thấy Phim hoặc Bộ mới.\n%s mục nhập cơ sở dữ liệu mồ côi đã bị xóa."
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entry deleted."
+msgstr "Không tìm thấy Phim hoặc Bộ mới.\nĐã xóa mục nhập cơ sở dữ liệu mồ côi %s."
+
+msgid ""
+"No new Movies or Series found:\n"
+"Your Database is up to date."
+msgstr "Không tìm thấy Phim hoặc Bộ mới:\nCơ sở dữ liệu của bạn được cập nhật."
+
+msgid ""
+"No orphaned Backdrops or Posters found:\n"
+"Your Cache Folder is clean."
+msgstr "Không tìm thấy Phông nền hoặc Áp phích mồ côi:\nThư mục bộ đệm của bạn sạch sẽ."
+
+msgid "No results"
+msgstr "Không có kết quả"
+
+msgid "Off"
+msgstr "Tắt"
+
+msgid "On Database Update"
+msgstr "Về cập nhật cơ sở dữ liệu"
+
+msgid "On First Access"
+msgstr "Khi truy cập lần đầu"
+
+msgid "On The Air"
+msgstr "Trên không"
+
+msgid "Open"
+msgstr "Mở"
+
+msgid "Please wait, loading database..."
+msgstr "Vui lòng đợi, đang tải cơ sở dữ liệu..."
+
+msgid "Plugin in Enigma Menu:"
+msgstr "Plugin trong Menu Enigma:"
+
+msgid "Popular"
+msgstr "Phổ biến"
+
+msgid "Popular, top rated and airing series from TMDb"
+msgstr "Loạt phim nổi tiếng, được đánh giá cao nhất và đang phát sóng từ TMDb"
+
+msgid "Popular, top rated and upcoming films from TMDb"
+msgstr "Những bộ phim nổi tiếng, được đánh giá cao nhất và sắp ra mắt từ TMDb"
+
+msgid "Posterwall/Backdrop Show Plot:"
+msgstr "Cốt truyện hiển thị trên tường/phông nền:"
+
+msgid "Radio Button: Delete/Blacklist movie"
+msgstr "Nút Radio: Xóa/danh sách đen phim"
+
+msgid "Rating:"
+msgstr "Đánh giá:"
+
+msgid "Really close without saving settings?"
+msgstr "Thực sự đóng mà không lưu cài đặt?"
+
+msgid "Red: Style"
+msgstr "Màu đỏ: Phong cách"
+
+msgid "Reset Database:"
+msgstr "Đặt lại cơ sở dữ liệu:"
+
+msgid "Restore Database:"
+msgstr "Khôi phục cơ sở dữ liệu:"
+
+msgid "Runtime:"
+msgstr "Thời gian chạy:"
+
+msgid "SERIES"
+msgstr "LOẠT"
+
+msgid "Save"
+msgstr "Cứu"
+
+msgid "Seasons: %s"
+msgstr "Mùa: %s"
+
+msgid "Select Skin (GUI Restart Required):"
+msgstr "Chọn Skin (Yêu cầu khởi động lại GUI):"
+
+msgid "Select style"
+msgstr "Chọn kiểu"
+
+msgid "Series"
+msgstr "Loạt"
+
+msgid "Series Episodes"
+msgstr "Tập phim"
+
+msgid "Series Folder: No Info possible"
+msgstr "Thư mục sê-ri: Không thể có thông tin"
+
+msgid "Series Style:"
+msgstr "Loạt Phong Cách:"
+
+msgid "Show"
+msgstr "Trình diễn"
+
+msgid "Show Backdrops:"
+msgstr "Hiển thị phông nền:"
+
+msgid "Show List of Movie Folder:"
+msgstr "Hiển thị danh sách thư mục phim:"
+
+msgid "Show TV in Background (no m1v):"
+msgstr "Hiển thị TV ở chế độ nền (không có m1v):"
+
+msgid "Sign up on TMDb and enter your free personal API Key"
+msgstr "Đăng ký trên TMDb và nhập Khóa API cá nhân miễn phí của bạn"
+
+msgid "Start Plugin with Video Button:"
+msgstr "Bắt đầu Plugin bằng nút Video:"
+
+msgid ""
+"Start time: %s\n"
+"End time: %s\n"
+"Total scanned files: %s\n"
+"TheTVDb Database Requests: %s\n"
+"TMDb Database Requests: %s\n"
+"Orphaned Movies/Series: %s\n"
+"New Series: %s\n"
+"New Movies: %s"
+msgstr "Thời gian bắt đầu: %s\nThời gian kết thúc: %s\nTổng số tệp được quét: %s\nYêu cầu cơ sở dữ liệu TheTVDb: %s\nYêu cầu cơ sở dữ liệu TMDb: %s\nPhim/bộ phim mồ côi: %s\nSê-ri Mới: %s\nPhim mới: %s"
+
+msgid "Stop Button: Mark movie as seen"
+msgstr "Nút Dừng: Đánh dấu phim là đã xem"
+
+msgid "Style"
+msgstr "Phong cách"
+
+msgid "TMDb API Server is not reachable."
+msgstr "Máy chủ API TMDb không thể truy cập được."
+
+msgid "TMDb API key successfully imported!"
+msgstr "Khóa API TMDb đã được nhập thành công!"
+
+msgid "TMDb Language:"
+msgstr "Ngôn ngữ TMDb:"
+
+msgid ""
+"TMDb Movie Update Error:\n"
+"Series Folder"
+msgstr "Lỗi cập nhật phim TMDb:\nThư mục loạt"
+
+msgid "TMDb Results"
+msgstr "Kết quả TMDb"
+
+msgid "Text Button: Edit Database"
+msgstr "Nút văn bản: Chỉnh sửa cơ sở dữ liệu"
+
+msgid "The List of Movie Folder cannot be deleted."
+msgstr "Không thể xóa Danh sách Thư mục Phim."
+
+msgid ""
+"The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n"
+"\n"
+"If the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n"
+"\n"
+"Rebuild the Database now?"
+msgstr "Cơ sở dữ liệu trình duyệt phim sẽ được xây dựng lại ngay bây giờ. Tùy thuộc vào số lượng Phim của bạn, quá trình này có thể mất vài phút.\n\nNếu plugin chấm dứt sau vài phút, hãy khởi động lại plugin và chạy Cập nhật cơ sở dữ liệu thủ công (nút Video).\n\nXây dựng lại cơ sở dữ liệu bây giờ?"
+
+msgid "TheTVDb API Server is not reachable."
+msgstr "Máy chủ API TVDb không thể truy cập được."
+
+msgid "TheTVDb API key successfully imported!"
+msgstr "Khóa API TVDb đã được nhập thành công!"
+
+msgid "TheTVDb Results"
+msgstr "Kết quả TheTVDb"
+
+msgid ""
+"This will delete %s from the Database and from the Movie Folder!\n"
+"\n"
+"Do you want to continue?"
+msgstr "Thao tác này sẽ xóa %s khỏi Cơ sở dữ liệu và Thư mục Phim!\n\nBạn có muốn tiếp tục không?"
+
+msgid ""
+"This will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n"
+"\n"
+"Do you want to continue?"
+msgstr "Thao tác này sẽ xóa %s khỏi Cơ sở dữ liệu và đưa nó vào Danh sách đen, vì vậy Phim sẽ bị các Bản cập nhật cơ sở dữ liệu trong tương lai bỏ qua.\n\nBạn có muốn tiếp tục không?"
+
+msgid ""
+"This will delete all %s entries from the Database but not from the Movie Folder.\n"
+"\n"
+"Do you want to continue?"
+msgstr "Thao tác này sẽ xóa tất cả các mục nhập %s khỏi Cơ sở dữ liệu nhưng không xóa khỏi Thư mục Phim.\n\nBạn có muốn tiếp tục không?"
+
+msgid "Timer Database Update:"
+msgstr "Cập nhật cơ sở dữ liệu hẹn giờ:"
+
+msgid "Toggle Plugin Style"
+msgstr "Chuyển đổi kiểu plugin"
+
+msgid "Toggle hide/show plugin"
+msgstr "Chuyển đổi plugin ẩn/hiển thị"
+
+msgid "Top Rated"
+msgstr "được xếp hạng hàng đầu"
+
+msgid "Up/Down: Category"
+msgstr "Lên/Xuống: Danh mục"
+
+msgid "Upcoming"
+msgstr "Sắp tới"
+
+msgid "Update"
+msgstr "Cập nhật"
+
+msgid "Update Database with Timer:"
+msgstr "Cập nhật cơ sở dữ liệu với bộ đếm thời gian:"
+
+msgid "Update Movie Browser Database?"
+msgstr "Cập nhật cơ sở dữ liệu trình duyệt phim?"
+
+msgid "Update Movie/Series"
+msgstr "Cập nhật phim/bộ phim"
+
+msgid "Update Selection"
+msgstr "Cập nhật lựa chọn"
+
+msgid "Update error:"
+msgstr "Cập nhật lỗi:"
+
+msgid "Use m1v Backdrops:"
+msgstr "Sử dụng Phông nền m1v:"
+
+msgid "Video Button: Update Database"
+msgstr "Nút Video: Cập nhật cơ sở dữ liệu"
+
+msgid "Wall of posters"
+msgstr "Bức tường áp phích"
+
+msgid "Years:"
+msgstr "Năm:"
+
+msgid "Yes"
+msgstr "Đúng"

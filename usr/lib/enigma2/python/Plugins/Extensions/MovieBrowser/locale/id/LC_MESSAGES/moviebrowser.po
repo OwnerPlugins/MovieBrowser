@@ -1,0 +1,723 @@
+# moviebrowser translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-11-26 12:57+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Indonesian <tp-id@googlegroups.com>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s Movie imported into Database."
+msgstr "%s Film diimpor ke Database."
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s Film diimpor ke Database.\n%s Entri Basis Data yatim piatu dihapus."
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s Film diimpor ke Database.\n%s Entri Basis Data yatim piatu dihapus."
+
+msgid "%s Movies and %s Series imported into Database."
+msgstr "%s Film dan %s Serial diimpor ke Database."
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s Film dan %s Serial diimpor ke Database.\n%s Entri Basis Data yatim piatu dihapus."
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s Film dan %s Serial diimpor ke Database.\n%s Entri Basis Data yatim piatu dihapus."
+
+msgid "%s Movies imported into Database."
+msgstr "%s Film diimpor ke Database."
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s Film diimpor ke Database.\n%s Entri Basis Data yatim piatu dihapus."
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s Film diimpor ke Database.\n%s Entri Basis Data yatim piatu dihapus."
+
+msgid "%s Series imported into Database."
+msgstr "Seri %s diimpor ke Database."
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "Seri %s diimpor ke Database.\n%s Entri Basis Data yatim piatu dihapus."
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "Seri %s diimpor ke Database.\n%s Entri Basis Data yatim piatu dihapus."
+
+msgid "%s min"
+msgstr "%s mnt"
+
+msgid ""
+"*******Cleanup Cache Folder*******\n"
+"Start time: %s\n"
+"End time: %s\n"
+"Orphaned Backdrops/Posters removed: %s"
+msgstr "*******Bersihkan Folder Cache*******\nWaktu mulai: %s\nWaktu berakhir: %s\nLatar Belakang/Poster Yatim Piatu dihapus: %s"
+
+msgid ""
+"*******Movie Browser Database Update Timer*******\n"
+"Initial Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "*******Pengatur Waktu Pembaruan Basis Data Peramban Film*******\nTimer Pembaruan Awal dimulai: %s\nNilai Timer (mnt): %s"
+
+msgid "*******Movie Browser Database Update*******"
+msgstr "*******Pembaruan Basis Data Peramban Film*******"
+
+msgid ""
+"*******Movie Browser Database Update*******\n"
+"Time: %s\n"
+"Error: %s\n"
+"Reason: %s"
+msgstr "*******Pembaruan Basis Data Peramban Film*******\nWaktu: %s\nKesalahan: %s\nAlasan: %s"
+
+msgid "<- -> Button: Go to first letter"
+msgstr "<- -> Tombol: Ke huruf pertama"
+
+msgid "<List of Movie Folder>"
+msgstr "<Daftar Folder Film>"
+
+msgid "Actor Selection"
+msgstr "Seleksi Aktor"
+
+msgid "Actors:"
+msgstr "Aktor:"
+
+msgid "Airing Today"
+msgstr "Ditayangkan Hari Ini"
+
+msgid "All /tmp/posters cleaned"
+msgstr "Semua /tmp/poster dibersihkan"
+
+msgid "Automatic"
+msgstr "Otomatis"
+
+msgid "Backdrop view with poster strip"
+msgstr "Tampilan latar belakang dengan strip poster"
+
+msgid "Backup Database:"
+msgstr "Basis Data Cadangan:"
+
+msgid ""
+"Before the Database is rebuilt, check your settings in the plugin setup:\n"
+"\n"
+"- Check the path to the Movie Folder\n"
+"- Check your TMDb/TheTVDb Language\n"
+"- Set the Cache Folder to your hard disk drive."
+msgstr "Sebelum Database dibangun kembali, periksa pengaturan Anda di pengaturan plugin:\n\n- Periksa jalur ke Folder Film\n- Periksa Bahasa TMDb/TheTVDb Anda\n- Atur Folder Cache ke drive hard disk Anda."
+
+msgid "Blacklist Movie File"
+msgstr "File Film Daftar Hitam"
+
+msgid "Button 0: Go to end of list"
+msgstr "Tombol 0: Pergi ke akhir daftar"
+
+msgid "Button 1: CutListEditor/MovieCut/LogView"
+msgstr "Tombol 1: CutListEditor/MovieCut/LogView"
+
+msgid "Button 2: Renew infos on TMDb"
+msgstr "Tombol 2: Perbarui info di TMDb"
+
+msgid "Button 4: Hide/show seen movies"
+msgstr "Tombol 4: Sembunyikan/tampilkan film yang dilihat"
+
+msgid "Button 5: Toggle Movies/Series view"
+msgstr "Tombol 5: Beralih tampilan Film/Seri"
+
+msgid "Button 6: Movie Folder Selection"
+msgstr "Tombol 6: Pemilihan Folder Film"
+
+msgid "Button 7: Movie Director Selection"
+msgstr "Tombol 7: Pemilihan Sutradara Film"
+
+msgid "Button 8: Movie Actor Selection"
+msgstr "Tombol 8: Pemilihan Aktor Film"
+
+msgid "Button 9: Movie Genre Selection"
+msgstr "Tombol 9: Pemilihan Genre Film"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Cleanup Cache Folder canceled."
+msgstr "Folder Cache %s tidak dapat dijangkau:\nPembersihan Folder Cache dibatalkan."
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Backup canceled."
+msgstr "Folder Cache %s tidak dapat dijangkau:\nPencadangan Basis Data Browser Film dibatalkan."
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Restore canceled."
+msgstr "Folder Cache %s tidak dapat dijangkau:\nPemulihan Basis Data Browser Film dibatalkan."
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "Folder Cache %s tidak dapat dijangkau:\nPembaruan Basis Data Browser Film dibatalkan."
+
+msgid "Cache Folder:"
+msgstr "Folder Tembolok:"
+
+msgid "Cancel"
+msgstr "Membatalkan"
+
+msgid ""
+"Cannot update with TMDb: ID is not numeric\n"
+"This appears to be a TV series, not a movie."
+msgstr "Tidak dapat memperbarui dengan TMDb: ID bukan numerik\nTampaknya ini adalah serial TV, bukan film."
+
+msgid ""
+"Cannot update with TheTVDb: ID appears to be a movie ID\n"
+"Try \"Update Movie\" instead."
+msgstr "Tidak dapat memperbarui dengan TheTVDb: ID tampaknya adalah ID film\nCoba \"Perbarui Film\" sebagai gantinya."
+
+msgid "Check for Plugin Update:"
+msgstr "Periksa Pembaruan Plugin:"
+
+msgid "Check for plugin update"
+msgstr "Periksa pembaruan plugin"
+
+msgid "Check only"
+msgstr "Periksa saja"
+
+msgid "Choose Directory"
+msgstr "Pilih Direktori"
+
+msgid "Choose Directory:"
+msgstr "Pilih Direktori:"
+
+msgid "Cleanup Cache Folder Log"
+msgstr "Bersihkan Log Folder Cache"
+
+msgid ""
+"Cleanup Cache Folder finished:\n"
+"%s orphaned Backdrops or Posters removed."
+msgstr "Pembersihan Folder Cache selesai:\n%s Latar Belakang atau Poster yang tidak ada lagi dihapus."
+
+msgid "Cleanup Cache Folder:"
+msgstr "Folder Cache Pembersihan:"
+
+msgid "Country:"
+msgstr "Negara:"
+
+msgid "Creator:"
+msgstr "Pencipta:"
+
+msgid "DVD Player Plugin not installed."
+msgstr "Plugin Pemutar DVD tidak diinstal."
+
+msgid "Dark"
+msgstr "Gelap"
+
+msgid "Database"
+msgstr "Basis data"
+
+msgid ""
+"Database %s not found:\n"
+"Cleanup Cache Folder canceled."
+msgstr "Basis data %s tidak ditemukan:\nPembersihan Folder Cache dibatalkan."
+
+msgid ""
+"Database %s not found:\n"
+"Movie Browser Database Backup canceled."
+msgstr "Basis data %s tidak ditemukan:\nPencadangan Basis Data Browser Film dibatalkan."
+
+msgid ""
+"Database Backup %s not found:\n"
+"Movie Browser Database Restore canceled."
+msgstr "Cadangan Basis Data %s tidak ditemukan:\nPemulihan Basis Data Browser Film dibatalkan."
+
+msgid "Database Editor:"
+msgstr "Editor Basis Data:"
+
+msgid "Database Error: Entry without runtime"
+msgstr "Kesalahan Basis Data: Entri tanpa runtime"
+
+msgid "Database Timer Log"
+msgstr "Log Pengatur Waktu Basis Data"
+
+msgid "Database Update Log"
+msgstr "Log Pembaruan Basis Data"
+
+msgid ""
+"Database Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "Timer Pembaruan Basis Data dimulai: %s\nNilai Timer (mnt): %s"
+
+msgid "Database Update Timer stopped: %s"
+msgstr "Timer Pembaruan Basis Data berhenti: %s"
+
+msgid "Database backed up to %s"
+msgstr "Basis data dicadangkan hingga %s"
+
+msgid "Database restored from %s"
+msgstr "Basis data dipulihkan dari %s"
+
+msgid "Delete Movie File"
+msgstr "Hapus File Film"
+
+msgid "Director Selection"
+msgstr "Seleksi Direktur"
+
+msgid "Director:"
+msgstr "Direktur:"
+
+msgid "Discover Background Overlay:"
+msgstr "Temukan Hamparan Latar Belakang:"
+
+msgid "Discover Movies:"
+msgstr "Temukan Film:"
+
+msgid "Discover Series:"
+msgstr "Temukan Seri:"
+
+msgid "Download new Backdrops:"
+msgstr "Unduh Latar Belakang baru:"
+
+msgid "EPISODES"
+msgstr "EPISODE"
+
+msgid "Error moving cache folder: %s"
+msgstr "Kesalahan saat memindahkan folder cache: %s"
+
+msgid "Error while loading"
+msgstr "Kesalahan saat memuat"
+
+msgid "File %s not found!"
+msgstr "Berkas %s tidak ditemukan!"
+
+msgid "Folder Selection"
+msgstr "Pemilihan Folder"
+
+msgid "Free Space"
+msgstr "Ruang Bebas"
+
+msgid "Free Space:"
+msgstr "Ruang Kosong:"
+
+msgid "Genre Selection"
+msgstr "Pemilihan Genre"
+
+msgid "Genres:"
+msgstr "Genre:"
+
+msgid "Go to last Movie on Start:"
+msgstr "Buka Film terakhir di Mulai:"
+
+msgid "Help"
+msgstr "Membantu"
+
+msgid "Hide"
+msgstr "Bersembunyi"
+
+msgid "Hide Plugin during Update:"
+msgstr "Sembunyikan Plugin selama Pembaruan:"
+
+msgid "In library"
+msgstr "Di perpustakaan"
+
+msgid "Info Button"
+msgstr "Tombol Info"
+
+msgid "Info Button: Toggle show/hide infos"
+msgstr "Tombol Info: Alihkan tampilkan/sembunyikan info"
+
+msgid "Install automatically"
+msgstr "Instal secara otomatis"
+
+msgid "Invalid selection"
+msgstr "Pilihan tidak valid"
+
+msgid "Left/Right: Movie"
+msgstr "Kiri/Kanan: Film"
+
+msgid "Light"
+msgstr "Lampu"
+
+msgid "List view with poster and details"
+msgstr "Tampilan daftar dengan poster dan detail"
+
+msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
+msgstr "Muat Kunci API TMDb dari /tmp/tmdb_api.txt"
+
+msgid "Load last Selection/Filter on Start:"
+msgstr "Muat Pilihan/Filter terakhir di Mulai:"
+
+msgid "Loading..."
+msgstr "Memuat..."
+
+msgid "MOVIES"
+msgstr "FILM"
+
+msgid "Manage your Movies & Series V.%s"
+msgstr "Kelola Film & Serial Anda V.%s"
+
+msgid "Medium"
+msgstr "Sedang"
+
+msgid "Metrix List Selection Color:"
+msgstr "Warna Pilihan Daftar Metrik:"
+
+msgid "Movie Browser Key Assignment"
+msgstr "Penetapan Kunci Browser Film"
+
+msgid "Movie Browser Key Assignment:"
+msgstr "Penetapan Kunci Browser Film:"
+
+msgid "Movie Creation Date Ascending"
+msgstr "Tanggal Pembuatan Film Meningkat"
+
+msgid "Movie Creation Date Descending"
+msgstr "Tanggal Pembuatan Film Menurun"
+
+msgid "Movie Database Update started: %s"
+msgstr "Pembaruan Basis Data Film dimulai: %s"
+
+msgid "Movie File Information"
+msgstr "Informasi File Film"
+
+msgid "Movie Folder"
+msgstr "Folder Film"
+
+msgid ""
+"Movie Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "Folder Film %s tidak dapat dijangkau:\nPembaruan Basis Data Browser Film dibatalkan."
+
+msgid "Movie Folder Ascending"
+msgstr "Folder Film Menaik"
+
+msgid "Movie Folder Descending"
+msgstr "Folder Film Menurun"
+
+msgid "Movie Folder Selection"
+msgstr "Pemilihan Folder Film"
+
+msgid "Movie Folder:"
+msgstr "Folder Film:"
+
+msgid "Movie Rating 0-10"
+msgstr "Peringkat Film 0-10"
+
+msgid "Movie Rating 10-0"
+msgstr "Peringkat Film 10-0"
+
+msgid "Movie Release Date Ascending"
+msgstr "Tanggal Rilis Film Meningkat"
+
+msgid "Movie Release Date Descending"
+msgstr "Tanggal Rilis Film Menurun"
+
+msgid "Movie Runtime Ascending"
+msgstr "Durasi Film Meningkat"
+
+msgid "Movie Runtime Descending"
+msgstr "Durasi Film Menurun"
+
+msgid "Movie Sort Order:"
+msgstr "Urutan Pengurutan Film:"
+
+msgid "Movie Title A-Z"
+msgstr "Judul Film A-Z"
+
+msgid "Movie Title Z-A"
+msgstr "Judul Film Z-A"
+
+msgid "Movie file %s not available."
+msgstr "File film %s tidak tersedia."
+
+msgid "Movies"
+msgstr "Film"
+
+msgid "Movies & Series"
+msgstr "Film & Serial"
+
+msgid "Movies Style:"
+msgstr "Gaya Film:"
+
+msgid "Movies or Series Selection at Start:"
+msgstr "Pilihan Film atau Serial di Awal:"
+
+msgid "Movies or Series:"
+msgstr "Film atau Serial:"
+
+msgid "New Releases"
+msgstr "Rilis Baru"
+
+msgid "No"
+msgstr "TIDAK"
+
+msgid "No TMDb Results for %s."
+msgstr "Tidak ada Hasil TMDb untuk %s."
+
+msgid "No TheTVDb Results for %s."
+msgstr "Tidak ada Hasil TheTVDb untuk %s."
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entries deleted."
+msgstr "Tidak ada Film atau Serial baru yang ditemukan.\n%s Entri Basis Data yatim piatu dihapus."
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entry deleted."
+msgstr "Tidak ada Film atau Serial baru yang ditemukan.\n%s Entri Basis Data yatim piatu dihapus."
+
+msgid ""
+"No new Movies or Series found:\n"
+"Your Database is up to date."
+msgstr "Tidak ada Film atau Serial baru yang ditemukan:\nBasis Data Anda sudah diperbarui."
+
+msgid ""
+"No orphaned Backdrops or Posters found:\n"
+"Your Cache Folder is clean."
+msgstr "Tidak ditemukan Latar Belakang atau Poster yatim piatu:\nFolder Cache Anda bersih."
+
+msgid "No results"
+msgstr "Tidak ada hasil"
+
+msgid "Off"
+msgstr "Mati"
+
+msgid "On Database Update"
+msgstr "Tentang Pembaruan Basis Data"
+
+msgid "On First Access"
+msgstr "Pada Akses Pertama"
+
+msgid "On The Air"
+msgstr "Di Udara"
+
+msgid "Open"
+msgstr "Membuka"
+
+msgid "Please wait, loading database..."
+msgstr "Harap tunggu, sedang memuat basis data..."
+
+msgid "Plugin in Enigma Menu:"
+msgstr "Plugin di Menu Enigma:"
+
+msgid "Popular"
+msgstr "Populer"
+
+msgid "Popular, top rated and airing series from TMDb"
+msgstr "Serial populer, berperingkat teratas, dan ditayangkan dari TMDb"
+
+msgid "Popular, top rated and upcoming films from TMDb"
+msgstr "Film populer, berperingkat teratas, dan mendatang dari TMDb"
+
+msgid "Posterwall/Backdrop Show Plot:"
+msgstr "Plot Pertunjukan Dinding Poster/Latar Belakang:"
+
+msgid "Radio Button: Delete/Blacklist movie"
+msgstr "Tombol Radio: Hapus/Daftar Hitam film"
+
+msgid "Rating:"
+msgstr "Peringkat:"
+
+msgid "Really close without saving settings?"
+msgstr "Benar-benar dekat tanpa menyimpan pengaturan?"
+
+msgid "Red: Style"
+msgstr "Merah: Gaya"
+
+msgid "Reset Database:"
+msgstr "Setel Ulang Basis Data:"
+
+msgid "Restore Database:"
+msgstr "Pulihkan Basis Data:"
+
+msgid "Runtime:"
+msgstr "Waktu tayang:"
+
+msgid "SERIES"
+msgstr "SERI"
+
+msgid "Save"
+msgstr "Menyimpan"
+
+msgid "Seasons: %s"
+msgstr "Musim: %s"
+
+msgid "Select Skin (GUI Restart Required):"
+msgstr "Pilih Kulit (Diperlukan Restart GUI):"
+
+msgid "Select style"
+msgstr "Pilih gaya"
+
+msgid "Series"
+msgstr "Seri"
+
+msgid "Series Episodes"
+msgstr "Episode Seri"
+
+msgid "Series Folder: No Info possible"
+msgstr "Folder Seri: Tidak ada Info yang memungkinkan"
+
+msgid "Series Style:"
+msgstr "Gaya Seri:"
+
+msgid "Show"
+msgstr "Menunjukkan"
+
+msgid "Show Backdrops:"
+msgstr "Tampilkan Latar Belakang:"
+
+msgid "Show List of Movie Folder:"
+msgstr "Tampilkan Daftar Folder Film:"
+
+msgid "Show TV in Background (no m1v):"
+msgstr "Tampilkan TV di Latar Belakang (tanpa m1v):"
+
+msgid "Sign up on TMDb and enter your free personal API Key"
+msgstr "Daftar di TMDb dan masukkan Kunci API pribadi gratis Anda"
+
+msgid "Start Plugin with Video Button:"
+msgstr "Mulai Plugin dengan Tombol Video:"
+
+msgid ""
+"Start time: %s\n"
+"End time: %s\n"
+"Total scanned files: %s\n"
+"TheTVDb Database Requests: %s\n"
+"TMDb Database Requests: %s\n"
+"Orphaned Movies/Series: %s\n"
+"New Series: %s\n"
+"New Movies: %s"
+msgstr "Waktu mulai: %s\nWaktu berakhir: %s\nTotal file yang dipindai: %s\nPermintaan Basis Data TVDb: %s\nPermintaan Basis Data TMDb: %s\nFilm/Seri Yatim Piatu: %s\nSeri Baru: %s\nFilm Baru: %s"
+
+msgid "Stop Button: Mark movie as seen"
+msgstr "Tombol Berhenti: Menandai film seperti yang terlihat"
+
+msgid "Style"
+msgstr "Gaya"
+
+msgid "TMDb API Server is not reachable."
+msgstr "Server API TMDb tidak dapat dijangkau."
+
+msgid "TMDb API key successfully imported!"
+msgstr "Kunci API TMDb berhasil diimpor!"
+
+msgid "TMDb Language:"
+msgstr "Bahasa TMDb:"
+
+msgid ""
+"TMDb Movie Update Error:\n"
+"Series Folder"
+msgstr "Kesalahan Pembaruan Film TMDb:\nFolder Seri"
+
+msgid "TMDb Results"
+msgstr "Hasil TMDb"
+
+msgid "Text Button: Edit Database"
+msgstr "Tombol Teks: Edit Basis Data"
+
+msgid "The List of Movie Folder cannot be deleted."
+msgstr "Daftar Folder Film tidak dapat dihapus."
+
+msgid ""
+"The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n"
+"\n"
+"If the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n"
+"\n"
+"Rebuild the Database now?"
+msgstr "Basis Data Peramban Film akan dibangun kembali sekarang. Tergantung pada jumlah Film Anda, proses ini dapat memakan waktu beberapa menit.\n\nJika plugin berhenti setelah beberapa menit, mulai ulang plugin dan jalankan Pembaruan Basis Data manual (tombol Video).\n\nBangun kembali Database sekarang?"
+
+msgid "TheTVDb API Server is not reachable."
+msgstr "Server API TVDb tidak dapat dijangkau."
+
+msgid "TheTVDb API key successfully imported!"
+msgstr "Kunci API TVDb berhasil diimpor!"
+
+msgid "TheTVDb Results"
+msgstr "Hasil TVDb"
+
+msgid ""
+"This will delete %s from the Database and from the Movie Folder!\n"
+"\n"
+"Do you want to continue?"
+msgstr "Ini akan menghapus %s dari Database dan Folder Film!\n\nApakah Anda ingin melanjutkan?"
+
+msgid ""
+"This will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n"
+"\n"
+"Do you want to continue?"
+msgstr "Ini akan menghapus %s dari Database dan memasukkannya ke dalam Daftar Hitam, sehingga Film akan diabaikan oleh Pembaruan Database di masa mendatang.\n\nApakah Anda ingin melanjutkan?"
+
+msgid ""
+"This will delete all %s entries from the Database but not from the Movie Folder.\n"
+"\n"
+"Do you want to continue?"
+msgstr "Ini akan menghapus semua entri %s dari Database tetapi tidak dari Folder Film.\n\nApakah Anda ingin melanjutkan?"
+
+msgid "Timer Database Update:"
+msgstr "Pembaruan Basis Data Pengatur Waktu:"
+
+msgid "Toggle Plugin Style"
+msgstr "Alihkan Gaya Plugin"
+
+msgid "Toggle hide/show plugin"
+msgstr "Alihkan sembunyikan/tampilkan plugin"
+
+msgid "Top Rated"
+msgstr "Nilai Tertinggi"
+
+msgid "Up/Down: Category"
+msgstr "Atas/Bawah: Kategori"
+
+msgid "Upcoming"
+msgstr "Mendatang"
+
+msgid "Update"
+msgstr "Memperbarui"
+
+msgid "Update Database with Timer:"
+msgstr "Perbarui Basis Data dengan Timer:"
+
+msgid "Update Movie Browser Database?"
+msgstr "Perbarui Basis Data Peramban Film?"
+
+msgid "Update Movie/Series"
+msgstr "Perbarui Film/Seri"
+
+msgid "Update Selection"
+msgstr "Perbarui Pilihan"
+
+msgid "Update error:"
+msgstr "Kesalahan pembaruan:"
+
+msgid "Use m1v Backdrops:"
+msgstr "Gunakan Latar Belakang m1v:"
+
+msgid "Video Button: Update Database"
+msgstr "Tombol Video: Perbarui Basis Data"
+
+msgid "Wall of posters"
+msgstr "Dinding poster"
+
+msgid "Years:"
+msgstr "Bertahun-tahun:"
+
+msgid "Yes"
+msgstr "Ya"

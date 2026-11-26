@@ -1,0 +1,723 @@
+# moviebrowser translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-11-26 13:32+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s Movie imported into Database."
+msgstr "%s 电影已导入数据库。"
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s 电影已导入数据库。\n%s 个孤立数据库条目已删除。"
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s 电影已导入数据库。\n%s 孤立的数据库条目已删除。"
+
+msgid "%s Movies and %s Series imported into Database."
+msgstr "%s 电影和 %s 系列已导入数据库。"
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s 电影和 %s 系列已导入数据库。\n%s 个孤立数据库条目已删除。"
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s 电影和 %s 系列已导入数据库。\n%s 孤立的数据库条目已删除。"
+
+msgid "%s Movies imported into Database."
+msgstr "%s 电影已导入数据库。"
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s 电影已导入数据库。\n%s 个孤立数据库条目已删除。"
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s 电影已导入数据库。\n%s 孤立的数据库条目已删除。"
+
+msgid "%s Series imported into Database."
+msgstr "%s 系列已导入数据库。"
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s 系列已导入数据库。\n%s 个孤立数据库条目已删除。"
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s 系列已导入数据库。\n%s 孤立的数据库条目已删除。"
+
+msgid "%s min"
+msgstr "%s 分钟"
+
+msgid ""
+"*******Cleanup Cache Folder*******\n"
+"Start time: %s\n"
+"End time: %s\n"
+"Orphaned Backdrops/Posters removed: %s"
+msgstr "******清理缓存文件夹********\n开始时间：%s\n结束时间：%s\n孤立的背景/海报已删除：%s"
+
+msgid ""
+"*******Movie Browser Database Update Timer*******\n"
+"Initial Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "******电影浏览器数据库更新计时器********\n初始更新计时器已启动：%s\n计时器值（分钟）：%s"
+
+msgid "*******Movie Browser Database Update*******"
+msgstr "******电影浏览器数据库更新********"
+
+msgid ""
+"*******Movie Browser Database Update*******\n"
+"Time: %s\n"
+"Error: %s\n"
+"Reason: %s"
+msgstr "******电影浏览器数据库更新********\n时间：%s\n错误：%s\n原因：%s"
+
+msgid "<- -> Button: Go to first letter"
+msgstr "<- -> 按钮：转到第一个字母"
+
+msgid "<List of Movie Folder>"
+msgstr "<电影文件夹列表>"
+
+msgid "Actor Selection"
+msgstr "演员选择"
+
+msgid "Actors:"
+msgstr "演员："
+
+msgid "Airing Today"
+msgstr "今天播出"
+
+msgid "All /tmp/posters cleaned"
+msgstr "所有/tmp/海报均已清理"
+
+msgid "Automatic"
+msgstr "自动的"
+
+msgid "Backdrop view with poster strip"
+msgstr "带海报条的背景视图"
+
+msgid "Backup Database:"
+msgstr "备份数据库："
+
+msgid ""
+"Before the Database is rebuilt, check your settings in the plugin setup:\n"
+"\n"
+"- Check the path to the Movie Folder\n"
+"- Check your TMDb/TheTVDb Language\n"
+"- Set the Cache Folder to your hard disk drive."
+msgstr "在重建数据库之前，请检查插件设置中的设置：\n\n- 检查电影文件夹的路径\n- 检查您的 TMDb/TheTVDb 语言\n- 将缓存文件夹设置为您的硬盘驱动器。"
+
+msgid "Blacklist Movie File"
+msgstr "黑名单电影文件"
+
+msgid "Button 0: Go to end of list"
+msgstr "按钮 0：转到列表末尾"
+
+msgid "Button 1: CutListEditor/MovieCut/LogView"
+msgstr "按钮 1：CutListEditor/MovieCut/LogView"
+
+msgid "Button 2: Renew infos on TMDb"
+msgstr "按钮 2：更新 TMDb 上的信息"
+
+msgid "Button 4: Hide/show seen movies"
+msgstr "按钮 4：隐藏/显示看过的电影"
+
+msgid "Button 5: Toggle Movies/Series view"
+msgstr "按钮 5：切换电影/系列视图"
+
+msgid "Button 6: Movie Folder Selection"
+msgstr "按钮 6：电影文件夹选择"
+
+msgid "Button 7: Movie Director Selection"
+msgstr "按钮7：电影导演选择"
+
+msgid "Button 8: Movie Actor Selection"
+msgstr "按钮8：电影演员选择"
+
+msgid "Button 9: Movie Genre Selection"
+msgstr "按钮 9：电影类型选择"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Cleanup Cache Folder canceled."
+msgstr "无法访问缓存文件夹 %s:\n清理缓存文件夹已取消。"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Backup canceled."
+msgstr "无法访问缓存文件夹 %s:\n电影浏览器数据库备份已取消。"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Restore canceled."
+msgstr "无法访问缓存文件夹 %s:\n电影浏览器数据库恢复已取消。"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "无法访问缓存文件夹 %s:\n电影浏览器数据库更新已取消。"
+
+msgid "Cache Folder:"
+msgstr "缓存文件夹："
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid ""
+"Cannot update with TMDb: ID is not numeric\n"
+"This appears to be a TV series, not a movie."
+msgstr "无法使用 TMDb 更新：ID 不是数字\n这看起来是一部电视剧，而不是电影。"
+
+msgid ""
+"Cannot update with TheTVDb: ID appears to be a movie ID\n"
+"Try \"Update Movie\" instead."
+msgstr "无法使用 TheTVDb 更新：ID 似乎是电影 ID\n请尝试“更新电影”。"
+
+msgid "Check for Plugin Update:"
+msgstr "检查插件更新："
+
+msgid "Check for plugin update"
+msgstr "检查插件更新"
+
+msgid "Check only"
+msgstr "仅检查"
+
+msgid "Choose Directory"
+msgstr "选择目录"
+
+msgid "Choose Directory:"
+msgstr "选择目录："
+
+msgid "Cleanup Cache Folder Log"
+msgstr "清理缓存文件夹日志"
+
+msgid ""
+"Cleanup Cache Folder finished:\n"
+"%s orphaned Backdrops or Posters removed."
+msgstr "清理缓存文件夹完成：\n%s 孤立的背景或海报已被删除。"
+
+msgid "Cleanup Cache Folder:"
+msgstr "清理缓存文件夹："
+
+msgid "Country:"
+msgstr "国家："
+
+msgid "Creator:"
+msgstr "创建者："
+
+msgid "DVD Player Plugin not installed."
+msgstr "DVD 播放器插件未安装。"
+
+msgid "Dark"
+msgstr "黑暗的"
+
+msgid "Database"
+msgstr "数据库"
+
+msgid ""
+"Database %s not found:\n"
+"Cleanup Cache Folder canceled."
+msgstr "未找到数据库 %s：\n清理缓存文件夹已取消。"
+
+msgid ""
+"Database %s not found:\n"
+"Movie Browser Database Backup canceled."
+msgstr "未找到数据库 %s：\n电影浏览器数据库备份已取消。"
+
+msgid ""
+"Database Backup %s not found:\n"
+"Movie Browser Database Restore canceled."
+msgstr "未找到数据库备份 %s：\n电影浏览器数据库恢复已取消。"
+
+msgid "Database Editor:"
+msgstr "数据库编辑器："
+
+msgid "Database Error: Entry without runtime"
+msgstr "数据库错误：没有运行时的条目"
+
+msgid "Database Timer Log"
+msgstr "数据库定时器日志"
+
+msgid "Database Update Log"
+msgstr "数据库更新日志"
+
+msgid ""
+"Database Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "数据库更新计时器已启动：%s\n计时器值（分钟）：%s"
+
+msgid "Database Update Timer stopped: %s"
+msgstr "数据库更新计时器已停止：%s"
+
+msgid "Database backed up to %s"
+msgstr "数据库已备份至 %s"
+
+msgid "Database restored from %s"
+msgstr "数据库已从 %s 恢复"
+
+msgid "Delete Movie File"
+msgstr "删除电影文件"
+
+msgid "Director Selection"
+msgstr "导演选拔"
+
+msgid "Director:"
+msgstr "导演："
+
+msgid "Discover Background Overlay:"
+msgstr "发现背景叠加："
+
+msgid "Discover Movies:"
+msgstr "发现电影："
+
+msgid "Discover Series:"
+msgstr "探索系列："
+
+msgid "Download new Backdrops:"
+msgstr "下载新背景："
+
+msgid "EPISODES"
+msgstr "剧集"
+
+msgid "Error moving cache folder: %s"
+msgstr "移动缓存文件夹时出错：%s"
+
+msgid "Error while loading"
+msgstr "加载时出错"
+
+msgid "File %s not found!"
+msgstr "未找到文件 %s！"
+
+msgid "Folder Selection"
+msgstr "文件夹选择"
+
+msgid "Free Space"
+msgstr "自由空间"
+
+msgid "Free Space:"
+msgstr "可用空间："
+
+msgid "Genre Selection"
+msgstr "类型选择"
+
+msgid "Genres:"
+msgstr "流派："
+
+msgid "Go to last Movie on Start:"
+msgstr "转到开始时的最后一部电影："
+
+msgid "Help"
+msgstr "帮助"
+
+msgid "Hide"
+msgstr "隐藏"
+
+msgid "Hide Plugin during Update:"
+msgstr "更新期间隐藏插件："
+
+msgid "In library"
+msgstr "在图书馆"
+
+msgid "Info Button"
+msgstr "信息按钮"
+
+msgid "Info Button: Toggle show/hide infos"
+msgstr "信息按钮：切换显示/隐藏信息"
+
+msgid "Install automatically"
+msgstr "自动安装"
+
+msgid "Invalid selection"
+msgstr "选择无效"
+
+msgid "Left/Right: Movie"
+msgstr "左/右：电影"
+
+msgid "Light"
+msgstr "光"
+
+msgid "List view with poster and details"
+msgstr "包含海报和详细信息的列表视图"
+
+msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
+msgstr "从 /tmp/tmdb_api.txt 加载 TMDb API 密钥"
+
+msgid "Load last Selection/Filter on Start:"
+msgstr "开始时加载最后的选择/过滤器："
+
+msgid "Loading..."
+msgstr "加载中..."
+
+msgid "MOVIES"
+msgstr "电影"
+
+msgid "Manage your Movies & Series V.%s"
+msgstr "管理您的电影和系列 V.%s"
+
+msgid "Medium"
+msgstr "中等的"
+
+msgid "Metrix List Selection Color:"
+msgstr "矩阵列表选择颜色："
+
+msgid "Movie Browser Key Assignment"
+msgstr "电影浏览器按键分配"
+
+msgid "Movie Browser Key Assignment:"
+msgstr "电影浏览器按键分配："
+
+msgid "Movie Creation Date Ascending"
+msgstr "电影创建日期升序"
+
+msgid "Movie Creation Date Descending"
+msgstr "电影创建日期降序"
+
+msgid "Movie Database Update started: %s"
+msgstr "电影数据库更新已开始：%s"
+
+msgid "Movie File Information"
+msgstr "电影文件信息"
+
+msgid "Movie Folder"
+msgstr "电影文件夹"
+
+msgid ""
+"Movie Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "电影文件夹 %s 无法访问：\n电影浏览器数据库更新已取消。"
+
+msgid "Movie Folder Ascending"
+msgstr "电影文件夹升序"
+
+msgid "Movie Folder Descending"
+msgstr "电影文件夹降序"
+
+msgid "Movie Folder Selection"
+msgstr "电影文件夹选择"
+
+msgid "Movie Folder:"
+msgstr "电影文件夹："
+
+msgid "Movie Rating 0-10"
+msgstr "电影评级 0-10"
+
+msgid "Movie Rating 10-0"
+msgstr "电影评分 10-0"
+
+msgid "Movie Release Date Ascending"
+msgstr "电影上映日期升序"
+
+msgid "Movie Release Date Descending"
+msgstr "电影上映日期降序"
+
+msgid "Movie Runtime Ascending"
+msgstr "电影运行时间升序"
+
+msgid "Movie Runtime Descending"
+msgstr "电影运行时间降序"
+
+msgid "Movie Sort Order:"
+msgstr "电影排序顺序："
+
+msgid "Movie Title A-Z"
+msgstr "电影名称 A-Z"
+
+msgid "Movie Title Z-A"
+msgstr "电影名称 Z-A"
+
+msgid "Movie file %s not available."
+msgstr "电影文件 %s 不可用。"
+
+msgid "Movies"
+msgstr "电影"
+
+msgid "Movies & Series"
+msgstr "电影和连续剧"
+
+msgid "Movies Style:"
+msgstr "电影风格："
+
+msgid "Movies or Series Selection at Start:"
+msgstr "开始时选择的电影或连续剧："
+
+msgid "Movies or Series:"
+msgstr "电影或连续剧："
+
+msgid "New Releases"
+msgstr "新发布"
+
+msgid "No"
+msgstr "不"
+
+msgid "No TMDb Results for %s."
+msgstr "没有 %s 的 TMDb 结果。"
+
+msgid "No TheTVDb Results for %s."
+msgstr "没有 %s 的 TheTVDb 结果。"
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entries deleted."
+msgstr "未找到新电影或连续剧。\n%s 个孤立数据库条目已删除。"
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entry deleted."
+msgstr "未找到新电影或连续剧。\n%s 孤立的数据库条目已删除。"
+
+msgid ""
+"No new Movies or Series found:\n"
+"Your Database is up to date."
+msgstr "未找到新电影或连续剧：\n您的数据库是最新的。"
+
+msgid ""
+"No orphaned Backdrops or Posters found:\n"
+"Your Cache Folder is clean."
+msgstr "未找到孤立的背景或海报：\n您的缓存文件夹是干净的。"
+
+msgid "No results"
+msgstr "没有结果"
+
+msgid "Off"
+msgstr "离开"
+
+msgid "On Database Update"
+msgstr "关于数据库更新"
+
+msgid "On First Access"
+msgstr "首次访问时"
+
+msgid "On The Air"
+msgstr "直播中"
+
+msgid "Open"
+msgstr "打开"
+
+msgid "Please wait, loading database..."
+msgstr "请稍候，正在加载数据库..."
+
+msgid "Plugin in Enigma Menu:"
+msgstr "Enigma 菜单中的插件："
+
+msgid "Popular"
+msgstr "受欢迎的"
+
+msgid "Popular, top rated and airing series from TMDb"
+msgstr "TMDb 中热门、收视率最高且正在播出的剧集"
+
+msgid "Popular, top rated and upcoming films from TMDb"
+msgstr "TMDb 的热门、评分最高和即将上映的电影"
+
+msgid "Posterwall/Backdrop Show Plot:"
+msgstr "海报墙/背景展示情节："
+
+msgid "Radio Button: Delete/Blacklist movie"
+msgstr "单选按钮：删除/黑名单电影"
+
+msgid "Rating:"
+msgstr "等级："
+
+msgid "Really close without saving settings?"
+msgstr "真的关闭而不保存设置吗？"
+
+msgid "Red: Style"
+msgstr "红色：风格"
+
+msgid "Reset Database:"
+msgstr "重置数据库："
+
+msgid "Restore Database:"
+msgstr "恢复数据库："
+
+msgid "Runtime:"
+msgstr "运行时间："
+
+msgid "SERIES"
+msgstr "系列"
+
+msgid "Save"
+msgstr "节省"
+
+msgid "Seasons: %s"
+msgstr "季节：%s"
+
+msgid "Select Skin (GUI Restart Required):"
+msgstr "选择皮肤（需要重新启动 GUI）："
+
+msgid "Select style"
+msgstr "选择款式"
+
+msgid "Series"
+msgstr "系列"
+
+msgid "Series Episodes"
+msgstr "系列剧集"
+
+msgid "Series Folder: No Info possible"
+msgstr "系列文件夹：无可用信息"
+
+msgid "Series Style:"
+msgstr "系列风格："
+
+msgid "Show"
+msgstr "展示"
+
+msgid "Show Backdrops:"
+msgstr "显示背景："
+
+msgid "Show List of Movie Folder:"
+msgstr "显示电影文件夹列表："
+
+msgid "Show TV in Background (no m1v):"
+msgstr "在后台显示电视（无 m1v）："
+
+msgid "Sign up on TMDb and enter your free personal API Key"
+msgstr "注册 TMDb 并输入您的免费个人 API 密钥"
+
+msgid "Start Plugin with Video Button:"
+msgstr "使用视频按钮启动插件："
+
+msgid ""
+"Start time: %s\n"
+"End time: %s\n"
+"Total scanned files: %s\n"
+"TheTVDb Database Requests: %s\n"
+"TMDb Database Requests: %s\n"
+"Orphaned Movies/Series: %s\n"
+"New Series: %s\n"
+"New Movies: %s"
+msgstr "开始时间：%s\n结束时间：%s\n扫描文件总数：%s\nTheTVDb 数据库请求：%s\nTMDb 数据库请求：%s\n孤儿电影/系列：%s\n新系列：%s\n新电影：%s"
+
+msgid "Stop Button: Mark movie as seen"
+msgstr "停止按钮：将电影标记为已观看"
+
+msgid "Style"
+msgstr "风格"
+
+msgid "TMDb API Server is not reachable."
+msgstr "TMDb API 服务器无法访问。"
+
+msgid "TMDb API key successfully imported!"
+msgstr "TMDb API 密钥已成功导入！"
+
+msgid "TMDb Language:"
+msgstr "TMDb 语言："
+
+msgid ""
+"TMDb Movie Update Error:\n"
+"Series Folder"
+msgstr "TMDb 电影更新错误：\n系列文件夹"
+
+msgid "TMDb Results"
+msgstr "TMDb 结果"
+
+msgid "Text Button: Edit Database"
+msgstr "文本按钮：编辑数据库"
+
+msgid "The List of Movie Folder cannot be deleted."
+msgstr "电影文件夹列表无法删除。"
+
+msgid ""
+"The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n"
+"\n"
+"If the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n"
+"\n"
+"Rebuild the Database now?"
+msgstr "电影浏览器数据库现在将被重建。根据您的电影数量，这可能需要几分钟的时间。\n\n如果插件在几分钟后终止，请重新启动插件并运行手动数据库更新（视频按钮）。\n\n现在重建数据库吗？"
+
+msgid "TheTVDb API Server is not reachable."
+msgstr "无法访问 TVDb API 服务器。"
+
+msgid "TheTVDb API key successfully imported!"
+msgstr "TVDb API 密钥已成功导入！"
+
+msgid "TheTVDb Results"
+msgstr "TVDb 结果"
+
+msgid ""
+"This will delete %s from the Database and from the Movie Folder!\n"
+"\n"
+"Do you want to continue?"
+msgstr "这将从数据库和电影文件夹中删除 %s！\n\n您想继续吗？"
+
+msgid ""
+"This will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n"
+"\n"
+"Do you want to continue?"
+msgstr "这将从数据库中删除 %s 并将其放入黑名单中，因此将来的数据库更新将忽略该电影。\n\n您想继续吗？"
+
+msgid ""
+"This will delete all %s entries from the Database but not from the Movie Folder.\n"
+"\n"
+"Do you want to continue?"
+msgstr "这将从数据库中删除所有 %s 条目，但不会从电影文件夹中删除。\n\n您想继续吗？"
+
+msgid "Timer Database Update:"
+msgstr "定时器数据库更新："
+
+msgid "Toggle Plugin Style"
+msgstr "切换插件样式"
+
+msgid "Toggle hide/show plugin"
+msgstr "切换隐藏/显示插件"
+
+msgid "Top Rated"
+msgstr "最受好评"
+
+msgid "Up/Down: Category"
+msgstr "上/下：类别"
+
+msgid "Upcoming"
+msgstr "即将推出"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Update Database with Timer:"
+msgstr "使用计时器更新数据库："
+
+msgid "Update Movie Browser Database?"
+msgstr "更新电影浏览器数据库？"
+
+msgid "Update Movie/Series"
+msgstr "更新电影/系列"
+
+msgid "Update Selection"
+msgstr "更新选择"
+
+msgid "Update error:"
+msgstr "更新错误："
+
+msgid "Use m1v Backdrops:"
+msgstr "使用 m1v 背景："
+
+msgid "Video Button: Update Database"
+msgstr "视频按钮：更新数据库"
+
+msgid "Wall of posters"
+msgstr "海报墙"
+
+msgid "Years:"
+msgstr "年："
+
+msgid "Yes"
+msgstr "是的"

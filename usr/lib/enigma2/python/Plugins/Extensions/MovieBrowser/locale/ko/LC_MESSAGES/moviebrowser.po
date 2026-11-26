@@ -1,0 +1,724 @@
+# moviebrowser translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-11-26 13:11+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Korean <translation-team-ko@googlegroups.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%s Movie imported into Database."
+msgstr "%s 영화를 데이터베이스로 가져왔습니다."
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s 영화를 데이터베이스로 가져왔습니다.\n%s 분리된 데이터베이스 항목이 삭제되었습니다."
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s 영화를 데이터베이스로 가져왔습니다.\n%s 분리된 데이터베이스 항목이 삭제되었습니다."
+
+msgid "%s Movies and %s Series imported into Database."
+msgstr "%s 영화 및 %s 시리즈를 데이터베이스로 가져왔습니다."
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s 영화 및 %s 시리즈를 데이터베이스로 가져왔습니다.\n%s 분리된 데이터베이스 항목이 삭제되었습니다."
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s 영화 및 %s 시리즈를 데이터베이스로 가져왔습니다.\n%s 분리된 데이터베이스 항목이 삭제되었습니다."
+
+msgid "%s Movies imported into Database."
+msgstr "%s개의 영화를 데이터베이스로 가져왔습니다."
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s개의 영화를 데이터베이스로 가져왔습니다.\n%s 분리된 데이터베이스 항목이 삭제되었습니다."
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s개의 영화를 데이터베이스로 가져왔습니다.\n%s 분리된 데이터베이스 항목이 삭제되었습니다."
+
+msgid "%s Series imported into Database."
+msgstr "%s 시리즈를 데이터베이스로 가져왔습니다."
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s 시리즈를 데이터베이스로 가져왔습니다.\n%s 분리된 데이터베이스 항목이 삭제되었습니다."
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s 시리즈를 데이터베이스로 가져왔습니다.\n%s 분리된 데이터베이스 항목이 삭제되었습니다."
+
+msgid "%s min"
+msgstr "%s분"
+
+msgid ""
+"*******Cleanup Cache Folder*******\n"
+"Start time: %s\n"
+"End time: %s\n"
+"Orphaned Backdrops/Posters removed: %s"
+msgstr "*****정리 캐시 폴더******\n시작 시간: %s\n종료 시간: %s\n분리된 배경화면/포스터 제거됨: %s"
+
+msgid ""
+"*******Movie Browser Database Update Timer*******\n"
+"Initial Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "*******영화 브라우저 데이터베이스 업데이트 타이머*********\n초기 업데이트 타이머가 시작되었습니다: %s\n타이머 값(분): %s"
+
+msgid "*******Movie Browser Database Update*******"
+msgstr "*******영화 브라우저 데이터베이스 업데이트*********"
+
+msgid ""
+"*******Movie Browser Database Update*******\n"
+"Time: %s\n"
+"Error: %s\n"
+"Reason: %s"
+msgstr "*******영화 브라우저 데이터베이스 업데이트*********\n시간: %s\n오류: %s\n이유: %s"
+
+msgid "<- -> Button: Go to first letter"
+msgstr "<- -> 버튼: 첫 글자로 이동"
+
+msgid "<List of Movie Folder>"
+msgstr "<영화 폴더 목록>"
+
+msgid "Actor Selection"
+msgstr "배우 선택"
+
+msgid "Actors:"
+msgstr "배우:"
+
+msgid "Airing Today"
+msgstr "오늘 방송"
+
+msgid "All /tmp/posters cleaned"
+msgstr "모든 /tmp/posters가 삭제되었습니다."
+
+msgid "Automatic"
+msgstr "오토매틱"
+
+msgid "Backdrop view with poster strip"
+msgstr "포스터 스트립이 있는 배경 보기"
+
+msgid "Backup Database:"
+msgstr "백업 데이터베이스:"
+
+msgid ""
+"Before the Database is rebuilt, check your settings in the plugin setup:\n"
+"\n"
+"- Check the path to the Movie Folder\n"
+"- Check your TMDb/TheTVDb Language\n"
+"- Set the Cache Folder to your hard disk drive."
+msgstr "데이터베이스를 재구축하기 전에 플러그인 설정에서 설정을 확인하세요.\n\n- 영화 폴더 경로를 확인하세요.\n- TMDb/TheTVDb 언어를 확인하세요.\n- 캐시 폴더를 하드 디스크 드라이브로 설정합니다."
+
+msgid "Blacklist Movie File"
+msgstr "블랙리스트 동영상 파일"
+
+msgid "Button 0: Go to end of list"
+msgstr "버튼 0: 목록 끝으로 이동"
+
+msgid "Button 1: CutListEditor/MovieCut/LogView"
+msgstr "버튼 1: CutListEditor/MovieCut/LogView"
+
+msgid "Button 2: Renew infos on TMDb"
+msgstr "버튼 2: TMDb 정보 갱신"
+
+msgid "Button 4: Hide/show seen movies"
+msgstr "버튼 4: 본 영화 숨기기/표시"
+
+msgid "Button 5: Toggle Movies/Series view"
+msgstr "버튼 5: 영화/시리즈 보기 전환"
+
+msgid "Button 6: Movie Folder Selection"
+msgstr "버튼 6: 영화 폴더 선택"
+
+msgid "Button 7: Movie Director Selection"
+msgstr "버튼 7: 영화 감독 선택"
+
+msgid "Button 8: Movie Actor Selection"
+msgstr "버튼 8: 영화 배우 선택"
+
+msgid "Button 9: Movie Genre Selection"
+msgstr "버튼 9: 영화 장르 선택"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Cleanup Cache Folder canceled."
+msgstr "캐시 폴더 %s에 연결할 수 없습니다:\n캐시 폴더 정리가 취소되었습니다."
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Backup canceled."
+msgstr "캐시 폴더 %s에 연결할 수 없습니다:\n영화 브라우저 데이터베이스 백업이 취소되었습니다."
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Restore canceled."
+msgstr "캐시 폴더 %s에 연결할 수 없습니다:\n영화 브라우저 데이터베이스 복원이 취소되었습니다."
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "캐시 폴더 %s에 연결할 수 없습니다:\n영화 브라우저 데이터베이스 업데이트가 취소되었습니다."
+
+msgid "Cache Folder:"
+msgstr "캐시 폴더:"
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid ""
+"Cannot update with TMDb: ID is not numeric\n"
+"This appears to be a TV series, not a movie."
+msgstr "TMDb로 업데이트할 수 없습니다. ID가 숫자가 아닙니다.\n이건 영화가 아니라 TV 시리즈인 것 같네요."
+
+msgid ""
+"Cannot update with TheTVDb: ID appears to be a movie ID\n"
+"Try \"Update Movie\" instead."
+msgstr "TheTVDb로 업데이트할 수 없습니다. ID가 영화 ID인 것 같습니다.\n대신 \"영화 업데이트\"를 시도해 보세요."
+
+msgid "Check for Plugin Update:"
+msgstr "플러그인 업데이트 확인:"
+
+msgid "Check for plugin update"
+msgstr "플러그인 업데이트 확인"
+
+msgid "Check only"
+msgstr "확인만"
+
+msgid "Choose Directory"
+msgstr "디렉토리 선택"
+
+msgid "Choose Directory:"
+msgstr "디렉토리 선택:"
+
+msgid "Cleanup Cache Folder Log"
+msgstr "캐시 폴더 로그 정리"
+
+msgid ""
+"Cleanup Cache Folder finished:\n"
+"%s orphaned Backdrops or Posters removed."
+msgstr "캐시 폴더 정리 완료:\n%s개의 분리된 배경화면 또는 포스터가 제거되었습니다."
+
+msgid "Cleanup Cache Folder:"
+msgstr "캐시 폴더 정리:"
+
+msgid "Country:"
+msgstr "국가:"
+
+msgid "Creator:"
+msgstr "창조자:"
+
+msgid "DVD Player Plugin not installed."
+msgstr "DVD 플레이어 플러그인이 설치되지 않았습니다."
+
+msgid "Dark"
+msgstr "어두운"
+
+msgid "Database"
+msgstr "데이터 베이스"
+
+msgid ""
+"Database %s not found:\n"
+"Cleanup Cache Folder canceled."
+msgstr "데이터베이스 %s을(를) 찾을 수 없습니다:\n캐시 폴더 정리가 취소되었습니다."
+
+msgid ""
+"Database %s not found:\n"
+"Movie Browser Database Backup canceled."
+msgstr "데이터베이스 %s을(를) 찾을 수 없습니다:\n영화 브라우저 데이터베이스 백업이 취소되었습니다."
+
+msgid ""
+"Database Backup %s not found:\n"
+"Movie Browser Database Restore canceled."
+msgstr "데이터베이스 백업 %s을(를) 찾을 수 없습니다:\n영화 브라우저 데이터베이스 복원이 취소되었습니다."
+
+msgid "Database Editor:"
+msgstr "데이터베이스 편집기:"
+
+msgid "Database Error: Entry without runtime"
+msgstr "데이터베이스 오류: 런타임이 없는 항목"
+
+msgid "Database Timer Log"
+msgstr "데이터베이스 타이머 로그"
+
+msgid "Database Update Log"
+msgstr "데이터베이스 업데이트 로그"
+
+msgid ""
+"Database Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "데이터베이스 업데이트 타이머가 시작되었습니다: %s\n타이머 값(분): %s"
+
+msgid "Database Update Timer stopped: %s"
+msgstr "데이터베이스 업데이트 타이머가 중지되었습니다: %s"
+
+msgid "Database backed up to %s"
+msgstr "데이터베이스가 %s에 백업되었습니다."
+
+msgid "Database restored from %s"
+msgstr "%s에서 데이터베이스가 복원되었습니다."
+
+msgid "Delete Movie File"
+msgstr "영화 파일 삭제"
+
+msgid "Director Selection"
+msgstr "이사 선정"
+
+msgid "Director:"
+msgstr "감독:"
+
+msgid "Discover Background Overlay:"
+msgstr "배경 오버레이 살펴보기:"
+
+msgid "Discover Movies:"
+msgstr "영화 검색:"
+
+msgid "Discover Series:"
+msgstr "시리즈를 발견하세요:"
+
+msgid "Download new Backdrops:"
+msgstr "새로운 배경화면 다운로드:"
+
+msgid "EPISODES"
+msgstr "에피소드"
+
+msgid "Error moving cache folder: %s"
+msgstr "캐시 폴더 이동 오류: %s"
+
+msgid "Error while loading"
+msgstr "로드하는 중 오류가 발생했습니다."
+
+msgid "File %s not found!"
+msgstr "%s 파일을 찾을 수 없습니다!"
+
+msgid "Folder Selection"
+msgstr "폴더 선택"
+
+msgid "Free Space"
+msgstr "여유 공간"
+
+msgid "Free Space:"
+msgstr "여유 공간:"
+
+msgid "Genre Selection"
+msgstr "장르 선택"
+
+msgid "Genres:"
+msgstr "장르:"
+
+msgid "Go to last Movie on Start:"
+msgstr "시작 시 마지막 영화로 이동:"
+
+msgid "Help"
+msgstr "돕다"
+
+msgid "Hide"
+msgstr "숨다"
+
+msgid "Hide Plugin during Update:"
+msgstr "업데이트 중 플러그인 숨기기:"
+
+msgid "In library"
+msgstr "도서관에서"
+
+msgid "Info Button"
+msgstr "정보 버튼"
+
+msgid "Info Button: Toggle show/hide infos"
+msgstr "정보 버튼: 정보 표시/숨기기 전환"
+
+msgid "Install automatically"
+msgstr "자동으로 설치"
+
+msgid "Invalid selection"
+msgstr "잘못된 선택"
+
+msgid "Left/Right: Movie"
+msgstr "왼쪽/오른쪽: 영화"
+
+msgid "Light"
+msgstr "빛"
+
+msgid "List view with poster and details"
+msgstr "포스터 및 세부정보가 포함된 목록 보기"
+
+msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
+msgstr "/tmp/tmdb_api.txt에서 TMDb API 키 로드"
+
+msgid "Load last Selection/Filter on Start:"
+msgstr "시작 시 마지막 선택/필터 로드:"
+
+msgid "Loading..."
+msgstr "로드 중..."
+
+msgid "MOVIES"
+msgstr "영화 산업"
+
+msgid "Manage your Movies & Series V.%s"
+msgstr "영화 및 시리즈 V.%s 관리"
+
+msgid "Medium"
+msgstr "중간"
+
+msgid "Metrix List Selection Color:"
+msgstr "메트릭 목록 선택 색상:"
+
+msgid "Movie Browser Key Assignment"
+msgstr "영화 브라우저 키 할당"
+
+msgid "Movie Browser Key Assignment:"
+msgstr "영화 브라우저 키 할당:"
+
+msgid "Movie Creation Date Ascending"
+msgstr "영화 제작 날짜 오름차순"
+
+msgid "Movie Creation Date Descending"
+msgstr "영화 제작 날짜 내림차순"
+
+msgid "Movie Database Update started: %s"
+msgstr "영화 데이터베이스 업데이트 시작됨: %s"
+
+msgid "Movie File Information"
+msgstr "영화 파일 정보"
+
+msgid "Movie Folder"
+msgstr "영화 폴더"
+
+msgid ""
+"Movie Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "영화 폴더 %s에 연결할 수 없습니다:\n영화 브라우저 데이터베이스 업데이트가 취소되었습니다."
+
+msgid "Movie Folder Ascending"
+msgstr "영화 폴더 오름차순"
+
+msgid "Movie Folder Descending"
+msgstr "영화 폴더 내림차순"
+
+msgid "Movie Folder Selection"
+msgstr "영화 폴더 선택"
+
+msgid "Movie Folder:"
+msgstr "영화 폴더:"
+
+msgid "Movie Rating 0-10"
+msgstr "영화 등급 0-10"
+
+msgid "Movie Rating 10-0"
+msgstr "영화 평점 10-0"
+
+msgid "Movie Release Date Ascending"
+msgstr "영화 개봉일 오름차순"
+
+msgid "Movie Release Date Descending"
+msgstr "영화 개봉일 내림차순"
+
+msgid "Movie Runtime Ascending"
+msgstr "영화 런타임 오름차순"
+
+msgid "Movie Runtime Descending"
+msgstr "영화 런타임 내림차순"
+
+msgid "Movie Sort Order:"
+msgstr "영화 정렬 순서:"
+
+msgid "Movie Title A-Z"
+msgstr "영화 제목 A-Z"
+
+msgid "Movie Title Z-A"
+msgstr "영화 제목 Z-A"
+
+msgid "Movie file %s not available."
+msgstr "동영상 파일 %s을(를) 사용할 수 없습니다."
+
+msgid "Movies"
+msgstr "영화 산업"
+
+msgid "Movies & Series"
+msgstr "영화 및 시리즈"
+
+msgid "Movies Style:"
+msgstr "영화 스타일:"
+
+msgid "Movies or Series Selection at Start:"
+msgstr "시작 시 영화 또는 시리즈 선택:"
+
+msgid "Movies or Series:"
+msgstr "영화 또는 시리즈:"
+
+msgid "New Releases"
+msgstr "신규 출시"
+
+msgid "No"
+msgstr "아니요"
+
+msgid "No TMDb Results for %s."
+msgstr "%s에 대한 TMDb 결과가 없습니다."
+
+msgid "No TheTVDb Results for %s."
+msgstr "%s에 대한 TheTVDb 결과가 없습니다."
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entries deleted."
+msgstr "새 영화나 시리즈를 찾을 수 없습니다.\n%s 분리된 데이터베이스 항목이 삭제되었습니다."
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entry deleted."
+msgstr "새 영화나 시리즈를 찾을 수 없습니다.\n%s 분리된 데이터베이스 항목이 삭제되었습니다."
+
+msgid ""
+"No new Movies or Series found:\n"
+"Your Database is up to date."
+msgstr "새 영화나 시리즈를 찾을 수 없습니다.\n귀하의 데이터베이스는 최신 상태입니다."
+
+msgid ""
+"No orphaned Backdrops or Posters found:\n"
+"Your Cache Folder is clean."
+msgstr "분리된 배경화면이나 포스터를 찾을 수 없습니다.\n캐시 폴더가 깨끗합니다."
+
+msgid "No results"
+msgstr "결과 없음"
+
+msgid "Off"
+msgstr "끄다"
+
+msgid "On Database Update"
+msgstr "데이터베이스 업데이트 시"
+
+msgid "On First Access"
+msgstr "첫 번째 액세스 시"
+
+msgid "On The Air"
+msgstr "온더에어"
+
+msgid "Open"
+msgstr "열려 있는"
+
+msgid "Please wait, loading database..."
+msgstr "데이터베이스를 로드하는 중입니다..."
+
+msgid "Plugin in Enigma Menu:"
+msgstr "수수께끼 메뉴의 플러그인:"
+
+msgid "Popular"
+msgstr "인기 있는"
+
+msgid "Popular, top rated and airing series from TMDb"
+msgstr "TMDb의 인기, 최고 평점 및 방영 시리즈"
+
+msgid "Popular, top rated and upcoming films from TMDb"
+msgstr "TMDb의 인기, 최고 평점 및 향후 영화"
+
+msgid "Posterwall/Backdrop Show Plot:"
+msgstr "포스터월/배경 쇼 플롯:"
+
+msgid "Radio Button: Delete/Blacklist movie"
+msgstr "라디오 버튼: 동영상 삭제/블랙리스트"
+
+msgid "Rating:"
+msgstr "평가:"
+
+msgid "Really close without saving settings?"
+msgstr "설정을 저장하지 않고 닫으시겠습니까?"
+
+msgid "Red: Style"
+msgstr "빨간색: 스타일"
+
+msgid "Reset Database:"
+msgstr "데이터베이스 재설정:"
+
+msgid "Restore Database:"
+msgstr "데이터베이스 복원:"
+
+msgid "Runtime:"
+msgstr "실행 시간:"
+
+msgid "SERIES"
+msgstr "시리즈"
+
+msgid "Save"
+msgstr "구하다"
+
+msgid "Seasons: %s"
+msgstr "계절: %s"
+
+msgid "Select Skin (GUI Restart Required):"
+msgstr "스킨 선택(GUI 다시 시작 필요):"
+
+msgid "Select style"
+msgstr "스타일 선택"
+
+msgid "Series"
+msgstr "시리즈"
+
+msgid "Series Episodes"
+msgstr "시리즈 에피소드"
+
+msgid "Series Folder: No Info possible"
+msgstr "시리즈 폴더: 정보 없음"
+
+msgid "Series Style:"
+msgstr "시리즈 스타일:"
+
+msgid "Show"
+msgstr "보여주다"
+
+msgid "Show Backdrops:"
+msgstr "배경화면 표시:"
+
+msgid "Show List of Movie Folder:"
+msgstr "영화 폴더 목록 표시:"
+
+msgid "Show TV in Background (no m1v):"
+msgstr "백그라운드에서 TV 표시(m1v 없음):"
+
+msgid "Sign up on TMDb and enter your free personal API Key"
+msgstr "TMDb에 가입하고 무료 개인 API 키를 입력하세요."
+
+msgid "Start Plugin with Video Button:"
+msgstr "비디오 버튼으로 플러그인 시작:"
+
+msgid ""
+"Start time: %s\n"
+"End time: %s\n"
+"Total scanned files: %s\n"
+"TheTVDb Database Requests: %s\n"
+"TMDb Database Requests: %s\n"
+"Orphaned Movies/Series: %s\n"
+"New Series: %s\n"
+"New Movies: %s"
+msgstr "시작 시간: %s\n종료 시간: %s\n스캔한 총 파일: %s\nTheTVDb 데이터베이스 요청: %s\nTMDb 데이터베이스 요청: %s\n고아 영화/시리즈: %s\n새 시리즈: %s\n새 영화: %s"
+
+msgid "Stop Button: Mark movie as seen"
+msgstr "중지 버튼: 영화를 본 것으로 표시"
+
+msgid "Style"
+msgstr "스타일"
+
+msgid "TMDb API Server is not reachable."
+msgstr "TMDb API 서버에 연결할 수 없습니다."
+
+msgid "TMDb API key successfully imported!"
+msgstr "TMDb API 키를 성공적으로 가져왔습니다!"
+
+msgid "TMDb Language:"
+msgstr "TMDb 언어:"
+
+msgid ""
+"TMDb Movie Update Error:\n"
+"Series Folder"
+msgstr "TMDb 영화 업데이트 오류:\n시리즈 폴더"
+
+msgid "TMDb Results"
+msgstr "TMDb 결과"
+
+msgid "Text Button: Edit Database"
+msgstr "텍스트 버튼: 데이터베이스 편집"
+
+msgid "The List of Movie Folder cannot be deleted."
+msgstr "영화 폴더 목록은 삭제할 수 없습니다."
+
+msgid ""
+"The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n"
+"\n"
+"If the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n"
+"\n"
+"Rebuild the Database now?"
+msgstr "이제 영화 브라우저 데이터베이스가 재구축됩니다. 영화 수에 따라 이 작업은 몇 분 정도 걸릴 수 있습니다.\n\n몇 분 후에 플러그인이 종료되면 플러그인을 다시 시작하고 수동 데이터베이스 업데이트(비디오 버튼)를 실행하세요.\n\n지금 데이터베이스를 다시 구축하시겠습니까?"
+
+msgid "TheTVDb API Server is not reachable."
+msgstr "TVDb API 서버에 연결할 수 없습니다."
+
+msgid "TheTVDb API key successfully imported!"
+msgstr "TVDb API 키를 성공적으로 가져왔습니다!"
+
+msgid "TheTVDb Results"
+msgstr "TheTVDb 결과"
+
+msgid ""
+"This will delete %s from the Database and from the Movie Folder!\n"
+"\n"
+"Do you want to continue?"
+msgstr "데이터베이스와 영화 폴더에서 %s이(가) 삭제됩니다!\n\n계속하시겠습니까?"
+
+msgid ""
+"This will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n"
+"\n"
+"Do you want to continue?"
+msgstr "이렇게 하면 데이터베이스에서 %s이(가) 삭제되고 블랙리스트에 추가되므로 해당 영화는 향후 데이터베이스 업데이트에서 무시됩니다.\n\n계속하시겠습니까?"
+
+msgid ""
+"This will delete all %s entries from the Database but not from the Movie Folder.\n"
+"\n"
+"Do you want to continue?"
+msgstr "데이터베이스에서는 모든 %s 항목이 삭제되지만 영화 폴더에서는 삭제되지 않습니다.\n\n계속하시겠습니까?"
+
+msgid "Timer Database Update:"
+msgstr "타이머 데이터베이스 업데이트:"
+
+msgid "Toggle Plugin Style"
+msgstr "플러그인 스타일 전환"
+
+msgid "Toggle hide/show plugin"
+msgstr "플러그인 숨기기/표시 전환"
+
+msgid "Top Rated"
+msgstr "최고 평점"
+
+msgid "Up/Down: Category"
+msgstr "위/아래: 범주"
+
+msgid "Upcoming"
+msgstr "예정"
+
+msgid "Update"
+msgstr "업데이트"
+
+msgid "Update Database with Timer:"
+msgstr "타이머로 데이터베이스 업데이트:"
+
+msgid "Update Movie Browser Database?"
+msgstr "영화 브라우저 데이터베이스를 업데이트하시겠습니까?"
+
+msgid "Update Movie/Series"
+msgstr "영화/시리즈 업데이트"
+
+msgid "Update Selection"
+msgstr "선택 업데이트"
+
+msgid "Update error:"
+msgstr "업데이트 오류:"
+
+msgid "Use m1v Backdrops:"
+msgstr "m1v 배경화면 사용:"
+
+msgid "Video Button: Update Database"
+msgstr "비디오 버튼: 데이터베이스 업데이트"
+
+msgid "Wall of posters"
+msgstr "포스터 벽"
+
+msgid "Years:"
+msgstr "연령:"
+
+msgid "Yes"
+msgstr "예"

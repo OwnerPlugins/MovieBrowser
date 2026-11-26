@@ -1,0 +1,723 @@
+# moviebrowser translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-11-26 11:42+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Bengali\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s Movie imported into Database."
+msgstr "%s মুভি ডাটাবেসে আমদানি করা হয়েছে।"
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s মুভি ডাটাবেসে আমদানি করা হয়েছে।\n%s অনাথ ডাটাবেস এন্ট্রি মুছে ফেলা হয়েছে।"
+
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s মুভি ডাটাবেসে আমদানি করা হয়েছে।\n%s অনাথ ডাটাবেস এন্ট্রি মুছে ফেলা হয়েছে।"
+
+msgid "%s Movies and %s Series imported into Database."
+msgstr "%s মুভি এবং %s সিরিজ ডাটাবেসে আমদানি করা হয়েছে।"
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "%s মুভি এবং %s সিরিজ ডাটাবেসে আমদানি করা হয়েছে।\n%s অনাথ ডাটাবেস এন্ট্রি মুছে ফেলা হয়েছে।"
+
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "%s মুভি এবং %s সিরিজ ডাটাবেসে আমদানি করা হয়েছে।\n%s অনাথ ডাটাবেস এন্ট্রি মুছে ফেলা হয়েছে।"
+
+msgid "%s Movies imported into Database."
+msgstr "ডাটাবেসে %s চলচ্চিত্র আমদানি করা হয়েছে।"
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "ডাটাবেসে %s চলচ্চিত্র আমদানি করা হয়েছে।\n%s অনাথ ডাটাবেস এন্ট্রি মুছে ফেলা হয়েছে।"
+
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "ডাটাবেসে %s চলচ্চিত্র আমদানি করা হয়েছে।\n%s অনাথ ডাটাবেস এন্ট্রি মুছে ফেলা হয়েছে।"
+
+msgid "%s Series imported into Database."
+msgstr "ডাটাবেসে %s সিরিজ আমদানি করা হয়েছে।"
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr "ডাটাবেসে %s সিরিজ আমদানি করা হয়েছে।\n%s অনাথ ডাটাবেস এন্ট্রি মুছে ফেলা হয়েছে।"
+
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr "ডাটাবেসে %s সিরিজ আমদানি করা হয়েছে।\n%s অনাথ ডাটাবেস এন্ট্রি মুছে ফেলা হয়েছে।"
+
+msgid "%s min"
+msgstr "%s মিনিট"
+
+msgid ""
+"*******Cleanup Cache Folder*******\n"
+"Start time: %s\n"
+"End time: %s\n"
+"Orphaned Backdrops/Posters removed: %s"
+msgstr "*******ক্যাশে ফোল্ডার পরিষ্কার করুন******\nশুরুর সময়: %s\nশেষ সময়: %s\nঅনাথ ব্যাকড্রপ/পোস্টার সরানো হয়েছে: %s"
+
+msgid ""
+"*******Movie Browser Database Update Timer*******\n"
+"Initial Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "*******মুভি ব্রাউজার ডাটাবেস আপডেট টাইমার*******\nপ্রাথমিক আপডেট টাইমার শুরু হয়েছে: %s\nটাইমার মান (মিনিট): %s"
+
+msgid "*******Movie Browser Database Update*******"
+msgstr "*******মুভি ব্রাউজার ডাটাবেস আপডেট*******"
+
+msgid ""
+"*******Movie Browser Database Update*******\n"
+"Time: %s\n"
+"Error: %s\n"
+"Reason: %s"
+msgstr "*******মুভি ব্রাউজার ডাটাবেস আপডেট*******\nসময়: %s\nত্রুটি: %s\nকারণ: %s"
+
+msgid "<- -> Button: Go to first letter"
+msgstr "<- -> বোতাম: প্রথম অক্ষরে যান"
+
+msgid "<List of Movie Folder>"
+msgstr "<মুভি ফোল্ডারের তালিকা>"
+
+msgid "Actor Selection"
+msgstr "অভিনেতা নির্বাচন"
+
+msgid "Actors:"
+msgstr "অভিনেতা:"
+
+msgid "Airing Today"
+msgstr "আজ সম্প্রচার হচ্ছে"
+
+msgid "All /tmp/posters cleaned"
+msgstr "সমস্ত /tmp/পোস্টার পরিষ্কার করা হয়েছে"
+
+msgid "Automatic"
+msgstr "স্বয়ংক্রিয়"
+
+msgid "Backdrop view with poster strip"
+msgstr "পোস্টার স্ট্রিপ সহ ব্যাকড্রপ ভিউ"
+
+msgid "Backup Database:"
+msgstr "ব্যাকআপ ডাটাবেস:"
+
+msgid ""
+"Before the Database is rebuilt, check your settings in the plugin setup:\n"
+"\n"
+"- Check the path to the Movie Folder\n"
+"- Check your TMDb/TheTVDb Language\n"
+"- Set the Cache Folder to your hard disk drive."
+msgstr "ডেটাবেস পুনর্নির্মাণের আগে, প্লাগইন সেটআপে আপনার সেটিংস পরীক্ষা করুন:\n\n- মুভি ফোল্ডারের পথ পরীক্ষা করুন\n- আপনার TMDb/TheTVDb ভাষা পরীক্ষা করুন\n- আপনার হার্ড ডিস্ক ড্রাইভে ক্যাশে ফোল্ডার সেট করুন।"
+
+msgid "Blacklist Movie File"
+msgstr "ব্ল্যাকলিস্ট মুভি ফাইল"
+
+msgid "Button 0: Go to end of list"
+msgstr "বোতাম 0: তালিকার শেষে যান"
+
+msgid "Button 1: CutListEditor/MovieCut/LogView"
+msgstr "বোতাম 1: CutListEditor/MovieCut/LogView"
+
+msgid "Button 2: Renew infos on TMDb"
+msgstr "বোতাম 2: TMDb-এ তথ্য পুনর্নবীকরণ করুন"
+
+msgid "Button 4: Hide/show seen movies"
+msgstr "বোতাম 4: দেখা সিনেমা লুকান/দেখান"
+
+msgid "Button 5: Toggle Movies/Series view"
+msgstr "বোতাম 5: মুভি/সিরিজ ভিউ টগল করুন"
+
+msgid "Button 6: Movie Folder Selection"
+msgstr "বোতাম 6: মুভি ফোল্ডার নির্বাচন"
+
+msgid "Button 7: Movie Director Selection"
+msgstr "বোতাম 7: চলচ্চিত্র পরিচালক নির্বাচন"
+
+msgid "Button 8: Movie Actor Selection"
+msgstr "বোতাম 8: চলচ্চিত্র অভিনেতা নির্বাচন"
+
+msgid "Button 9: Movie Genre Selection"
+msgstr "বোতাম 9: মুভি জেনার নির্বাচন"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Cleanup Cache Folder canceled."
+msgstr "ক্যাশে ফোল্ডার %s পৌঁছানো যাচ্ছে না:\nক্লিনআপ ক্যাশে ফোল্ডার বাতিল করা হয়েছে৷"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Backup canceled."
+msgstr "ক্যাশে ফোল্ডার %s পৌঁছানো যাচ্ছে না:\nমুভি ব্রাউজার ডাটাবেস ব্যাকআপ বাতিল করা হয়েছে৷"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Restore canceled."
+msgstr "ক্যাশে ফোল্ডার %s পৌঁছানো যাচ্ছে না:\nমুভি ব্রাউজার ডেটাবেস পুনরুদ্ধার বাতিল করা হয়েছে৷"
+
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "ক্যাশে ফোল্ডার %s পৌঁছানো যাচ্ছে না:\nমুভি ব্রাউজার ডেটাবেস আপডেট বাতিল করা হয়েছে৷"
+
+msgid "Cache Folder:"
+msgstr "ক্যাশে ফোল্ডার:"
+
+msgid "Cancel"
+msgstr "বাতিল করুন"
+
+msgid ""
+"Cannot update with TMDb: ID is not numeric\n"
+"This appears to be a TV series, not a movie."
+msgstr "TMDb দিয়ে আপডেট করা যাবে না: আইডি সংখ্যাসূচক নয়\nএটি একটি টিভি সিরিজ বলে মনে হচ্ছে, সিনেমা নয়।"
+
+msgid ""
+"Cannot update with TheTVDb: ID appears to be a movie ID\n"
+"Try \"Update Movie\" instead."
+msgstr "TheTVDb-এর সাথে আপডেট করা যাবে না: আইডি একটি মুভি আইডি বলে মনে হচ্ছে\nপরিবর্তে \"মুভি আপডেট করুন\" চেষ্টা করুন।"
+
+msgid "Check for Plugin Update:"
+msgstr "প্লাগইন আপডেটের জন্য চেক করুন:"
+
+msgid "Check for plugin update"
+msgstr "প্লাগইন আপডেটের জন্য চেক করুন"
+
+msgid "Check only"
+msgstr "শুধুমাত্র চেক করুন"
+
+msgid "Choose Directory"
+msgstr "ডিরেক্টরি নির্বাচন করুন"
+
+msgid "Choose Directory:"
+msgstr "ডিরেক্টরি নির্বাচন করুন:"
+
+msgid "Cleanup Cache Folder Log"
+msgstr "ক্লিনআপ ক্যাশে ফোল্ডার লগ"
+
+msgid ""
+"Cleanup Cache Folder finished:\n"
+"%s orphaned Backdrops or Posters removed."
+msgstr "ক্লিনআপ ক্যাশে ফোল্ডার সমাপ্ত:\n%s অনাথ ব্যাকড্রপ বা পোস্টার সরানো হয়েছে৷"
+
+msgid "Cleanup Cache Folder:"
+msgstr "ক্যাশে ফোল্ডার পরিষ্কার করুন:"
+
+msgid "Country:"
+msgstr "দেশ:"
+
+msgid "Creator:"
+msgstr "সৃষ্টিকর্তা:"
+
+msgid "DVD Player Plugin not installed."
+msgstr "ডিভিডি প্লেয়ার প্লাগইন ইনস্টল করা হয়নি।"
+
+msgid "Dark"
+msgstr "অন্ধকার"
+
+msgid "Database"
+msgstr "ডাটাবেস"
+
+msgid ""
+"Database %s not found:\n"
+"Cleanup Cache Folder canceled."
+msgstr "ডাটাবেস %s পাওয়া যায়নি:\nক্লিনআপ ক্যাশে ফোল্ডার বাতিল করা হয়েছে৷"
+
+msgid ""
+"Database %s not found:\n"
+"Movie Browser Database Backup canceled."
+msgstr "ডাটাবেস %s পাওয়া যায়নি:\nমুভি ব্রাউজার ডাটাবেস ব্যাকআপ বাতিল করা হয়েছে৷"
+
+msgid ""
+"Database Backup %s not found:\n"
+"Movie Browser Database Restore canceled."
+msgstr "ডাটাবেস ব্যাকআপ %s পাওয়া যায়নি:\nমুভি ব্রাউজার ডেটাবেস পুনরুদ্ধার বাতিল করা হয়েছে৷"
+
+msgid "Database Editor:"
+msgstr "ডাটাবেস সম্পাদক:"
+
+msgid "Database Error: Entry without runtime"
+msgstr "ডাটাবেস ত্রুটি: রানটাইম ছাড়া এন্ট্রি"
+
+msgid "Database Timer Log"
+msgstr "ডাটাবেস টাইমার লগ"
+
+msgid "Database Update Log"
+msgstr "ডাটাবেস আপডেট লগ"
+
+msgid ""
+"Database Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr "ডাটাবেস আপডেট টাইমার শুরু হয়েছে: %s\nটাইমার মান (মিনিট): %s"
+
+msgid "Database Update Timer stopped: %s"
+msgstr "ডাটাবেস আপডেট টাইমার বন্ধ হয়েছে: %s"
+
+msgid "Database backed up to %s"
+msgstr "ডাটাবেস %s পর্যন্ত ব্যাক আপ করা হয়েছে"
+
+msgid "Database restored from %s"
+msgstr "%s থেকে ডেটাবেস পুনরুদ্ধার করা হয়েছে"
+
+msgid "Delete Movie File"
+msgstr "মুভি ফাইল মুছুন"
+
+msgid "Director Selection"
+msgstr "পরিচালক নির্বাচন"
+
+msgid "Director:"
+msgstr "পরিচালক:"
+
+msgid "Discover Background Overlay:"
+msgstr "ব্যাকগ্রাউন্ড ওভারলে আবিষ্কার করুন:"
+
+msgid "Discover Movies:"
+msgstr "মুভি আবিষ্কার করুন:"
+
+msgid "Discover Series:"
+msgstr "আবিষ্কার সিরিজ:"
+
+msgid "Download new Backdrops:"
+msgstr "নতুন ব্যাকড্রপ ডাউনলোড করুন:"
+
+msgid "EPISODES"
+msgstr "পর্বগুলি"
+
+msgid "Error moving cache folder: %s"
+msgstr "ক্যাশে ফোল্ডার সরাতে ত্রুটি: %s"
+
+msgid "Error while loading"
+msgstr "লোড করার সময় ত্রুটি৷"
+
+msgid "File %s not found!"
+msgstr "ফাইল %s পাওয়া যায়নি!"
+
+msgid "Folder Selection"
+msgstr "ফোল্ডার নির্বাচন"
+
+msgid "Free Space"
+msgstr "মুক্ত স্থান"
+
+msgid "Free Space:"
+msgstr "ফাঁকা স্থান:"
+
+msgid "Genre Selection"
+msgstr "জেনার নির্বাচন"
+
+msgid "Genres:"
+msgstr "ধরণ:"
+
+msgid "Go to last Movie on Start:"
+msgstr "শুরুতে শেষ মুভিতে যান:"
+
+msgid "Help"
+msgstr "সাহায্য"
+
+msgid "Hide"
+msgstr "লুকান"
+
+msgid "Hide Plugin during Update:"
+msgstr "আপডেটের সময় প্লাগইন লুকান:"
+
+msgid "In library"
+msgstr "লাইব্রেরিতে"
+
+msgid "Info Button"
+msgstr "তথ্য বোতাম"
+
+msgid "Info Button: Toggle show/hide infos"
+msgstr "তথ্য বোতাম: তথ্য দেখান/লুকান টগল করুন"
+
+msgid "Install automatically"
+msgstr "স্বয়ংক্রিয়ভাবে ইনস্টল করুন"
+
+msgid "Invalid selection"
+msgstr "অবৈধ নির্বাচন"
+
+msgid "Left/Right: Movie"
+msgstr "বাম/ডান: মুভি"
+
+msgid "Light"
+msgstr "আলো"
+
+msgid "List view with poster and details"
+msgstr "পোস্টার এবং বিবরণ সহ তালিকা দেখুন"
+
+msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
+msgstr "/tmp/tmdb_api.txt থেকে TMDb API কী লোড করুন"
+
+msgid "Load last Selection/Filter on Start:"
+msgstr "শুরুতে শেষ নির্বাচন/ফিল্টার লোড করুন:"
+
+msgid "Loading..."
+msgstr "লোড হচ্ছে..."
+
+msgid "MOVIES"
+msgstr "সিনেমা"
+
+msgid "Manage your Movies & Series V.%s"
+msgstr "আপনার মুভি এবং সিরিজ V.%s পরিচালনা করুন"
+
+msgid "Medium"
+msgstr "মাঝারি"
+
+msgid "Metrix List Selection Color:"
+msgstr "মেট্রিক্স তালিকা নির্বাচনের রঙ:"
+
+msgid "Movie Browser Key Assignment"
+msgstr "মুভি ব্রাউজার কী অ্যাসাইনমেন্ট"
+
+msgid "Movie Browser Key Assignment:"
+msgstr "মুভি ব্রাউজার কী অ্যাসাইনমেন্ট:"
+
+msgid "Movie Creation Date Ascending"
+msgstr "চলচ্চিত্র নির্মাণের তারিখ আরোহী"
+
+msgid "Movie Creation Date Descending"
+msgstr "মুভি তৈরির তারিখ ডিসেন্ডিং"
+
+msgid "Movie Database Update started: %s"
+msgstr "মুভি ডেটাবেস আপডেট শুরু হয়েছে: %s"
+
+msgid "Movie File Information"
+msgstr "মুভি ফাইল তথ্য"
+
+msgid "Movie Folder"
+msgstr "মুভি ফোল্ডার"
+
+msgid ""
+"Movie Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr "মুভি ফোল্ডার %s পৌঁছানো যাচ্ছে না:\nমুভি ব্রাউজার ডেটাবেস আপডেট বাতিল করা হয়েছে৷"
+
+msgid "Movie Folder Ascending"
+msgstr "মুভি ফোল্ডার আরোহী"
+
+msgid "Movie Folder Descending"
+msgstr "মুভি ফোল্ডার ডিসেন্ডিং"
+
+msgid "Movie Folder Selection"
+msgstr "মুভি ফোল্ডার নির্বাচন"
+
+msgid "Movie Folder:"
+msgstr "মুভি ফোল্ডার:"
+
+msgid "Movie Rating 0-10"
+msgstr "মুভি রেটিং 0-10"
+
+msgid "Movie Rating 10-0"
+msgstr "মুভি রেটিং 10-0"
+
+msgid "Movie Release Date Ascending"
+msgstr "মুভি রিলিজের তারিখ আরোহী"
+
+msgid "Movie Release Date Descending"
+msgstr "মুভি রিলিজ ডেট ডিসেন্ডিং"
+
+msgid "Movie Runtime Ascending"
+msgstr "মুভি রানটাইম অ্যাসেন্ডিং"
+
+msgid "Movie Runtime Descending"
+msgstr "মুভি রানটাইম ডিসেন্ডিং"
+
+msgid "Movie Sort Order:"
+msgstr "মুভি সাজানোর ক্রম:"
+
+msgid "Movie Title A-Z"
+msgstr "সিনেমার শিরোনাম A-Z"
+
+msgid "Movie Title Z-A"
+msgstr "সিনেমার শিরোনাম Z-A"
+
+msgid "Movie file %s not available."
+msgstr "মুভি ফাইল %s উপলব্ধ নেই৷"
+
+msgid "Movies"
+msgstr "সিনেমা"
+
+msgid "Movies & Series"
+msgstr "সিনেমা ও সিরিজ"
+
+msgid "Movies Style:"
+msgstr "সিনেমা শৈলী:"
+
+msgid "Movies or Series Selection at Start:"
+msgstr "শুরুতে সিনেমা বা সিরিজ নির্বাচন:"
+
+msgid "Movies or Series:"
+msgstr "সিনেমা বা সিরিজ:"
+
+msgid "New Releases"
+msgstr "নতুন রিলিজ"
+
+msgid "No"
+msgstr "না"
+
+msgid "No TMDb Results for %s."
+msgstr "%s এর জন্য কোন TMDb ফলাফল নেই।"
+
+msgid "No TheTVDb Results for %s."
+msgstr "%s এর জন্য কোন TheTVDb ফলাফল নেই।"
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entries deleted."
+msgstr "কোনো নতুন সিনেমা বা সিরিজ পাওয়া যায়নি।\n%s অনাথ ডাটাবেস এন্ট্রি মুছে ফেলা হয়েছে।"
+
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entry deleted."
+msgstr "কোনো নতুন সিনেমা বা সিরিজ পাওয়া যায়নি।\n%s অনাথ ডাটাবেস এন্ট্রি মুছে ফেলা হয়েছে।"
+
+msgid ""
+"No new Movies or Series found:\n"
+"Your Database is up to date."
+msgstr "কোনো নতুন সিনেমা বা সিরিজ পাওয়া যায়নি:\nআপনার ডাটাবেস আপ টু ডেট."
+
+msgid ""
+"No orphaned Backdrops or Posters found:\n"
+"Your Cache Folder is clean."
+msgstr "কোনো অনাথ ব্যাকড্রপ বা পোস্টার পাওয়া যায়নি:\nআপনার ক্যাশে ফোল্ডার পরিষ্কার."
+
+msgid "No results"
+msgstr "কোন ফলাফল নেই"
+
+msgid "Off"
+msgstr "বন্ধ"
+
+msgid "On Database Update"
+msgstr "ডাটাবেস আপডেটে"
+
+msgid "On First Access"
+msgstr "প্রথম অ্যাক্সেসের উপর"
+
+msgid "On The Air"
+msgstr "অন ​​দ্য এয়ার"
+
+msgid "Open"
+msgstr "খোলা"
+
+msgid "Please wait, loading database..."
+msgstr "অনুগ্রহ করে অপেক্ষা করুন, ডাটাবেস লোড হচ্ছে..."
+
+msgid "Plugin in Enigma Menu:"
+msgstr "এনিগমা মেনুতে প্লাগইন:"
+
+msgid "Popular"
+msgstr "জনপ্রিয়"
+
+msgid "Popular, top rated and airing series from TMDb"
+msgstr "TMDb থেকে জনপ্রিয়, শীর্ষ রেটযুক্ত এবং সম্প্রচারিত সিরিজ"
+
+msgid "Popular, top rated and upcoming films from TMDb"
+msgstr "TMDb থেকে জনপ্রিয়, শীর্ষ রেট করা এবং আসন্ন চলচ্চিত্র"
+
+msgid "Posterwall/Backdrop Show Plot:"
+msgstr "পোস্টারওয়াল/ব্যাকড্রপ শো প্লট:"
+
+msgid "Radio Button: Delete/Blacklist movie"
+msgstr "রেডিও বোতাম: মুছুন/ব্ল্যাকলিস্ট মুভি"
+
+msgid "Rating:"
+msgstr "রেটিং:"
+
+msgid "Really close without saving settings?"
+msgstr "সেটিংস সংরক্ষণ ছাড়া সত্যিই বন্ধ?"
+
+msgid "Red: Style"
+msgstr "লাল: শৈলী"
+
+msgid "Reset Database:"
+msgstr "ডাটাবেস রিসেট করুন:"
+
+msgid "Restore Database:"
+msgstr "ডাটাবেস পুনরুদ্ধার করুন:"
+
+msgid "Runtime:"
+msgstr "রানটাইম:"
+
+msgid "SERIES"
+msgstr "সিরিজ"
+
+msgid "Save"
+msgstr "সংরক্ষণ করুন"
+
+msgid "Seasons: %s"
+msgstr "ঋতু: %s"
+
+msgid "Select Skin (GUI Restart Required):"
+msgstr "স্কিন নির্বাচন করুন (GUI রিস্টার্ট প্রয়োজন):"
+
+msgid "Select style"
+msgstr "শৈলী নির্বাচন করুন"
+
+msgid "Series"
+msgstr "সিরিজ"
+
+msgid "Series Episodes"
+msgstr "সিরিজ পর্ব"
+
+msgid "Series Folder: No Info possible"
+msgstr "সিরিজ ফোল্ডার: কোন তথ্য সম্ভব"
+
+msgid "Series Style:"
+msgstr "সিরিজ শৈলী:"
+
+msgid "Show"
+msgstr "দেখান"
+
+msgid "Show Backdrops:"
+msgstr "ব্যাকড্রপ দেখান:"
+
+msgid "Show List of Movie Folder:"
+msgstr "মুভি ফোল্ডারের তালিকা দেখান:"
+
+msgid "Show TV in Background (no m1v):"
+msgstr "ব্যাকগ্রাউন্ডে টিভি দেখান (m1v নয়):"
+
+msgid "Sign up on TMDb and enter your free personal API Key"
+msgstr "TMDb-এ সাইন আপ করুন এবং আপনার বিনামূল্যের ব্যক্তিগত API কী লিখুন"
+
+msgid "Start Plugin with Video Button:"
+msgstr "ভিডিও বোতাম দিয়ে প্লাগইন শুরু করুন:"
+
+msgid ""
+"Start time: %s\n"
+"End time: %s\n"
+"Total scanned files: %s\n"
+"TheTVDb Database Requests: %s\n"
+"TMDb Database Requests: %s\n"
+"Orphaned Movies/Series: %s\n"
+"New Series: %s\n"
+"New Movies: %s"
+msgstr "শুরুর সময়: %s\nশেষ সময়: %s\nমোট স্ক্যান করা ফাইল: %s\nTheTVDb ডেটাবেস অনুরোধ: %s\nTMDb ডেটাবেস অনুরোধ: %s\nএতিম সিনেমা/সিরিজ: %s\nনতুন সিরিজ: %s\nনতুন সিনেমা: %s"
+
+msgid "Stop Button: Mark movie as seen"
+msgstr "স্টপ বোতাম: মুভিটি দেখা হিসাবে চিহ্নিত করুন"
+
+msgid "Style"
+msgstr "শৈলী"
+
+msgid "TMDb API Server is not reachable."
+msgstr "TMDb API সার্ভার পৌঁছানো যায় না।"
+
+msgid "TMDb API key successfully imported!"
+msgstr "TMDb API কী সফলভাবে আমদানি করা হয়েছে!"
+
+msgid "TMDb Language:"
+msgstr "TMDb ভাষা:"
+
+msgid ""
+"TMDb Movie Update Error:\n"
+"Series Folder"
+msgstr "TMDb মুভি আপডেট ত্রুটি:\nসিরিজ ফোল্ডার"
+
+msgid "TMDb Results"
+msgstr "TMDb ফলাফল"
+
+msgid "Text Button: Edit Database"
+msgstr "পাঠ্য বোতাম: ডাটাবেস সম্পাদনা করুন"
+
+msgid "The List of Movie Folder cannot be deleted."
+msgstr "মুভি ফোল্ডারের তালিকা মুছে ফেলা যাবে না."
+
+msgid ""
+"The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n"
+"\n"
+"If the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n"
+"\n"
+"Rebuild the Database now?"
+msgstr "মুভি ব্রাউজার ডেটাবেস এখন পুনর্নির্মাণ করা হবে। আপনার সিনেমার সংখ্যার উপর নির্ভর করে, এতে কয়েক মিনিট সময় লাগতে পারে।\n\nযদি প্লাগইনটি কয়েক মিনিটের পরে বন্ধ হয়ে যায়, প্লাগইন পুনরায় চালু করুন এবং একটি ম্যানুয়াল ডাটাবেস আপডেট (ভিডিও বোতাম) চালান।\n\nএখন ডাটাবেস পুনর্নির্মাণ?"
+
+msgid "TheTVDb API Server is not reachable."
+msgstr "TheTVDb API সার্ভার পৌঁছানো যায় না।"
+
+msgid "TheTVDb API key successfully imported!"
+msgstr "TheTVDb API কী সফলভাবে আমদানি করা হয়েছে!"
+
+msgid "TheTVDb Results"
+msgstr "TheTVDb ফলাফল"
+
+msgid ""
+"This will delete %s from the Database and from the Movie Folder!\n"
+"\n"
+"Do you want to continue?"
+msgstr "এটি ডাটাবেস এবং মুভি ফোল্ডার থেকে %s মুছে ফেলবে!\n\nআপনি কি চালিয়ে যেতে চান?"
+
+msgid ""
+"This will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n"
+"\n"
+"Do you want to continue?"
+msgstr "এটি ডাটাবেস থেকে %s কে মুছে ফেলবে এবং এটিকে কালো তালিকায় রাখবে, তাই মুভিটি ভবিষ্যতের ডেটাবেস আপডেট দ্বারা উপেক্ষা করা হবে৷\n\nআপনি কি চালিয়ে যেতে চান?"
+
+msgid ""
+"This will delete all %s entries from the Database but not from the Movie Folder.\n"
+"\n"
+"Do you want to continue?"
+msgstr "এটি ডাটাবেস থেকে সমস্ত %s এন্ট্রি মুছে ফেলবে কিন্তু মুভি ফোল্ডার থেকে নয়।\n\nআপনি কি চালিয়ে যেতে চান?"
+
+msgid "Timer Database Update:"
+msgstr "টাইমার ডাটাবেস আপডেট:"
+
+msgid "Toggle Plugin Style"
+msgstr "প্লাগইন শৈলী টগল করুন"
+
+msgid "Toggle hide/show plugin"
+msgstr "লুকান/শো প্লাগইন টগল করুন"
+
+msgid "Top Rated"
+msgstr "শীর্ষ রেট"
+
+msgid "Up/Down: Category"
+msgstr "উপরে/নিচে: বিভাগ"
+
+msgid "Upcoming"
+msgstr "আসন্ন"
+
+msgid "Update"
+msgstr "আপডেট"
+
+msgid "Update Database with Timer:"
+msgstr "টাইমার দিয়ে ডেটাবেস আপডেট করুন:"
+
+msgid "Update Movie Browser Database?"
+msgstr "মুভি ব্রাউজার ডাটাবেস আপডেট করবেন?"
+
+msgid "Update Movie/Series"
+msgstr "মুভি/সিরিজ আপডেট করুন"
+
+msgid "Update Selection"
+msgstr "নির্বাচন আপডেট করুন"
+
+msgid "Update error:"
+msgstr "আপডেট ত্রুটি:"
+
+msgid "Use m1v Backdrops:"
+msgstr "m1v ব্যাকড্রপ ব্যবহার করুন:"
+
+msgid "Video Button: Update Database"
+msgstr "ভিডিও বোতাম: ডেটাবেস আপডেট করুন"
+
+msgid "Wall of posters"
+msgstr "পোস্টারের দেয়াল"
+
+msgid "Years:"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
