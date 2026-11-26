@@ -1082,7 +1082,7 @@ class movieBrowserMetrix(Screen):
                     try:
                         self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(
                             self.getMediaInfo)
-            except BaseException:
+                    except BaseException:
                         self.makeMovieBrowserTimer.callback.append(
                             self.getMediaInfo)
 
