@@ -1,30 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# 20221004 Kiddac edit: python 3 support et al
-# 20221204 Lululla edit & add: language, config, major fix
-# 20221208 Lululla add callInThread getMountDefault
-# 20221222 Lululla recoded, major fix
-# 20240920 Lululla recoded - clean unnecessary code
-# 20250516 Lululla refactoryzed all Cls and clean unnecessary all code
-# 20251202 Lululla all recoded:
-#  fixed screen (rewrite) - code source - api url
-#  separate libraries into other modules
-#  dabase rewrite code
-#  removed unused code
-#  new api v4
-#  fixed banner on MovieList
-# Fixes (Nov 2026 - Caught):
-# library.py: series info and covers now come from TMDb (TheTVDb API is gone)
-# Library Scan: Fixed filename recognition, so movies aren't re-added as duplicates on every scan.
-# TMDb Search: Fixed a title-filtering bug that cut off movie names after the first word.
-# Media & Blacklist: Fixed broken background/default poster loading and blacklist reading errors.
-# Translations: Updated DE, IT, and NL languages.
-# Fixes needed to show info in series.
-# New plugin.png logo
-# New select movie frame
-# plugin.py: MovieBrowser's movie player now also closes with the Exit
-# button (same as Stop)
-
+# MovieBrowser
+# Copyright (c) MovieBrowser contributors
+# See CHANGELOG.md for version history and updates.
 from __future__ import print_function
 import datetime
 from io import open
@@ -85,7 +63,6 @@ from .library import (
     tmdb_api,
     thetvdb_api,
     quote,
-    # cleanSeriesName,
     cleanSeriesFilename,
     clean_for_search
 )
@@ -120,9 +97,7 @@ except ImportError:
 class MoviePlayer(BaseMoviePlayer):
     def __init__(self, session, service, *args, **kwargs):
         BaseMoviePlayer.__init__(self, session, service, *args, **kwargs)
-        self['moviebrowserExit'] = ActionMap(
-            ['OkCancelActions'], {
-                'cancel': self.leavePlayer}, -1)
+        self['moviebrowserExit'] = ActionMap(['OkCancelActions'], {'cancel': self.leavePlayer}, -1)
 
 
 class ItemList(MenuList):
@@ -144,10 +119,8 @@ class ItemList(MenuList):
             self.l.setFont(26, gFont('Regular', 26))
             self.l.setFont(24, gFont('Regular', 24))
 
-
 def showWaitBox(session, text=None):
-    # Modale melding zonder knoppen. De update daarna draait synchroon en
-    # blokkeert het scherm; de melding blijft zichtbaar tot closeWaitBox().
+    
     text = text or _('Please wait, loading database...')
     try:
         return session.open(
@@ -169,8 +142,6 @@ def closeWaitBox(session, box):
     except Exception as e:
         print('[MovieBrowser] closeWaitBox: ' + str(e))
 
-
-version = __version__
 screenwidth = getDesktop(0).size()
 dir_plugins = "/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser"
 if dir_plugins not in path:
@@ -179,6 +150,10 @@ if dir_plugins not in path:
 # constant
 db_dir = join(dir_plugins, "db")
 log_dir = join(dir_plugins, "log")
+
+for _d in (db_dir, log_dir):
+    if not exists(_d):
+        makedirs(_d)
 
 UPDATE_LOG_PATH = join(log_dir, "update.log")
 TIMER_LOG_PATH = join(log_dir, "timer.log")
@@ -209,7 +184,9 @@ infoBackPNG = "/".join([skin_directory, "pic",
                        "browser", "info_small_back.png"])
 infosmallBackPNG = infoBackPNG
 goldFramePNG = "/".join([skin_directory, "pic",
-                         "browser", "goldframe.png"])
+                          "browser", "goldframe.png"])
+goldFrameSmallPNG = "/".join([skin_directory, "pic",
+                              "browser", "goldframesmall.png"])
 no_m1v = "/".join([skin_directory, "pic", "browser", "no.m1v"])
 wiki_png = "/".join([skin_directory, "pic", "browser", "wiki.png"])
 
@@ -263,6 +240,7 @@ class movieBrowserMetrix(Screen):
         self['text2'] = Label(_('Style'))
         self['text3'] = Label(_('Help'))
         self['Genres'] = Label(_('Genres:'))
+        self['Rating'] = Label(_('Rating:'))
         self['director'] = Label()
         self['actors'] = Label()
         self['year'] = Label()
@@ -353,7 +331,6 @@ class movieBrowserMetrix(Screen):
             'leavePlayer': self.markSeen,
             '1': self.controlMovies,
             '2': self.renewTMDb,
-            '3': self.renewTVDb,
             '4': self.filterSeen,
             '5': self.toogleContent,
             '6': self.filterFolder,
@@ -392,7 +369,7 @@ class movieBrowserMetrix(Screen):
         if config.plugins.moviebrowser.showtv.value == 'hide' or config.plugins.moviebrowser.m1v.value is True:
             self.session.nav.stopService()
 
-        if fileExists(DATABASE_PATH):
+        if fileExists(DATABASE_PATH) and not fileExists(DATABASE_RESET):
             if self.index == 0:
                 if config.plugins.moviebrowser.lastfilter.value is True:
                     with open(FILTER_PATH, 'r', encoding='utf-8') as f:
@@ -418,18 +395,15 @@ class movieBrowserMetrix(Screen):
             self.makeMovieBrowserTimer = eTimer()
             try:
                 # Dreambox-specific implementation
-                self.makeMovieBrowserTimer.timeout.connect(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer.timeout.connect(lambda: self.makeMovies(self.filter))
             except AttributeError:
-                self.makeMovieBrowserTimer.callback.append(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer.callback.append(lambda: self.makeMovies(self.filter))
 
             self.makeMovieBrowserTimer.start(500, True)
         else:
             self.openTimer = eTimer()
             try:
-                self.openTimer_conn = self.openTimer.timeout.connect(
-                    self.openInfo)
+                self.openTimer_conn = self.openTimer.timeout.connect(self.openInfo)
             except BaseException:
                 self.openTimer.callback.append(self.openInfo)
             self.openTimer.start(500, True)
@@ -470,13 +444,13 @@ class movieBrowserMetrix(Screen):
             self.makeMovieBrowserTimer = eTimer()
             self.resetTimer = eTimer()
             try:
-                self.resetTimer_conn = self.resetTimer.timeout.connect(
-                    lambda: self.database_return(True))
+                self.resetTimer_conn = self.resetTimer.timeout.connect(lambda: self.database_return(True))
             except BaseException:
-                self.resetTimer.callback.append(
-                    lambda: self.database_return(True))
+                self.resetTimer.callback.append(lambda: self.database_return(True))
             self.resetTimer.start(500, True)
         else:
+            if fileExists(DATABASE_PATH) and fileExists(DATABASE_RESET):
+                remove(DATABASE_RESET)
             self.close()
 
     def makeMovies(self, filter):
@@ -827,8 +801,7 @@ class movieBrowserMetrix(Screen):
             if fileExists(DATABASE_PATH):
                 self.runTimer = eTimer()
                 try:
-                    self.runTimer_conn = self.runTimer.timeout.connect(
-                        self.database_run)
+                    self.runTimer_conn = self.runTimer.timeout.connect(self.database_run)
                 except BaseException:
                     self.runTimer.callback.append(self.database_run)
                 self.waitbox = showWaitBox(self.session)
@@ -883,11 +856,9 @@ class movieBrowserMetrix(Screen):
 
             self.makeMovieBrowserTimer = eTimer()
             try:
-                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(lambda: self.makeMovies(self.filter))
             except BaseException:
-                self.makeMovieBrowserTimer.callback.append(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer.callback.append(lambda: self.makeMovies(self.filter))
         elif found == 0 and orphaned == 0:
             self.session.open(
                 MessageBox,
@@ -1096,11 +1067,9 @@ class movieBrowserMetrix(Screen):
                             filename, MessageBox.TYPE_ERROR)
                     self.makeMovieBrowserTimer.stop()
                     try:
-                        self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(
-                            self.getMediaInfo)
-                    except BaseException:
-                        self.makeMovieBrowserTimer.callback.append(
-                            self.getMediaInfo)
+                        self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(self.getMediaInfo)
+            except BaseException:
+                        self.makeMovieBrowserTimer.callback.append(self.getMediaInfo)
 
                     self.makeMovieBrowserTimer.start(2000, True)
             except IndexError:
@@ -1480,10 +1449,7 @@ class movieBrowserMetrix(Screen):
         if not titles:
             self.session.open(
                 MessageBox,
-                _('\nNo TheTVDb Results for %s.') %
-                self.name.replace(
-                    '+',
-                    ' '),
+                _('\nNo TheTVDb Results for %s.') % self.name.replace('+', ' '),
                 MessageBox.TYPE_INFO,
                 close_on_any_key=True)
         else:
@@ -1783,9 +1749,6 @@ class movieBrowserMetrix(Screen):
         return
 
     def _infoKeyOk(self):
-        # De INFO-toets geeft vaak twee meldingen (showEventInfo + EPGPressed).
-        # Een tweede melding binnen 0,6 s negeren we, anders gaat de info
-        # meteen weer uit.
         import time
         now = time.time()
         if now - getattr(self, '_lastToggle', 0) < 0.6:
@@ -1841,10 +1804,6 @@ class movieBrowserMetrix(Screen):
                         self.showInfo()
 
     def showPlot(self):
-        # self['list'].hide()
-        # self['label'].hide()
-        # self['label2'].hide()
-        # self['label3'].hide()
         self['help'].hide()
         self['pvr'].hide()
         self['text'].hide()
@@ -2891,7 +2850,13 @@ class movieBrowserMetrix(Screen):
         if self.ready is True:
             self.ready = False
             self.session.openWithCallback(
-                self.returnStyle, switchScreen, 2, 'style')
+                self.styleChosen,
+                StyleMenu,
+                title=_('Select style'),
+                list=styleChoices())
+
+    def styleChosen(self, choice):
+        self.returnStyle(choice[1] if choice else None)
 
     def returnStyle(self, number):
         if number is None or number == 1:
@@ -2937,6 +2902,12 @@ class movieBrowserMetrix(Screen):
                 self.index,
                 self.content,
                 self.filter)
+        elif number == 4:
+            self.session.openWithCallback(
+                self.returnStyle, movieBrowserDiscover)
+        elif number == 5:
+            self.session.openWithCallback(
+                self.returnStyle, movieBrowserDiscoverSeries)
         return
 
     def toogleContent(self):
@@ -3441,7 +3412,6 @@ class movieBrowserBackdrop(Screen):
                 'leavePlayer': self.markSeen,
                 '1': self.controlMovies,
                 '2': self.renewTMDb,
-                '3': self.renewTVDb,
                 '4': self.filterSeen,
                 '5': self.toogleContent,
                 '6': self.filterFolder,
@@ -3481,7 +3451,7 @@ class movieBrowserBackdrop(Screen):
         if config.plugins.moviebrowser.showtv.value == 'hide' or config.plugins.moviebrowser.m1v.value is True:
             self.session.nav.stopService()
 
-        if fileExists(DATABASE_PATH):
+        if fileExists(DATABASE_PATH) and not fileExists(DATABASE_RESET):
             if self.index == 0:
                 if config.plugins.moviebrowser.lastfilter.value is True:
                     self.filter = open(FILTER_PATH).read()
@@ -3505,17 +3475,14 @@ class movieBrowserBackdrop(Screen):
 
             self.makeMovieBrowserTimer = eTimer()
             try:
-                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(lambda: self.makeMovies(self.filter))
             except BaseException:
-                self.makeMovieBrowserTimer.callback.append(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer.callback.append(lambda: self.makeMovies(self.filter))
             self.makeMovieBrowserTimer.start(500, True)
         else:
             self.openTimer = eTimer()
             try:
-                self.openTimer_conn = self.openTimer.timeout.connect(
-                    self.openInfo)
+                self.openTimer_conn = self.openTimer.timeout.connect(self.openInfo)
             except BaseException:
                 self.openTimer.callback.append(self.openInfo)
             self.openTimer.start(500, True)
@@ -3558,13 +3525,13 @@ class movieBrowserBackdrop(Screen):
             self.resetTimer = eTimer()
             # if fileExists(self.database):
             try:
-                self.resetTimer_conn = self.resetTimer.timeout.connect(
-                    lambda: self.database_return(True))
+                self.resetTimer_conn = self.resetTimer.timeout.connect(lambda: self.database_return(True))
             except BaseException:
-                self.resetTimer.callback.append(
-                    lambda: self.database_return(True))
+                self.resetTimer.callback.append(lambda: self.database_return(True))
             self.resetTimer.start(500, True)
         else:
+            if fileExists(DATABASE_PATH) and fileExists(DATABASE_RESET):
+                remove(DATABASE_RESET)
             self.close()
 
     def makeMovies(self, filter):
@@ -3737,8 +3704,7 @@ class movieBrowserBackdrop(Screen):
             if fileExists(DATABASE_PATH):
                 self.runTimer = eTimer()
                 try:
-                    self.runTimer_conn = self.runTimer.timeout.connect(
-                        self.database_run)
+                    self.runTimer_conn = self.runTimer.timeout.connect(self.database_run)
                 except BaseException:
                     self.runTimer.callback.append(self.database_run)
                 self.waitbox = showWaitBox(self.session)
@@ -3786,11 +3752,9 @@ class movieBrowserBackdrop(Screen):
 
             self.makeMovieBrowserTimer = eTimer()
             try:
-                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(lambda: self.makeMovies(self.filter))
             except BaseException:
-                self.makeMovieBrowserTimer.callback.append(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer.callback.append(lambda: self.makeMovies(self.filter))
 
         elif found == 0 and orphaned == 0:
             self.session.open(
@@ -3987,11 +3951,9 @@ class movieBrowserBackdrop(Screen):
 
                     self.makeMovieBrowserTimer.stop()
                     try:
-                        self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(
-                            self.getMediaInfo)
+                        self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(self.getMediaInfo)
                     except BaseException:
-                        self.makeMovieBrowserTimer.callback.append(
-                            self.getMediaInfo)
+                        self.makeMovieBrowserTimer.callback.append(self.getMediaInfo)
                     self.makeMovieBrowserTimer.start(2000, True)
             except IndexError:
                 pass
@@ -4290,9 +4252,7 @@ class movieBrowserBackdrop(Screen):
             try:
                 output = output.decode("utf-8", "ignore")
             except Exception as e:
-                print(
-                    "Decode error for URL {}: {}".format(
-                        str(url), str(e)))  # ← str()
+                print("Decode error for URL {}: {}".format(str(url), str(e)))  # ← str()
                 output = output.decode("latin-1", "ignore")
 
         try:
@@ -4318,9 +4278,7 @@ class movieBrowserBackdrop(Screen):
                     try:
                         output = output.decode("utf-8", "ignore")
                     except Exception as e:
-                        print(
-                            "Decode error for URL {}: {}".format(
-                                str(url), str(e)))  # ← str()
+                        print("Decode error for URL {}: {}".format(str(url), str(e)))  # ← str()
                         output = output.decode("latin-1", "ignore")
 
                 output = sub(
@@ -4377,10 +4335,7 @@ class movieBrowserBackdrop(Screen):
             if not titles:
                 self.session.open(
                     MessageBox,
-                    _('\nNo TheTVDb Results for %s.') %
-                    self.name.replace(
-                        '+',
-                        ' '),
+                    _('\nNo TheTVDb Results for %s.') % self.name.replace('+', ' '),
                     MessageBox.TYPE_INFO,
                     close_on_any_key=True)
             else:
@@ -4646,9 +4601,6 @@ class movieBrowserBackdrop(Screen):
         return
 
     def _infoKeyOk(self):
-        # De INFO-toets geeft vaak twee meldingen (showEventInfo + EPGPressed).
-        # Een tweede melding binnen 0,6 s negeren we, anders gaat de info
-        # meteen weer uit.
         import time
         now = time.time()
         if now - getattr(self, '_lastToggle', 0) < 0.6:
@@ -4662,8 +4614,7 @@ class movieBrowserBackdrop(Screen):
                 self.plotfull = True
                 self.toggleCount = 1
                 try:
-                    self.seasonsview = self.content == ':::Series:Top:::' or self.contentlist[
-                        self.index] == 'Series:Top'
+                    self.seasonsview = self.content == ':::Series:Top:::' or self.contentlist[self.index] == 'Series:Top'
                 except Exception:
                     self.seasonsview = True
                 self['ddd'].hide()
@@ -4683,7 +4634,6 @@ class movieBrowserBackdrop(Screen):
                     pass
 
             else:
-                # aan/uit: elke volgende druk zet alles weer uit
                 self.toggleCount = 0
                 self.seasonsview = False
                 self.control = False
@@ -5008,7 +4958,7 @@ class movieBrowserBackdrop(Screen):
                 self['banner'].hide()
                 self['episodes'].hide()
                 self['plotfull'].show()
-
+            
         elif self.content == ':Top:::':
             try:
                 content = self.contentlist[self.index]
@@ -5380,11 +5330,12 @@ class movieBrowserBackdrop(Screen):
 
                 if self.showfolder:
                     self.movies.append(
-                        (_("<List of Movie Folder>"),
-                         config.plugins.moviebrowser.moviefolder.value +
-                         "...",
-                         str(default_backdrop),
-                         ))
+                        (
+                            _("<List of Movie Folder>"),
+                            config.plugins.moviebrowser.moviefolder.value + "...",
+                            str(default_backdrop),
+                        )
+                    )
 
                 self.session.openWithCallback(
                     self.gotoMovie,
@@ -5803,7 +5754,13 @@ class movieBrowserBackdrop(Screen):
         if self.ready is True:
             self.ready = False
             self.session.openWithCallback(
-                self.returnStyle, switchScreen, 3, 'style')
+                self.styleChosen,
+                StyleMenu,
+                title=_('Select style'),
+                list=styleChoices())
+
+    def styleChosen(self, choice):
+        self.returnStyle(choice[1] if choice else None)
 
     def returnStyle(self, number):
         if number is None or number == 2:
@@ -5850,6 +5807,12 @@ class movieBrowserBackdrop(Screen):
                 self.index,
                 self.content,
                 self.filter)
+        elif number == 4:
+            self.session.openWithCallback(
+                self.returnStyle, movieBrowserDiscover)
+        elif number == 5:
+            self.session.openWithCallback(
+                self.returnStyle, movieBrowserDiscoverSeries)
         return
 
     def toogleContent(self):
@@ -6238,17 +6201,17 @@ class movieBrowserPosterwall(Screen):
             skincontent += ' <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/setup/default_backdrop.png" position="0,0" size="1920,1080" transparent="0" zPosition="-5"/>'
             skincontent += ' <widget name="backdrop" position="0,0" size="1920,1080" scale="1" alphatest="on" transparent="0" zPosition="-4"/>'
             skincontent += ' <!-- Titolo e Visto -->'
-            skincontent += ' <widget name="name" position="503,930" size="915,143" font="Regular; 48" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1" zPosition="3"/>'
+            skincontent += ' <widget name="name" position="503,930" size="915,143" font="Regular; 48" halign="center" valign="center" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" backgroundColor="#000000" transparent="1" zPosition="3"/>'
             skincontent += ' <widget name="seen" position="1425,965" size="60,60" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/seen.png" transparent="1" alphatest="on" scale="1" zPosition="3"/>'
             skincontent += ' <!-- Info -->'
             skincontent += ' <widget name="ratings" position="98,986" size="315,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/ratings.png" orientation="orHorizontal" alphatest="blend" zPosition="6"/>'
             skincontent += ' <widget name="ratingsback" position="98,986" size="315,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/ratings_back.png" alphatest="blend" zPosition="5"/>'
-            skincontent += ' <widget name="runtime" position="1500,930" size="180,143" font="Regular;30" halign="right" foregroundColor="yellow" transparent="1" zPosition="17"/>'
-            skincontent += ' <widget name="country" position="1688,930" size="90,143" font="Regular;30" foregroundColor="yellow" transparent="1" zPosition="11"/>'
-            skincontent += ' <widget name="year" position="1785,930" size="98,143" font="Regular;30" foregroundColor="yellow" transparent="1" zPosition="15"/>'
-            skincontent += ' <widget name="plotfull" position="1116,130" size="746,500" font="Regular;28" foregroundColor="yellow" transparent="1" zPosition="30"/>'
+            skincontent += ' <widget name="runtime" position="1500,930" size="180,143" font="Regular;30" halign="right" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="17"/>'
+            skincontent += ' <widget name="country" position="1688,930" size="90,143" font="Regular;30" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="11"/>'
+            skincontent += ' <widget name="year" position="1785,930" size="98,143" font="Regular;30" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="15"/>'
+            skincontent += ' <widget name="plotfull" position="1116,130" size="746,500" font="Regular;28" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="30"/>'
             skincontent += ' <widget name="eposter" position="1113,80" size="750,422" alphatest="on" transparent="1" scale="1" zPosition="5"/>'
-            skincontent += ' <widget name="eplot" position="1116,512" size="746,165" font="Regular;24" foregroundColor="yellow" transparent="1" zPosition="31"/>'
+            skincontent += ' <widget name="eplot" position="1116,512" size="746,165" font="Regular;24" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="31"/>'
             skincontent += ' <widget name="banner" position="1113,80" size="750,138" alphatest="on" transparent="1" scale="1" zPosition="5"/>'
             skincontent += ' <widget name="episodes" position="1113,227" size="750,405" scrollbarMode="showNever" transparent="1" zPosition="5"/>'
             skincontent += ' <widget name="audiotype" position="124,795" size="120,57" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/dolby.png,/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/dolbyplus.png,/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/dts.png,/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/dtshd.png,/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/mp2.png" transparent="1" alphatest="blend" zPosition="9"/>'
@@ -6259,23 +6222,23 @@ class movieBrowserPosterwall(Screen):
             skincontent += ' <widget name="ddd2" position="37,795" size="75,57" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/ddd.png" transparent="1" alphatest="blend" zPosition="9"/>'
             skincontent += ' <widget name="ratings_up" position="98,947" size="315,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/ratings.png" orientation="orHorizontal" alphatest="blend" zPosition="6"/>'
             skincontent += ' <widget name="ratingsback_up" position="98,947" size="315,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/ratings_back.png" alphatest="blend" zPosition="5"/>'
-            skincontent += ' <widget name="2name" position="60,45" size="683,105" font="Regular;30" foregroundColor="yellow" valign="center" transparent="1" zPosition="13"/>'
+            skincontent += ' <widget name="2name" position="60,45" size="683,105" font="Regular;30" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" valign="center" transparent="1" zPosition="13"/>'
             skincontent += ' <widget name="2seen" position="743,45" size="60,60" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/seen.png" transparent="1" alphatest="on" zPosition="13"/>'
             skincontent += ' <widget name="2Rating" position="60,150" size="188,42" font="Regular;30" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="14"/>'
             skincontent += ' <widget name="2ratings" position="60,195" size="315,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/ratings.png" orientation="orHorizontal" alphatest="blend" zPosition="6"/>'
             skincontent += ' <widget name="2ratingsback" position="60,195" size="315,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/browser/ratings_back.png" alphatest="blend" zPosition="5"/>'
             skincontent += ' <widget name="2Director" position="60,255" size="188,42" font="Regular;30" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="18"/>'
-            skincontent += ' <widget name="2director" position="60,300" size="480,42" font="Regular;30" foregroundColor="yellow" transparent="1" zPosition="19"/>'
+            skincontent += ' <widget name="2director" position="60,300" size="480,42" font="Regular;30" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="19"/>'
             skincontent += ' <widget name="2Country" position="555,255" size="188,42" font="Regular;30" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="20"/>'
-            skincontent += ' <widget name="2country" position="555,300" size="188,42" font="Regular;30" foregroundColor="yellow" transparent="1" zPosition="5"/>'
+            skincontent += ' <widget name="2country" position="555,300" size="188,42" font="Regular;30" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="5"/>'
             skincontent += ' <widget name="2Actors" position="60,360" size="188,42" font="Regular;30" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="22"/>'
-            skincontent += ' <widget name="2actors" position="60,405" size="480,153" font="Regular;30" foregroundColor="yellow" transparent="1" zPosition="23"/>'
+            skincontent += ' <widget name="2actors" position="60,405" size="480,153" font="Regular;30" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="23"/>'
             skincontent += ' <widget name="2Year" position="555,360" size="188,42" font="Regular;30" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="24"/>'
-            skincontent += ' <widget name="2year" position="555,405" size="188,42" font="Regular;30" foregroundColor="yellow" transparent="1" zPosition="25"/>'
+            skincontent += ' <widget name="2year" position="555,405" size="188,42" font="Regular;30" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="25"/>'
             skincontent += ' <widget name="2Runtime" position="555,465" size="188,42" font="Regular;30" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="26"/>'
-            skincontent += ' <widget name="2runtime" position="555,510" size="188,42" font="Regular;30" foregroundColor="yellow" transparent="1" zPosition="27"/>'
+            skincontent += ' <widget name="2runtime" position="555,510" size="188,42" font="Regular;30" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="27"/>'
             skincontent += ' <widget name="2Genres" position="60,570" size="188,42" font="Regular;30" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="28"/>'
-            skincontent += ' <widget name="2genres" position="60,615" size="750,42" font="Regular;30" foregroundColor="yellow" transparent="1" zPosition="29"/>'
+            skincontent += ' <widget name="2genres" position="60,615" size="750,42" font="Regular;30" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="29"/>'
             skincontent += ' <widget name="goldframe" position="0,0" size="257,374" scale="1" alphatest="blend" transparent="1" zPosition="-1"/>'
             skincontent += ' <widget name="2infoback" position="38,38" size="788,645" scale="1" alphatest="blend" transparent="1" zPosition="-1"/>'
             skincontent += ' <widget name="plotfullback" position="1095,38" size="788,645" scale="1" alphatest="blend" transparent="1" zPosition="-1"/>'
@@ -6323,17 +6286,17 @@ class movieBrowserPosterwall(Screen):
             skincontent += ' <widget name="2ratings" position="40,130" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/hd/pic/browser/ratings.png" borderWidth="0" orientation="orHorizontal" transparent="1" zPosition="15"/>'
             skincontent += ' <widget name="2ratingsback" position="40,130" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/hd/pic/browser/ratings_back.png" alphatest="on" zPosition="16"/>'
             skincontent += ' <widget name="2Director" position="40,170" size="125,28" font="Regular;22" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="18"/>'
-            skincontent += ' <widget name="2director" position="40,200" size="320,28" font="Regular;22" foregroundColor="yellow" transparent="1" zPosition="19"/>'
+            skincontent += ' <widget name="2director" position="40,200" size="320,28" font="Regular;22" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="19"/>'
             skincontent += ' <widget name="2Country" position="370,170" size="125,28" font="Regular;22" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="20"/>'
-            skincontent += ' <widget name="2country" position="370,200" size="125,28" font="Regular;22" foregroundColor="yellow" transparent="1" zPosition="21"/>'
+            skincontent += ' <widget name="2country" position="370,200" size="125,28" font="Regular;22" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="21"/>'
             skincontent += ' <widget name="2Actors" position="40,240" size="125,28" font="Regular;22" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="22"/>'
-            skincontent += ' <widget name="2actors" position="40,270" size="320,102" font="Regular;22" foregroundColor="yellow" transparent="1" zPosition="23"/>'
+            skincontent += ' <widget name="2actors" position="40,270" size="320,102" font="Regular;22" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="23"/>'
             skincontent += ' <widget name="2Year" position="370,240" size="125,28" font="Regular;22" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="24"/>'
-            skincontent += ' <widget name="2year" position="370,270" size="125,28" font="Regular;22" foregroundColor="yellow" transparent="1" zPosition="25"/>'
+            skincontent += ' <widget name="2year" position="370,270" size="125,28" font="Regular;22" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="25"/>'
             skincontent += ' <widget name="2Runtime" position="370,310" size="125,28" font="Regular;22" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="26"/>'
-            skincontent += ' <widget name="2runtime" position="370,340" size="125,28" font="Regular;22" foregroundColor="yellow" transparent="1" zPosition="27"/>'
+            skincontent += ' <widget name="2runtime" position="370,340" size="125,28" font="Regular;22" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="27"/>'
             skincontent += ' <widget name="2Genres" position="40,380" size="125,28" font="Regular;22" halign="left" foregroundColor="#ffffff" transparent="1" zPosition="28"/>'
-            skincontent += ' <widget name="2genres" position="40,410" size="500,28" font="Regular;22" foregroundColor="yellow" transparent="1" zPosition="29"/>'
+            skincontent += ' <widget name="2genres" position="40,410" size="500,28" font="Regular;22" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="29"/>'
             skincontent += ' <widget name="eposter" position="742,53" size="500,281" scale="1" alphatest="on" transparent="1" zPosition="30"/>'
             skincontent += ' <widget name="eplot" position="745,340" size="500,108" font="Regular;20" foregroundColor="#FFFFFF" transparent="1" zPosition="31"/>'
             skincontent += ' <widget name="banner" position="742,53" size="500,92" scale="1" alphatest="on" transparent="1" zPosition="30"/>'
@@ -6520,7 +6483,6 @@ class movieBrowserPosterwall(Screen):
                 'leavePlayer': self.markSeen,
                 '1': self.controlMovies,
                 '2': self.renewTMDb,
-                '3': self.renewTVDb,
                 '4': self.filterSeen,
                 '5': self.toogleContent,
                 '6': self.filterFolder,
@@ -6573,7 +6535,7 @@ class movieBrowserPosterwall(Screen):
         if config.plugins.moviebrowser.showtv.value == 'hide' or config.plugins.moviebrowser.m1v.value is True:
             self.session.nav.stopService()
 
-        if fileExists(DATABASE_PATH):
+        if fileExists(DATABASE_PATH) and not fileExists(DATABASE_RESET):
             if self.index == 0:
                 if config.plugins.moviebrowser.lastfilter.value is True:
                     self.filter = open(FILTER_PATH).read()
@@ -6600,17 +6562,14 @@ class movieBrowserPosterwall(Screen):
 
             self.makeMovieBrowserTimer = eTimer()
             try:
-                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(lambda: self.makeMovies(self.filter))
             except BaseException:
-                self.makeMovieBrowserTimer.callback.append(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer.callback.append(lambda: self.makeMovies(self.filter))
             self.makeMovieBrowserTimer.start(500, True)
         else:
             self.openTimer = eTimer()
             try:
-                self.openTimer_conn = self.openTimer.timeout.connect(
-                    self.openInfo)
+                self.openTimer_conn = self.openTimer.timeout.connect(self.openInfo)
             except BaseException:
                 self.openTimer.callback.append(self.openInfo)
             self.openTimer.start(500, True)
@@ -6652,13 +6611,13 @@ class movieBrowserPosterwall(Screen):
             self.resetTimer = eTimer()
             # if fileExists(self.database):
             try:
-                self.resetTimer_conn = self.resetTimer.timeout.connect(
-                    lambda: self.database_return(True))
+                self.resetTimer_conn = self.resetTimer.timeout.connect(lambda: self.database_return(True))
             except BaseException:
-                self.resetTimer.callback.append(
-                    lambda: self.database_return(True))
+                self.resetTimer.callback.append(lambda: self.database_return(True))
             self.resetTimer.start(500, True)
         else:
+            if fileExists(DATABASE_PATH) and fileExists(DATABASE_RESET):
+                remove(DATABASE_RESET)
             self.close()
 
     def makeMovies(self, filter):
@@ -6837,8 +6796,7 @@ class movieBrowserPosterwall(Screen):
             if fileExists(DATABASE_PATH):
                 self.runTimer = eTimer()
                 try:
-                    self.runTimer_conn = self.runTimer.timeout.connect(
-                        self.database_run)
+                    self.runTimer_conn = self.runTimer.timeout.connect(self.database_run)
                 except BaseException:
                     self.runTimer.callback.append(self.database_run)
                 self.waitbox = showWaitBox(self.session)
@@ -6890,11 +6848,9 @@ class movieBrowserPosterwall(Screen):
 
             self.makeMovieBrowserTimer = eTimer()
             try:
-                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(lambda: self.makeMovies(self.filter))
             except BaseException:
-                self.makeMovieBrowserTimer.callback.append(
-                    lambda: self.makeMovies(self.filter))
+                self.makeMovieBrowserTimer.callback.append(lambda: self.makeMovies(self.filter))
         elif found == 0 and orphaned == 0:
             self.session.open(
                 MessageBox,
@@ -7101,11 +7057,9 @@ class movieBrowserPosterwall(Screen):
 
                     self.makeMovieBrowserTimer.stop()
                     try:
-                        self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(
-                            self.getMediaInfo)
+                        self.makeMovieBrowserTimer_conn = self.makeMovieBrowserTimer.timeout.connect(self.getMediaInfo)
                     except BaseException:
-                        self.makeMovieBrowserTimer.callback.append(
-                            self.getMediaInfo)
+                        self.makeMovieBrowserTimer.callback.append(self.getMediaInfo)
                     self.makeMovieBrowserTimer.start(2000, True)
             except IndexError:
                 pass
@@ -7417,9 +7371,7 @@ class movieBrowserPosterwall(Screen):
             try:
                 output = output.decode("utf-8", "ignore")
             except Exception as e:
-                print(
-                    "Decode error for URL {}: {}".format(
-                        str(url), str(e)))  # ← str()
+                print("Decode error for URL {}: {}".format(str(url), str(e)))  # ← str()
                 output = output.decode("latin-1", "ignore")
 
         try:
@@ -7498,10 +7450,7 @@ class movieBrowserPosterwall(Screen):
             if not titles:
                 self.session.open(
                     MessageBox,
-                    _('\nNo TheTVDb Results for %s.') %
-                    self.name.replace(
-                        '+',
-                        ' '),
+                    _('\nNo TheTVDb Results for %s.') % self.name.replace('+', ' '),
                     MessageBox.TYPE_INFO,
                     close_on_any_key=True)
             else:
@@ -7787,7 +7736,7 @@ class movieBrowserPosterwall(Screen):
     def toggleInfo(self):
         if self.ready is not True:
             return
-
+        
         import time
         now = time.time()
         if now - getattr(self, '_lastToggle', 0) < 0.6:
@@ -7839,22 +7788,9 @@ class movieBrowserPosterwall(Screen):
         w.hide = ghide
         w._eplotgate = True
 
-    BOTTOM_WIDGETS = (
-        'name',
-        'seen',
-        'ratings',
-        'ratingsback',
-        'ratings_up',
-        'ratingsback_up',
-        'runtime',
-        'country',
-        'year',
-        'audiotype',
-        'videomode',
-        'videocodec',
-        'aspectratio',
-        'ddd',
-        'ddd2')
+    BOTTOM_WIDGETS = ('name', 'seen', 'ratings', 'ratingsback', 'ratings_up', 'ratingsback_up',
+                      'runtime', 'country', 'year', 'audiotype', 'videomode',
+                      'videocodec', 'aspectratio', 'ddd', 'ddd2')
 
     def gateBottomWidgets(self):
         for n in self.BOTTOM_WIDGETS:
@@ -8444,8 +8380,7 @@ class movieBrowserPosterwall(Screen):
                     self['plotfull'].show()
             except IndexError:
                 pass
-        if self.content == ':::Series:::' and not getattr(
-                self, 'episodeimage', False):
+        if self.content == ':::Series:::' and not getattr(self, 'episodeimage', False):
             self.toggleCount = 1
             self['eposter'].hide()
             self['plotfull'].show()
@@ -9331,7 +9266,13 @@ class movieBrowserPosterwall(Screen):
         if self.ready is True:
             self.ready = False
             self.session.openWithCallback(
-                self.returnStyle, switchScreen, 1, 'style')
+                self.styleChosen,
+                StyleMenu,
+                title=_('Select style'),
+                list=styleChoices())
+
+    def styleChosen(self, choice):
+        self.returnStyle(choice[1] if choice else None)
 
     def returnStyle(self, number):
         if number is None or number == 3:
@@ -9376,6 +9317,12 @@ class movieBrowserPosterwall(Screen):
                 self.index,
                 self.content,
                 self.filter)
+        elif number == 4:
+            self.session.openWithCallback(
+                self.returnStyle, movieBrowserDiscover)
+        elif number == 5:
+            self.session.openWithCallback(
+                self.returnStyle, movieBrowserDiscoverSeries)
         return
 
     def toogleContent(self):
@@ -9762,6 +9709,804 @@ class movieBrowserPosterwall(Screen):
             self.close()
 
 
+DISCOVER_VISIBLE = 7
+
+
+def styleChoices(include_discover=True):
+    items = [('POSTERWALL', 3), ('BACKDROP', 2), ('METRIX', 1)]
+    if include_discover:
+        items = [('DISCOVER MOVIES', 4), ('DISCOVER SERIES', 5)] + items
+    return items
+
+class StyleMenu(Screen):
+    
+    def __init__(self, session, title='', list=None):
+        items = list or styleChoices()
+        width = getDesktop(0).size().width() or 1280
+        f = width / 1920.0
+
+        def S(v):
+            return int(round(v * f))
+
+        bg = join(skin_directory, 'pic', 'setup', 'main1.png')
+        skin = (
+            '<screen name="StyleMenu" position="center,center" '
+            'size="%d,%d" backgroundColor="#20000000" flags="wfNoBorder" '
+            'title=" ">'
+            '<ePixmap position="0,0" size="%d,%d" pixmap="%s" scale="1" '
+            'zPosition="-1"/>'
+            '<eLabel text="MovieBrowser" position="%d,%d" size="%d,%d" '
+            'font="LCD;%d" foregroundColor="#FFD700" halign="center" '
+            'backgroundColor="#000000" transparent="1" zPosition="3"/>'
+            '<eLabel position="%d,%d" size="%d,%d" '
+            'backgroundColor="#303030" zPosition="4"/>'
+            '<eLabel position="%d,%d" size="%d,%d" '
+            'backgroundColor="#303030" zPosition="4"/>'
+            '<widget name="desc" position="%d,%d" size="%d,%d" '
+            'font="Regular;%d" foregroundColor="#007fcfff" halign="center" '
+            'valign="center" transparent="1" zPosition="3"/>' % (
+                S(1920), S(1080),
+                S(1920), S(1080), bg,
+                S(233), 0, S(806), S(120), S(102),
+                S(230), S(120), S(810), S(3),
+                S(230), S(960), S(810), S(3),
+                S(230), S(890), S(810), S(60), S(30)))
+        for i in range(len(items)):
+            pos = '%d,%d' % (S(220), S(160 + 60 * i))
+            size = '%d,%d' % (S(820), S(60))
+            skin += (
+                '<widget name="l%d" position="%s" size="%s" '
+                'font="Regular;%d" halign="center" valign="center" '
+                'foregroundColor="#007fcfff" backgroundColor="#001b3c85" '
+                'transparent="1" zPosition="1"/>'
+                '<widget name="s%d" position="%s" size="%s" '
+                'font="Regular;%d" halign="center" valign="center" '
+                'foregroundColor="#ffffff" backgroundColor="#001b3c85" '
+                'transparent="0" zPosition="1"/>' % (
+                    i, pos, size, S(40), i, pos, size, S(40)))
+        skin += '</screen>'
+        self.skin = skin
+        Screen.__init__(self, session)
+        self.choices = items
+        self.index = 0
+        for i, item in enumerate(items):
+            self['l%d' % i] = Label(item[0])
+            self['s%d' % i] = Label(item[0])
+        self['desc'] = Label('')
+        keys = {
+            'ok': self.ok,
+            'cancel': self.cancel,
+            'up': self.up,
+            'down': self.down,
+            'red': self.down}
+        for n in range(1, len(items) + 1):
+            keys[str(n)] = (lambda n=n: self.pick(n - 1))
+        self['actions'] = ActionMap(
+            ['OkCancelActions', 'DirectionActions',
+             'ColorActions', 'NumberActions'], keys, -1)
+        self.updateSel()
+
+    def updateSel(self):
+        for i in range(len(self.choices)):
+            if i == self.index:
+                self['l%d' % i].hide()
+                self['s%d' % i].show()
+            else:
+                self['s%d' % i].hide()
+                self['l%d' % i].show()
+        text = {
+            1: _('List view with poster and details'),
+            2: _('Backdrop view with poster strip'),
+            3: _('Wall of posters'),
+            4: _('Popular, top rated and upcoming films from TMDb'),
+            5: _('Popular, top rated and airing series from TMDb')}
+        self['desc'].setText(text.get(self.choices[self.index][1], ''))
+
+    def up(self):
+        self.index = (self.index - 1) % len(self.choices)
+        self.updateSel()
+
+    def down(self):
+        self.index = (self.index + 1) % len(self.choices)
+        self.updateSel()
+
+    def pick(self, index):
+        self.index = index
+        self.ok()
+
+    def ok(self):
+        self.close(self.choices[self.index])
+
+    def cancel(self):
+        self.close(None)
+
+def discoverSkin(fhd, skindir):
+    
+    if fhd:
+        W, H, f = 1920, 1080, 1.0
+    else:
+        W, H, f = 1280, 720, 2.0 / 3.0
+
+    def S(v):
+        return int(round(v * f))
+
+    def lab(name, x, y, w, h, size, color='#FFFFFF', halign='left', z=5,
+            valign='center', shadow=False):
+        extra = ' shadowColor="#000000" shadowOffset="-1,-1"' if shadow else ''
+        return ('<widget name="%s" position="%d,%d" size="%d,%d" '
+                'font="Regular;%d" foregroundColor="%s" halign="%s" '
+                'valign="%s" transparent="1" zPosition="%d"%s/>' % (
+                    name, S(x), S(y), S(w), S(h), S(size), color, halign,
+                    valign, z, extra))
+
+    def pix(name, x, y, w, h, z=1):
+        return ('<widget name="%s" position="%d,%d" size="%d,%d" scale="1" '
+                'alphatest="blend" transparent="1" zPosition="%d"/>' % (
+                    name, S(x), S(y), S(w), S(h), z))
+
+    ROW_Y = 635  
+    geo = {'f': f, 'W': W, 'H': H, 'slots': [], 'sel_dx': -4, 'sel_dy': -4}
+    x = []
+    x.append('<screen name="movieBrowserDiscover" position="center,center" '
+             'size="%d,%d" flags="wfNoBorder" title="  ">' % (W, H))
+    x.append(pix('backdrop', 0, 0, 1920, 1080, z=-5).replace(
+        'size="%d,%d"' % (S(1920), S(1080)), 'size="%d,%d"' % (W, H)))
+    x.append(pix('overlay', 0, 0, 1920, 1080, z=-4))
+    x.append(pix('panel_info', 30, 190, 1860, 445, z=-3))
+    x.append(pix('panel_row', 30, ROW_Y, 1860, 1080 - ROW_Y, z=-3))
+    x.append(lab('head', 60, 30, 1200, 60, 40, '#B0B0B0'))
+    for i in range(4):
+        x.append(lab('cat%d' % i, 60 + i * 340, 105, 340, 60, 40, shadow=True))
+    x.append(lab('counter', 1500, 105, 360, 50, 30, '#B0B0B0', 'right'))
+    x.append(lab('title', 60, 205, 1800, 85, 64))
+    x.append('<widget name="ratingsback" position="%d,%d" size="%d,%d" '
+             'pixmap="%spic/browser/ratings_back.png" alphatest="blend" '
+             'zPosition="5"/>' % (S(60), S(305), S(315), S(32), skindir))
+    x.append('<widget name="ratings" position="%d,%d" size="%d,%d" '
+             'pixmap="%spic/browser/ratings.png" orientation="orHorizontal" '
+             'alphatest="blend" zPosition="6"/>' % (
+                 S(60), S(305), S(315), S(32), skindir))
+    x.append(lab('meta', 400, 299, 1400, 44, 34, '#FFD700', shadow=True))
+    x.append(lab('genres', 60, 350, 1800, 44, 32))
+    x.append(lab('director', 60, 397, 1800, 44, 32))
+    x.append(lab('plot', 60, 450, 1800, 175, 30, '#FFFFFF', 'left', 5, 'top'))
+    x.append('<widget name="plotfull" position="%d,%d" size="%d,%d" '
+             'font="Regular;%d" foregroundColor="#FFFFFF" transparent="1" '
+             'zPosition="30"/>' % (S(60), S(450), S(1800), S(175), S(30)))
+    px, py, pw, ph, dx = 100, ROW_Y, 200, 300, 252
+    for i in range(DISCOVER_VISIBLE):
+        sx = px + i * dx
+        geo['slots'].append((S(sx), S(py)))
+        x.append(pix('pos%d' % i, sx, py, pw, ph, z=1))
+        x.append(lab('pt%d' % i, sx - 20, py + ph + 6, pw + 40, 68, 26,
+                     '#FFFFFF', 'center', 5, 'top'))
+        x.append('<widget name="lib%d" position="%d,%d" size="%d,%d" '
+                 'font="Regular;%d" foregroundColor="#00FF7F" '
+                 'shadowColor="#000000" shadowOffset="-1,-1" '
+                 'halign="center" valign="center" transparent="1" '
+                 'zPosition="6"/>' % (i, S(sx), S(py - 30), S(pw), S(28),
+                                      S(22)))
+    x.append(pix('sel', 0, 0, 208, 308, z=4))
+    x.append(lab('status', 360, 450, 1200, 70, 40, '#FFD700', 'center', 20))
+    x.append(lab('help', 60, 1046, 1150, 32, 24, '#A0A0A0'))
+    x.append(lab('credit', 1000, 1046, 860, 32, 20, '#808080', 'right'))
+    x.append('</screen>')
+    return '\n'.join(x), geo
+
+class movieBrowserDiscover(Screen):
+    tv = False
+    styleNumber = 4
+
+    def __init__(self, session):
+        fhd = screenwidth.width() >= 1920
+        self.skin, self.geo = discoverSkin(fhd, skin_directory)
+        Screen.__init__(self, session)
+        self.categories = [
+            ('popular', _('Popular')),
+            ('top_rated', _('Top Rated')),
+            ('now_playing', _('New Releases')),
+            ('upcoming', _('Upcoming'))]
+        
+        if self.tv:
+            self.categories = [
+                ('popular', _('Popular')),
+                ('top_rated', _('Top Rated')),
+                ('airing_today', _('Airing Today')),
+                ('on_the_air', _('On The Air'))]
+        self.language = config.plugins.moviebrowser.language.value
+        self.cache = {}
+        self.details = {}
+        self.pending = set()
+        self.movies = []
+        self.cat = 0
+        self.sel = 0
+        self.offset = 0
+        self.fullplot = False
+        self.loading = False
+        self.library = {}
+        self._rowkey = None
+        self._backdrop_path = None
+        self.cachefolder = config.plugins.moviebrowser.cachefolder.value
+        self.framePNG = (goldFrameSmallPNG if fileExists(goldFrameSmallPNG)
+                         else goldFramePNG)
+        for name in ('head', 'counter', 'title', 'meta', 'genres', 'director',
+                     'plot', 'status', 'help', 'credit'):
+            self[name] = Label()
+        for i in range(4):
+            self['cat%d' % i] = Label()
+        self['plotfull'] = ScrollLabel()
+        self['plotfull'].hide()
+        self['ratings'] = ProgressBar()
+        self['ratings'].hide()
+        self['ratingsback'] = Pixmap()
+        self['ratingsback'].hide()
+        for name in ('backdrop', 'overlay', 'panel_info', 'panel_row', 'sel'):
+            self[name] = Pixmap()
+        for i in range(DISCOVER_VISIBLE):
+            self['pos%d' % i] = Pixmap()
+            self['pt%d' % i] = Label()
+            self['lib%d' % i] = Label()
+        self['sel'].hide()
+        self['actions'] = ActionMap([
+            'OkCancelActions',
+            'DirectionActions',
+            'ColorActions',
+            'ChannelSelectBaseActions',
+            'InfobarActions',
+            'InfobarEPGActions',
+            'MovieSelectionActions'
+        ], {
+            'ok': self.toggleInfo,
+            'cancel': self.exit,
+            'right': self.right,
+            'left': self.left,
+            'down': self.down,
+            'up': self.up,
+            'nextBouquet': self.nextCategory,
+            'prevBouquet': self.prevCategory,
+            'red': self.switchStyle,
+            'contextMenu': self.openSetup,
+            'showEventInfo': self.toggleInfo,
+            'EPGPressed': self.toggleInfo
+        }, -1)
+        self.detailTimer = eTimer()
+        try:
+            self.detailTimer_conn = self.detailTimer.timeout.connect(
+                self.fetchDetail)
+        except AttributeError:
+            self.detailTimer.callback.append(self.fetchDetail)
+        self.onLayoutFinish.append(self.onLayoutFinished)
+
+    def onLayoutFinished(self):
+        self['head'].setText('MOVIE BROWSER  |  DISCOVER  |  ' + (_('Series') if self.tv else _('Movies')))
+        self['credit'].setText(
+            'This product uses the TMDB API but is not endorsed or '
+            'certified by TMDB.')
+        self['help'].setText(
+            _('Left/Right: Movie') + '   ' + _('Up/Down: Category') +
+            '   ' + _('Red: Style'))
+        for name in ('panel_info', 'panel_row'):
+            if fileExists(infoBackPNG) and self[name].instance:
+                self[name].instance.setScale(1)
+                self[name].instance.setPixmapFromFile(infoBackPNG)
+        if fileExists(self.framePNG) and self['sel'].instance:
+            self['sel'].instance.setScale(1)
+            self['sel'].instance.setPixmapFromFile(self.framePNG)
+        self.showDefaultBackdrop()
+        self.setOverlay()
+        self.loadLibrary()
+        self.setCategory(0)
+
+    def setOverlay(self):
+        mode = config.plugins.moviebrowser.discoveroverlay.value
+        png = skin_directory + 'pic/browser/overlay_%s.png' % mode
+        if mode != 'off' and fileExists(png) and self['overlay'].instance:
+            self['overlay'].instance.setScale(1)
+            self['overlay'].instance.setPixmapFromFile(png)
+            self['overlay'].show()
+        else:
+            self['overlay'].hide()
+
+    def showDefaultBackdrop(self):
+        if fileExists(default_backdrop) and self['backdrop'].instance:
+            self['backdrop'].instance.setScale(1)
+            self['backdrop'].instance.setPixmapFromFile(default_backdrop)
+            self['backdrop'].show()
+
+    def loadLibrary(self):
+        self.library = {}
+        try:
+            if fileExists(DATABASE_PATH):
+                with open(DATABASE_PATH, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        if (':::Series:Top:::' if self.tv else ':::Movie:Top:::') not in line:
+                            continue
+                        parts = line.split(':::')
+                        name = parts[0].strip().lower()
+                        year = parts[8].strip() if len(parts) > 8 else ''
+                        self.library.setdefault(name, set()).add(year)
+        except Exception as e:
+            print('[MovieBrowser] Discover library: ' + str(e))
+
+    def inLibrary(self, item):
+        years = self.library.get(item.get('title', '').strip().lower())
+        if not years:
+            return False
+        if self.tv:
+            return True
+        year = item.get('year', '')
+        return (not year) or (year in years) or ('' in years)
+
+    def paintCategories(self):
+        try:
+            from skin import parseColor
+        except ImportError:
+            parseColor = None
+        for i, (key, text) in enumerate(self.categories):
+            self['cat%d' % i].setText(text)
+            if parseColor is not None and self['cat%d' % i].instance:
+                color = '#FFD700' if i == self.cat else '#FFFFFF'
+                self['cat%d' % i].instance.setForegroundColor(
+                    parseColor(color))
+
+    def saveState(self):
+        key = self.categories[self.cat][0]
+        entry = self.cache.get(key)
+        if entry is not None:
+            entry['sel'] = self.sel
+            entry['offset'] = self.offset
+
+    def setCategory(self, idx):
+        if self.movies:
+            self.saveState()
+        self.cat = idx % len(self.categories)
+        self.fullplot = False
+        self['plotfull'].hide()
+        self.paintCategories()
+        key = self.categories[self.cat][0]
+        entry = self.cache.get(key)
+        self._rowkey = None
+        if entry is not None and entry['items']:
+            self.movies = entry['items']
+            self.sel = entry.get('sel', 0)
+            self.offset = entry.get('offset', 0)
+            self.refresh()
+        else:
+            self.movies = []
+            self.sel = 0
+            self.offset = 0
+            self.clearView()
+            self.setStatus(_('Loading...'))
+            self.fetchList(key, 1)
+
+    def clearView(self):
+        for i in range(DISCOVER_VISIBLE):
+            self['pos%d' % i].hide()
+            self['pt%d' % i].setText('')
+            self['lib%d' % i].hide()
+        self['sel'].hide()
+        for name in ('title', 'meta', 'genres', 'director', 'plot',
+                     'counter'):
+            self[name].setText('')
+        self['ratings'].hide()
+        self['ratingsback'].hide()
+
+    def setStatus(self, text):
+        self['status'].setText(text)
+        if text:
+            self['status'].show()
+        else:
+            self['status'].hide()
+
+    def tmdbRegion(self):
+        try:
+            return config.osd.language.value.split('_')[1].upper()
+        except Exception:
+            return ''
+    
+    def tmdbUrl(self, path, extra=''):
+        return 'https://api.themoviedb.org/3/%s?api_key=%s&language=%s%s' % (
+            path, str(tmdb_api), self.language, extra)
+
+    def parse(self, output):
+        import json
+        if isinstance(output, bytes):
+            output = output.decode('utf-8', 'ignore')
+        return json.loads(output)
+
+    def fetchList(self, key, page):
+        self.loading = True
+        extra = '&page=%d' % page
+        if key in ('upcoming', 'now_playing'):
+            region = self.tmdbRegion()
+            if region:
+                extra += '&region=' + region
+        url = self.tmdbUrl(('tv/' if self.tv else 'movie/') + key, extra)
+
+        def success(output, *args, **kwargs):
+            self.onList(output, key, page)
+
+        def fail(*args, **kwargs):
+            self.onListFail(key)
+
+        callInThread(
+            threadGetPage,
+            url=url,
+            file=None,
+            key=None,
+            success=success,
+            fail=fail,
+            custom_headers=agents_json)
+
+    def onListFail(self, key):
+        self.loading = False
+        if key == self.categories[self.cat][0] and not self.movies:
+            self.setStatus(_('TMDb API Server is not reachable.'))
+
+    def onList(self, output, key, page):
+        self.loading = False
+        try:
+            data = self.parse(output)
+            entry = self.cache.setdefault(
+                key, {'items': [], 'page': 0, 'total': 1, 'sel': 0,
+                      'offset': 0})
+            if page <= entry['page']:
+                return
+            for r in data.get('results', []):
+                title = (r.get('name') or r.get('original_name') if self.tv else r.get('title') or r.get('original_title')) or ''
+                date = (r.get('first_air_date') if self.tv else r.get('release_date')) or ''
+                entry['items'].append({
+                    'id': r.get('id'),
+                    'title': title,
+                    'year': date[:4],
+                    'rating': r.get('vote_average') or 0,
+                    'overview': (r.get('overview') or '').replace(
+                        '\r', '').replace('\n', ' '),
+                    'poster_path': r.get('poster_path'),
+                    'backdrop_path': r.get('backdrop_path')})
+            entry['page'] = page
+            entry['total'] = data.get('total_pages', 1) or 1
+            if key == self.categories[self.cat][0]:
+                first = not self.movies
+                self.movies = entry['items']
+                if first:
+                    self.setStatus('')
+                    if not self.movies:
+                        self.setStatus(_('No results'))
+                        return
+                    self.refresh()
+                else:
+                    self._rowkey = None
+                    self.paintRow()
+                    self.paintCounter()
+        except Exception as e:
+            print('[MovieBrowser] Discover onList: ' + str(e))
+            if not self.movies:
+                self.setStatus(_('TMDb API Server is not reachable.'))
+
+    def maybeLoadMore(self):
+        key = self.categories[self.cat][0]
+        entry = self.cache.get(key)
+        if entry is None or self.loading:
+            return
+        if (self.sel >= len(self.movies) - 4 and
+                entry['page'] < entry['total'] and entry['page'] < 25):
+            self.fetchList(key, entry['page'] + 1)
+
+    def current(self):
+        try:
+            return self.movies[self.sel]
+        except IndexError:
+            return None
+
+    def shortTitle(self, title, limit=32):
+        
+        if len(title) <= limit:
+            return title
+        cut = title[:limit - 3]
+        if ' ' in cut:
+            cut = cut[:cut.rfind(' ')]
+        return cut.rstrip(' :-,') + '...'
+
+    def cacheFile(self, path):
+        return self.cachefolder + '/' + path.split('/')[-1]
+
+    def refresh(self):
+        if not self.movies:
+            return
+        if self.sel < self.offset:
+            self.offset = self.sel
+        if self.sel > self.offset + DISCOVER_VISIBLE - 1:
+            self.offset = self.sel - DISCOVER_VISIBLE + 1
+        self.paintRow()
+        self.paintSelection()
+        self.paintCounter()
+        self.paintInfo()
+        self.showBackdrop()
+        self.maybeLoadMore()
+        self.detailTimer.start(350, True)
+
+    def paintCounter(self):
+        self['counter'].setText('%d/%d' % (self.sel + 1, len(self.movies)))
+
+    def paintSelection(self):
+        slot = self.sel - self.offset
+        if 0 <= slot < DISCOVER_VISIBLE and self['sel'].instance:
+            sx, sy = self.geo['slots'][slot]
+            f = self.geo['f']
+            self['sel'].instance.move(ePoint(
+                sx + int(round(self.geo['sel_dx'] * f)),
+                sy + int(round(self.geo['sel_dy'] * f))))
+            if fileExists(self.framePNG):
+                self['sel'].show()
+
+    def paintRow(self):
+        key = (self.offset, len(self.movies))
+        if key == self._rowkey:
+            return
+        self._rowkey = key
+        for slot in range(DISCOVER_VISIBLE):
+            idx = self.offset + slot
+            if idx >= len(self.movies):
+                self['pos%d' % slot].hide()
+                self['pt%d' % slot].setText('')
+                self['lib%d' % slot].hide()
+                continue
+            item = self.movies[idx]
+            self['pt%d' % slot].setText(self.shortTitle(item['title']))
+            if self.inLibrary(item):
+                self['lib%d' % slot].setText(_('In library'))
+                self['lib%d' % slot].show()
+            else:
+                self['lib%d' % slot].hide()
+            self.setPoster(slot, item)
+
+    def setPoster(self, slot, item):
+        pixmap = self['pos%d' % slot]
+        if not pixmap.instance:
+            return
+        path = item.get('poster_path')
+        target = default_poster
+        if path:
+            cached = self.cacheFile(path)
+            if fileExists(cached) and getsize(cached) > 0:
+                target = cached
+            else:
+                self.download('https://image.tmdb.org/t/p/w185' + path, cached)
+        if fileExists(target):
+            pixmap.instance.setScale(1)
+            pixmap.instance.setPixmapFromFile(target)
+            pixmap.show()
+
+    def paintInfo(self):
+        item = self.current()
+        if item is None:
+            return
+        detail = self.details.get(item['id'], {})
+        self['title'].setText(item['title'])
+        try:
+            rating = int(10 * round(float(item['rating']), 1))
+        except (ValueError, TypeError):
+            rating = 0
+        self['ratings'].setValue(rating)
+        self['ratings'].show()
+        self['ratingsback'].show()
+        meta = [item['year']]
+        if detail.get('seasons'):
+            meta.append(_('Seasons: %s') % detail['seasons'])
+        if detail.get('runtime'):
+            meta.append(_('%s min') % detail['runtime'])
+        self['meta'].setText('  |  '.join(m for m in meta if m))
+        if detail.get('genres'):
+            self['genres'].setText(_('Genres:') + ' ' + detail['genres'])
+        else:
+            self['genres'].setText('')
+        if detail.get('director'):
+            self['director'].setText((_('Creator:') if self.tv else _('Director:')) + ' ' + detail['director'])
+        else:
+            self['director'].setText('')
+        self['plot'].setText(item['overview'])
+        if self.fullplot:
+            self['plotfull'].setText(item['overview'])
+
+    def download(self, url, path):
+        if path in self.pending:
+            return
+        self.pending.add(path)
+
+        def success(output, *args, **kwargs):
+            self.onImage(output, path)
+
+        def fail(*args, **kwargs):
+            self.pending.discard(path)
+
+        callInThread(
+            threadGetPage,
+            url=url,
+            file=path,
+            key=None,
+            success=success,
+            fail=fail,
+            custom_headers=agents_json)
+
+    def onImage(self, output, path):
+        self.pending.discard(path)
+        try:
+            if not output:
+                return
+            with open(path, 'wb') as f:
+                f.write(output)
+        except Exception as e:
+            print('[MovieBrowser] Discover onImage: ' + str(e))
+            return
+        self._rowkey = None
+        self.paintRow()
+        if path == self._backdrop_path:
+            self.applyBackdrop(path)
+
+    def showBackdrop(self):
+        item = self.current()
+        if item is None or not item.get('backdrop_path'):
+            self._backdrop_path = None
+            self.showDefaultBackdrop()
+            return
+        path = self.cacheFile(item['backdrop_path'])
+        self._backdrop_path = path
+        if fileExists(path) and getsize(path) > 0:
+            self.applyBackdrop(path)
+        else:
+            self.download(
+                'https://image.tmdb.org/t/p/w1280' + item['backdrop_path'],
+                path)
+
+    def applyBackdrop(self, path):
+        if fileExists(path) and self['backdrop'].instance:
+            self['backdrop'].instance.setScale(1)
+            self['backdrop'].instance.setPixmapFromFile(path)
+            self['backdrop'].show()
+
+    def fetchDetail(self):
+        item = self.current()
+        if item is None or item['id'] in self.details:
+            return
+        mid = item['id']
+        url = self.tmdbUrl(('tv/%s' if self.tv else 'movie/%s') % mid, '&append_to_response=credits')
+
+        def success(output, *args, **kwargs):
+            self.onDetail(output, mid)
+
+        def fail(*args, **kwargs):
+            pass
+
+        callInThread(
+            threadGetPage,
+            url=url,
+            file=None,
+            key=None,
+            success=success,
+            fail=fail,
+            custom_headers=agents_json)
+
+    def onDetail(self, output, mid):
+        try:
+            data = self.parse(output)
+            crew = (data.get('credits') or {}).get('crew', [])
+            directors = [c.get('name', '') for c in crew
+                         if c.get('job') == 'Director']
+            runtime = data.get('runtime') or ''
+            seasons = ''
+            if self.tv:
+                directors = [c.get('name', '') for c in data.get('created_by', [])]
+                times = data.get('episode_run_time') or []
+                runtime = (times[0] if times else '') or (data.get('last_episode_to_air') or {}).get('runtime') or ''
+                seasons = data.get('number_of_seasons') or ''
+            self.details[mid] = {
+                'runtime': runtime,
+                'seasons': seasons,
+                'genres': ', '.join(
+                    g.get('name', '') for g in data.get('genres', [])),
+                'director': ', '.join(d for d in directors if d)}
+            item = self.current()
+            if item is not None and item['id'] == mid:
+                self.paintInfo()
+        except Exception as e:
+            print('[MovieBrowser] Discover onDetail: ' + str(e))
+
+    def right(self):
+        if not self.movies:
+            return
+        if self.sel < len(self.movies) - 1:
+            self.sel += 1
+        else:
+            key = self.categories[self.cat][0]
+            entry = self.cache.get(key)
+            if entry is not None and entry['page'] < entry['total']:
+                self.maybeLoadMore()
+                return
+            self.sel = 0
+        self.refresh()
+
+    def left(self):
+        if not self.movies:
+            return
+        self.sel = self.sel - 1 if self.sel > 0 else len(self.movies) - 1
+        self.refresh()
+
+    def up(self):
+        if self.fullplot:
+            self['plotfull'].pageUp()
+        else:
+            self.prevCategory()
+
+    def down(self):
+        if self.fullplot:
+            self['plotfull'].pageDown()
+        else:
+            self.nextCategory()
+
+    def nextCategory(self):
+        if not self.fullplot:
+            self.setCategory(self.cat + 1)
+
+    def prevCategory(self):
+        if not self.fullplot:
+            self.setCategory(self.cat - 1)
+
+    def toggleInfo(self):
+        
+        import time
+        now = time.time()
+        if now - getattr(self, '_lastToggle', 0) < 0.6:
+            return
+        self._lastToggle = now
+        if self.current() is None:
+            return
+        if not self.fullplot and len(self.current()['overview']) < 330:
+            return
+        self.fullplot = not self.fullplot
+        if self.fullplot:
+            self['plot'].hide()
+            self['plotfull'].setText(self.current()['overview'])
+            self['plotfull'].show()
+        else:
+            self['plotfull'].hide()
+            self['plot'].show()
+
+    def openSetup(self):
+        self.session.openWithCallback(self.setupClosed, movieBrowserConfig)
+
+    def setupClosed(self, result=None):
+        self.setOverlay()
+        self.cachefolder = config.plugins.moviebrowser.cachefolder.value
+        if self.language != config.plugins.moviebrowser.language.value:
+            self.language = config.plugins.moviebrowser.language.value
+            self.cache = {}
+            self.details = {}
+            self.setCategory(self.cat)
+    
+    def switchStyle(self):
+        self.session.openWithCallback(
+            self.styleChosen,
+            StyleMenu,
+            title=_('Select style'),
+            list=[c for c in styleChoices() if c[1] != self.styleNumber])
+
+    def styleChosen(self, choice):
+        if choice:
+            self.close(choice[1])
+
+    def exit(self):
+        if self.fullplot:
+            self.fullplot = False
+            self['plotfull'].hide()
+            self['plot'].show()
+        else:
+            self.close(None)
+
+class movieBrowserDiscoverSeries(movieBrowserDiscover):
+    tv = True
+    styleNumber = 5
+
 class UpdateDatabase():
 
     def __init__(self, renew, name, movie, date):
@@ -9880,11 +10625,7 @@ class UpdateDatabase():
             self.name = self.namelist[0]
             # Get current language
             current_language = config.plugins.moviebrowser.language.value
-            print(
-                "[DEBUG] File: " +
-                self.name +
-                " | Lang: " +
-                current_language)
+            print("[DEBUG] File: " + self.name + " | Lang: " + current_language)
 
             # Check if it's a TV series
             is_series = self.isTVSeries(self.name)
@@ -9982,16 +10723,14 @@ class UpdateDatabase():
             'it': [  # Italian
                 r'stagione[ ._-]*[0-9]+',     # stagione 1
                 r'episodio[ ._-]*[0-9]+',     # episodio 8
-                # stagione 1 - episodio 8
-                r'stagione[ ._-]*[0-9]+[ ._-]*[-–—][ ._-]*episodio[ ._-]*[0-9]+',
+                r'stagione[ ._-]*[0-9]+[ ._-]*[-–—][ ._-]*episodio[ ._-]*[0-9]+',  # stagione 1 - episodio 8
                 r'parte[ ._-]*[0-9]+',        # parte 1
                 r'puntata[ ._-]*[0-9]+',      # puntata 1
             ],
             'en': [  # English
                 r'season[ ._-]*[0-9]+',       # season 1
                 r'episode[ ._-]*[0-9]+',      # episode 8
-                # season 1 - episode 8
-                r'season[ ._-]*[0-9]+[ ._-]*[-–—][ ._-]*episode[ ._-]*[0-9]+',
+                r'season[ ._-]*[0-9]+[ ._-]*[-–—][ ._-]*episode[ ._-]*[0-9]+',     # season 1 - episode 8
                 r'part[ ._-]*[0-9]+',         # part 1
             ],
             'de': [  # German
@@ -10016,8 +10755,7 @@ class UpdateDatabase():
         if lang in language_patterns:
             for pattern in language_patterns[lang]:
                 if re.search(pattern, filename_lower):
-                    print(
-                        "[DEBUG] Language-specific pattern (" + lang + "): " + pattern)
+                    print("[DEBUG] Language-specific pattern (" + lang + "): " + pattern)
 
                     # SPECIAL CASE: "Parte X" might be a film
                     if 'parte' in pattern or 'part' in pattern:
@@ -10033,8 +10771,7 @@ class UpdateDatabase():
 
                         for film_ind in film_indicators:
                             if film_ind in filename_lower:
-                                print(
-                                    "[DEBUG] 'Parte X' but has film indicator: " + film_ind)
+                                print("[DEBUG] 'Parte X' but has film indicator: " + film_ind)
                                 return False
 
                     return True
@@ -10056,13 +10793,8 @@ class UpdateDatabase():
             # Check if this was supposed to be a series
             if hasattr(self, 'newseries') and self.newseries:
                 # It's a series entry
-                self.posterlist.append(
-                    str(default_poster) +
-                    '<episode>' +
-                    str(default_banner) +
-                    '<episode>')
-                self.contentlist.append(
-                    'Series:Top' if self.newseries else 'Series')
+                self.posterlist.append(str(default_poster) + '<episode>' + str(default_banner) + '<episode>')
+                self.contentlist.append('Series:Top' if self.newseries else 'Series')
             else:
                 # It's a movie entry
                 self.posterlist.append(str(default_poster))
@@ -10080,16 +10812,12 @@ class UpdateDatabase():
         try:
             import json
             self.tmdbCount += 1
-
+            
             print("[DEBUG] Fetching TMDB URL:", str(url))
-
+            
             output = fetch_url(url)
-            print(
-                "[DEBUG] fetch_url returned:",
-                type(output),
-                "length:",
-                len(output) if output else 0)
-
+            print("[DEBUG] fetch_url returned:", type(output), "length:", len(output) if output else 0)
+            
             if output is None:
                 print("[DEBUG] Failed to fetch URL")
                 return None
@@ -10106,8 +10834,7 @@ class UpdateDatabase():
                 output = output.encode('utf-8', 'ignore')
 
             # DEBUG: print first 500 chars to see what TMDB returns
-            print("[DEBUG] TMDB response (first 500 chars): " +
-                  str(output[:500]))  # ← str()
+            print("[DEBUG] TMDB response (first 500 chars): " + str(output[:500]))  # ← str()
 
             # Check if we got results
             if search('"total_results":0', output) is not None:
@@ -10125,8 +10852,7 @@ class UpdateDatabase():
                 series_name = sub(r'[Ee][Pp]?[0-9]+.*', '', series_name)
 
                 # Further cleaning
-                series_name = clean_for_search(
-                    series_name, search_type='series')
+                series_name = clean_for_search(series_name, search_type='series')
                 series_name = transSERIES(series_name)
 
                 if series_name.strip():  # If name is not empty
@@ -10136,9 +10862,7 @@ class UpdateDatabase():
                     encoded_series = quote(series_name)
                     url_tvdb = "https://www.thetvdb.com/api/GetSeries.php?seriesname=%s%s" % (
                         encoded_series, self.language)
-                    print(
-                        "[DEBUG] Fallback to TVDB: " +
-                        str(url_tvdb))  # ← str()
+                    print("[DEBUG] Fallback to TVDB: " + str(url_tvdb))  # ← str()
 
                     # Try TVDB
                     self.getTVDbData(url_tvdb, "0")
@@ -10193,13 +10917,11 @@ class UpdateDatabase():
 
                 # Extract genres
                 genres_list = movie_data.get('genres', [])
-                genres = ', '.join([g.get('name', '')
-                                   for g in genres_list]) if genres_list else ' '
+                genres = ', '.join([g.get('name', '') for g in genres_list]) if genres_list else ' '
 
                 # Extract country
                 countries_list = movie_data.get('production_countries', [])
-                country = countries_list[0].get(
-                    'iso_3166_1', '') if countries_list else ' '
+                country = countries_list[0].get('iso_3166_1', '') if countries_list else ' '
 
                 # Extract year
                 year = release_date.split('-')[0] if release_date else ' '
@@ -10230,43 +10952,28 @@ class UpdateDatabase():
 
                 # Poster and backdrop
                 if poster_path:
-                    self.posterlist.append(
-                        'https://image.tmdb.org/t/p/w185' + poster_path)
+                    self.posterlist.append('https://image.tmdb.org/t/p/w185' + poster_path)
                 else:
                     self.posterlist.append(str(default_poster))
 
                 if backdrop_path:
-                    self.backdroplist.append(
-                        'https://image.tmdb.org/t/p/w1280' + backdrop_path)
+                    self.backdroplist.append('https://image.tmdb.org/t/p/w1280' + backdrop_path)
                 else:
                     self.backdroplist.append(str(default_backdrop))
 
                 # Build result list
                 res = []
-                res.append(
-                    str(runtime) +
-                    ' min' if runtime and runtime > 0 else ' ')
-                res.append(
-                    str(vote_average) if vote_average and vote_average > 0 else '0.0')
+                res.append(str(runtime) + ' min' if runtime and runtime > 0 else ' ')
+                res.append(str(vote_average) if vote_average and vote_average > 0 else '0.0')
                 res.append(director_string if director_string else ' ')
                 res.append(actors_string if actors_string else ' ')
-                res.append(
-                    genres.replace(
-                        'Science Fiction',
-                        'Sci-Fi') if genres else ' ')
+                res.append(genres.replace('Science Fiction', 'Sci-Fi') if genres else ' ')
                 res.append(year if year else ' ')
                 res.append(country.replace('US', 'USA') if country else ' ')
 
                 # Add to final lists
                 self.infolist.append(res)
-                self.plotlist.append(
-                    overview.replace(
-                        '\r',
-                        '').replace(
-                        '\n',
-                        ' ').replace(
-                        '\\',
-                        ''))
+                self.plotlist.append(overview.replace('\r', '').replace('\n', ' ').replace('\\', ''))
 
                 print("[DEBUG] Successfully processed movie: " + title)
 
@@ -10363,9 +11070,7 @@ class UpdateDatabase():
         ]
 
         for pattern in episode_patterns:
-            if search(
-                    pattern,
-                    self.name) is not None and self.newseries is False:
+            if search(pattern, self.name) is not None and self.newseries is False:
                 match = search(pattern, self.name)
                 if match:
                     data = match.group(0)  # Get the matched pattern
@@ -10377,15 +11082,13 @@ class UpdateDatabase():
             # Try to extract season number for SxxExx format
             if search(r'[Ss][0-9]+', data):
                 season_match = search(r'[Ss]([0-9]+)', data)
-                season = season_match.group(1).lstrip(
-                    '0') if season_match else '0'
+                season = season_match.group(1).lstrip('0') if season_match else '0'
                 if season == '':
                     season = '0'
 
                 # Try to extract episode number
                 episode_match = search(r'[Ee]([0-9]+)', data)
-                episode = episode_match.group(1).lstrip(
-                    '0') if episode_match else '0'
+                episode = episode_match.group(1).lstrip('0') if episode_match else '0'
 
             # # For "Parte X" format, treat as specials (season 0)
             elif search(r'[Pp]arte[ ._-]*[0-9]+', data):
@@ -10397,8 +11100,7 @@ class UpdateDatabase():
             elif search(r'[Pp]arte\s*[0-9]+', self.name) and self.newseries is False:
                 match = search(r'[Pp]arte\s*([0-9]+)', self.name)
                 if match:
-                    # Convert to S00EXX format
-                    data = "S00E" + match.group(1).zfill(2)
+                    data = "S00E" + match.group(1).zfill(2)  # Convert to S00EXX format
                     print("[DEBUG] Converted 'Parte' to: " + data)
 
             # For Italian "Episodio X" without season
@@ -10754,22 +11456,18 @@ class UpdateDatabase():
                                 makedirs(cache_dir)
                             except OSError as e:
                                 if not exists(cache_dir):
-                                    print(
-                                        "Failed to create cache folder:", str(e))
+                                    print("Failed to create cache folder:", str(e))
 
                         if not fileExists(cache_path):
                             output = None
                             try:
-                                if url.startswith(
-                                        "http://") or url.startswith("https://"):
-                                    # ← Usa fetch_url_bytes per immagini
-                                    output = fetch_url_bytes(url)
+                                if url.startswith("http://") or url.startswith("https://"):
+                                    output = fetch_url_bytes(url)  # ← Usa fetch_url_bytes per immagini
                                 elif exists(url):
                                     with open(url, "rb") as f:
                                         output = f.read()
                                 else:
-                                    print(
-                                        "Invalid backdrop path or URL:", str(url))
+                                    print("Invalid backdrop path or URL:", str(url))
                                     output = None
                             except Exception as e:
                                 print("Error fetching backdrop:", str(e))
@@ -10780,8 +11478,7 @@ class UpdateDatabase():
                                     with open(cache_path, "wb") as imgfile:
                                         imgfile.write(output)
                                 except Exception as e:
-                                    print(
-                                        "Error while saving backdrop:", str(e))
+                                    print("Error while saving backdrop:", str(e))
 
             except IndexError:
                 pass
@@ -10882,11 +11579,7 @@ class UpdateDatabase():
                     try:
                         self.getTVDbData(url, '0')
                     except RuntimeError:
-                        return (
-                            1,
-                            self.orphaned,
-                            self.moviecount,
-                            self.seriescount)
+                        return (1, self.orphaned, self.moviecount, self.seriescount)
 
                 else:
                     movie = transMOVIE(name_str)
@@ -10910,11 +11603,7 @@ class UpdateDatabase():
                     try:
                         self.getTMDbData(url, '0', False)
                     except RuntimeError:
-                        return (
-                            1,
-                            self.orphaned,
-                            self.moviecount,
-                            self.seriescount)
+                        return (1, self.orphaned, self.moviecount, self.seriescount)
 
             except IndexError:
                 self.results = (
@@ -11947,11 +12636,7 @@ class moviesList(Screen):
         self.id = id
         self.country = country
 
-        print(
-            "[moviesList.__init__] Received: movie=" +
-            str(movie) +
-            ", top=" +
-            str(top))
+        print("[moviesList.__init__] Received: movie=" + str(movie) + ", top=" + str(top))
         self.movie = movie
         self.top = top
         self.choice = 'movie'
@@ -12058,8 +12743,7 @@ class moviesList(Screen):
 
         self.startup_timer = eTimer()
         try:
-            self.startup_timer_conn = self.startup_timer.timeout.connect(
-                self.showInitialBanner)
+            self.startup_timer_conn = self.startup_timer.timeout.connect(self.showInitialBanner)
         except BaseException:
             self.startup_timer.callback.append(self.showInitialBanner)
         self.startup_timer.start(1000)
@@ -12312,13 +12996,11 @@ class moviesList(Screen):
             if self.first is True:
                 # DEBUG: show what we have
                 print("[DEBUG moviesList.ok] Showing ALL options")
-                print("[DEBUG] Parameters: movie=" +
-                      str(self.movie) + ", top=" + str(self.top))
+                print("[DEBUG] Parameters: movie=" + str(self.movie) + ", top=" + str(self.top))
 
                 if self.id and len(self.id) > 0:
                     print("[DEBUG] First ID: " + str(self.id[0]))
-                    print("[DEBUG] Is numeric ID: " +
-                          str(self.id[0].isdigit()))
+                    print("[DEBUG] Is numeric ID: " + str(self.id[0].isdigit()))
 
                 # ALWAYS SHOW ALL OPTIONS
                 # User decides what to update
@@ -12336,11 +13018,9 @@ class moviesList(Screen):
                 if self.id and len(self.id) > 0:
                     first_id = str(self.id[0])
                     if first_id.isdigit() and len(first_id) >= 4:
-                        title = _('Update Movie/Series') + \
-                            " (TMDb ID: " + first_id + ")"
+                        title = _('Update Movie/Series') + " (TMDb ID: " + first_id + ")"
                     else:
-                        title = _('Update Movie/Series') + \
-                            " (TVDb ID: " + first_id + ")"
+                        title = _('Update Movie/Series') + " (TVDb ID: " + first_id + ")"
 
                 self.session.openWithCallback(
                     self.smartUpdate,
@@ -12820,10 +13500,7 @@ class moviesList(Screen):
         url = 'https://www.thetvdb.com/api/' + \
             thetvdb_api_str + '/series/' + str(series_id) + '/banners.xml'
 
-        print(
-            "[DEBUG] === FETCH BANNERS for series " +
-            str(series_id) +
-            " ===")
+        print("[DEBUG] === FETCH BANNERS for series " + str(series_id) + " ===")
 
         output = fetch_url(url)
         if output is None:
@@ -12841,24 +13518,18 @@ class moviesList(Screen):
         for section in banner_sections:
             if '<BannerPath>' in section and '<BannerType2>' in section:
                 # Extract BannerPath
-                banner_path_start = section.find(
-                    '<BannerPath>') + len('<BannerPath>')
-                banner_path_end = section.find(
-                    '</BannerPath>', banner_path_start)
+                banner_path_start = section.find('<BannerPath>') + len('<BannerPath>')
+                banner_path_end = section.find('</BannerPath>', banner_path_start)
 
                 # Extract BannerType2 (size)
-                banner_type2_start = section.find(
-                    '<BannerType2>') + len('<BannerType2>')
-                banner_type2_end = section.find(
-                    '</BannerType2>', banner_type2_start)
+                banner_type2_start = section.find('<BannerType2>') + len('<BannerType2>')
+                banner_type2_end = section.find('</BannerType2>', banner_type2_start)
 
                 if banner_path_start > 0 and banner_path_end > 0:
-                    banner_path = section[banner_path_start:banner_path_end].strip(
-                    )
+                    banner_path = section[banner_path_start:banner_path_end].strip()
 
                     if banner_type2_start > 0 and banner_type2_end > 0:
-                        banner_type2 = section[banner_type2_start:banner_type2_end].strip(
-                        )
+                        banner_type2 = section[banner_type2_start:banner_type2_end].strip()
 
                         # Check if horizontal (e.g., 1920x1080)
                         if 'x' in banner_type2:
@@ -12880,14 +13551,11 @@ class moviesList(Screen):
         if not banners:
             for section in banner_sections:
                 if '<BannerPath>' in section:
-                    banner_path_start = section.find(
-                        '<BannerPath>') + len('<BannerPath>')
-                    banner_path_end = section.find(
-                        '</BannerPath>', banner_path_start)
+                    banner_path_start = section.find('<BannerPath>') + len('<BannerPath>')
+                    banner_path_end = section.find('</BannerPath>', banner_path_start)
 
                     if banner_path_start > 0 and banner_path_end > 0:
-                        banner_path = section[banner_path_start:banner_path_end].strip(
-                        )
+                        banner_path = section[banner_path_start:banner_path_end].strip()
 
                         # Look for paths containing "fanart/"
                         if 'fanart/' in banner_path.lower():
@@ -13800,7 +14468,7 @@ class helpScreen(Screen):
 
     def homecontext(self):
         lines = [
-            _('Manage your Movies & Series V.%s') % str(version),
+            _('Manage your Movies & Series V.%s') % str(__version__),
             _('Help'),
             _('Toggle Plugin Style'),
             _('Toggle hide/show plugin'),
@@ -13812,7 +14480,6 @@ class helpScreen(Screen):
             _('<- -> Button: Go to first letter'),
             _('Button 1: CutListEditor/MovieCut/LogView'),
             _('Button 2: Renew infos on TMDb'),
-            _('Button 3: Renew infos on TheTVDb'),
             _('Button 4: Hide/show seen movies'),
             _('Button 5: Toggle Movies/Series view'),
             _('Button 6: Movie Folder Selection'),
@@ -13823,8 +14490,20 @@ class helpScreen(Screen):
         ]
         return "\n".join(line for line in lines)
 
+_update_asked = [False]
 
+def checkOnOpen(sess):
+    if _update_asked[0]:
+        return
+    _update_asked[0] = True
+    try:
+        from .updater import PluginUpdater
+        PluginUpdater(sess, __version__, 'open').start()
+    except Exception:
+        pass
+    
 def main(session, **kwargs):
+    checkOnOpen(session)
     if config.plugins.moviebrowser.filter.value == ':::Movie:Top:::':
         number = 1
     elif config.plugins.moviebrowser.filter.value == ':::Series:Top:::':
@@ -13873,6 +14552,7 @@ def main(session, **kwargs):
 
 
 def mainInfoBar(session, **kwargs):
+    checkOnOpen(infobarsession)
     if config.plugins.moviebrowser.filter.value == ':::Movie:Top:::':
         number = 1
     elif config.plugins.moviebrowser.filter.value == ':::Series:Top:::':
@@ -13985,10 +14665,13 @@ def autostart(reason, **kwargs):
             f.write(info)
     return
 
+def checkUpdate(session, **kwargs):
+    from .updater import PluginUpdater
+    PluginUpdater(session, __version__).start()
 
 def Plugins(**kwargs):
     from Plugins.Plugin import PluginDescriptor
-    plugindesc = _("Manage your Movies & Series V.%s" % str(version))
+    plugindesc = _("Manage your Movies & Series V.%s") % str(__version__)
     pluginname = "Movie Browser"
     plugin_list = [
         PluginDescriptor(
@@ -14006,4 +14689,12 @@ def Plugins(**kwargs):
                 where=[
                     PluginDescriptor.WHERE_MENU],
                 fnc=menu))
+    plugin_list.append(
+        PluginDescriptor(
+            name="Movie Browser - Update",
+            description=_("Check for plugin update"),
+            where=[PluginDescriptor.WHERE_EXTENSIONSMENU],
+            fnc=checkUpdate))
     return plugin_list
+    
+    

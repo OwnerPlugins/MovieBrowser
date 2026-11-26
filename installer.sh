@@ -1,8 +1,9 @@
 #!/bin/bash
 
-version='4.2'
+version='4.3'
 changelog = (
     "\nFixes (Nov 2026 - Caught):"
+    "\nupdate screen xml"
     "\nlibrary.py: series info and covers now come from TMDb (TheTVDb API is gone)"
     "\nLibrary Scan: Fixed filename recognition, so movies aren't re-added as duplicates on every scan."
     "\nTMDb Search: Fixed a title-filtering bug that cut off movie names after the first word."

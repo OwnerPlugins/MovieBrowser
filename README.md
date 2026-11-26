@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Belfagor2005/MovieBrowser">
-    <img src="https://img.shields.io/badge/Version-4.2-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-4.3-blue.svg" alt="Version">
   </a>
 
   <a href="https://www.enigma2.net">
@@ -80,8 +80,9 @@
 - [🐛 Troubleshooting](#-troubleshooting)
 - [📁 Project Structure](#-project-structure)
 - [🔑 API Keys Setup](#-api-keys-setup)
+- [📜 Changelog v4.3](#-changelog-v43)
 - [📜 Changelog v4.2](#-changelog-v42)
-- [📜 Changelog v4.0](#-changelog-v40)
+- [📜 Development History](#-development-history)
 - [🤝 Contributing](#-contributing)
 
 ---
@@ -103,7 +104,7 @@
 
 ### 🔄 **Media Integration**
 - **TMDb API v3** integration for movie and series metadata and covers
-- **TheTVDB** no longer used (its API is gone): series info now comes from TMDb
+- **TMDb-only metadata** for movies and TV series; TheTVDb integration has been removed
 - **Smart image caching** system
 - **Automatic backdrop and poster downloading**
 
@@ -119,7 +120,7 @@
 | **← →** | First Letter | Jump to alphabetical section |
 | **1** | Cut Editor | Open CutListEditor/MovieCut |
 | **2** | TMDb Update | Refresh metadata from TMDb |
-| **3** | TheTVDB Update | Refresh from TheTVDB |
+| **3** | Reserved | No function assigned |
 | **4** | Hide Seen | Toggle watched movies visibility |
 | **5** | View Toggle | Switch Movies/Series view |
 | **6** | Folder Select | Movie folder selection |
@@ -205,29 +206,16 @@ Create your own skin by duplicating an existing one and modifying:
 
 ## 🔧 API Integration
 
-### **Library Structure**
-The API management is handled in `library.py`:
+### **TMDb Integration**
+MovieBrowser uses TMDb for movie and TV series metadata, including:
+- Movie and series details
+- Posters, backdrops and banners
+- Search and Discover results
 
-```python
-# API Configuration in library.py
-tmdb_api = "your_tmdb_api_key"        # TMDb v3 API
-thetvdb_api = "your_thetvdb_api_key"  # TheTVDB v4 API
-
-# URL Patterns
-TMDB_POSTER_URL = "https://image.tmdb.org/t/p/w185"
-THEMOVIEDB_URL = "https://api.themoviedb.org/3"
-THETVDB_V4_URL = "https://artworks.thetvdb.com/banners/v4/"
-```
-
-### **Automatic URL Conversion**
-The plugin handles URL conversion between legacy and v4 formats:
-```python
-# Legacy format → v4 format conversion
-"fanart/original/12345-1.jpg" → "https://artworks.thetvdb.com/banners/fanart/original/12345-1.jpg"
-"v4/series/12345/posters/abc.jpg" → "https://artworks.thetvdb.com/banners/v4/series/12345/posters/abc.jpg"
-```
+TheTVDb integration and its leftover code have been removed. Configure your TMDb API key in the plugin's settings or in the relevant configuration location used by your installation.
 
 ---
+
 
 ## 🐛 Troubleshooting
 
@@ -269,9 +257,9 @@ sqlite3 ~/.moviebrowser/moviebrowser.db "VACUUM; REINDEX;"
 
 ```
 MovieBrowser/
-├── plugin.py              # Main plugin entry point (522KB)
-├── library.py             # API keys and URL management (12KB)
-├── movie_config.py        # Configuration handling (91KB)
+├── plugin.py              # Main plugin entry point
+├── library.py             # TMDb API integration
+├── movie_config.py        # Configuration handling
 ├── __init__.py            # Package initialization
 │
 ├── db/                    # Database files
@@ -305,75 +293,107 @@ MovieBrowser/
 
 ## 🔑 API Keys Setup
 
-### **1. Get Your API Keys**
-- **TMDb**: [https://www.themoviedb.org/settings/api](https://www.themoviedb.org/settings/api)
-- **TheTVDB**: [https://thetvdb.com/dashboard](https://thetvdb.com/dashboard)
+### **1. Get Your TMDb API Key**
+- **TMDb:** https://www.themoviedb.org/settings/api
 
-### **2. Configure API Keys**
-Edit `/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/library.py`:
-
-```python
-# Replace with your actual keys
-tmdb_api = "YOUR_TMDB_API_KEY_HERE"
-thetvdb_api = "YOUR_THETVDB_API_KEY_HERE"
-```
+### **2. Configure the API Key**
+Follow the plugin configuration and enter your TMDb API key where requested. Do not publish your personal API key in screenshots, logs or public commits.
 
 ### **3. Test API Connectivity**
 ```bash
-# Test TMDb API
 curl "https://api.themoviedb.org/3/movie/550?api_key=YOUR_TMDB_API_KEY"
-
-# Test TheTVDB API
-curl "https://api4.thetvdb.com/v4/series/80379"
 ```
+
+---
+
+
+## 📜 Changelog v4.3
+
+### **Added**
+- Added TMDb Discover integration for movies and TV series.
+- Added automatic update functionality.
+- Added additional language support.
+- Added optional background overlay for Discover screens:
+  - Off
+  - Light
+  - Medium
+  - Dark
+
+### **Improved**
+- Improved visual text presentation.
+- Cleaned up the codebase and removed remaining TheTVDb references.
+
+### **Fixed**
+- Fixed database reset functionality.
 
 ---
 
 ## 📜 Changelog v4.2
 
-### **Fixes Caught (Nov 2026)**
-- ✅ **library.py**: series info and covers now come from TMDb (TheTVDb API is gone)
-- ✅ **Library Scan**: fixed filename recognition, so movies aren't re-added as duplicates on every scan
-- ✅ **TMDb Search**: fixed a title-filtering bug that cut off movie names after the first word
-- ✅ **Media & Blacklist**: fixed broken background/default poster loading and blacklist reading errors
-- ✅ **Series**: fixes needed to show info in series
-- ✅ **plugin.py**: MovieBrowser's movie player now also closes with the Exit button (same as Stop)
+### **Fixes (November 2026)**
+- **Series metadata:** series information and covers are now retrieved from TMDb; TheTVDb API integration has been removed.
+- **Library scan:** fixed filename recognition to prevent movies from being added as duplicates on every scan.
+- **TMDb search:** fixed title filtering that truncated movie names after the first word.
+- **Media and blacklist:** fixed background/default poster loading and blacklist reading errors.
+- **Series information:** fixed missing information in series views.
+- **Movie player:** the player can now also be closed with the EXIT button.
 
-### **UI & Translations**
-- ✅ **New plugin.png logo**
-- ✅ **New select movie frame**
-- ✅ **Translations updated**: DE, IT and NL
+### **UI and Translations**
+- Added a new `plugin.png` logo.
+- Added a new movie selection frame.
+- Updated German (DE), Italian (IT) and Dutch (NL) translations.
 
 ---
 
 ## 📜 Changelog v4.0
 
 ### **Major Improvements**
-- ✅ **Complete code refactoring** and optimization
-- ✅ **Database engine rewrite** with SQLite optimizations
-- ✅ **API v4 support** for TMDb and TheTVDB
-- ✅ **Banner system fix** with legacy/v4 URL conversion
-- ✅ **Python 2/3 compatibility** maintained
-- ✅ **Removed deprecated code** and unused modules
+- Reworked the screen layouts and interface.
+- Reworked the database implementation.
+- Updated source code and API URLs.
+- Separated libraries into dedicated modules.
+- Introduced the new API v4 integration.
+- Removed unused and unnecessary code.
 
-### **UI/UX Enhancements**
-- ✅ **Dual skin support** (HD/FHD) with responsive layouts
-- ✅ **Fixed widget positioning** in MultiContent lists
-- ✅ **Improved banner loading** for TV series
-- ✅ **Enhanced rating display** with progress bars
-- ✅ **Better error handling** and logging
+### **UI/UX**
+- Fixed the MovieList banner display.
 
-### **Performance**
-- ✅ **Reduced memory usage** by 40%
-- ✅ **Faster database queries** with optimized indexes
-- ✅ **Smart image caching** system
-- ✅ **Background metadata updates**
+---
 
-### **Bug Fixes**
-- ✅ Fixed banner display issues with TheTVDB v4 API
-- ✅ Corrected font rendering problems
-- ✅ Fixed database corruption on power loss
-- ✅ Resolved skin positioning inconsistencies
+## 📜 Development History
+
+### **2025-12-02 — Lululla**
+- Completely recoded MovieBrowser.
+- Reworked screen layouts and source code.
+- Updated API URLs.
+- Separated libraries into dedicated modules.
+- Rewrote the database code.
+- Removed unused code.
+- Introduced the new API v4.
+
+### **2025-05-16 — Lululla**
+- Refactored all classes.
+- Removed unnecessary code throughout the plugin.
+
+### **2024-09-20 — Lululla**
+- Recoded and cleaned up the plugin.
+- Removed unnecessary code.
+
+### **2022-12-22 — Lululla**
+- Major code rewrite and fixes.
+
+### **2022-12-08 — Lululla**
+- Added `callInThread`.
+- Added `getMountDefault`.
+
+### **2022-12-04 — Lululla**
+- Added language support.
+- Improved configuration.
+- Applied major fixes.
+
+### **2022-10-04 — Kiddac**
+- Added Python 3 support.
+- Applied additional code improvements.
 
 ---
 
@@ -398,7 +418,7 @@ git push origin feature/amazing-feature
 
 ### **Coding Standards**
 - Follow existing Python style (PEP 8 inspired)
-- Maintain backward compatibility with Python 2.7
+- Maintain compatibility with the Python version supported by the target Enigma2 image
 - Add comments for complex logic
 - Update documentation for new features
 
@@ -428,7 +448,6 @@ This project is licensed under the **GNU General Public License v3.0** - see the
 - Original plugin by **@kashmir**
 - Last mod rewrite from Lululla
 - TMDb for their excellent API
-- TheTVDB team for metadata services
 - Open Source community for continuous support
 
 ---
@@ -439,4 +458,4 @@ This project is licensed under the **GNU General Public License v3.0** - see the
 
 ---
 
-*Last Updated: November 2026 | Version: 4.2*
+*Last Updated: November 2026 | Version: 4.3*

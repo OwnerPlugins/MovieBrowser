@@ -3,7 +3,7 @@
 	<eLabel position="230,120" size="810,3" backgroundColor="#303030" zPosition="4" />
 	<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/fhd/pic/setup/main1.png" zPosition="-1" />
 	<eLabel position="230,960" size="810,3" backgroundColor="#303030" zPosition="4" />
-	<eLabel text="MovieBrowser" position="233,-1" size="806,120" font="LCD;102" foregroundColor="yellow" backgroundColor="#000000" transparent="1" zPosition="3" />
+	<eLabel text="MovieBrowser" position="233,-1" size="806,120" font="LCD;102" foregroundColor="#FFD700" backgroundColor="#000000" transparent="1" zPosition="3" />
 	<widget name="label_1"        position="220,160" size="820,60" font="Regular;40" halign="center" valign="center" foregroundColor="#007fcfff" backgroundColor="#001b3c85" transparent="1" zPosition="1"/>
 	<widget name="label_2"        position="220,220" size="820,60" font="Regular;40" halign="center" valign="center" foregroundColor="#007fcfff" backgroundColor="#001b3c85" transparent="1" zPosition="1"/>
 	<widget name="label_3"        position="220,280" size="820,60" font="Regular;40" halign="center" valign="center" foregroundColor="#007fcfff" backgroundColor="#001b3c85" transparent="1" zPosition="1"/>

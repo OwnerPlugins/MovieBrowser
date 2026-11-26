@@ -11,11 +11,11 @@
 	<widget name="list" position="20,83" size="593,533" scrollbarMode="showOnDemand" transparent="1" zPosition="5" />
 	
 	<!-- Etichette titolo -->
-	<widget name="label" position="20,17" size="533,27" font="Regular;24" foregroundColor="yellow" transparent="1" zPosition="30" />
+	<widget name="label" position="20,17" size="533,27" font="Regular;24" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="30" />
 	<widget name="label3" position="413,17" size="200,27" font="Regular;24" foregroundColor="white" transparent="1" zPosition="30" />
 	
 	<!-- Info film (destra) -->
-	<widget name="name" position="677,0" size="600,60" font="Regular;24" foregroundColor="yellow" halign="center" valign="center" transparent="1" zPosition="3" />
+	<widget name="name" position="677,0" size="600,60" font="Regular;24" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" halign="center" valign="center" transparent="1" zPosition="3" />
 	<widget name="seen" position="1175,20" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/skin/hd/pic/browser/seen.png" transparent="1" alphatest="on" zPosition="3" />
 	
 	<!-- Poster -->
@@ -31,29 +31,29 @@
 	
 	<!-- Anno -->
 	<widget name="Year" position="933,91" size="67,24" font="Regular;20" foregroundColor="#ffffff" transparent="1" zPosition="14" />
-	<widget name="year" position="993,91" size="67,24" font="Regular;20" foregroundColor="yellow" transparent="1" zPosition="15" />
+	<widget name="year" position="993,91" size="67,24" font="Regular;20" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="15" />
 	
 	<eLabel position="677,127" size="373,2" backgroundColor="#606060" />
 	
 	<!-- Regista -->
 	<widget name="Director" position="683,140" size="100,27" font="Regular;20" foregroundColor="#ffffff" transparent="1" zPosition="8" />
-	<widget name="director" position="773,140" size="267,27" font="Regular;20" foregroundColor="yellow" transparent="1" zPosition="9" />
+	<widget name="director" position="773,140" size="267,27" font="Regular;20" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="9" />
 	
 	<!-- Paese -->
 	<widget name="Country" position="683,180" size="100,27" font="Regular;20" foregroundColor="#ffffff" transparent="1" zPosition="10" />
-	<widget name="country" position="773,180" size="133,27" font="Regular;20" foregroundColor="yellow" transparent="1" zPosition="11" />
+	<widget name="country" position="773,180" size="133,27" font="Regular;20" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="11" />
 	
 	<!-- Durata -->
 	<widget name="Runtime" position="880,180" size="100,27" font="Regular;20" foregroundColor="#ffffff" transparent="1" zPosition="16" />
-	<widget name="runtime" position="947,180" size="100,27" font="Regular;20" foregroundColor="yellow" halign="right" transparent="1" zPosition="17" />
+	<widget name="runtime" position="947,180" size="100,27" font="Regular;20" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" halign="right" transparent="1" zPosition="17" />
 	
 	<!-- Generi -->
 	<widget name="Genres" position="683,220" size="100,27" font="Regular;20" foregroundColor="#ffffff" transparent="1" zPosition="18" />
-	<widget name="genres" position="773,220" size="267,60" font="Regular;20" foregroundColor="yellow" transparent="1" zPosition="19" />
+	<widget name="genres" position="773,220" size="267,60" font="Regular;20" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="19" />
 	
 	<!-- Attori -->
 	<widget name="Actors" position="683,287" size="125,30" font="Regular;20" foregroundColor="#ffffff" transparent="1" zPosition="12" />
-	<widget name="actors" position="773,287" size="233,133" font="Regular;17" foregroundColor="yellow" transparent="1" zPosition="13" />
+	<widget name="actors" position="773,287" size="233,133" font="Regular;17" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" transparent="1" zPosition="13" />
 	
 	<eLabel position="683,413" size="573,2" backgroundColor="#606060" />
 	
@@ -64,7 +64,7 @@
 	<widget name="eposter" position="675,166" size="540,405" alphatest="blend" transparent="1" zPosition="21" />
 	
 	<!-- Trama in basso a destra -->
-	<widget name="plotname" position="683,427" size="587,33" font="Regular;24" foregroundColor="yellow" valign="center" transparent="1" zPosition="20" />
+	<widget name="plotname" position="683,427" size="587,33" font="Regular;24" foregroundColor="#FFD700" shadowColor="#000000" shadowOffset="-2,-2" valign="center" transparent="1" zPosition="20" />
 	<widget name="plotfull" position="683,467" size="587,200" font="Regular;20" foregroundColor="#FFFFFF" transparent="1" zPosition="20" />
 	
 	<!-- Bottoni funzione (in basso) -->
