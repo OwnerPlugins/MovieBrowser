@@ -13,140 +13,142 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "*******Cleanup Cache Folder*******\nStart time: %s\nEnd time: %s\nOrphaned Backdrops/Posters removed: %s\n\n"
-msgstr "*******Önbellek Klasörünü Temizleme*******\nBaşlangıç ​​zamanı: %s\nBitiş zamanı: %s\nArtık Arka Planlar/Posterler kaldırıldı: %s\n\n"
+#, fuzzy
+msgid "%s Movie imported into Database."
+msgstr ""
+"\n"
+"%s Filmi Veritabanına aktarıldı."
 
-msgid "*******Movie Browser Database Update Timer*******\nInitial Update Timer started: %s\nTimer Value (min): %s\n"
-msgstr "*******Film Tarayıcı Veritabanı Güncelleme Zamanlayıcısı******\nİlk Güncelleme Zamanlayıcısı başlatıldı: %s\nZamanlayıcı Değeri (dak): %s\n"
+#, fuzzy
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"%s Filmi Veritabanına aktarıldı.\n"
+"%s'nin yetim Veritabanı Girişleri silindi."
 
-msgid "*******Movie Browser Database Update*******\n"
-msgstr "*******Film Tarayıcı Veritabanı Güncellemesi*******\n"
+#, fuzzy
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"%s Filmi Veritabanına aktarıldı.\n"
+"%s'nin artık Veritabanı Girişi silindi."
 
-msgid "*******Movie Browser Database Update*******\nTime: %s\nError: %s\nReason: %s"
-msgstr "*******Film Tarayıcı Veritabanı Güncellemesi*******\nZaman: %s\nHata: %s\nNeden: %s"
+#, fuzzy
+msgid "%s Movies and %s Series imported into Database."
+msgstr ""
+"\n"
+"%s Filmler ve %s Dizi Veritabanına aktarıldı."
 
-msgid "\n%s Movie imported into Database."
-msgstr "\n%s Filmi Veritabanına aktarıldı."
+#, fuzzy
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"%s Filmler ve %s Dizi Veritabanına aktarıldı.\n"
+"%s artık Veritabanı Girişleri silindi."
 
-msgid "\n%s Movie imported into Database.\n%s orphaned Database Entries deleted."
-msgstr "\n%s Filmi Veritabanına aktarıldı.\n%s'nin yetim Veritabanı Girişleri silindi."
+#, fuzzy
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"%s Filmleri ve %s Dizisi Veritabanına aktarıldı.\n"
+"%s artık Veritabanı Girişi silindi."
 
-msgid "\n%s Movie imported into Database.\n%s orphaned Database Entry deleted."
-msgstr "\n%s Filmi Veritabanına aktarıldı.\n%s'nin artık Veritabanı Girişi silindi."
+#, fuzzy
+msgid "%s Movies imported into Database."
+msgstr ""
+"\n"
+"%s Filmleri Veritabanına aktarıldı."
 
-msgid "\n%s Movies and %s Series imported into Database."
-msgstr "\n%s Filmler ve %s Dizi Veritabanına aktarıldı."
+#, fuzzy
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"%s Filmleri Veritabanına aktarıldı.\n"
+"%s'nin artık Veritabanı Girişleri silindi."
 
-msgid "\n%s Movies and %s Series imported into Database.\n%s orphaned Database Entries deleted."
-msgstr "\n%s Filmler ve %s Dizi Veritabanına aktarıldı.\n%s artık Veritabanı Girişleri silindi."
+#, fuzzy
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"%s Filmleri Veritabanına aktarıldı.\n"
+"%s'nin artık Veritabanı Girişi silindi."
 
-msgid "\n%s Movies and %s Series imported into Database.\n%s orphaned Database Entry deleted."
-msgstr "\n%s Filmleri ve %s Dizisi Veritabanına aktarıldı.\n%s artık Veritabanı Girişi silindi."
+#, fuzzy
+msgid "%s Series imported into Database."
+msgstr ""
+"\n"
+"%s Serisi Veritabanına aktarıldı."
 
-msgid "\n%s Movies imported into Database."
-msgstr "\n%s Filmleri Veritabanına aktarıldı."
+#, fuzzy
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"%s Serisi Veritabanına aktarıldı.\n"
+"%s'nin artık Veritabanı Girişleri silindi."
 
-msgid "\n%s Movies imported into Database.\n%s orphaned Database Entries deleted."
-msgstr "\n%s Filmleri Veritabanına aktarıldı.\n%s'nin artık Veritabanı Girişleri silindi."
-
-msgid "\n%s Movies imported into Database.\n%s orphaned Database Entry deleted."
-msgstr "\n%s Filmleri Veritabanına aktarıldı.\n%s'nin artık Veritabanı Girişi silindi."
-
-msgid "\n%s Series imported into Database."
-msgstr "\n%s Serisi Veritabanına aktarıldı."
-
-msgid "\n%s Series imported into Database.\n%s orphaned Database Entries deleted."
-msgstr "\n%s Serisi Veritabanına aktarıldı.\n%s'nin artık Veritabanı Girişleri silindi."
-
-msgid "\n%s Series imported into Database.\n%s orphaned Database Entry deleted."
-msgstr "\n%s Serisi Veritabanına aktarıldı.\n%s'nin artık Veritabanı Girişi silindi."
-
-msgid "\nCache Folder %s not reachable:\nCleanup Cache Folder canceled."
-msgstr "\nÖnbellek Klasörü %s'e ulaşılamıyor:\nÖnbellek Klasörünün Temizlenmesi iptal edildi."
-
-msgid "\nCache Folder %s not reachable:\nMovie Browser Database Backup canceled."
-msgstr "\nÖnbellek Klasörü %s ulaşılamıyor:\nMovie Tarayıcı Veritabanı Yedeklemesi iptal edildi."
-
-msgid "\nCache Folder %s not reachable:\nMovie Browser Database Restore canceled."
-msgstr "\nÖnbellek Klasörü %s'e ulaşılamıyor:\nFilm Tarayıcı Veritabanı Geri Yüklemesi iptal edildi."
-
-msgid "\nCache Folder %s not reachable:\nMovie Browser Database Update canceled."
-msgstr "\nÖnbellek Klasörü %s ulaşılamıyor:\nFilm Tarayıcı Veritabanı Güncellemesi iptal edildi."
-
-msgid "\nCleanup Cache Folder finished:\n%s orphaned Backdrops or Posters removed."
-msgstr "\nÖnbellek Klasörünün Temizlenmesi tamamlandı:\n%s'nin sahipsiz Arka Planları veya Posterleri kaldırıldı."
-
-msgid "\nDatabase %s not found:\nCleanup Cache Folder canceled."
-msgstr "\n%s veritabanı bulunamadı:\nÖnbellek Klasörünü Temizleme iptal edildi."
-
-msgid "\nDatabase %s not found:\nMovie Browser Database Backup canceled."
-msgstr "\n%s Veritabanı bulunamadı:\nFilm Tarayıcı Veritabanı Yedeklemesi iptal edildi."
-
-msgid "\nDatabase backed up to %s"
-msgstr "\nVeritabanı %s'e kadar yedeklendi"
-
-msgid "\nDatabase Backup %s not found:\nMovie Browser Database Restore canceled."
-msgstr "\nVeritabanı Yedeği %s bulunamadı:\nFilm Tarayıcısı Veritabanı Geri Yüklemesi iptal edildi."
-
-msgid "\nDatabase Error: Entry without runtime"
-msgstr "\nVeritabanı Hatası: Çalışma zamanı olmayan giriş"
-
-msgid "\nDatabase restored from %s"
-msgstr "\nVeritabanı %s konumundan geri yüklendi"
-
-msgid "\nDVD Player Plugin not installed."
-msgstr "\nDVD Oynatıcı Eklentisi yüklü değil."
-
-msgid "\nMovie file %s not available."
-msgstr "\nFilm dosyası %s kullanılamıyor."
-
-msgid "\nMovie Folder %s not reachable:\nMovie Browser Database Update canceled."
-msgstr "\nFilm Klasörü %s'e ulaşılamıyor:\nFilm Tarayıcı Veritabanı Güncellemesi iptal edildi."
-
-msgid "\nNo new Movies or Series found:\nYour Database is up to date."
-msgstr "\nYeni Film veya Dizi bulunamadı:\nVeritabanınız güncel."
-
-msgid "\nNo new Movies or Series found.\n%s orphaned Database Entries deleted."
-msgstr "\nYeni Film veya Dizi bulunamadı.\n%'in artık Veritabanı Girişleri silindi."
-
-msgid "\nNo new Movies or Series found.\n%s orphaned Database Entry deleted."
-msgstr "\nYeni Film veya Dizi bulunamadı.\n%'in artık Veritabanı Girişi silindi."
-
-msgid "\nNo orphaned Backdrops or Posters found:\nYour Cache Folder is clean."
-msgstr "\nArtık Arka Plan veya Poster bulunamadı:\nÖnbellek Klasörünüz temiz."
-
-msgid "\nNo TheTVDb Results for %s."
-msgstr "\n%s için TheTVDb Sonuçları Yok."
-
-msgid "\nNo TMDb Results for %s."
-msgstr "\n%s için TMDb Sonuçları yok."
-
-msgid "\nThe List of Movie Folder cannot be deleted."
-msgstr "\nFilm Klasörü Listesi silinemez."
-
-msgid "\nTheTVDb API Server is not reachable."
-msgstr "\nTVDb API Sunucusuna ulaşılamıyor."
-
-msgid "\nThis will delete %s from the Database and from the Movie Folder!\n\nDo you want to continue?"
-msgstr "\nBu %s'yi Veritabanından ve Film Klasöründen silecektir!\n\nDevam etmek istiyor musunuz?"
-
-msgid "\nThis will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n\nDo you want to continue?"
-msgstr "\nBu, %s'yi Veritabanından silecek ve Kara Listeye koyacaktır; böylece Film, gelecekteki Veritabanı Güncellemeleri tarafından göz ardı edilecektir.\n\nDevam etmek istiyor musunuz?"
-
-msgid "\nThis will delete all %s entries from the Database but not from the Movie Folder.\n\nDo you want to continue?"
-msgstr "\nBu, Veritabanındaki tüm %s girişlerini siler ancak Film Klasöründen silmez.\n\nDevam etmek istiyor musunuz?"
-
-msgid "\nTMDb API Server is not reachable."
-msgstr "\nTMDb API Sunucusuna ulaşılamıyor."
-
-msgid "\nTMDb Movie Update Error:\nSeries Folder"
-msgstr "\nTMDb Film Güncelleme Hatası:\nSeries Klasörü"
-
-msgid "\nUpdate Movie Browser Database?"
-msgstr "\nFilm Tarayıcı Veritabanını Güncelle?"
+#, fuzzy
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"%s Serisi Veritabanına aktarıldı.\n"
+"%s'nin artık Veritabanı Girişi silindi."
 
 msgid "%s min"
 msgstr "%s dk."
+
+#, fuzzy
+msgid ""
+"*******Cleanup Cache Folder*******\n"
+"Start time: %s\n"
+"End time: %s\n"
+"Orphaned Backdrops/Posters removed: %s"
+msgstr ""
+"*******Önbellek Klasörünü Temizleme*******\n"
+"Başlangıç ​​zamanı: %s\n"
+"Bitiş zamanı: %s\n"
+"Artık Arka Planlar/Posterler kaldırıldı: %s\n"
+"\n"
+
+#, fuzzy
+msgid ""
+"*******Movie Browser Database Update Timer*******\n"
+"Initial Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr ""
+"*******Film Tarayıcı Veritabanı Güncelleme Zamanlayıcısı******\n"
+"İlk Güncelleme Zamanlayıcısı başlatıldı: %s\n"
+"Zamanlayıcı Değeri (dak): %s\n"
+
+#, fuzzy
+msgid "*******Movie Browser Database Update*******"
+msgstr "*******Film Tarayıcı Veritabanı Güncellemesi*******\n"
+
+msgid ""
+"*******Movie Browser Database Update*******\n"
+"Time: %s\n"
+"Error: %s\n"
+"Reason: %s"
+msgstr ""
+"*******Film Tarayıcı Veritabanı Güncellemesi*******\n"
+"Zaman: %s\n"
+"Hata: %s\n"
+"Neden: %s"
 
 msgid "<- -> Button: Go to first letter"
 msgstr "<- -> Düğme: İlk harfe git"
@@ -175,8 +177,18 @@ msgstr "Poster şeridiyle arka plan görünümü"
 msgid "Backup Database:"
 msgstr "Veritabanını Yedekle:"
 
-msgid "Before the Database is rebuilt, check your settings in the plugin setup:\n\n- Check the path to the Movie Folder\n- Check your TMDb/TheTVDb Language\n- Set the Cache Folder to your hard disk drive."
-msgstr "Veritabanı yeniden oluşturulmadan önce eklenti kurulumundaki ayarlarınızı kontrol edin:\n\n- Film Klasörünün yolunu kontrol edin\n- TMDb/TheTVDb Dilinizi kontrol edin\n- Önbellek Klasörünü sabit disk sürücünüze ayarlayın."
+msgid ""
+"Before the Database is rebuilt, check your settings in the plugin setup:\n"
+"\n"
+"- Check the path to the Movie Folder\n"
+"- Check your TMDb/TheTVDb Language\n"
+"- Set the Cache Folder to your hard disk drive."
+msgstr ""
+"Veritabanı yeniden oluşturulmadan önce eklenti kurulumundaki ayarlarınızı kontrol edin:\n"
+"\n"
+"- Film Klasörünün yolunu kontrol edin\n"
+"- TMDb/TheTVDb Dilinizi kontrol edin\n"
+"- Önbellek Klasörünü sabit disk sürücünüze ayarlayın."
 
 msgid "Blacklist Movie File"
 msgstr "Kara Liste Film Dosyası"
@@ -208,23 +220,67 @@ msgstr "Düğme 8: Film Aktörü Seçimi"
 msgid "Button 9: Movie Genre Selection"
 msgstr "Düğme 9: Film Türü Seçimi"
 
+#, fuzzy
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Cleanup Cache Folder canceled."
+msgstr ""
+"\n"
+"Önbellek Klasörü %s'e ulaşılamıyor:\n"
+"Önbellek Klasörünün Temizlenmesi iptal edildi."
+
+#, fuzzy
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Backup canceled."
+msgstr ""
+"\n"
+"Önbellek Klasörü %s ulaşılamıyor:\n"
+"Movie Tarayıcı Veritabanı Yedeklemesi iptal edildi."
+
+#, fuzzy
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Restore canceled."
+msgstr ""
+"\n"
+"Önbellek Klasörü %s'e ulaşılamıyor:\n"
+"Film Tarayıcı Veritabanı Geri Yüklemesi iptal edildi."
+
+#, fuzzy
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr ""
+"\n"
+"Önbellek Klasörü %s ulaşılamıyor:\n"
+"Film Tarayıcı Veritabanı Güncellemesi iptal edildi."
+
 msgid "Cache Folder:"
 msgstr "Önbellek Klasörü:"
 
 msgid "Cancel"
 msgstr "İptal etmek"
 
-msgid "Cannot update with TheTVDb: ID appears to be a movie ID\nTry \"Update Movie\" instead."
-msgstr "TheTVDb ile güncelleme yapılamıyor: Kimlik bir film gibi görünüyor ID\nBunun yerine \"Filmi Güncellemeyi\" deneyin."
+msgid ""
+"Cannot update with TMDb: ID is not numeric\n"
+"This appears to be a TV series, not a movie."
+msgstr ""
+"TMDb ile güncellenemiyor: Kimlik sayısal değil\n"
+"Bu bir film değil TV dizisi gibi görünüyor."
 
-msgid "Cannot update with TMDb: ID is not numeric\nThis appears to be a TV series, not a movie."
-msgstr "TMDb ile güncellenemiyor: Kimlik sayısal değil\nBu bir film değil TV dizisi gibi görünüyor."
-
-msgid "Check for plugin update"
-msgstr "Eklenti güncellemesini kontrol edin"
+msgid ""
+"Cannot update with TheTVDb: ID appears to be a movie ID\n"
+"Try \"Update Movie\" instead."
+msgstr ""
+"TheTVDb ile güncelleme yapılamıyor: Kimlik bir film gibi görünüyor ID\n"
+"Bunun yerine \"Filmi Güncellemeyi\" deneyin."
 
 msgid "Check for Plugin Update:"
 msgstr "Eklenti Güncellemesini Kontrol Edin:"
+
+msgid "Check for plugin update"
+msgstr "Eklenti güncellemesini kontrol edin"
 
 msgid "Check only"
 msgstr "Yalnızca kontrol et"
@@ -238,6 +294,15 @@ msgstr "Dizin Seçin:"
 msgid "Cleanup Cache Folder Log"
 msgstr "Önbellek Klasör Günlüğünü Temizleme"
 
+#, fuzzy
+msgid ""
+"Cleanup Cache Folder finished:\n"
+"%s orphaned Backdrops or Posters removed."
+msgstr ""
+"\n"
+"Önbellek Klasörünün Temizlenmesi tamamlandı:\n"
+"%s'nin sahipsiz Arka Planları veya Posterleri kaldırıldı."
+
 msgid "Cleanup Cache Folder:"
 msgstr "Temizleme Önbellek Klasörü:"
 
@@ -247,14 +312,53 @@ msgstr "Ülke:"
 msgid "Creator:"
 msgstr "Yaratıcı:"
 
+#, fuzzy
+msgid "DVD Player Plugin not installed."
+msgstr ""
+"\n"
+"DVD Oynatıcı Eklentisi yüklü değil."
+
 msgid "Dark"
 msgstr "Karanlık"
 
 msgid "Database"
 msgstr "Veritabanı"
 
+#, fuzzy
+msgid ""
+"Database %s not found:\n"
+"Cleanup Cache Folder canceled."
+msgstr ""
+"\n"
+"%s veritabanı bulunamadı:\n"
+"Önbellek Klasörünü Temizleme iptal edildi."
+
+#, fuzzy
+msgid ""
+"Database %s not found:\n"
+"Movie Browser Database Backup canceled."
+msgstr ""
+"\n"
+"%s Veritabanı bulunamadı:\n"
+"Film Tarayıcı Veritabanı Yedeklemesi iptal edildi."
+
+#, fuzzy
+msgid ""
+"Database Backup %s not found:\n"
+"Movie Browser Database Restore canceled."
+msgstr ""
+"\n"
+"Veritabanı Yedeği %s bulunamadı:\n"
+"Film Tarayıcısı Veritabanı Geri Yüklemesi iptal edildi."
+
 msgid "Database Editor:"
 msgstr "Veritabanı Düzenleyicisi:"
+
+#, fuzzy
+msgid "Database Error: Entry without runtime"
+msgstr ""
+"\n"
+"Veritabanı Hatası: Çalışma zamanı olmayan giriş"
 
 msgid "Database Timer Log"
 msgstr "Veritabanı Zamanlayıcı Günlüğü"
@@ -262,17 +366,32 @@ msgstr "Veritabanı Zamanlayıcı Günlüğü"
 msgid "Database Update Log"
 msgstr "Veritabanı Güncelleme Günlüğü"
 
-msgid "Database Update Timer started: %s\nTimer Value (min): %s\n"
-msgstr "Veritabanı Güncelleme Zamanlayıcısı başlatıldı: %s\nZamanlayıcı Değeri (dak): %s\n"
+#, fuzzy
+msgid ""
+"Database Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr ""
+"Veritabanı Güncelleme Zamanlayıcısı başlatıldı: %s\n"
+"Zamanlayıcı Değeri (dak): %s\n"
 
-msgid "Database Update Timer stopped: %s\n"
+#, fuzzy
+msgid "Database Update Timer stopped: %s"
 msgstr "Veritabanı Güncelleme Zamanlayıcısı durduruldu: %s\n"
+
+#, fuzzy
+msgid "Database backed up to %s"
+msgstr ""
+"\n"
+"Veritabanı %s'e kadar yedeklendi"
+
+#, fuzzy
+msgid "Database restored from %s"
+msgstr ""
+"\n"
+"Veritabanı %s konumundan geri yüklendi"
 
 msgid "Delete Movie File"
 msgstr "Film Dosyasını Sil"
-
-msgid "Description not available"
-msgstr "Açıklama mevcut değil"
 
 msgid "Director Selection"
 msgstr "Yönetmen Seçimi"
@@ -355,14 +474,17 @@ msgstr "Işık"
 msgid "List view with poster and details"
 msgstr "Poster ve ayrıntıların yer aldığı liste görünümü"
 
-msgid "Load last Selection/Filter on Start:"
-msgstr "Başlangıçta Son Seçimi/Filtreyi Yükle:"
-
 msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
 msgstr "TMDb API Anahtarını /tmp/tmdb_api.txt adresinden yükleyin"
 
+msgid "Load last Selection/Filter on Start:"
+msgstr "Başlangıçta Son Seçimi/Filtreyi Yükle:"
+
 msgid "Loading..."
 msgstr "Yükleniyor..."
+
+msgid "MOVIES"
+msgstr "FİLMLER"
 
 msgid "Manage your Movies & Series V.%s"
 msgstr "Filmlerinizi ve Dizilerinizi Yönetin V.%s"
@@ -379,19 +501,14 @@ msgstr "Film Tarayıcı Tuş Ataması"
 msgid "Movie Browser Key Assignment:"
 msgstr "Film Tarayıcı Tuş Ataması:"
 
-msgid "Movie Browser updated to version %s.\nRestart GUI now?"
-msgstr "Film Tarayıcı %s sürümüne güncellendi.\nGUI şimdi yeniden başlatılsın mı?"
-
-msgid "Movie Browser: new version %s available (installed: %s).\nInstall it via the plugin setup."
-msgstr "Film Tarayıcısı: yeni sürüm %s mevcut (yüklü: %s).\nEklenti kurulumu aracılığıyla yükleyin."
-
 msgid "Movie Creation Date Ascending"
 msgstr "Film Oluşturma Tarihi Artan"
 
 msgid "Movie Creation Date Descending"
 msgstr "Film Oluşturma Tarihi Azalan"
 
-msgid "Movie Database Update started: %s\n"
+#, fuzzy
+msgid "Movie Database Update started: %s"
 msgstr "Film Veritabanı Güncellemesi başladı: %s\n"
 
 msgid "Movie File Information"
@@ -399,6 +516,15 @@ msgstr "Film Dosyası Bilgileri"
 
 msgid "Movie Folder"
 msgstr "Film Klasörü"
+
+#, fuzzy
+msgid ""
+"Movie Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr ""
+"\n"
+"Film Klasörü %s'e ulaşılamıyor:\n"
+"Film Tarayıcı Veritabanı Güncellemesi iptal edildi."
 
 msgid "Movie Folder Ascending"
 msgstr "Film Klasörü Artan"
@@ -439,14 +565,20 @@ msgstr "Film Adı A'dan Z'ye"
 msgid "Movie Title Z-A"
 msgstr "Film Adı Z-A"
 
+#, fuzzy
+msgid "Movie file %s not available."
+msgstr ""
+"\n"
+"Film dosyası %s kullanılamıyor."
+
 msgid "Movies"
 msgstr "Filmler"
 
-msgid "MOVIES"
-msgstr "FİLMLER"
-
 msgid "Movies & Series"
 msgstr "Filmler ve Diziler"
+
+msgid "Movies Style:"
+msgstr "Film Tarzı:"
 
 msgid "Movies or Series Selection at Start:"
 msgstr "Başlangıçta Film veya Dizi Seçimi:"
@@ -454,17 +586,59 @@ msgstr "Başlangıçta Film veya Dizi Seçimi:"
 msgid "Movies or Series:"
 msgstr "Filmler veya Diziler:"
 
-msgid "Movies Style:"
-msgstr "Film Tarzı:"
-
 msgid "New Releases"
 msgstr "Yeni Çıkanlar"
 
-msgid "New version %s available (installed: %s).\nInstall now?"
-msgstr "Yeni %s sürümü mevcut (yüklü: %s).\nŞimdi yüklensin mi?"
-
 msgid "No"
 msgstr "HAYIR"
+
+#, fuzzy
+msgid "No TMDb Results for %s."
+msgstr ""
+"\n"
+"%s için TMDb Sonuçları yok."
+
+#, fuzzy
+msgid "No TheTVDb Results for %s."
+msgstr ""
+"\n"
+"%s için TheTVDb Sonuçları Yok."
+
+#, fuzzy
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"Yeni Film veya Dizi bulunamadı.\n"
+"%'in artık Veritabanı Girişleri silindi."
+
+#, fuzzy
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"Yeni Film veya Dizi bulunamadı.\n"
+"%'in artık Veritabanı Girişi silindi."
+
+#, fuzzy
+msgid ""
+"No new Movies or Series found:\n"
+"Your Database is up to date."
+msgstr ""
+"\n"
+"Yeni Film veya Dizi bulunamadı:\n"
+"Veritabanınız güncel."
+
+#, fuzzy
+msgid ""
+"No orphaned Backdrops or Posters found:\n"
+"Your Cache Folder is clean."
+msgstr ""
+"\n"
+"Artık Arka Plan veya Poster bulunamadı:\n"
+"Önbellek Klasörünüz temiz."
 
 msgid "No results"
 msgstr "Sonuç yok"
@@ -523,6 +697,9 @@ msgstr "Veritabanını Geri Yükle:"
 msgid "Runtime:"
 msgstr "Çalışma zamanı:"
 
+msgid "SERIES"
+msgstr "SERİ"
+
 msgid "Save"
 msgstr "Kaydetmek"
 
@@ -537,9 +714,6 @@ msgstr "Stil seçin"
 
 msgid "Series"
 msgstr "Seri"
-
-msgid "SERIES"
-msgstr "SERİ"
 
 msgid "Series Episodes"
 msgstr "Dizi Bölümleri"
@@ -568,8 +742,26 @@ msgstr "TMDb'ye kaydolun ve ücretsiz kişisel API Anahtarınızı girin"
 msgid "Start Plugin with Video Button:"
 msgstr "Eklentiyi Video Düğmesiyle Başlatın:"
 
-msgid "Start time: %s\nEnd time: %s\nTotal scanned files: %s\nTheTVDb Database Requests: %s\nTMDb Database Requests: %s\nOrphaned Movies/Series: %s\nNew Series: %s\nNew Movies: %s\n\n"
-msgstr "Başlangıç ​​zamanı: %s\nBitiş zamanı: %s\nTaranan toplam dosya: %s\nTheTVDb Veritabanı İstekleri: %s\nTMDb Veritabanı İstekleri: %s\nArtık Filmler/Seri: %s\nYeni Seri: %s\nYeni Filmler: %s\n\n"
+#, fuzzy
+msgid ""
+"Start time: %s\n"
+"End time: %s\n"
+"Total scanned files: %s\n"
+"TheTVDb Database Requests: %s\n"
+"TMDb Database Requests: %s\n"
+"Orphaned Movies/Series: %s\n"
+"New Series: %s\n"
+"New Movies: %s"
+msgstr ""
+"Başlangıç ​​zamanı: %s\n"
+"Bitiş zamanı: %s\n"
+"Taranan toplam dosya: %s\n"
+"TheTVDb Veritabanı İstekleri: %s\n"
+"TMDb Veritabanı İstekleri: %s\n"
+"Artık Filmler/Seri: %s\n"
+"Yeni Seri: %s\n"
+"Yeni Filmler: %s\n"
+"\n"
 
 msgid "Stop Button: Mark movie as seen"
 msgstr "Durdurma Düğmesi: Filmi görüldüğü gibi işaretle"
@@ -577,11 +769,54 @@ msgstr "Durdurma Düğmesi: Filmi görüldüğü gibi işaretle"
 msgid "Style"
 msgstr "Stil"
 
+msgid "TMDb API Server is not reachable."
+msgstr "TMDb API Sunucusuna ulaşılamıyor."
+
+msgid "TMDb API key successfully imported!"
+msgstr "TMDb API anahtarı başarıyla içe aktarıldı!"
+
+msgid "TMDb Language:"
+msgstr "TMDb Dili:"
+
+#, fuzzy
+msgid ""
+"TMDb Movie Update Error:\n"
+"Series Folder"
+msgstr ""
+"\n"
+"TMDb Film Güncelleme Hatası:\n"
+"Series Klasörü"
+
+msgid "TMDb Results"
+msgstr "TMDb Sonuçları"
+
 msgid "Text Button: Edit Database"
 msgstr "Metin Düğmesi: Veritabanını Düzenle"
 
-msgid "The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n\nIf the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n\nRebuild the Database now?"
-msgstr "Film Tarayıcı Veritabanı şimdi yeniden oluşturulacak. Filmlerinizin sayısına bağlı olarak bu işlem birkaç dakika sürebilir.\n\nEklenti birkaç dakika sonra sonlandırılırsa eklentiyi yeniden başlatın ve manuel Veritabanı Güncellemesi (Video düğmesi) çalıştırın.\n\nVeritabanı şimdi yeniden oluşturulsun mu?"
+#, fuzzy
+msgid "The List of Movie Folder cannot be deleted."
+msgstr ""
+"\n"
+"Film Klasörü Listesi silinemez."
+
+msgid ""
+"The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n"
+"\n"
+"If the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n"
+"\n"
+"Rebuild the Database now?"
+msgstr ""
+"Film Tarayıcı Veritabanı şimdi yeniden oluşturulacak. Filmlerinizin sayısına bağlı olarak bu işlem birkaç dakika sürebilir.\n"
+"\n"
+"Eklenti birkaç dakika sonra sonlandırılırsa eklentiyi yeniden başlatın ve manuel Veritabanı Güncellemesi (Video düğmesi) çalıştırın.\n"
+"\n"
+"Veritabanı şimdi yeniden oluşturulsun mu?"
+
+#, fuzzy
+msgid "TheTVDb API Server is not reachable."
+msgstr ""
+"\n"
+"TVDb API Sunucusuna ulaşılamıyor."
 
 msgid "TheTVDb API key successfully imported!"
 msgstr "TVDb API anahtarı başarıyla içe aktarıldı!"
@@ -589,26 +824,47 @@ msgstr "TVDb API anahtarı başarıyla içe aktarıldı!"
 msgid "TheTVDb Results"
 msgstr "TheTVDb Sonuçları"
 
+#, fuzzy
+msgid ""
+"This will delete %s from the Database and from the Movie Folder!\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"\n"
+"Bu %s'yi Veritabanından ve Film Klasöründen silecektir!\n"
+"\n"
+"Devam etmek istiyor musunuz?"
+
+#, fuzzy
+msgid ""
+"This will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"\n"
+"Bu, %s'yi Veritabanından silecek ve Kara Listeye koyacaktır; böylece Film, gelecekteki Veritabanı Güncellemeleri tarafından göz ardı edilecektir.\n"
+"\n"
+"Devam etmek istiyor musunuz?"
+
+#, fuzzy
+msgid ""
+"This will delete all %s entries from the Database but not from the Movie Folder.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"\n"
+"Bu, Veritabanındaki tüm %s girişlerini siler ancak Film Klasöründen silmez.\n"
+"\n"
+"Devam etmek istiyor musunuz?"
+
 msgid "Timer Database Update:"
 msgstr "Zamanlayıcı Veritabanı Güncellemesi:"
 
-msgid "TMDb API key successfully imported!"
-msgstr "TMDb API anahtarı başarıyla içe aktarıldı!"
-
-msgid "TMDb API Server is not reachable."
-msgstr "TMDb API Sunucusuna ulaşılamıyor."
-
-msgid "TMDb Language:"
-msgstr "TMDb Dili:"
-
-msgid "TMDb Results"
-msgstr "TMDb Sonuçları"
+msgid "Toggle Plugin Style"
+msgstr "Eklenti Stilini Değiştir"
 
 msgid "Toggle hide/show plugin"
 msgstr "Eklentiyi gizle/göster arasında geçiş yap"
-
-msgid "Toggle Plugin Style"
-msgstr "Eklenti Stilini Değiştir"
 
 msgid "Top Rated"
 msgstr "En Çok Oy Alan"
@@ -622,17 +878,14 @@ msgstr "Yaklaşan"
 msgid "Update"
 msgstr "Güncelleme"
 
-msgid "Update check failed:\n%s"
-msgstr "Güncelleme kontrolü başarısız oldu:\n%s"
-
 msgid "Update Database with Timer:"
 msgstr "Veritabanını Zamanlayıcıyla Güncelleyin:"
 
-msgid "Update error: "
-msgstr "Güncelleme hatası: "
-
-msgid "Update failed:\n%s"
-msgstr "Güncelleme başarısız oldu:\n%s"
+#, fuzzy
+msgid "Update Movie Browser Database?"
+msgstr ""
+"\n"
+"Film Tarayıcı Veritabanını Güncelle?"
 
 msgid "Update Movie/Series"
 msgstr "Filmi/Diziyi Güncelle"
@@ -640,8 +893,9 @@ msgstr "Filmi/Diziyi Güncelle"
 msgid "Update Selection"
 msgstr "Seçimi Güncelle"
 
-msgid "Updated to version %s (%d files).\nRestart GUI now?"
-msgstr "%s sürümüne (%d dosya) güncellendi.\nGUI şimdi yeniden başlatılsın mı?"
+#, fuzzy
+msgid "Update error:"
+msgstr "Güncelleme hatası: "
 
 msgid "Use m1v Backdrops:"
 msgstr "m1v Arka Planlarını kullanın:"
@@ -658,6 +912,57 @@ msgstr "Yıllar:"
 msgid "Yes"
 msgstr "Evet"
 
-msgid "You already have the latest version (%s)."
-msgstr "Zaten en son sürüme sahipsiniz (%s)."
+#~ msgid ""
+#~ "\n"
+#~ "TMDb API Server is not reachable."
+#~ msgstr ""
+#~ "\n"
+#~ "TMDb API Sunucusuna ulaşılamıyor."
 
+#~ msgid "Description not available"
+#~ msgstr "Açıklama mevcut değil"
+
+#~ msgid ""
+#~ "Movie Browser updated to version %s.\n"
+#~ "Restart GUI now?"
+#~ msgstr ""
+#~ "Film Tarayıcı %s sürümüne güncellendi.\n"
+#~ "GUI şimdi yeniden başlatılsın mı?"
+
+#~ msgid ""
+#~ "Movie Browser: new version %s available (installed: %s).\n"
+#~ "Install it via the plugin setup."
+#~ msgstr ""
+#~ "Film Tarayıcısı: yeni sürüm %s mevcut (yüklü: %s).\n"
+#~ "Eklenti kurulumu aracılığıyla yükleyin."
+
+#~ msgid ""
+#~ "New version %s available (installed: %s).\n"
+#~ "Install now?"
+#~ msgstr ""
+#~ "Yeni %s sürümü mevcut (yüklü: %s).\n"
+#~ "Şimdi yüklensin mi?"
+
+#~ msgid ""
+#~ "Update check failed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Güncelleme kontrolü başarısız oldu:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Update failed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Güncelleme başarısız oldu:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Updated to version %s (%d files).\n"
+#~ "Restart GUI now?"
+#~ msgstr ""
+#~ "%s sürümüne (%d dosya) güncellendi.\n"
+#~ "GUI şimdi yeniden başlatılsın mı?"
+
+#~ msgid "You already have the latest version (%s)."
+#~ msgstr "Zaten en son sürüme sahipsiniz (%s)."

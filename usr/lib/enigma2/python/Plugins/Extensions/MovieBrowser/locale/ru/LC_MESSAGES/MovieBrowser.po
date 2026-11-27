@@ -13,140 +13,151 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "*******Cleanup Cache Folder*******\nStart time: %s\nEnd time: %s\nOrphaned Backdrops/Posters removed: %s\n\n"
-msgstr "*******Очистить папку кэша*******\nВремя начала: %s\nВремя окончания: %s\nУдалены потерянные фоны/плакаты: %s\n\n"
+#, fuzzy
+msgid "%s Movie imported into Database."
+msgstr ""
+"\n"
+"%s Фильм импортирован в базу данных."
 
-msgid "*******Movie Browser Database Update Timer*******\nInitial Update Timer started: %s\nTimer Value (min): %s\n"
-msgstr "*******Таймер обновления базы данных кинобраузера*******\nТаймер начального обновления запущен: %s\nЗначение таймера (мин): %s\n"
+#, fuzzy
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"Фильм \n"
+"%s импортирован в базу данных. Бесхозные записи базы данных \n"
+"%s удалены."
 
-msgid "*******Movie Browser Database Update*******\n"
-msgstr "*******Обновление базы данных браузера фильмов*******\n"
+#, fuzzy
+msgid ""
+"%s Movie imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"Фильм \n"
+"%s импортирован в базу данных. Бесхозная запись базы данных \n"
+"%s удалена."
 
-msgid "*******Movie Browser Database Update*******\nTime: %s\nError: %s\nReason: %s"
-msgstr "*******Обновление базы данных кинобраузера*******\nВремя: %s\nОшибка: %s\nПричина: %s"
+#, fuzzy
+msgid "%s Movies and %s Series imported into Database."
+msgstr ""
+"\n"
+"%s Фильмы и сериалы %s импортированы в базу данных."
 
-msgid "\n%s Movie imported into Database."
-msgstr "\n%s Фильм импортирован в базу данных."
+#, fuzzy
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"Фильмы \n"
+"%s и сериалы %s импортированы в базу данных. Бесхозные записи базы данных \n"
+"%s удалены."
 
-msgid "\n%s Movie imported into Database.\n%s orphaned Database Entries deleted."
-msgstr "\nФильм \n%s импортирован в базу данных. Бесхозные записи базы данных \n%s удалены."
+#, fuzzy
+msgid ""
+"%s Movies and %s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"Фильмы \n"
+"%s и сериалы %s импортированы в базу данных. Бесхозная запись базы данных \n"
+"%s удалена."
 
-msgid "\n%s Movie imported into Database.\n%s orphaned Database Entry deleted."
-msgstr "\nФильм \n%s импортирован в базу данных. Бесхозная запись базы данных \n%s удалена."
+#, fuzzy
+msgid "%s Movies imported into Database."
+msgstr ""
+"\n"
+"%s Фильмы, импортированные в базу данных."
 
-msgid "\n%s Movies and %s Series imported into Database."
-msgstr "\n%s Фильмы и сериалы %s импортированы в базу данных."
+#, fuzzy
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"Фильмы \n"
+"%s импортированы в базу данных. Бесхозные записи базы данных \n"
+"%s удалены."
 
-msgid "\n%s Movies and %s Series imported into Database.\n%s orphaned Database Entries deleted."
-msgstr "\nФильмы \n%s и сериалы %s импортированы в базу данных. Бесхозные записи базы данных \n%s удалены."
+#, fuzzy
+msgid ""
+"%s Movies imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"Фильмы \n"
+"%s, импортированные в базу данных. Бесхозная запись базы данных \n"
+"%s удалена."
 
-msgid "\n%s Movies and %s Series imported into Database.\n%s orphaned Database Entry deleted."
-msgstr "\nФильмы \n%s и сериалы %s импортированы в базу данных. Бесхозная запись базы данных \n%s удалена."
+#, fuzzy
+msgid "%s Series imported into Database."
+msgstr ""
+"\n"
+"Серия \n"
+"%s импортирована в базу данных."
 
-msgid "\n%s Movies imported into Database."
-msgstr "\n%s Фильмы, импортированные в базу данных."
+#, fuzzy
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"Серия \n"
+"%s импортирована в базу данных. Бесхозные записи базы данных \n"
+"%s удалены."
 
-msgid "\n%s Movies imported into Database.\n%s orphaned Database Entries deleted."
-msgstr "\nФильмы \n%s импортированы в базу данных. Бесхозные записи базы данных \n%s удалены."
-
-msgid "\n%s Movies imported into Database.\n%s orphaned Database Entry deleted."
-msgstr "\nФильмы \n%s, импортированные в базу данных. Бесхозная запись базы данных \n%s удалена."
-
-msgid "\n%s Series imported into Database."
-msgstr "\nСерия \n%s импортирована в базу данных."
-
-msgid "\n%s Series imported into Database.\n%s orphaned Database Entries deleted."
-msgstr "\nСерия \n%s импортирована в базу данных. Бесхозные записи базы данных \n%s удалены."
-
-msgid "\n%s Series imported into Database.\n%s orphaned Database Entry deleted."
-msgstr "\nСерия \n%s импортирована в базу данных. Бесхозная запись базы данных \n%s удалена."
-
-msgid "\nCache Folder %s not reachable:\nCleanup Cache Folder canceled."
-msgstr "\nПапка кэша %s недоступна: \nОчистка папки кэша отменена."
-
-msgid "\nCache Folder %s not reachable:\nMovie Browser Database Backup canceled."
-msgstr "\nПапка кэша %s недоступна:\nРезервное копирование базы данных браузера фильмов отменено."
-
-msgid "\nCache Folder %s not reachable:\nMovie Browser Database Restore canceled."
-msgstr "\nПапка кэша %s недоступна: \nВосстановление базы данных браузера фильмов отменено."
-
-msgid "\nCache Folder %s not reachable:\nMovie Browser Database Update canceled."
-msgstr "\nПапка кэша %s недоступна:\nОбновление базы данных браузера фильмов отменено."
-
-msgid "\nCleanup Cache Folder finished:\n%s orphaned Backdrops or Posters removed."
-msgstr "\nОчистка папки кэша завершена: потерянные фоны или плакаты \n%s удалены."
-
-msgid "\nDatabase %s not found:\nCleanup Cache Folder canceled."
-msgstr "\nБаза данных %s не найдена:\nОчистка папки кэша отменена."
-
-msgid "\nDatabase %s not found:\nMovie Browser Database Backup canceled."
-msgstr "\nБаза данных %s не найдена:\nРезервное копирование базы данных браузера фильмов отменено."
-
-msgid "\nDatabase backed up to %s"
-msgstr "\nБаза данных зарезервирована на %s"
-
-msgid "\nDatabase Backup %s not found:\nMovie Browser Database Restore canceled."
-msgstr "\nРезервная копия базы данных %s не найдена:\nВосстановление базы данных браузера фильмов отменено."
-
-msgid "\nDatabase Error: Entry without runtime"
-msgstr "\nОшибка базы данных: запись без времени выполнения"
-
-msgid "\nDatabase restored from %s"
-msgstr "\nБаза данных восстановлена ​​из %s"
-
-msgid "\nDVD Player Plugin not installed."
-msgstr "\nПодключаемый модуль DVD-плеера не установлен."
-
-msgid "\nMovie file %s not available."
-msgstr "\nФайл фильма %s недоступен."
-
-msgid "\nMovie Folder %s not reachable:\nMovie Browser Database Update canceled."
-msgstr "\nПапка фильмов %s недоступна: \nОбновление базы данных браузера фильмов отменено."
-
-msgid "\nNo new Movies or Series found:\nYour Database is up to date."
-msgstr "\nНовых фильмов и сериалов не найдено:\nВаша база данных обновлена."
-
-msgid "\nNo new Movies or Series found.\n%s orphaned Database Entries deleted."
-msgstr "\nНовых фильмов или сериалов не найдено. \n%s потерянных записей базы данных удалены."
-
-msgid "\nNo new Movies or Series found.\n%s orphaned Database Entry deleted."
-msgstr "\nНовых фильмов или сериалов не найдено. Бесхозная запись базы данных \n%s удалена."
-
-msgid "\nNo orphaned Backdrops or Posters found:\nYour Cache Folder is clean."
-msgstr "\nНе найдено потерянных фонов или плакатов:\nВаша папка с кэшем чиста."
-
-msgid "\nNo TheTVDb Results for %s."
-msgstr "\nНет результатов TheTVDb для %s."
-
-msgid "\nNo TMDb Results for %s."
-msgstr "\nНет результатов TMDb для %s."
-
-msgid "\nThe List of Movie Folder cannot be deleted."
-msgstr "\nСписок папок с фильмами невозможно удалить."
-
-msgid "\nTheTVDb API Server is not reachable."
-msgstr "\nAPI-сервер TVDb недоступен."
-
-msgid "\nThis will delete %s from the Database and from the Movie Folder!\n\nDo you want to continue?"
-msgstr "\nЭто приведет к удалению %s из базы данных и из папки с фильмами!\n\nХотите продолжить?"
-
-msgid "\nThis will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n\nDo you want to continue?"
-msgstr "\nЭто удалит %s из базы данных и поместит его в черный список, поэтому фильм будет игнорироваться при будущих обновлениях базы данных.\n\nХотите продолжить?"
-
-msgid "\nThis will delete all %s entries from the Database but not from the Movie Folder.\n\nDo you want to continue?"
-msgstr "\nВсе записи %s будут удалены из базы данных, но не из папки с фильмами.\n\nХотите продолжить?"
-
-msgid "\nTMDb API Server is not reachable."
-msgstr "\nСервер API \nTMDb недоступен."
-
-msgid "\nTMDb Movie Update Error:\nSeries Folder"
-msgstr "\nОшибка обновления фильма \nTMDb: папка \nSeries"
-
-msgid "\nUpdate Movie Browser Database?"
-msgstr "\nОбновить базу данных браузера фильмов?"
+#, fuzzy
+msgid ""
+"%s Series imported into Database.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"Серия \n"
+"%s импортирована в базу данных. Бесхозная запись базы данных \n"
+"%s удалена."
 
 msgid "%s min"
 msgstr "%s мин."
+
+#, fuzzy
+msgid ""
+"*******Cleanup Cache Folder*******\n"
+"Start time: %s\n"
+"End time: %s\n"
+"Orphaned Backdrops/Posters removed: %s"
+msgstr ""
+"*******Очистить папку кэша*******\n"
+"Время начала: %s\n"
+"Время окончания: %s\n"
+"Удалены потерянные фоны/плакаты: %s\n"
+"\n"
+
+#, fuzzy
+msgid ""
+"*******Movie Browser Database Update Timer*******\n"
+"Initial Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr ""
+"*******Таймер обновления базы данных кинобраузера*******\n"
+"Таймер начального обновления запущен: %s\n"
+"Значение таймера (мин): %s\n"
+
+#, fuzzy
+msgid "*******Movie Browser Database Update*******"
+msgstr "*******Обновление базы данных браузера фильмов*******\n"
+
+msgid ""
+"*******Movie Browser Database Update*******\n"
+"Time: %s\n"
+"Error: %s\n"
+"Reason: %s"
+msgstr ""
+"*******Обновление базы данных кинобраузера*******\n"
+"Время: %s\n"
+"Ошибка: %s\n"
+"Причина: %s"
 
 msgid "<- -> Button: Go to first letter"
 msgstr "<- -> Кнопка: Перейти к первой букве"
@@ -175,8 +186,18 @@ msgstr "Вид на задний план с плакатной полосой"
 msgid "Backup Database:"
 msgstr "Резервная база данных:"
 
-msgid "Before the Database is rebuilt, check your settings in the plugin setup:\n\n- Check the path to the Movie Folder\n- Check your TMDb/TheTVDb Language\n- Set the Cache Folder to your hard disk drive."
-msgstr "Прежде чем база данных будет перестроена, проверьте настройки в настройке плагина: \n\n- Проверьте путь к папке с фильмами\n- Проверьте свой TMDb/TheTVDb Language\n- Установите папку кэша на свой жесткий диск."
+msgid ""
+"Before the Database is rebuilt, check your settings in the plugin setup:\n"
+"\n"
+"- Check the path to the Movie Folder\n"
+"- Check your TMDb/TheTVDb Language\n"
+"- Set the Cache Folder to your hard disk drive."
+msgstr ""
+"Прежде чем база данных будет перестроена, проверьте настройки в настройке плагина: \n"
+"\n"
+"- Проверьте путь к папке с фильмами\n"
+"- Проверьте свой TMDb/TheTVDb Language\n"
+"- Установите папку кэша на свой жесткий диск."
 
 msgid "Blacklist Movie File"
 msgstr "Файл фильма из черного списка"
@@ -208,23 +229,67 @@ msgstr "Кнопка 8: Выбор киноактера"
 msgid "Button 9: Movie Genre Selection"
 msgstr "Кнопка 9: Выбор жанра фильма"
 
+#, fuzzy
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Cleanup Cache Folder canceled."
+msgstr ""
+"\n"
+"Папка кэша %s недоступна: \n"
+"Очистка папки кэша отменена."
+
+#, fuzzy
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Backup canceled."
+msgstr ""
+"\n"
+"Папка кэша %s недоступна:\n"
+"Резервное копирование базы данных браузера фильмов отменено."
+
+#, fuzzy
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Restore canceled."
+msgstr ""
+"\n"
+"Папка кэша %s недоступна: \n"
+"Восстановление базы данных браузера фильмов отменено."
+
+#, fuzzy
+msgid ""
+"Cache Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr ""
+"\n"
+"Папка кэша %s недоступна:\n"
+"Обновление базы данных браузера фильмов отменено."
+
 msgid "Cache Folder:"
 msgstr "Папка кэша:"
 
 msgid "Cancel"
 msgstr "Отмена"
 
-msgid "Cannot update with TheTVDb: ID appears to be a movie ID\nTry \"Update Movie\" instead."
-msgstr "Невозможно обновить с помощью TheTVDb: идентификатор выглядит как фильм ID\n. Вместо этого попробуйте \"Обновить Movie\"."
+msgid ""
+"Cannot update with TMDb: ID is not numeric\n"
+"This appears to be a TV series, not a movie."
+msgstr ""
+"Невозможно обновить с помощью TMDb: идентификатор не является числовым\n"
+"Похоже, это сериал, а не фильм."
 
-msgid "Cannot update with TMDb: ID is not numeric\nThis appears to be a TV series, not a movie."
-msgstr "Невозможно обновить с помощью TMDb: идентификатор не является числовым\nПохоже, это сериал, а не фильм."
-
-msgid "Check for plugin update"
-msgstr "Проверьте наличие обновлений плагина"
+msgid ""
+"Cannot update with TheTVDb: ID appears to be a movie ID\n"
+"Try \"Update Movie\" instead."
+msgstr ""
+"Невозможно обновить с помощью TheTVDb: идентификатор выглядит как фильм ID\n"
+". Вместо этого попробуйте \"Обновить Movie\"."
 
 msgid "Check for Plugin Update:"
 msgstr "Проверьте наличие обновлений плагина:"
+
+msgid "Check for plugin update"
+msgstr "Проверьте наличие обновлений плагина"
 
 msgid "Check only"
 msgstr "Проверить только"
@@ -238,6 +303,15 @@ msgstr "Выберите каталог:"
 msgid "Cleanup Cache Folder Log"
 msgstr "Журнал очистки кэша папки"
 
+#, fuzzy
+msgid ""
+"Cleanup Cache Folder finished:\n"
+"%s orphaned Backdrops or Posters removed."
+msgstr ""
+"\n"
+"Очистка папки кэша завершена: потерянные фоны или плакаты \n"
+"%s удалены."
+
 msgid "Cleanup Cache Folder:"
 msgstr "Очистка папки кэша:"
 
@@ -247,14 +321,53 @@ msgstr "Страна:"
 msgid "Creator:"
 msgstr "Создатель:"
 
+#, fuzzy
+msgid "DVD Player Plugin not installed."
+msgstr ""
+"\n"
+"Подключаемый модуль DVD-плеера не установлен."
+
 msgid "Dark"
 msgstr "Темный"
 
 msgid "Database"
 msgstr "База данных"
 
+#, fuzzy
+msgid ""
+"Database %s not found:\n"
+"Cleanup Cache Folder canceled."
+msgstr ""
+"\n"
+"База данных %s не найдена:\n"
+"Очистка папки кэша отменена."
+
+#, fuzzy
+msgid ""
+"Database %s not found:\n"
+"Movie Browser Database Backup canceled."
+msgstr ""
+"\n"
+"База данных %s не найдена:\n"
+"Резервное копирование базы данных браузера фильмов отменено."
+
+#, fuzzy
+msgid ""
+"Database Backup %s not found:\n"
+"Movie Browser Database Restore canceled."
+msgstr ""
+"\n"
+"Резервная копия базы данных %s не найдена:\n"
+"Восстановление базы данных браузера фильмов отменено."
+
 msgid "Database Editor:"
 msgstr "Редактор базы данных:"
+
+#, fuzzy
+msgid "Database Error: Entry without runtime"
+msgstr ""
+"\n"
+"Ошибка базы данных: запись без времени выполнения"
 
 msgid "Database Timer Log"
 msgstr "Журнал таймера базы данных"
@@ -262,17 +375,32 @@ msgstr "Журнал таймера базы данных"
 msgid "Database Update Log"
 msgstr "Журнал обновлений базы данных"
 
-msgid "Database Update Timer started: %s\nTimer Value (min): %s\n"
-msgstr "Таймер обновления базы данных запущен: %s\n Значение таймера (мин): %s\n"
+#, fuzzy
+msgid ""
+"Database Update Timer started: %s\n"
+"Timer Value (min): %s"
+msgstr ""
+"Таймер обновления базы данных запущен: %s\n"
+" Значение таймера (мин): %s\n"
 
-msgid "Database Update Timer stopped: %s\n"
+#, fuzzy
+msgid "Database Update Timer stopped: %s"
 msgstr "Таймер обновления базы данных остановлен: %s\n"
+
+#, fuzzy
+msgid "Database backed up to %s"
+msgstr ""
+"\n"
+"База данных зарезервирована на %s"
+
+#, fuzzy
+msgid "Database restored from %s"
+msgstr ""
+"\n"
+"База данных восстановлена ​​из %s"
 
 msgid "Delete Movie File"
 msgstr "Удалить файл фильма"
-
-msgid "Description not available"
-msgstr "Описание недоступно"
 
 msgid "Director Selection"
 msgstr "Выбор директора"
@@ -355,14 +483,17 @@ msgstr "Свет"
 msgid "List view with poster and details"
 msgstr "Просмотр списка с плакатом и подробностями"
 
-msgid "Load last Selection/Filter on Start:"
-msgstr "Загрузить последний выбор/фильтр при запуске:"
-
 msgid "Load TMDb API Key from /tmp/tmdb_api.txt"
 msgstr "Загрузите ключ API TMDb из /tmp/tmdb_api.txt"
 
+msgid "Load last Selection/Filter on Start:"
+msgstr "Загрузить последний выбор/фильтр при запуске:"
+
 msgid "Loading..."
 msgstr "Загрузка..."
+
+msgid "MOVIES"
+msgstr "ФИЛЬМЫ"
 
 msgid "Manage your Movies & Series V.%s"
 msgstr "Управляйте своими фильмами и сериалами V.%s"
@@ -379,19 +510,14 @@ msgstr "Назначение клавиш браузера фильмов"
 msgid "Movie Browser Key Assignment:"
 msgstr "Назначение клавиш браузера фильмов:"
 
-msgid "Movie Browser updated to version %s.\nRestart GUI now?"
-msgstr "Браузер фильмов обновлен до версии %s.\nПерезапустить графический интерфейс сейчас?"
-
-msgid "Movie Browser: new version %s available (installed: %s).\nInstall it via the plugin setup."
-msgstr "Браузер фильмов: доступна новая версия %s (установлена: %s).\nУстановите ее через настройку плагина."
-
 msgid "Movie Creation Date Ascending"
 msgstr "Дата создания фильма по возрастанию"
 
 msgid "Movie Creation Date Descending"
 msgstr "Дата создания фильма по убыванию"
 
-msgid "Movie Database Update started: %s\n"
+#, fuzzy
+msgid "Movie Database Update started: %s"
 msgstr "Обновление базы данных фильмов начато: %s\n"
 
 msgid "Movie File Information"
@@ -399,6 +525,15 @@ msgstr "Информация о файле фильма"
 
 msgid "Movie Folder"
 msgstr "Папка с фильмами"
+
+#, fuzzy
+msgid ""
+"Movie Folder %s not reachable:\n"
+"Movie Browser Database Update canceled."
+msgstr ""
+"\n"
+"Папка фильмов %s недоступна: \n"
+"Обновление базы данных браузера фильмов отменено."
 
 msgid "Movie Folder Ascending"
 msgstr "Папка с фильмами по возрастанию"
@@ -439,14 +574,20 @@ msgstr "Название фильма от А до Я"
 msgid "Movie Title Z-A"
 msgstr "Название фильма Z-A"
 
+#, fuzzy
+msgid "Movie file %s not available."
+msgstr ""
+"\n"
+"Файл фильма %s недоступен."
+
 msgid "Movies"
 msgstr "Фильмы"
 
-msgid "MOVIES"
-msgstr "ФИЛЬМЫ"
-
 msgid "Movies & Series"
 msgstr "Фильмы и сериалы"
+
+msgid "Movies Style:"
+msgstr "Стиль фильмов:"
 
 msgid "Movies or Series Selection at Start:"
 msgstr "Выбор фильмов или сериалов при запуске:"
@@ -454,17 +595,59 @@ msgstr "Выбор фильмов или сериалов при запуске:
 msgid "Movies or Series:"
 msgstr "Фильмы или сериалы:"
 
-msgid "Movies Style:"
-msgstr "Стиль фильмов:"
-
 msgid "New Releases"
 msgstr "Новые релизы"
 
-msgid "New version %s available (installed: %s).\nInstall now?"
-msgstr "Доступна новая версия %s (установлена: %s).\nУстановить сейчас?"
-
 msgid "No"
 msgstr "Нет"
+
+#, fuzzy
+msgid "No TMDb Results for %s."
+msgstr ""
+"\n"
+"Нет результатов TMDb для %s."
+
+#, fuzzy
+msgid "No TheTVDb Results for %s."
+msgstr ""
+"\n"
+"Нет результатов TheTVDb для %s."
+
+#, fuzzy
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entries deleted."
+msgstr ""
+"\n"
+"Новых фильмов или сериалов не найдено. \n"
+"%s потерянных записей базы данных удалены."
+
+#, fuzzy
+msgid ""
+"No new Movies or Series found.\n"
+"%s orphaned Database Entry deleted."
+msgstr ""
+"\n"
+"Новых фильмов или сериалов не найдено. Бесхозная запись базы данных \n"
+"%s удалена."
+
+#, fuzzy
+msgid ""
+"No new Movies or Series found:\n"
+"Your Database is up to date."
+msgstr ""
+"\n"
+"Новых фильмов и сериалов не найдено:\n"
+"Ваша база данных обновлена."
+
+#, fuzzy
+msgid ""
+"No orphaned Backdrops or Posters found:\n"
+"Your Cache Folder is clean."
+msgstr ""
+"\n"
+"Не найдено потерянных фонов или плакатов:\n"
+"Ваша папка с кэшем чиста."
 
 msgid "No results"
 msgstr "Нет результатов"
@@ -523,6 +706,9 @@ msgstr "Восстановить базу данных:"
 msgid "Runtime:"
 msgstr "Время выполнения:"
 
+msgid "SERIES"
+msgstr "РЯД"
+
 msgid "Save"
 msgstr "Сохранять"
 
@@ -537,9 +723,6 @@ msgstr "Выберите стиль"
 
 msgid "Series"
 msgstr "Ряд"
-
-msgid "SERIES"
-msgstr "РЯД"
 
 msgid "Series Episodes"
 msgstr "Эпизоды сериала"
@@ -568,8 +751,26 @@ msgstr "Зарегистрируйтесь на TMDb и введите свой 
 msgid "Start Plugin with Video Button:"
 msgstr "Запустить плагин с помощью кнопки «Видео»:"
 
-msgid "Start time: %s\nEnd time: %s\nTotal scanned files: %s\nTheTVDb Database Requests: %s\nTMDb Database Requests: %s\nOrphaned Movies/Series: %s\nNew Series: %s\nNew Movies: %s\n\n"
-msgstr "Время начала: %s\nВремя окончания: %s\nВсего отсканированных файлов: %s\nTheTVDb Запросы к базе данных: %s\nTMDb Запросы к базе данных: %s\nОсобые фильмы/сериалы: %s\nНовые серии: %s\nНовые фильмы: %s\n\n"
+#, fuzzy
+msgid ""
+"Start time: %s\n"
+"End time: %s\n"
+"Total scanned files: %s\n"
+"TheTVDb Database Requests: %s\n"
+"TMDb Database Requests: %s\n"
+"Orphaned Movies/Series: %s\n"
+"New Series: %s\n"
+"New Movies: %s"
+msgstr ""
+"Время начала: %s\n"
+"Время окончания: %s\n"
+"Всего отсканированных файлов: %s\n"
+"TheTVDb Запросы к базе данных: %s\n"
+"TMDb Запросы к базе данных: %s\n"
+"Особые фильмы/сериалы: %s\n"
+"Новые серии: %s\n"
+"Новые фильмы: %s\n"
+"\n"
 
 msgid "Stop Button: Mark movie as seen"
 msgstr "Кнопка «Стоп»: пометить фильм как просмотренный."
@@ -577,11 +778,55 @@ msgstr "Кнопка «Стоп»: пометить фильм как просм
 msgid "Style"
 msgstr "Стиль"
 
+msgid "TMDb API Server is not reachable."
+msgstr "Сервер API TMDb недоступен."
+
+msgid "TMDb API key successfully imported!"
+msgstr "Ключ API TMDb успешно импортирован!"
+
+msgid "TMDb Language:"
+msgstr "Язык TMDb:"
+
+#, fuzzy
+msgid ""
+"TMDb Movie Update Error:\n"
+"Series Folder"
+msgstr ""
+"\n"
+"Ошибка обновления фильма \n"
+"TMDb: папка \n"
+"Series"
+
+msgid "TMDb Results"
+msgstr "Результаты TMDb"
+
 msgid "Text Button: Edit Database"
 msgstr "Текстовая кнопка: Редактировать базу данных"
 
-msgid "The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n\nIf the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n\nRebuild the Database now?"
-msgstr "База данных браузера фильмов будет перестроена. В зависимости от количества ваших фильмов это может занять несколько минут.\n\nЕсли плагин завершает работу через несколько минут, перезапустите плагин и запустите обновление базы данных вручную (кнопка «Видео»).\n\nПерестроить базу данных сейчас?"
+#, fuzzy
+msgid "The List of Movie Folder cannot be deleted."
+msgstr ""
+"\n"
+"Список папок с фильмами невозможно удалить."
+
+msgid ""
+"The Movie Browser Database will be rebuilt now. Depending on the number of your Movies, this can take several minutes.\n"
+"\n"
+"If the plugin terminates after a few minutes, restart the plugin and run a manual Database Update (Video button).\n"
+"\n"
+"Rebuild the Database now?"
+msgstr ""
+"База данных браузера фильмов будет перестроена. В зависимости от количества ваших фильмов это может занять несколько минут.\n"
+"\n"
+"Если плагин завершает работу через несколько минут, перезапустите плагин и запустите обновление базы данных вручную (кнопка «Видео»).\n"
+"\n"
+"Перестроить базу данных сейчас?"
+
+#, fuzzy
+msgid "TheTVDb API Server is not reachable."
+msgstr ""
+"\n"
+"API-сервер TVDb недоступен."
 
 msgid "TheTVDb API key successfully imported!"
 msgstr "Ключ API TVDb успешно импортирован!"
@@ -589,26 +834,47 @@ msgstr "Ключ API TVDb успешно импортирован!"
 msgid "TheTVDb Results"
 msgstr "Результаты TheTVDb"
 
+#, fuzzy
+msgid ""
+"This will delete %s from the Database and from the Movie Folder!\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"\n"
+"Это приведет к удалению %s из базы данных и из папки с фильмами!\n"
+"\n"
+"Хотите продолжить?"
+
+#, fuzzy
+msgid ""
+"This will delete %s from the Database and put it on the Blacklist, so the Movie will be ignored by future Database Updates.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"\n"
+"Это удалит %s из базы данных и поместит его в черный список, поэтому фильм будет игнорироваться при будущих обновлениях базы данных.\n"
+"\n"
+"Хотите продолжить?"
+
+#, fuzzy
+msgid ""
+"This will delete all %s entries from the Database but not from the Movie Folder.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"\n"
+"Все записи %s будут удалены из базы данных, но не из папки с фильмами.\n"
+"\n"
+"Хотите продолжить?"
+
 msgid "Timer Database Update:"
 msgstr "Обновление базы данных таймера:"
 
-msgid "TMDb API key successfully imported!"
-msgstr "Ключ API TMDb успешно импортирован!"
-
-msgid "TMDb API Server is not reachable."
-msgstr "Сервер API TMDb недоступен."
-
-msgid "TMDb Language:"
-msgstr "Язык TMDb:"
-
-msgid "TMDb Results"
-msgstr "Результаты TMDb"
+msgid "Toggle Plugin Style"
+msgstr "Переключить стиль плагина"
 
 msgid "Toggle hide/show plugin"
 msgstr "Переключить скрыть/показать плагин"
-
-msgid "Toggle Plugin Style"
-msgstr "Переключить стиль плагина"
 
 msgid "Top Rated"
 msgstr "С самым высоким рейтингом"
@@ -622,17 +888,14 @@ msgstr "Предстоящие"
 msgid "Update"
 msgstr "Обновлять"
 
-msgid "Update check failed:\n%s"
-msgstr "Проверка обновлений не удалась: \n%s"
-
 msgid "Update Database with Timer:"
 msgstr "Обновить базу данных с помощью таймера:"
 
-msgid "Update error: "
-msgstr "Ошибка обновления: "
-
-msgid "Update failed:\n%s"
-msgstr "Обновление не выполнено: \n%s"
+#, fuzzy
+msgid "Update Movie Browser Database?"
+msgstr ""
+"\n"
+"Обновить базу данных браузера фильмов?"
 
 msgid "Update Movie/Series"
 msgstr "Обновить фильм/сериал"
@@ -640,8 +903,9 @@ msgstr "Обновить фильм/сериал"
 msgid "Update Selection"
 msgstr "Обновить выбор"
 
-msgid "Updated to version %s (%d files).\nRestart GUI now?"
-msgstr "Обновлено до версии %s (%d файлов).\nПерезапустить графический интерфейс сейчас?"
+#, fuzzy
+msgid "Update error:"
+msgstr "Ошибка обновления: "
 
 msgid "Use m1v Backdrops:"
 msgstr "Используйте фоны m1v:"
@@ -658,6 +922,58 @@ msgstr "Годы:"
 msgid "Yes"
 msgstr "Да"
 
-msgid "You already have the latest version (%s)."
-msgstr "У вас уже установлена ​​последняя версия (%s)."
+#~ msgid ""
+#~ "\n"
+#~ "TMDb API Server is not reachable."
+#~ msgstr ""
+#~ "\n"
+#~ "Сервер API \n"
+#~ "TMDb недоступен."
 
+#~ msgid "Description not available"
+#~ msgstr "Описание недоступно"
+
+#~ msgid ""
+#~ "Movie Browser updated to version %s.\n"
+#~ "Restart GUI now?"
+#~ msgstr ""
+#~ "Браузер фильмов обновлен до версии %s.\n"
+#~ "Перезапустить графический интерфейс сейчас?"
+
+#~ msgid ""
+#~ "Movie Browser: new version %s available (installed: %s).\n"
+#~ "Install it via the plugin setup."
+#~ msgstr ""
+#~ "Браузер фильмов: доступна новая версия %s (установлена: %s).\n"
+#~ "Установите ее через настройку плагина."
+
+#~ msgid ""
+#~ "New version %s available (installed: %s).\n"
+#~ "Install now?"
+#~ msgstr ""
+#~ "Доступна новая версия %s (установлена: %s).\n"
+#~ "Установить сейчас?"
+
+#~ msgid ""
+#~ "Update check failed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Проверка обновлений не удалась: \n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Update failed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Обновление не выполнено: \n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Updated to version %s (%d files).\n"
+#~ "Restart GUI now?"
+#~ msgstr ""
+#~ "Обновлено до версии %s (%d файлов).\n"
+#~ "Перезапустить графический интерфейс сейчас?"
+
+#~ msgid "You already have the latest version (%s)."
+#~ msgstr "У вас уже установлена ​​последняя версия (%s)."
